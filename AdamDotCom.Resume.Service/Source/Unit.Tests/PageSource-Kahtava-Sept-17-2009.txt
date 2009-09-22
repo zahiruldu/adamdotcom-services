@@ -1,0 +1,3277 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+      <html lang="en">
+        <head>
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+
+
+  
+
+
+
+
+    <title>Adam Kahtava | LinkedIn</title>
+  
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+
+
+
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+
+<link rel="apple-touch-icon-precomposed" href="/img/icon/apple-touch-icon.png">
+
+
+
+  
+    
+        
+      
+  
+  
+  
+      
+      
+    
+  
+  
+  
+
+      
+        <link rel="stylesheet" type="text/css" href="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/css?f=css%2Freset&amp;f=lib%2Fyui%2F2.7.0%2Fcontainer%2Fassets%2Fcontainer&amp;f=css%2Fdefault&amp;f=css%2Fchrome&amp;f=css%2Fnavigation&amp;f=css%2Fmodules&amp;f=css%2Fdialog&amp;f=css%2Fforms">
+      
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+    
+  
+  
+  
+
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+        
+      
+    
+      
+    
+        
+      
+    
+      
+    
+        
+      
+    
+      
+    
+        
+      
+    
+      
+      
+      
+      
+      
+  
+  
+      
+        <script type="text/javascript" src="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/js?f=lib%2F_yaho&amp;f=lib%2F_data&amp;f=lib%2F_conn&amp;f=lib%2F_auto&amp;f=lib%2F_anim&amp;f=lib%2F_selc&amp;f=lib%2F_cont&amp;f=lib%2F_get&amp;f=js%2Fcore%2FDefine&amp;f=js%2Futil%2FHelps&amp;f=js%2Fcore%2FControls&amp;f=js%2Fcore%2FPage&amp;f=js%2Fcore%2Fi18n&amp;f=lib%2Flui%2Flinkedin_url-min&amp;f=js%2Fglobal_navigation&amp;f=js%2Fads&amp;f=js%2Futil%2FGhostLabel&amp;f=js%2Futil%2FFocusField&amp;f=js%2Fajax%2Fchameleon_service&amp;f=js%2Fopensocial%2Frpc&amp;f=js%2Fopensocial%2Futil&amp;f=js%2Fopensocial%2Fgadgets&amp;f=js%2Fopensocial%2Fgadget_container&amp;f=lib%2Fdwr%2F2.0%2Futil-min&amp;f=lib%2Fdwr%2F2.0%2Fengine-min&amp;f=lib%2Fdwr%2F2.0%2Fengine_fix-min&amp;f=js%2Fajax%2Fui_settings_service&amp;f=js%2Fajax%2Fwebtracking_service&amp;f=js%2Fajax%2Ftypeahead_service&amp;f=static_dwr_js%2FUISettingsService&amp;f=static_dwr_js%2FTypeAheadService&amp;f=static_dwr_js%2FWebTrackingService&amp;f=static_dwr_js%2FChameleonAjaxService&amp;f=js%2Futil%2FShowMore&amp;f=js%2Futil%2FCheckTextarea&amp;f=js%2Fapps%2FMboxArchiveOnHome&amp;f=js%2Fapps%2FPersonalNav&amp;f=js%2Futil%2FSelectMenu"></script>
+      
+    
+
+
+
+
+
+
+          
+          
+      
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+        <script type="text/javascript" src="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/js?f=js%2Fprofile&amp;f=js%2Fshowhide"></script>
+    
+  <script type="text/javascript">
+    gadgets.container = new gadgets.ChameleonContainer(1);
+    gadgets.container.setView('profile');
+  </script>
+  <meta name="LinkedInBookmarkType" content="profile"><meta name="ShortTitle" content="Adam Kahtava"><meta name="Description" content="Adam Kahtava: Software Developer in the Computer Software industry (Calgary, Canada Area)"><meta name="UniqueID" content="9962574"><meta name="SaveURL" content="http://www.linkedin.com/profile?viewProfile=&amp;key=9962574&amp;authToken=GqOy&amp;authType=name">
+
+          
+         <link rel="stylesheet" type="text/css" href="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/css?f=css%2Fprofile&amp;f=css%2Fsend_message_modal&amp;f=css%2Fminiprofile&amp;f=css%2Fmfeed&amp;f=css%2Fabook_tagging_dialog&amp;f=css%2Fprofile_organizer_upsells">
+    
+        </head>
+    
+
+      <body class="en member v2 legacy full-profile" id="pagekey-full_profile">
+        <script type="text/javascript">document.body.className += " js " /*@cc_on+'ie'+ScriptEngineMinorVersion()@*/;</script>
+
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+  
+
+  
+
+  
+
+
+
+
+<div id="header" class="member">
+  <div class="wrapper">
+
+    <h1 id="logo"><a href="/home?goback=%2Ehom&amp;trk=hb_logo" id="logo-href"><img src="http://static03.linkedin.com/img/pic/pic_logo_119x32.png" width="119" height="32" alt="LinkedIn" title="Home"></a></h1>
+    <ul id="nav-utility">
+          <li class="jump-link"><a href="#main" >Skip to Content</a></li>
+      <li class="jump-link"><a href="#global-search" >Search</a></li>
+        <li id="nav-utility-acct"><a href="https://www.linkedin.com/secure/settings?goback=%2Ehom&amp;trk=hb_acc" >Account &amp; Settings</a></li>
+            <li id="nav-utility-help"><a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" target="_blank">Help</a></li>
+
+        <li id="nav-utility-auth"><a href="https://www.linkedin.com/secure/login?session_full_logout=&amp;goback=%2Ehom&amp;trk=hb_signout" >Sign Out</a></li>
+      <li id="nav-utility-lang"><a href="https://www.linkedin.com/secure/settings" >Language</a>
+        
+      <form action="/languageSelector" name="languageSelectorForm" method="POST" accept-charset="UTF-8"> <input type="hidden" name="csrfToken" value="ajax:-3557174237258968681">
+    
+          <ul id="lang-list">
+                  <li class="selected en"><a href="https://www.linkedin.com/secure/settings" lang="en"><strong>English</strong></a></li>
+                  <li class="de"><a href="https://www.linkedin.com/secure/settings" lang="de"><span>Deutsch</span></a></li>
+
+                  <li class="fr"><a href="https://www.linkedin.com/secure/settings" lang="fr"><span>Fran&ccedil;ais</span></a></li>
+                  <li class="es"><a href="https://www.linkedin.com/secure/settings" lang="es"><span>Espa&ntilde;ol</span></a></li>
+          </ul>
+        
+      <input type="hidden" name="i18nLang" value="">
+      <input type="hidden" name="defaulturl" value="home">
+      <input type="hidden" name="currenturl" value="http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%3FviewProfile%3D%26key%3D9962574%26trk%3DNUS_STAT-updtr%26goback%3D%252Ehom"></form>
+    
+        <script type="text/javascript">langSwitch.init();</script>
+
+      </li>
+    </ul>
+      <ul id="nav-primary">
+          <li id="nav-primary-people"><a href="/search?goback=%2Ehom&amp;trk=hb_tab_ppl" ><span>People</span></a>
+            <ul>
+              <li><a href="/search?goback=%2Ehom&amp;trk=hb_tab_advppl" >Advanced People Search</a></li>
+              <li class="separator"><a href="/rs?goback=%2Ehom&amp;trk=hb_tab_ref" >Reference Search</a></li>
+
+            </ul>
+          </li>
+          <li id="nav-primary-jobs"><a href="/jobs?displayHome=&amp;goback=%2Ehom&amp;trk=hb_tab_jobs" ><span>Jobs</span></a>
+            <ul>
+              <li><a href="/jobs?search=&amp;goback=%2Ehom&amp;trk=hb_tab_advjob" >Advanced Job Search</a></li>
+              <li class="separator"><a href="/hiring?goback=%2Ehom&amp;trk=hb_tab_hire" ><span>Hiring Home</span></a></li>
+              <li><a href="/hiring?editAttributes=&amp;goback=%2Ehom&amp;trk=hb_tab_postjob" >Post a Job</a></li>
+
+              <li><a href="/hiring?manageActives=&amp;goback=%2Ehom&amp;trk=hb_tab_mngjob" >Manage Jobs</a></li>
+              <li><a href="/hiring?creditSummary=&amp;goback=%2Ehom&amp;trk=hb_tab_jobc" >Job Credits</a></li>
+            </ul>
+          </li>
+          <li id="nav-primary-answers"><a href="/answers?goback=%2Ehom&amp;trk=hb_tab_ayn" ><span>Answers</span></a>
+            <ul>
+              <li><a href="/searchAnswers?search=&amp;goback=%2Ehom&amp;trk=hb_tab_advayn" >Advanced Answers Search</a></li>
+
+              <li class="separator"><a href="/answers?myQuestions=&amp;goback=%2Ehom&amp;trk=hb_tab_myqa" ><span>My <acronym title="Questions and Answers">Q&amp;A</acronym></span></a></li>
+              <li><a href="/answers?createQuestion=&amp;goback=%2Ehom&amp;trk=hb_tab_ask" >Ask a Question</a></li>
+              <li><a href="/answers?browseQuestions=&amp;goback=%2Ehom&amp;trk=hb_tab_answ" >Answer Questions</a></li>
+            </ul>
+          </li>
+          <li id="nav-primary-companies"><a href="/companies?goback=%2Ehom&amp;trk=hb_tab_compy" ><span>Companies</span></a>
+
+            <ul>
+              <li><a href="/companies?goback=%2Ehom&amp;trk=hb_tab_compy" >Company Search</a></li>
+              <li class="separator"><a href="/svpRecommendations?goback=%2Ehom&amp;trk=hb_tab_svp" >Service Providers</a></li>
+            </ul>
+          </li>
+      </ul>
+
+      
+          <form action="/commonSearch" id="global-search" method="post" accept-charset="UTF-8" name="commonSearch">
+
+    
+
+        <p id="search-promo">
+
+          <strong>Explore People Search:</strong>
+          <a href="/search?company=ibm&amp;currentCompany=co&amp;currentTitle=cp&amp;keepFacets=true&amp;newnessType=Y&amp;proposalType=Y&amp;search=&amp;searchLocationType=Y&amp;sortCriteria=Relevance&amp;title=engineer&amp;goback=%2Ehom" >Engineer at IBM</a> -
+          <a href="/search?countryCode=us&amp;distance=50&amp;industry=6&amp;keepFacets=true&amp;postalCode=94043&amp;search=&amp;searchLocationType=I&amp;sortCriteria=Relevance&amp;goback=%2Ehom" >Internet</a> -
+          <a href="/search?currentTitle=co&amp;keepFacets=true&amp;newnessType=Y&amp;search=&amp;searchLocationType=Y&amp;sortCriteria=Relevance&amp;title=Senior+Consultant&amp;goback=%2Ehom" >Senior Consultant</a>
+        </p>
+
+        <fieldset>
+          <legend>Find People, Jobs, Answers, and More</legend>
+
+              <a href="/search?goback=%2Ehom&amp;trk=advsrch" id="search-link">Advanced</a>
+
+          <label>Search for:</label>
+          <select name="type" id="main-search-category" class="search-category">
+            <option class="/search" title="Keyword, name, company or title" value="people">Search People </option>
+
+                <option class="/jobs?search=&amp;goback=%2Ehom" title="Keyword, company or job title" value="jobs">Search Jobs </option>
+                <option title="Keyword" value="companies">Search Companies </option>
+                <option class="/searchAnswers?search=&amp;goback=%2Ehom" title="Keyword" value="answers">Search Answers </option>
+                <option title="Keyword" value="inbox">Search Inbox </option>
+                <option title="Keyword" value="groups">Search Groups </option>
+          </select>
+
+          <span id="autocomplete-container" title="Tip: You can also search by keyword, company, school..." class="/typeahead">
+            <input name="keywords" id="main-search-box" class="search-term" type="text" value="" autocomplete="off">
+            <span id="search-typeahead-container"></span>
+            <input name="pplSearchOrigin" type="hidden" value="GLHD">
+            <input name="pageKey" type="hidden" value="full_profile">
+            <input name="search" value="Search" class="primary search-go" type="submit">
+          </span>
+        </fieldset>
+
+      </form>
+
+    
+
+  </div>
+</div>
+<script type="text/javascript">Page.processQueue();LI.Controls.processQueue();</script>
+
+        <hr>
+        <div id="body">
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+  
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+          
+            <div id="sidebar">
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+  
+
+
+
+<div class="sticky-box" id="nav-personal">
+  
+      
+         
+      
+      
+        
+        
+      
+    
+    <div class="content">
+
+      <ul>
+
+        
+        <li id="nav-personal-home"><a href="/home" >
+          <span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+        <li id="nav-personal-user-groups" class="close">
+
+          <a href="/home?myGroups=&amp;trk=hb_side_grps" >
+            <span>
+              Groups
+            </span> 
+          </a>
+          <ul>
+            
+                <li><a href="/home?myGroups=&amp;trk=hb_side_mygrps" >My Groups</a></li>
+                <li><a href="/groupsDirectory?trk=hb_side_grpsdir" >Groups Directory</a></li>
+                <li><a href="/createGroup?displayCreate=&amp;trk=hb_side_crgrp" >Create a Group</a></li>
+
+              
+          </ul>
+
+        </li>
+
+        
+        <li id="nav-personal-profile" class="close"><a href="/myprofile?trk=hb_side_pro" ><span>Profile</span></a>
+          <ul>
+            <li><a href="/myprofile?trk=tab_pro" >Edit My Profile</a></li>
+            <li><a href="/profile?viewProfile=&amp;key=54257286&amp;trk=tab_pro" >View My Profile</a></li>
+
+            <li><a href="/references?mrs=" >Recommendations</a></li>
+          </ul>
+        </li>
+
+        
+        <li id="nav-personal-contacts" class="close"><a href="/connections?trk=hb_side_cnts" ><span>Contacts</span></a>
+          <ul>
+            <li><a href="/connections?trk=hb_side_connections" >Connections</a></li>
+            <li><a href="/otherContacts?showInvited=showInvited&amp;sortAction=lastname&amp;trk=hb_side_othcnts" >Imported Contacts</a></li>
+
+            <li><a href="/network?trk=hb_side_net" >Network Statistics</a></li>
+          </ul>
+        </li>
+
+        
+        <li id="nav-personal-inbox" class="close"><a href="/mbox?displayList=&amp;t=inbox&amp;trk=hb_side_inbox" ><span>Inbox</span></a>
+          <ul>
+            <li>
+              <a href="/msgToConns?displayCreate=&amp;goback=%2Ehom&amp;trk=hb_side_cmpmsg" >Compose Message</a>
+
+            </li>
+            <li>
+              <a href="/mbox?displayList=&amp;t=inbox&amp;trk=hd_side_received" ><span id="inbox-received-unread-total" class="plain"> Received</span></a>
+            </li>
+            <li>
+              <a href="/mbox?displayList=&amp;t=sent&amp;trk=hd_side_sent" >Sent</a>
+            </li>
+
+            <li>
+              <a href="/mbox?displayList=&amp;t=archived&amp;trk=he_side_archived" >Archived</a>
+            </li>
+          </ul>
+        </li>
+
+        
+        
+            <li id="nav-personal-apps" class="close">
+              <a href="/static?key=application_directory&amp;trk=hb_side_apps" ><span>Applications</span></a>
+
+              <ul>
+                
+                  <li>
+                    <a href="/osview/canvas?_applicationId=1700&amp;completeUrlHash=IyNv&amp;_ch_app_id=20&amp;_ownerId=54257286&amp;_ch_page_id=1&amp;_ch_panel_id=1&amp;trk=hb_side_apps" name="bar" title="title">Reading List by Amazon</a>
+                  </li>
+                
+                  <li>
+                    <a href="/osview/canvas?_applicationId=2000&amp;completeUrlHash=35lZ&amp;_ch_app_id=30&amp;_ownerId=54257286&amp;_ch_page_id=1&amp;_ch_panel_id=1&amp;trk=hb_side_apps" name="bar" title="title">Events</a>
+                  </li>
+                
+              </ul>
+
+            </li>
+          
+
+      </ul>
+
+      
+      <p id="nav-personal-add">
+        <a href="https://www.linkedin.com/secure/importAndInvite?trk=hb_add_conn" name="expandyournetwork" title="Invite friends and colleagues">Add Connections</a>
+      </p>
+      
+    </div>
+  
+      <script id="control-1" type="text/javascript">
+        
+          
+          
+          
+            
+
+
+          
+          
+          
+          
+        
+        LI.Controls.addControl('control-1', 'PersonalNav', {});
+      </script>
+
+      
+        
+      
+    
+</div>
+
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+  
+
+
+
+<div class="sticky-box" id="profile-snapshot">
+  
+   <div class="content">
+     <div id="vcard">
+
+       
+       <h2>
+         <a href="/myprofile" class="fn n">
+           <span class="given-name">Adam.Kahtava.com /</span>
+
+           <span class="family-name">AdamDotCom</span>
+         </a>
+       </h2>
+
+       
+       
+           <a href="/memberPicture?display=&amp;goback=%2Ehom&amp;trk=hb_upphoto" >
+             
+      
+          <img src="http://static03.linkedin.com/img/icon/icon_no_photo_80x80.png" class="photo" width="40" height="40" alt="No photo">
+        
+    
+           </a>
+         
+
+       <h3 class="title">Independent Information Technology and Services Professional</h3>
+
+       
+       
+         <div class="sidebar-status">
+           <p>
+             
+                 <a href="/myprofile" id="mini-status-msg">What are you working on?</a>
+               
+           </p>
+           
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+  
+
+
+
+<div id="mini-status-dialog" class="status-dialog">
+  <div class="status-head">
+    
+        
+        
+        
+      
+          <form action="/status" method="POST" accept-charset="UTF-8" name="myStatusForm" id="mini-status-form">
+        
+    
+          
+          <div class="status-wrapper">
+
+            <span class="status-close" id="mini-status-close">Close</span>
+            <label for="statusText">Adam.Kahtava.com /...</label>
+            
+      
+      
+        
+            
+          
+      
+    
+              <textarea name="statusText" id="statusText-myStatusForm" autocomplete="off" class="status-input" maxlength="140"></textarea>
+            
+      
+      <script id="control-2">
+        
+            Page.queue.push( { 'control-2':{ CheckTextarea:{
+            i18n: {
+              isError: 'You have exceeded the maximum length by <strong>{0}<\/strong> characters.',
+              isEmpty: 'You may add up to <strong>{0}<\/strong> characters.',
+              isCountDown: 'You may add up to <strong>{0}<\/strong> more characters.',
+              isFull: 'You may not add more characters.'
+            },
+            maxLength: 150
+          }
+         } } );
+          
+
+        
+        
+        
+      </script>
+    
+    
+          </div>
+          
+          <div class="status-buttons">
+            <input type="submit" name="save" value="Save" class="btn-primary" id="mini-status-submit"/>
+
+            
+            <input type="submit" name="faker" id="mini-status-cancel" class="btn-secondary" value="Cancel">
+            
+          </div>
+          <input type="hidden" name="goback" value=".hom.vpf_9962574_1_GqOy_name_*1_Adam_Kahtava">
+        </form> 
+        
+        
+        <div class="status-settings">
+          Visible to: your connections only
+          <span class="edit-link">[&nbsp;<a href="/status?displaySettings=" >Edit</a>&nbsp;]</span>
+        </div>
+
+      
+    
+  </div>
+  <div class="status-foot">&nbsp;</div>
+</div>
+
+<script type="text/javascript">
+  var miniStatusInput = YDom.get('statusText-myStatusForm');
+</script>
+
+ 
+         </div>
+       
+
+       
+       
+         <p class="progress"><span class="meter"><img src="http://static02.linkedin.com/img/pic/pic_completeness_1x12.png" alt="Percentage Complete" width="0%" height="12"></span>
+           Your profile is <strong>0%</strong> complete <span class="edit-link">[ <a href="/myprofile?goback=%2Ehom&amp;trk=hb_procompl" >Edit</a> ]</span></p>
+
+       
+
+       
+       
+
+    </div>
+  </div>
+</div>
+
+
+            </div>
+            <script type="text/javascript">Page.processQueue();LI.Controls.processQueue();</script>
+
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+
+<div id="section-header" class="sub">
+  <h1>
+
+    <strong><a href="/search?trk=tabs_people" >People</a></strong>
+  </h1>
+  <ul class="related-links">
+				  <li class="go-back"><strong>&laquo; <a href="/home" name="goBack">Go back to Home Page</a></strong></li>
+	</ul>
+</div>
+
+
+
+
+          <div class="wrapper">
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+<div id="global-error">
+
+
+
+  
+
+
+</div>
+
+
+
+
+    
+
+
+
+<div style="display: none">
+<a href="/placeholder?goback=%2Ehom" id="aGoBackTemplateLink"></a>
+<a href="https://www.linkedin.com/secure/placeholder?goback=%2Ehom" id="aGoBackTemplateLinkSecure"></a>
+<a href="/placeholder" id="anogbGoBackTemplateLink"></a>
+<a href="https://www.linkedin.com/secure/placeholder" id="anogbGoBackTemplateLinkSecure"></a>
+<a href="/placeholder?goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" id="agbpushGoBackTemplateLink"></a>
+<a href="https://www.linkedin.com/secure/placeholder?goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" id="agbpushGoBackTemplateLinkSecure"></a>
+</div>
+
+
+
+<div id="main" class="profile grid-a">
+  
+
+
+    <div id="content" class="resume">
+
+      <div class="profile-header">
+
+
+<div class="masthead vcard" id="member-9962574">
+		<div class="image">
+			<img src="http://media.linkedin.com/mpr/mpr/shrink_80_80/p/1/000/02e/398/0836ec0.jpg" class="photo" width="80" height="80" alt="Adam Kahtava">
+		</div>
+      <h1 class="n fn">
+          <span class="given-name">Adam</span>
+          <span class="family-name">Kahtava</span>
+
+        
+          <img src="http://static01.linkedin.com/img/icon/degree/icon_degree_1_24x24_v2.gif" width="24" height="24" alt="Adam is your connection (1st degree)" title="Adam is your connection (1st degree)">
+    
+    
+      </h1>
+    <p class="title">
+      Software Developer
+    </p>
+  <dl class="demographic-info adr">
+    <dt>Location</dt>
+    <dd class="locality">
+        <a href="/search?search=&sortCriteria=3&searchLocationType=R&region=ca_4882&goback=%2Ehom" name="location" title="Find users in this region">Calgary, Canada Area</a>
+
+    </dd>
+    <dt>Industry</dt>
+    <dd class="industry">   
+        <a href="/search?search=&sortCriteria=3&industry=4&goback=%2Ehom" name="industry" title="Find users in this industry">Computer Software</a>
+    </dd>
+  </dl>
+
+
+</div>
+
+
+    <dl id="overview">
+      
+        <dt>
+              <a href="#profile-experience" >Past</a>
+        </dt>
+        <dd>
+          <ul class="past">
+                  <li>
+
+
+
+
+
+
+  Web Developer / Software Developer <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/157335?miniprofile=" data-tracking="mcp_profile_sum"><strong>
+	              <a href="/companies/157335/Corbis?trk=pp_icon&goback=%2Ehom" class="company-profile"><span>Corbis</span></a>
+          </strong></span>
+
+                  </li>
+                  <li>
+
+
+
+
+
+
+  Web Developer / Front-End Engineer <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/163263?miniprofile=" data-tracking="mcp_profile_sum"><strong>
+	              <a href="/companies/163263/Critical+Mass?trk=pp_icon&goback=%2Ehom" class="company-profile"><span>Critical Mass</span></a>
+
+          </strong></span>
+
+                  </li>
+                  <li>
+
+
+
+
+
+
+  E-Commerce Consultant / Developer <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/292739?miniprofile=" data-tracking="mcp_profile_sum"><strong>
+
+	              <a href="/companies/292739/RazorEdge?trk=pp_icon&goback=%2Ehom" class="company-profile"><span>RazorEdge</span></a>
+          </strong></span>
+
+                  </li>
+          </ul>
+          
+          <div class="showhide-block" id="morepast">
+          <ul class="past">
+                  <li>
+
+
+
+
+
+  Consultant / Developer / Front-End Engineer <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/3572?miniprofile=" data-tracking="mcp_profile_sum"><strong>
+	              <a href="/companies/3572/Allstream?trk=pp_icon&goback=%2Ehom" class="company-profile"><span>Allstream</span></a>
+          </strong></span>
+
+                  </li>
+
+                  <li>
+
+
+
+
+
+
+  Technical Editor <span class="at">at</span> 
+Wiley Technology Publishing / WROX Press
+                  </li>
+                  <li>
+
+
+
+
+
+  E-Commerce Consultant / Developer / Front-End Engineer <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/13760?miniprofile=" data-tracking="mcp_profile_sum"><strong>
+	              <a href="/companies/13760/Cactus+Commerce?trk=pp_icon&goback=%2Ehom" class="company-profile"><span>Cactus Commerce</span></a>
+          </strong></span>
+
+                  </li>
+
+                  <li>
+
+
+
+
+
+
+  Consultant / Developer <span class="at">at</span> 
+Lexikal Media
+                  </li>
+                  <li>
+
+
+
+
+
+  Developer <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/26423?miniprofile=" data-tracking="mcp_profile_sum"><strong>
+	              <a href="/companies/26423/Mercurial+Communications?trk=pp_icon&goback=%2Ehom" class="company-profile"><span>Mercurial Communications</span></a>
+          </strong></span>
+
+                  </li>
+
+                  <li>
+
+
+
+
+
+
+  Consultant / Developer <span class="at">at</span> 
+Public Energy
+                  </li>
+                  <li>
+
+
+
+
+
+  Developer <span class="at">at</span> 
+Julian Blackburn College
+                  </li>
+          </ul>
+          <p class="seeall showhide-link"><a href="#" id="morepast-hide">see less...</a></p>
+          </div>
+
+          
+            <p class="seeall showhide-link">
+              <a href="#" id="morepast-show">see all...</a>
+            </p>
+        </dd>
+      
+        <dt>
+              <a href="#profile-education" >Education</a>
+        </dt>
+        <dd>
+
+          <ul>
+              <li>
+                
+                  Seneca College of Applied Arts and Technology
+                
+              </li>
+              <li>
+                
+                  Trent University
+                
+              </li>
+          </ul>
+          
+          
+        </dd>
+      
+        <dt>
+
+              <a href="#recommendations" name="endorsedyou">Recommendations</a>
+        </dt>
+        <dd>
+          <p>
+                <strong>11</strong> people have recommended Adam
+          </p>
+        </dd>
+      
+        <dt>
+
+              <a href="/profile?viewConns=&key=9962574&authToken=GqOy&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="profsum">Connections</a>
+        </dt>
+        <dd class="overview-connections">
+          <p>
+            <a href="/profile?viewConns=&key=9962574&authToken=GqOy&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="profsum"><strong>262</strong> connections</a>
+          </p>
+        </dd>
+
+        
+        <dt><a href="#websites" >Websites</a></dt>
+        <dd>
+          <ul>
+              
+                <li>
+                  
+                  <a href="http://www.linkedin.com/redirect?url=http%3A%2F%2Fadam%2Ekahtava%2Ecom%2Fjournal%2F&amp;urlhash=0eFF" target="_blank" title="New window will open" name="overviewsite">My Blog</a>
+                </li>
+                             
+          </ul>
+        </dd>
+
+      
+        <dt><a href="http://www.linkedin.com/in/kahtava" title="View public profile">Public Profile</a></dt>
+        <dd class="last">
+              <p><a href="http://www.linkedin.com/in/kahtava" title="View public profile" name="webProfileURL">http://www.linkedin.com/in/kahtava</a></p>
+        </dd>
+    </dl>
+    <script type="text/javascript">
+      showHide.init('overview');
+    </script>
+
+      </div>
+
+ 
+
+
+
+  <div class="section" id="profile-summary">
+    <div class="header">  
+      <h2>Summary</h2>
+    </div>
+    <div class="content">
+      
+        
+          <p class=" ''">
+            
+            A web developer and application developer. Knowledgeable and experienced with web design best practices, web standards, web accessibility concerns, web services, and revision control systems. A proponent of Agile methodologies, Test Driven Design, and continuous integration build processes.
+          </p>
+    
+      
+  
+      <div id="profile-specialties">
+
+        <h3>Specialties</h3>
+        <p class="null">C#, JavaScript, CSS, AJAX, HTML, XHTML, XML, XSL / XSLT, VB6, Web Services, SOAP, WSDL, WCF, ASP.NET, PHP, ASP, Java, the .NET Framework</p>
+      </div>
+    </div>
+  </div>
+<div id="profile-applications" class="section installed-apps">
+  <div class="content">
+        <div class="module-panel" id="panel-03">
+
+              <div id="panel-03-slot-20378390" class="slot" style="visibility: hidden; position: absolute; left: -12345px;"> 
+                  <div id="gadget-panel-03-slot-20378390" class="module gadget open">
+                    <div class="header" id="panel-03-slot-20378390-header">
+                      <h3>
+                        <strong id="panel-03-slot-20378390-remote-title">WordPress</strong>
+                      </h3>
+                    </div>
+                    <div class="content">
+                      <iframe id="panel-03-slot-20378390-remote" class="gadgets-gadget" width="440" scrolling="no" height="250" frameborder="no" src="about:blank" name="panel-03-slot-20378390-remote" style="height: 250px;">Browser Not support iframe</iframe>
+
+                    </div>
+                  </div>
+              </div>
+            <script type="text/javascript">
+              YAHOO.util.Event.onDOMReady(function() {
+                  window.frames["panel-03-slot-20378390-remote"].location.replace("http://www.lmodules.com/opensocial/ifr?url=http%3A%2F%2Fwordpress%2Ecom%2Fgadgets%2Fwp-os%2Exml&container=default&mid=20378390&nocache=0&country=US&lang=en&libs=dynamic-height:settitle:views:opensocial-0.9&view=profile&parent=http%3A%2F%2Fwww%2Elinkedin%2Ecom&st=linkedin%3Ae79PSL3olXR9MHTzjNfxDFSzyrmRcy_6n97hBvK-zbfyXCi6maT4XJRWqywSh16Yb3c4hmQo_DcFqbmFIl6wrahJ2JuQ0bbALEos4epLnM8tMSGgYvDCtBFz69-MhC5wHV6_SEx77G2nFdGVpOEoErMMfVnU6sV0hYMgICbpNxEZCk-qifK5TAD8tNThOuCOFbACsGy38z15PAzCT3zqU_hZHjTACLdgxCdzA6EX5DmeCRP6#rpctoken=690944960&urlToCanvasView=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fosview%2Fcanvas%3F_ch_page_id%3D2%26_ch_panel_id%3D3%26_ch_app_id%3D20378390%26_applicationId%3D2200&signedUrlToCanvasView=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fosview%2Fcanvas%3F_ch_page_id%3D2%26_ch_panel_id%3D3%26_ch_app_id%3D20378390%26_applicationId%3D2200%26_ownerId%3D9962574%26osUrlHash%3DwjuK&baseLeoNonSecureURL=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&ownerProfileUrl=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%3FviewProfile%3D%26key%3D9962574&viewerAccess=false");
+              });
+            </script>
+        </div>
+  </div>
+</div>
+
+
+
+<div class="section" id="profile-experience">
+
+  <div class="header">
+    <h2>Experience</h2>
+  </div>
+  <div class="content">
+  
+      <div class="position  first">
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Web+Developer+%2F+Software+Developer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Web Developer / Software Developer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/157335?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/157335/Corbis?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>Corbis</span></a></strong></span>               
+              </strong></h4>
+
+  
+</div>
+        <p class="orgstats">
+          Privately Held; Marketing and Advertising industry
+        </p>
+        <p class="period">
+              February 2009
+ &#8211; August 2009              ( 7 months)
+        </p>
+
+          
+            
+          <p class=" desc">
+
+            
+            &#x2022; Maintained and developed components on an n-tier service oriented e-commerce application hosted on a Windows Server 2008 farm using Windows Communication Foundation and ASP.NET MVC<br>
+&#x2022; Responsible for developing the full stack (from the User Experience, Client Application, Services, Database, and Build Scripts)<br>
+&#x2022; Participated in an Agile / SCRUM environment<br>
+<br>
+&#x2022; Technologies Used: JavaScript, jQuery, Omniture, Amadesa, C#, ASP.NET MVC, LINQ, LINQ to SQL, Windows Communication Foundation (WCF), Web Services, REST, JSON, AJAX, MSBuild, XML, XSL, XPath, SOAP, CSS, HTML, Microsoft SQL Server 2005, SQL/T-SQL, Microsoft Team Foundation Server (TFS), and the .NET Framework 3.5
+          </p>
+          
+
+  
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+
+                            <strong>Recommend</strong>
+                            Adam&#8217;s work
+                              at Corbis
+                          </a>
+                </p>
+
+      </div>
+  
+  
+      <div class="position  ">
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Web+Developer+%2F+Front-End+Engineer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Web Developer / Front-End Engineer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/163263?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/163263/Critical+Mass?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>Critical Mass</span></a></strong></span>               
+              </strong></h4>
+
+  
+</div>
+        <p class="orgstats">
+          Privately Held; Marketing and Advertising industry
+        </p>
+        <p class="period">
+              November 2008
+ &#8211; January 2009              ( 3 months)
+        </p>
+
+          
+            
+          <p class=" desc">
+
+            
+            &#x2022; Maintained and developed modules on an e-commerce application hosted on a ATG / Dynamo Application Server<br>
+<br>
+&#x2022; Technologies Used: JavaScript, Scriptaculous (the Prototype library), CSS, HTML, JavaServer Pages (JSP), JavaServer Pages Standard Tag Library (JSTL), Ant, Oracle PL/SQL, Oracle 9i, Borland StarTeam, ATG / Dynamo Server Server
+          </p>
+          
+
+  
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+                            <strong>Recommend</strong>
+                            Adam&#8217;s work
+                              at Critical Mass
+                          </a>
+
+                </p>
+
+      </div>
+  
+  
+      <div class="position  ">
+
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+
+                <a href="/search?search=&sortCriteria=3&title=%22E-Commerce+Consultant+%2F+Developer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">E-Commerce Consultant / Developer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/292739?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/292739/RazorEdge?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>RazorEdge</span></a></strong></span>               
+              </strong></h4>
+  
+</div>
+        <p class="orgstats">
+          Privately Held; Computer Software industry
+        </p>
+
+        <p class="period">
+              January 2008
+ &#8211; October 2008              ( 10 months)
+        </p>
+
+          
+            
+          <p class=" desc">
+            
+            &#x2022; Developed an n-tier service oriented e-commerce solution hosted within SharePoint<br>
+&#x2022; Responsible for gathering requirements, performing gap analysis, development, and final support tasks<br>
+
+&#x2022; Conducted on-site client training, and reoccurring knowledge transfer sessions<br>
+<br>
+&#x2022; Technologies Used: JavaScript, C#, Windows Communication Foundation (WCF), Web Services, Microsoft Office SharePoint Server (MOSS) 2007, Microsoft Commerce Server 2007, MSBuild, XML, XSL, XPath, SOAP, CSS, HTML, ASP.NET, Microsoft SQL Server 2005, SQL/T-SQL, Microsoft Team Foundation Server (TFS), Microsoft Visual Source Safe (VSS), and the .NET Framework 3.5
+          </p>
+          
+
+  
+              
+              <p class="recommendations"> <a href="#recommendations" ><span class="name">Adam has</span> 2 recommendations</a>
+                  (1 co-worker, 1 partner)
+                  including:
+              </p>
+              <ul class="reflist">
+
+                      <li class="deg_2">
+                        <a href="/profile?viewProfile=&key=20322091&authToken=ubuZ&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Pankaj's Profile">Pankaj Goel</a><em>, Senior Consultant, Microsoft</em><span name="_distanceToEndorser2"></span>
+                      </li>
+                      <li class="deg_2">
+                        <a href="/profile?viewProfile=&key=11310562&authToken=fBtS&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Kyriacos's Profile">Kyriacos Miltiadous</a><em>, Senior Commerce Server/.NET developer, Microsoft Consulting Services and RazorEdge</em><span name="_distanceToEndorser2"></span>
+                      </li>
+              </ul>
+
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+                            <strong>Recommend</strong>
+                            Adam&#8217;s work
+                              at RazorEdge
+                          </a>
+                </p>
+
+      </div>
+
+  
+  
+      <div class="position  ">
+
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Consultant+%2F+Developer+%2F+Front-End+Engineer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Consultant / Developer / Front-End Engineer</a></strong>
+              
+            </h3>
+
+              <h4><strong>
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/3572?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/3572/Allstream?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>Allstream</span></a></strong></span>               
+              </strong></h4>
+  
+</div>
+        <p class="orgstats">
+          Public Company; MBT; Telecommunications industry
+        </p>
+        <p class="period">
+              August 2007
+ &#8211; January 2008              ( 6 months)
+        </p>
+
+          
+            
+          <p class=" desc">
+            
+            &#x2022; Developed an n-tier service oriented architecture record and asset tracking system using the City of Calgary's Application Architecture Framework (CAAF)<br>
+&#x2022; Participated in an Agile / SCRUM environment (client meetings, poker planning, story boarding, and daily stand-ups)<br>
+&#x2022; Responsible for creating and maintaining build scripts and publishing product builds <br>
+<br>
+&#x2022; Technologies Used: JavaScript, ASP.NET, C#, Oracle PL/SQL, Oracle 9i, the CAAF Framework, nAnt, Continuous Integration Server, Test Driven Development (TDD), Rhino Mocks, Scriptaculous (the Prototype library), XML, XSL, XPath, SOAP, Web Services, CSS, and the .NET Framework 2.0
+          </p>
+
+          
+
+  
+              
+              <p class="recommendations"> <a href="#recommendations" ><span class="name">Adam has</span> 3 recommendations</a>
+                  (3 co-workers)
+                  including:
+              </p>
+              <ul class="reflist">
+                      <li class="deg_2">
+                        <a href="/profile?viewProfile=&key=17408006&authToken=nHmg&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Guy's Profile">Guy Turton</a><em>, IT Contractor, MTS Allstream</em><span name="_distanceToEndorser2"></span>
+
+                      </li>
+                      <li class="deg_2">
+                        <a href="/profile?viewProfile=&key=5033569&authToken=mv4i&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Ed's Profile">Ed Stemler</a><em>, Quality Assurance Consultant, MTS Allstream</em><span name="_distanceToEndorser2"></span>
+                      </li>
+              </ul>
+
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+
+                            <strong>Recommend</strong>
+                            Adam&#8217;s work
+                              at Allstream
+                          </a>
+                </p>
+
+      </div>
+  
+  
+      <div class="position  ">
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Technical+Editor%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Technical Editor</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+<a href="/search?search=&sortCriteria=3&company=%22Wiley+Technology+Publishing+%2F+WROX+Press%22&currentCompany=currentCompany&goback=%2Ehom" name="company" title="Find users who have worked at this company">Wiley Technology Publishing / WROX Press</a>              
+              </strong></h4>
+
+  
+</div>
+        <p class="orgstats">
+          Computer Software industry
+        </p>
+        <p class="period">
+              January 2007
+ &#8211; December 2007              (1 year)
+        </p>
+
+          
+            
+          <p class=" desc">
+
+            
+            Edited the following texts: <br>
+&#x2022; ASP.NET 2.0 Design: CSS, Themes, and Master Pages <br>
+&#x2022; Hands On ASP.NET AJAX Control Toolkit <br>
+&#x2022; CSS, JavaScript, and AJAX Web Development<br>
+<br>
+&#x2022; Technologies Used: C#, ASP.NET, ASP.NET Themes, ASP.NET Master Pages, Silverlight, ASP.NET AJAX, The Base2 JavaScript library, XML, HTML, CSS, and the .NET Framework 2.0
+          </p>
+          
+
+  
+              
+              <p class="recommendations"> <a href="#recommendations" ><span class="name">Adam has</span> 1 recommendation</a>
+
+                  (1 co-worker)
+                  including:
+              </p>
+              <ul class="reflist">
+                      <li class="deg_2">
+                        <a href="/profile?viewProfile=&key=16889550&authToken=Qt0q&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Jacob J.'s Profile">Jacob J. Sanford</a><em>, Author, Wrox Press</em><span name="_distanceToEndorser2"></span>
+                      </li>
+              </ul>
+
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+                            <strong>Recommend</strong>
+                            Adam&#8217;s work
+                              at Wiley Technology Publishing / WROX Press
+                          </a>
+                </p>
+
+      </div>
+  
+  
+      <div class="position  ">
+
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22E-Commerce+Consultant+%2F+Developer+%2F+Front-End+Engineer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">E-Commerce Consultant / Developer / Front-End Engineer</a></strong>
+              
+            </h3>
+              <h4><strong>
+
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/13760?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/13760/Cactus+Commerce?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>Cactus Commerce</span></a></strong></span>               
+              </strong></h4>
+  
+</div>
+        <p class="orgstats">
+          Privately Held; Computer Software industry
+        </p>
+        <p class="period">
+              September 2006
+ &#8211; July 2007              ( 11 months)
+        </p>
+
+          
+            
+          <p class=" desc">
+            
+            &#x2022; Developed new features and maintenance modules on an n-tier service oriented architecture e-commerce web applications built on top of Microsoft's Commerce Server<br>
+&#x2022; Tested and implemented components, worked closely with Quality Assurance assisting with creating automated test scripts as needed<br>
+&#x2022; Responsible for maintaining build scripts and publishing product builds<br>
+<br>
+&#x2022; Technologies Used: ASP.NET, C#, JavaScript, XML, XSL, XPath, SOAP, Web Services, CSS, HTML,  Commerce Server 2007, Microsoft SQL Server, SQL / T-SQL, Microsoft Team Foundation Server (TFS), Microsoft Office SharePoint Server (MOSS) 2007, and the .NET Framework 2.0
+          </p>
+
+          
+
+  
+              
+              <p class="recommendations"> <a href="#recommendations" ><span class="name">Adam has</span> 3 recommendations</a>
+                  (1 manager, 2 co-workers)
+                  including:
+              </p>
+              <ul class="reflist">
+                      <li class="deg_2">
+                        <a href="/profile?viewProfile=&key=11241781&authToken=Kwby&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View James's Profile">James Steele</a><em>, Technical Architect and Senior .NET Developer, Cactus Commerce</em><span name="_distanceToEndorser2"></span>
+
+                      </li>
+                      <li class="deg_2">
+                        <a href="/profile?viewProfile=&key=8185502&authToken=_FIV&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Patricia's Profile">Patricia Vander Laan</a><em>, Program Manager, Cactus Commerce</em><span name="_distanceToEndorser2"></span>
+                      </li>
+              </ul>
+
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+
+                            <strong>Recommend</strong>
+                            Adam&#8217;s work
+                              at Cactus Commerce
+                          </a>
+                </p>
+
+      </div>
+  
+  
+      <div class="position  ">
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Consultant+%2F+Developer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Consultant / Developer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+<a href="/search?search=&sortCriteria=3&company=%22Lexikal+Media%22&currentCompany=currentCompany&goback=%2Ehom" name="company" title="Find users who have worked at this company">Lexikal Media</a>              
+              </strong></h4>
+
+  
+</div>
+        <p class="orgstats">
+          Information Technology and Services industry
+        </p>
+        <p class="period">
+              March 2006
+ &#8211; May 2006              ( 3 months)
+        </p>
+
+          
+            
+          <p class=" desc">
+
+            
+            &#x2022; Developed and designed website components for a domain registration / hosting company<br>
+&#x2022; Interfaced with payment gateways, domain name registration services, web hosting services, and other web services<br>
+<br>
+&#x2022; Technologies Used: ASP.NET, C#, JavaScript, XML, XSL, XPath, SOAP, Web Services, CSS, Amazon E-commerce Web Services (ECS) API, HTML, and the .NET Framework 2.0
+          </p>
+          
+
+  
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+                            <strong>Recommend</strong>
+
+                            Adam&#8217;s work
+                              at Lexikal Media
+                          </a>
+                </p>
+
+      </div>
+  
+  
+      <div class="position  ">
+
+
+
+
+
+<div class="postitle">
+
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Developer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Developer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/26423?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/26423/Mercurial+Communications?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>Mercurial Communications</span></a></strong></span>               
+              </strong></h4>
+  
+</div>
+
+        <p class="orgstats">
+          Privately Held; Computer Software industry
+        </p>
+        <p class="period">
+              June 2005
+ &#8211; November 2005              ( 6 months)
+        </p>
+
+          
+            
+          <p class=" desc">
+            
+            &#x2022; Developed new features and maintained existing code for a fleet management system within an Agile / SCRUM environment<br>
+
+&#x2022; Communicated with socket-based interfaces, C++ interfaces, and 3rd party Application Programming Interfaces<br>
+<br>
+&#x2022; Technologies Used: C#, C++, 'C', Microsoft SQL Server, SQL/T-SQL, CVS, Subversion, MS Windows XP Embedded (XPe), and the .NET Framework 1.1
+          </p>
+          
+
+  
+              
+              <p class="recommendations"> <a href="#recommendations" ><span class="name">Adam has</span> 1 recommendation</a>
+                  (1 co-worker)
+                  including:
+              </p>
+              <ul class="reflist">
+
+                      <li class="deg_2">
+                        <a href="/profile?viewProfile=&key=10161164&authToken=6Zgx&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Richard's Profile">Richard Cain</a><em>, Software Developer, Mercurial</em><span name="_distanceToEndorser2"></span>
+                      </li>
+              </ul>
+
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+                            <strong>Recommend</strong>
+
+                            Adam&#8217;s work
+                              at Mercurial Communications
+                          </a>
+                </p>
+
+      </div>
+  
+  
+      <div class="position  ">
+
+
+
+
+
+<div class="postitle">
+
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Consultant+%2F+Developer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Consultant / Developer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+<a href="/search?search=&sortCriteria=3&company=%22Public+Energy%22&currentCompany=currentCompany&goback=%2Ehom" name="company" title="Find users who have worked at this company">Public Energy</a>              
+              </strong></h4>
+  
+</div>
+
+        <p class="orgstats">
+          Information Technology and Services industry
+        </p>
+        <p class="period">
+              October 2004
+ &#8211; April 2005              ( 7 months)
+        </p>
+
+          
+            
+          <p class=" desc">
+            
+            &#x2022; Redesigned and updated a not for profit organizations web presence<br>
+
+&#x2022; Implemented a content management system (CMS) for non web-savvy employees <br>
+&#x2022; General network and computer maintenance<br>
+&#x2022; Trained employees<br>
+<br>
+&#x2022; Technologies Used: PHP, CSS, DHTML, HTML, Apache web server, and the Google Web APIs
+          </p>
+          
+
+  
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+
+                            <strong>Recommend</strong>
+                            Adam&#8217;s work
+                              at Public Energy
+                          </a>
+                </p>
+
+      </div>
+  
+  
+      <div class="position  ">
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Developer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Developer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+<a href="/search?search=&sortCriteria=3&company=%22Julian+Blackburn+College%22&currentCompany=currentCompany&goback=%2Ehom" name="company" title="Find users who have worked at this company">Julian Blackburn College</a>              
+              </strong></h4>
+
+  
+</div>
+        <p class="orgstats">
+          Information Technology and Services industry
+        </p>
+        <p class="period">
+              September 2003
+ &#8211; April 2004              ( 8 months)
+        </p>
+
+          
+            
+          <p class=" desc">
+
+            
+            &#x2022; Designed and developed a web based record, reporting, and asset sharing application<br>
+<br>
+&#x2022; Technologies Used: ASP.NET, C#, Microsoft SQL Server, IIS, SQL/T-SQL, HTML, CSS, and the .NET Framework 1.1
+          </p>
+          
+
+  
+              
+              <p class="recommendations"> <a href="#recommendations" ><span class="name">Adam has</span> 1 recommendation</a>
+                  (1 co-worker)
+                  including:
+              </p>
+
+              <ul class="reflist">
+                      <li class="deg_2">
+                        <a href="/profile?viewProfile=&key=4244228&authToken=uN15&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Henok's Profile">Henok Ghebrezghi</a><em>, Software Engineer, Crosscap Media Services</em><span name="_distanceToEndorser2"></span>
+                      </li>
+              </ul>
+
+
+                <p class="desc reflink">
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition">
+
+                            <strong>Recommend</strong>
+                            Adam&#8217;s work
+                              at Julian Blackburn College
+                          </a>
+                </p>
+
+      </div>
+  
+  </div>
+
+</div>
+
+
+  <div class="section" id="profile-education">
+  <div class="header>">
+    <h2>Education</h2>
+  </div>
+  <div class="content">
+    <div name="education" id="edu-6326743">
+	<div class="position  first" name="eduEntry"> 	
+      <h3>
+
+	      
+
+      
+    <a href="/search?search=&sortCriteria=3&keywords=%22Seneca+College+of+Applied+Arts+and+Technology%22&goback=%2Ehom" title="Find users with this keyword">Seneca College of Applied Arts and Technology</a>	  </h3>
+	  <h4>
+        
+
+      
+    <a href="/search?search=&sortCriteria=3&keywords=%22Computer+Programming+and+Analysis%22&goback=%2Ehom" title="Find users with this keyword">Computer Programming and Analysis</a>
+	  </h4>	
+		
+  
+              
+
+
+                <p class="reflink">
+ 
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition"><strong>Recommend</strong> Adam&#8217;s work at Seneca College of Applied Arts and Technology</a>
+
+                </p>
+
+		
+    	</div>	
+  	</div>
+    <div name="education" id="edu-6326795">
+	<div class="position  " name="eduEntry"> 	
+      <h3>
+	      
+
+      
+    <a href="/search?search=&sortCriteria=3&keywords=%22Trent+University%22&goback=%2Ehom" title="Find users with this keyword">Trent University</a>	  </h3>
+	  <h4>
+
+        BSc, 
+
+      
+    <a href="/search?search=&sortCriteria=3&keywords=%22Computer+Science%22&goback=%2Ehom" title="Find users with this keyword">Computer Science</a>
+	  </h4>	
+		
+  
+              
+
+
+                <p class="reflink">
+ 
+                          <a href="/myprofile?displayEditPosition=&needpos=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="addPosition"><strong>Recommend</strong> Adam&#8217;s work at Trent University</a>
+                </p>
+
+		
+    	</div>	
+  	</div>
+
+  </div>
+</div>
+
+
+
+
+<div class="section" id="profile-recommendations">
+  <div class="header">
+    <h2 id="recommendations">Recommendations For Adam</h2>
+  </div>
+  <div class="content">
+
+    <div class="reference-position">
+
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22E-Commerce+Consultant+%2F+Developer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">E-Commerce Consultant / Developer</a></strong>
+              
+            </h3>
+
+              <h4><strong>
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/292739?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/292739/RazorEdge?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>RazorEdge</span></a></strong></span>               
+              </strong></h4>
+  
+</div>
+      
+
+            
+            <div class="reference">
+                <p>&#8220;Adam is an excellent colleague. He is highly technical and has a solution orientation. He shows great leadership qualities in his work.
+
+It was a pleasure to wrk with Adam and I look forward to working with him again.&#8221; <span class="date">February 23, 2009</span></p>
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=20322091&authToken=ubuZ&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Pankaj's Profile">Pankaj Goel</a><em>, Senior Consultant, Microsoft</em><br>was with another company when working with Adam at RazorEdge Consulting</p>
+
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+      
+
+            
+            <div class="reference">
+                <p>&#8220;Adam is a highly proficient Senior Consultant with a deep understanding of .NET technologies. His strong communication and decision making skills came though when it was time to articulate on problems, how they impacted business and to quickly come up with approaches to solve them. Adam was a true team player, always willing to assist and inspire other team members. He was well liked by his peers and I highly recommend Adam to any organization seeking an experienced and professional Software Consultant.&#8221; <span class="date">January 30, 2009</span></p>
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=11310562&authToken=fBtS&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Kyriacos's Profile">Kyriacos Miltiadous</a><em>, Senior Commerce Server/.NET developer, Microsoft Consulting Services and RazorEdge</em><br>worked directly with Adam at RazorEdge Consulting</p>
+
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+    </div>
+    <div class="reference-position">
+
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Consultant+%2F+Developer+%2F+Front-End+Engineer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Consultant / Developer / Front-End Engineer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/3572?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/3572/Allstream?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>Allstream</span></a></strong></span>               
+              </strong></h4>
+  
+</div>
+      
+
+            
+            <div class="reference">
+
+                <p>&#8220;Adam is a exceptional, hard working .NET developer.  He knows his stuff, is an excellent team player and he won't let you down.  I highly recommend Adam and hope to work with him in the future.&#8221; <span class="date">November 10, 2008</span></p>
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=17408006&authToken=nHmg&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Guy's Profile">Guy Turton</a><em>, IT Contractor, MTS Allstream</em><br>worked directly with Adam at Allstream</p>
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+      
+
+            
+            <div class="reference">
+
+                <p>&#8220;I was impressed with Adam's desire to do top quality work and to continually improve. His positive attitude and willingness to share his knowledge made it a pleasure to work with him. I am confident that any employer would be more than satisfied with the quality of Adam's work.&#8221; <span class="date">March 26, 2008</span></p>
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=5033569&authToken=mv4i&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Ed's Profile">Ed Stemler</a><em>, Quality Assurance Consultant, MTS Allstream</em><br>worked directly with Adam at Allstream</p>
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+      
+
+            
+            <div class="reference">
+
+                <p>&#8220;Adam is a smart, skillful person and awesome to work with.&#8221; <span class="date">February 11, 2008</span></p>
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=8018444&authToken=MDty&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Steve's Profile">Steve Yeo</a><em>, Business Consultant, MTS Allstream</em><br>worked directly with Adam at Allstream</p>
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+    </div>
+
+    <div class="reference-position">
+
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Technical+Editor%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Technical Editor</a></strong>
+              
+            </h3>
+
+              <h4><strong>
+              
+<a href="/search?search=&sortCriteria=3&company=%22Wiley+Technology+Publishing+%2F+WROX+Press%22&currentCompany=currentCompany&goback=%2Ehom" name="company" title="Find users who have worked at this company">Wiley Technology Publishing / WROX Press</a>              
+              </strong></h4>
+  
+</div>
+      
+
+            
+            <div class="reference">
+                <p>&#8220;Adam was the Technical Editor on my first book at Wrox. He was amazing. He provided a thorough analysis of what I had written and gave great recommendations for additional considerations. He called me on things that I needed to be called on and let me know when he thought I was right. My first book was so much better because of his involvement.
+
+But beyond that, I got an either better appreciation for Adam's dedication after my second book when the Technical Editor would leave one comment on a 100-page (with 116 screenshots) chapter. Seeing that made me really appreciate (and miss) Adam's thoroughness.
+
+I am now being the Technical Editor for a book and I am trying to model myself after Adam. I think &quot;what would Adam say here?&quot; and &quot;would Adam let this slip by?&quot; He should teach a course on proper Technical Editing work. I would go. :o)&#8221; <span class="date">July 23, 2008</span></p>
+
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=16889550&authToken=Qt0q&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Jacob J.'s Profile">Jacob J. Sanford</a><em>, Author, Wrox Press</em><br>worked directly with Adam at Wiley Technology Publishing / WROX Press</p>
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+    </div>
+    <div class="reference-position">
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22E-Commerce+Consultant+%2F+Developer+%2F+Front-End+Engineer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">E-Commerce Consultant / Developer / Front-End Engineer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/13760?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/13760/Cactus+Commerce?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>Cactus Commerce</span></a></strong></span>               
+              </strong></h4>
+
+  
+</div>
+      
+
+            
+            <div class="reference">
+                <p>&#8220;I had the opportunity to work and correspond with Adam at Cactus for several months. Adam is a skilled software developer and his professionalism is outstanding.
+
+Adam is a high calibre consultant and I look forward to working with him again soon. I recommend him for anyone needing a reliable and skilled software developer.
+
+James&#8221; <span class="date">July 20, 2007</span></p>
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=11241781&authToken=Kwby&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View James's Profile">James Steele</a><em>, Technical Architect and Senior .NET Developer, Cactus Commerce</em><br>worked directly with Adam at Cactus Commerce</p>
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+      
+
+            
+            <div class="reference">
+                <p>&#8220;Adam has worked for me on multiple projects at Cactus.  He is very attentive to the details of his work and is very proactive to raise issues or risks that may affect the integrity of the project.  Adam has shown a great drive to learn new technologies and a high level of enthusiasm in being a mentor to other members of his teams.  Adam has been very diligent in ensuring that he understands the expectations on him and has gone out of his way to make sure that he exceeds these expectations time and again.  Adam is a great asset to any team.&#8221; <span class="date">May 1, 2007</span></p>
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=8185502&authToken=_FIV&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Patricia's Profile">Patricia Vander Laan</a><em>, Program Manager, Cactus Commerce</em><br>managed Adam  at Cactus Commerce</p>
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+      
+
+            
+            <div class="reference">
+                <p>&#8220;Adam is dedicated and conscientious individual who is not afraid to take the lead when the situation warrants it.
+He has impressed me with his extensive technological knowledge and ability to learn new ideas quickly and thoroughly.
+It has been a pleasure to work with him.&#8221; <span class="date">March 29, 2007</span></p>
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=3809026&authToken=YNGW&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Sean's Profile">Sean Perkin</a><em>, Configuration Manager, Cactus Commerce Inc.</em><br>managed Adam indirectly at Cactus Commerce</p>
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+    </div>
+    <div class="reference-position">
+
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Developer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Developer</a></strong>
+
+              
+            </h3>
+              <h4><strong>
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/26423?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/26423/Mercurial+Communications?trk=pro_other_cmpy&goback=%2Ehom" class="company-profile"><span>Mercurial Communications</span></a></strong></span>               
+              </strong></h4>
+  
+</div>
+      
+
+            
+            <div class="reference">
+                <p>&#8220;Adam is a very driven person, who excels in a busy atmosphere. He pays great attention to detail, and can always pull through in the clutch with very complex problems.&#8221; <span class="date">March 29, 2007</span></p>
+
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=10161164&authToken=6Zgx&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Richard's Profile">Richard Cain</a><em>, Software Developer, Mercurial</em><br>worked directly with Adam at Mercurial Communications</p>
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+    </div>
+    <div class="reference-position">
+
+
+
+
+<div class="postitle">
+  
+            <h3 class="position-title anet">
+              
+                <strong>
+                <a href="/search?search=&sortCriteria=3&title=%22Developer%22&currentTitle=currentTitle&goback=%2Ehom" name="title" title="Find users with this title">Developer</a></strong>
+              
+            </h3>
+              <h4><strong>
+              
+<a href="/search?search=&sortCriteria=3&company=%22Julian+Blackburn+College%22&currentCompany=currentCompany&goback=%2Ehom" name="company" title="Find users who have worked at this company">Julian Blackburn College</a>              
+              </strong></h4>
+
+  
+</div>
+      
+
+            
+            <div class="reference">
+                <p>&#8220;Adam is a great person to work with. He is true leader who can lead by example and bring innovative ideas to the table. The dedication, effort and quality he has put into his work inspires everyone around him. Along with his leadership and technical qualities, Adam has also proven himself to be a quick learner and in our last project with JBC, set the pace for the entire software engineering team.&#8221; <span class="date">May 22, 2007</span></p>
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=4244228&authToken=uN15&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Henok's Profile">Henok Ghebrezghi</a><em>, Software Engineer, Crosscap Media Services</em><br>worked directly with Adam at Julian Blackburn College</p>
+              
+              <span name="_distanceToEndorser2"></span>
+            </div>
+
+    </div>
+            
+
+
+    <p class="writerec">
+      
+            
+    
+        <a href="/recommendations?prs=&fn=Adam&ln=Kahtava&email=adam%40kahtava%2Ecom&profile=&goback=%2Ehom" >Write a recommendation for Adam</a>
+      
+      
+      <script id="control-3">
+            Page.queue.push( { 'control-3':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+        name: 'recommendationDialog',
+        type: 'task-modeless',
+        content: { 
+          node: 'recommendation-dialog', 
+          title: 'Write a recommendation for Adam' 
+        }
+      
+          }
+             } } );
+
+        
+      </script>
+    
+        
+    </p>
+  
+  </div>
+</div>
+
+
+  <div class="section" id="profile-additional">
+  <div class="header">  
+    <h2>Additional Information</h2>
+  </div>
+  <div class="content">
+  <dl>
+      <dt>Websites</dt>
+
+      <dd id="websites">
+      <ul>
+      
+        <li class="website">
+          
+          <a href="http://www.linkedin.com/redirect?url=http%3A%2F%2Fadam%2Ekahtava%2Ecom%2Fjournal%2F&amp;urlhash=0eFF" target="_blank" title="New window will open">My Blog</a>
+        </li>
+      
+      </ul>
+    </dd>
+
+      <dt>Interests</dt>
+
+      <dd id="interests">
+      <p class="">
+        
+      
+    <a href="/search?search=&sortCriteria=3&keywords=%22If+your+interested+in+learning+more+about+my+interests%22&goback=%2Ehom" title="Find users with this keyword">If your interested in learning more about my interests</a>,    <a href="/search?search=&sortCriteria=3&keywords=%22then+head+over+to+My+Website+%28the+link+above%29%2E%22&goback=%2Ehom" title="Find users with this keyword"> then head over to My Website (the link above).</a>
+      </p>
+    </dd>
+
+      <dt>Groups and Associations</dt>
+
+      <dd id="pubgroups">
+        <p class="null">
+          
+      
+    <a href="/search?search=&sortCriteria=3&keywords=%22Calgary+%2ENET+User+Group%22&goback=%2Ehom" title="Find users with this keyword">Calgary .NET User Group</a>,    <a href="/search?search=&sortCriteria=3&keywords=%22The+Institute+of+Electrical+and+Electronic+Engineers+%28IEEE%29%22&goback=%2Ehom" title="Find users with this keyword"><br><br>
+The Institute of Electrical and Electronic Engineers (IEEE)</a>,    <a href="/search?search=&sortCriteria=3&keywords=%22Association+for+Computing+and+Machinery+%28ACM%29%22&goback=%2Ehom" title="Find users with this keyword"><br><br>
+Association for Computing and Machinery (ACM)</a>,    <a href="/search?search=&sortCriteria=3&keywords=&goback=%2Ehom" title="Find users with this keyword"></a>
+        </p>
+      <ul class="groups">
+
+        <li>
+              <a href="/groups?gid=21429&trk=fulpro_grplogo&goback=%2Ehom" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/3/000/000/010/1c2dedc.png" width="60" height="30" alt="">
+      
+ <strong>The Official Trent University Alumni Association</strong></a>
+        </li>
+        <li>
+              <a href="/groups?gid=91180&trk=fulpro_grplogo&goback=%2Ehom" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/3/000/008/151/0d7fdc1.gif" width="60" height="30" alt="">
+      
+ <strong>web standards development/ xhtml / css / seo</strong></a>
+
+        </li>
+        <li>
+              <a href="/groups?gid=71001&trk=fulpro_grplogo&goback=%2Ehom" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/3/000/006/12b/1efec90.png" width="60" height="30" alt="">
+      
+ <strong>Seneca Networking Association</strong></a>
+        </li>
+        <li>
+              <a href="/groups?gid=107366&trk=fulpro_grplogo&goback=%2Ehom" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/3/000/009/3e4/1581d02.png" width="60" height="30" alt="">
+
+      
+ <strong>Trent University Alumni Association</strong></a>
+        </li>
+        <li>
+              <a href="/groups?gid=60837&trk=fulpro_grplogo&goback=%2Ehom" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/1/000/005/205/0c41c5e.png" width="60" height="30" alt="">
+      
+ <strong>Veer</strong></a>
+        </li>
+        <li>
+
+              <a href="/groups?gid=1298147&trk=fulpro_grplogo&goback=%2Ehom" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/3/000/016/029/20a4999.png" width="60" height="30" alt="">
+      
+ <strong>Microsoft Commerce Server Experts</strong></a>
+        </li>
+        <li>
+              <a href="/groups?gid=132426&trk=fulpro_grplogo&goback=%2Ehom" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/1/000/00c/08e/37ffdec.png" width="60" height="30" alt="">
+      
+ <strong>Domain Driven Design</strong></a>
+        </li>
+
+        <li>
+              <a href="/groups?gid=23804&trk=fulpro_grplogo&goback=%2Ehom" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/2/000/000/015/3832949.gif" width="60" height="30" alt="">
+      
+ <strong>The Official IEEE Group</strong></a>
+        </li>
+        <li>
+              <a href="/groups?gid=52512&trk=fulpro_grplogo&goback=%2Ehom" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/1/000/004/140/2af21a3.png" width="60" height="30" alt="">
+      
+ <strong>ACM Members</strong></a>
+
+        </li>
+      </ul>
+    </dd>
+
+      <dt>Honors and Awards</dt>
+      <dd class="last">
+        
+          
+          <p class=" ''">
+            
+            Graduated with Honors in the major.
+          </p>
+
+    
+        
+    </dd>
+  </dl>
+</div>
+</div>
+
+
+
+
+
+<div class="section" id="profile-contact">
+  <div class="header">
+    <h2>Contact Settings</h2>
+
+  </div>
+  <div class="content">
+
+      <h3>Interested In</h3>
+      <div class="interested">
+        <ul>
+            <li>career opportunities</li>
+            <li>consulting offers</li>
+
+            <li>new ventures</li>
+            <li>job inquiries</li>
+            <li>expertise requests</li>
+            <li>reference requests</li>
+            <li>getting back in touch</li>
+        </ul>
+
+      </div>
+
+
+          <div class="message actions">
+                <h3>Contact Adam Kahtava</h3>
+                <span name="RequestConnection"></span>
+                <ul>
+                  <li>
+                    
+            
+    
+                      <a href="/msgToConns?displayCreate=&connId=9962574&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="_sendMessageLink" class="email"><strong>Send a message</strong></a>
+
+                    
+      
+      <script id="control-4">
+            Page.queue.push( { 'control-4':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+                      name: 'sendMessageDialog',
+                      type: 'task-modeless',
+                      content: { 
+                        node: 'send-message-dialog', 
+                        title: 'Send a message' 
+                      },
+                      extra: {
+                        memberId: '9962574', 
+                        fullName: 'Adam Kahtava'
+                      }
+                    
+          }
+             } } );
+
+        
+      </script>
+    
+        
+                  </li>
+                  <li class="sndemail"><a href="mailto:adam@kahtava.com" >adam@kahtava.com</a></li>
+                </ul>
+          </div>
+  </div>
+</div>
+
+
+      <ul class="related-links">
+        <li>&#171; <a href="/home" name="goBack">Go back to Home Page</a></li>
+      </ul>
+
+    </div>
+
+    <div id="extra" class="infobar">
+
+  <div class="actions">
+
+    <ul>
+          <li id="send-email">
+            
+            
+    
+              <a href="/msgToConns?displayCreate=&connId=9962574&trk=&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="_sendMessageLink" class="email"><strong>Send a message</strong></a>
+            
+      
+      <script id="control-5">
+            Page.queue.push( { 'control-5':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+              name: 'sendMessageDialog',
+              type: 'task-modeless',
+              content: { 
+                node: 'send-message-dialog', 
+                title: 'Send a message' 
+              },
+              extra: {
+                memberId: '9962574', 
+                fullName: 'Adam Kahtava'
+              }
+            
+          }
+             } } );
+
+        
+      </script>
+    
+        
+          </li>
+              <li id="recommend-this-person">
+                    
+            
+    
+                      <a href="/recommendations?prs=&fn=Adam&ln=Kahtava&email=adam%40kahtava%2Ecom&profile=&goback=%2Ehom" name="endorsethisperson"><strong>Recommend this person</strong></a>
+
+                    
+      
+      <script id="control-6">
+            Page.queue.push( { 'control-6':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+                      name: 'recommendationDialog',
+                      type: 'task-modeless',
+                      content: { 
+                        node: 'recommendation-dialog', 
+                        title: 'Recommend this person' 
+                      }
+                    
+          }
+             } } );
+
+        
+      </script>
+    
+        
+              </li>
+        <li class="fwd">
+          <a href="/emailContacts?context=3&itemID=9962574&itemLinkName=Adam+Kahtava&authToken=GqOy&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="_emailProfile">Forward this profile to a connection</a>
+        </li>
+
+    </ul>
+  </div>
+
+    <div class="profile-control">
+      <ul class="utilities">
+        <li class="permalink"><a href="http://www.linkedin.com/profile?viewProfile=&key=9962574&authToken=GqOy&authType=name&goback=%2Ehom" >Permalink</a></li>
+        <li class="print">
+          <a href="javascript:window.print();" title="Print this profile">Print</a>
+        </li>
+            <li class="pdf">
+              <a href="/profile?viewProfilePDF=&key=9962574&authToken=GqOy&authType=name&trk=pdf_pro_full" title="Download as PDF">PDF</a>
+
+            </li>
+        <li class="download-vcard"><a href="/addressBookExport?exportMemberVCard=&memberID=9962574&goback=%2Ehom" title="Download vCard" name="_exportVCard">Download vCard</a></li>
+
+<li class="bookmark" id="bookmark-insert" style="display: none;"><a href="/static?key=ie_toolbar_download_promo" id="bookmark-link" title="Bookmark using the IE Toolbar">Bookmark</a></li>
+
+          <li class="flag-photo"><a href="#flag-form" >Report profile photo as...</a>
+
+
+      <form action="/memberPicture" method="POST" accept-charset="UTF-8"  name="pictureAbuseForm"> <input type="hidden" name="csrfToken" value="ajax:-3557174237258968681">
+
+      
+    
+	<fieldset id="flag-form">
+	<legend>Report for Review</legend>
+	<div class="fieldgroup">
+			<label for="abuseCatParam-pictureAbuseForm" >Report profile photo as...</label>
+			
+			<select name="abuseCatParam" id="abuseCatParam-pictureAbuseForm" >
+<option value="" selected>Choose...</option><option value="ADV">an advertisement</option><option value="CRM">copyrighted material</option><option value="CON">inappropriate content</option><option value="MSR">misrepresentation</option><option value="OTH">other</option></select>
+
+	</div>
+	<div class="fieldgroup">
+			<label for="descParam-pictureAbuseForm" >Details <em>(optional)</em></label>
+			
+			<input type="text" name="descParam" value="" id="descParam-pictureAbuseForm" >
+	</div>
+	<input type="hidden" name="key" value="9962574"/>
+ <p class="buttongroup">
+	<input type="submit" name="report" value="Send" class="btn-primary"> or <a href="#flag-form" id="cancel-flag">Cancel</a> 
+	</p>
+
+	</fieldset>
+
+      
+      <input type="hidden" name="member" value="9962574" id="member-pictureAbuseForm"><input type="hidden" name="goback" value=".hom.vpf_9962574_1_GqOy_name_*1_Adam_Kahtava"></form>
+    
+
+          </li>
+      </ul>
+    </div>
+      
+            
+    
+        <div id="recommendation-dialog" class="dialog-container recommend-dialog">
+          <h3>Recommend Adam as a:</h3>
+          
+      <form action="/recommendations" method="POST" accept-charset="UTF-8"  name="recommendForm"> <input type="hidden" name="csrfToken" value="ajax:-3557174237258968681">
+
+      
+    
+            
+            <ul>
+                <li><input type="radio" name="recType" value="COL" checked id="COL-recType-recommendForm" >&nbsp;<label for="COL-recType-recommendForm" ><strong>Colleague:</strong> You&#8217;ve worked with Adam at the same company</label></li>
+                <li><input type="radio" name="recType" value="SPR" id="SPR-recType-recommendForm" >&nbsp;<label for="SPR-recType-recommendForm" ><strong>Service Provider:</strong> You&#8217;ve hired Adam to provide a service for you or your company</label></li>
+                <li><input type="radio" name="recType" value="BSP" id="BSP-recType-recommendForm" >&nbsp;<label for="BSP-recType-recommendForm" ><strong>Business Partner:</strong> You&#8217;ve worked with Adam, but not as a client or colleague</label></li>
+
+                <li id="recommend-education"><input type="radio" name="recType" value="EDU" id="EDU-recType-recommendForm" >&nbsp;<label for="EDU-recType-recommendForm" ><strong>Student:</strong> You were at school when Adam was there, as a fellow student or teacher.</label></li>
+            </ul>
+            <p class="actions">
+              <input type="submit" name="rfp" value="Go" class="btn-primary">
+              or 
+              <a href="#" class="dialog-close">Cancel</a>
+            </p>
+
+          
+      
+      <input type="hidden" name="recommendeeID" value="9962574" id="recommendeeID-recommendForm"><input type="hidden" name="positionID" value="0" id="positionID-recommendForm"><input type="hidden" name="goback" value=".hom"></form>
+    
+        </div>
+      
+      <script id="control-7">
+            Page.queue.push( { 'control-7':{ ProfileRecommendDialog:{} } } );
+
+        
+      </script>
+    
+  
+
+
+
+
+
+
+
+            
+    
+  <div id="send-message-dialog" class="dialog-container send-message-dialog">
+  
+      <p><a href="/msgToConns?displayCreate=&connId=9962574&goback=%2Ehom" id="include-others-link">Include others on this message</a></p>
+    
+    
+      <form action="/msgToConns" method="POST" accept-charset="UTF-8"  name="msgForm" id="send-msg-form"> <input type="hidden" name="csrfToken" value="ajax:-3557174237258968681">
+      
+    
+      <ul>
+
+        <li>
+          <label>To:</label>
+          <div class="elem" id="member-name">Adam</div>
+        </li>
+        <li class="subject">
+          <label for="msgForm" >Subject:</label>
+          <div class="elem">
+
+              <input type="text" name="subject" value="" id="send-message-subject" maxlength="150" class="inpt">
+          </div>
+        </li>
+        <li>
+            
+            
+      
+              <textarea  name="body" id="send-message-body" ></textarea>
+            
+      
+      <script id="control-8">
+            Page.queue.push( { 'control-8':{ CheckTextarea:{
+            i18n: {
+              isError: 'You have exceeded the maximum length by <strong>{0}<\/strong> characters.',
+              isEmpty: 'You may add up to <strong>{0}<\/strong> characters.',
+              isCountDown: 'You may add up to <strong>{0}<\/strong> more characters.',
+              isFull: 'You may not add more characters.'
+            },
+            maxLength: 7000
+          }
+         } } );
+
+        
+      </script>
+    
+    
+        </li>
+        <li class="actions">
+
+          <input type="submit" name="submit" value="Send Message" id="send-message-submit" class="btn-primary">     
+          or
+          <a href="#" class="dialog-close">Cancel</a>
+        </li>
+      </ul>
+    
+      
+      
+    
+      <script type="text/javascript">
+        var memberIdString   = 'connectionIds-msgForm';
+        var connectionNamesString   = 'connectionNames-msgForm';
+	          var mboxItemIDString = null;
+            var groupIdString = null;
+      </script>
+    
+      
+      <input type="hidden" name="fromName" value="Adam.Kahtava.com / AdamDotCom" id="fromName-msgForm"><input type="hidden" name="showRecipeints" value="showRecipeints" id="showRecipeints-msgForm"><input type="hidden" name="fromEmail" value="437364973" id="fromEmail-msgForm"><input type="hidden" name="connectionIds" value="9962574" id="connectionIds-msgForm"><input type="hidden" name="connectionNames" value="{&quot;_9962574&quot;:{&quot;memberId&quot;:9962574,&quot;firstName&quot;:&quot;Adam&quot;,&quot;lastName&quot;:&quot;Kahtava&quot;}}" id="connectionNames-msgForm"><input type="hidden" name="allowEditRcpts" value="true" id="allowEditRcpts-msgForm"><input type="hidden" name="addMoreRcpts" value="false" id="addMoreRcpts-msgForm"><input type="hidden" name="openSocialAppBodySuffix" value="" id="openSocialAppBodySuffix-msgForm"><input type="hidden" name="st" value="" id="st-msgForm"><input type="hidden" name="viewerDestinationUrl" value="" id="viewerDestinationUrl-msgForm"><input type="hidden" name="goback" value=".hom.vpf_9962574_1_GqOy_name_*1_Adam_Kahtava"></form>
+    
+  </div>
+
+      <script id="control-9">
+            Page.queue.push( { 'control-9':{ SendMessageDialog:{} } } );
+
+        
+      </script>
+    
+
+
+
+
+
+
+
+      <div class="general-box ad-block">
+        <div class="title"><h6>Advertisement</h6></div>
+        <div class="content">
+          
+      
+          
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  <script type="text/javascript">
+    
+      var google_keywords = 'Independent+Technology+t3e7h4+Services+Professional+Information+and',
+      google_ad_client = 'pub-2283433109277150',
+      google_language = 'en_US',
+      google_ad_width = 300,
+      google_ad_height = 250,
+      google_ad_format = '300x250_as';
+    
+    var dbl_src = "http://ad.doubleclick.net/adj/linkedin.dart/" + "full_profile;optout=false;lang=en;v=1;u=54257286;ue=14d6rnsll9i3d3sspnsj1l;title=ic;func=null;co_id=null;csize=null;zip=t3e7h4;gdr=u;cntry=ca;reg=4882;jobs=1;sub=0;con=b;tile=1;sz=300x250;" + encodeURIComponent('uprofile=9962574') + ";ord=25322401?";
+    document.write('<script src="' + dbl_src + '" type="text/javascript"><\/script>');
+
+  </script>
+
+
+    
+    
+        </div>
+
+      </div>
+
+
+      <div class="general-box panel">
+        <div class="title"><h3>Network Information</h3></div>
+        <div class="modules">
+
+
+
+
+<div class="module open" id="abook-module">
+  <div class="header">
+
+    
+            
+    
+      <h3><strong>Contact Information</strong></h3>
+    
+      <script id="control-10">
+            Page.deferQueue.push( { 'control-10':{ ToggleModuleVisibility:{ parentID: 'abook-module', setting: 'collapseAbookOnProfile' } } } );
+
+        
+      </script>
+    
+  </div>
+  <div id="abook-widget" class="content">
+    <div class="abook-placeholder">
+        <noscript><a href="/editContact?editContact=&contactID=-1&contactMemberID=9962574&goback=%2Ehom" >Add contact information</a></noscript>
+    </div>
+
+  </div>
+</div>
+<div id="merged-contact-modal"></div>
+
+
+
+
+
+
+  <div class="module connections">
+    <div class="header">
+      <h3><strong>Adam&#8217;s Connections</strong> (262)</h3>
+
+    </div>
+    <div class="content">
+        
+        <ul>
+            <li>
+            <strong><a href="/profile?viewProfile=&key=2772582&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Clayton's Profile" name="browseConNonShared" rel="contact"><span name="firstName">Clayton</span> <span name="lastName">Stark</span></a></strong><br>
+            <span class="headline">technology business entrepreneur</span>
+          </li>
+
+            <li>
+            <strong><a href="/profile?viewProfile=&key=28010638&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Will's Profile" name="browseConNonShared" rel="contact"><span name="firstName">Will</span> <span name="lastName">Dannenberg</span></a></strong><br>
+            <span class="headline">Group manager at Microsoft</span>
+          </li>
+            <li>
+            <strong><a href="/profile?viewProfile=&key=42050891&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" title="View Donovan's Profile" name="browseConNonShared" rel="contact"><span name="firstName">Donovan</span> <span name="lastName">Bladon</span></a></strong><br>
+
+            <span class="headline">Customer Support at Corbis Canada</span>
+          </li>
+        </ul>
+      <p class="more"><a href="/profile?viewConns=&key=9962574&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="seeMoreConnections">See all <strong>Connections</strong> &raquo;</a></p>
+
+    </div>
+  </div>
+
+
+
+ 
+      
+      
+      
+      
+      
+    
+  <div class="module">
+      <div class="header">
+        <h3><strong>Adam&#8217;s Activity</strong></h3>
+      </div>
+      <div class="content">
+          <h4><span>Today</span></h4>
+
+          <ul>
+            <li class="feedgroup">
+
+
+
+
+      
+
+          
+          
+          <div class="event-content">
+          
+      
+    
+    
+  <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=9962574&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=9962574&trk=NUS_CONN-conntr&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Adam Kahtava</a></strong></span> 
+is now connected to 
+      <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=13308540&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=13308540&authToken=ASZJ&authType=name&trk=kN-connte&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Melissa Sawmiller</a></strong></span>
+
+      
+          <span class="nus-timestamp">58 minutes ago</span>
+      
+    
+
+          </div>
+
+      
+    
+
+
+</li>
+          </ul>
+          <h4><span>Yesterday</span></h4>
+          <ul>
+            <li class="feedgroup">
+
+
+
+
+      
+
+          
+          
+          <div class="event-content">
+          
+      
+    
+    
+  <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=9962574&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=9962574&trk=NUS_CONN-conntr&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Adam Kahtava</a></strong></span> 
+is now connected to 
+      <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=54257286&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=54257286&authToken=XaYo&authType=name&trk=kN-connte&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Adam.Kahtava.com / AdamDotCom</a></strong></span>
+
+      
+          <span class="nus-timestamp">17 hours ago</span>
+      
+    
+
+          </div>
+
+      
+    
+
+
+</li>
+          </ul>
+          <h4><span>Tuesday</span></h4>
+          <ul>
+            <li class="feedgroup">
+
+
+
+
+      
+
+          
+          
+          <div class="event-content">
+
+          
+      
+    
+    
+  <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=9962574&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=9962574&trk=NUS_DIG_CONN-connctr&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Adam Kahtava</a></strong></span> is now connected to 
+          <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=10754264&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=10754264&trk=NUS_DIG_CONN-conncte&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Yuval Kordov</a></strong></span>, 
+          <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=6777647&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=6777647&trk=NUS_DIG_CONN-conncte&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Darron Froese</a></strong></span>,     and <a href="/profile?viewConns=&key=9962574&trk=NUS_DIG_CONN-more&goback=%2Ehom">1 other person.</a>
+
+      
+          <span class="nus-timestamp">6 days ago</span>
+      
+    
+
+          </div>
+
+      
+    
+
+
+</li>
+          </ul>
+          <h4><span>Monday, Sep 14</span></h4>
+          <ul>
+            <li class="feedgroup">
+
+
+
+
+      
+
+          
+          
+          <div class="event-content">
+
+          
+      
+    
+    
+  <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=9962574&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=9962574&trk=NUS_CONN-conntr&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Adam Kahtava</a></strong></span> 
+is now connected to 
+      <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=11236042&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=11236042&authToken=lHku&authType=name&trk=kN-connte&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Jennifer Bentley</a></strong></span>
+
+      
+          <span class="nus-timestamp">7 days ago</span>
+      
+    
+
+          </div>
+
+      
+    
+
+
+</li>
+          </ul>
+
+          <h4><span>Tuesday, Sep 8</span></h4>
+          <ul>
+            <li class="feedgroup">
+
+
+
+
+      
+
+          
+          
+          <div class="event-content">
+          
+      
+    
+    
+  <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=9962574&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=9962574&trk=NUS_CONN-conntr&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Adam Kahtava</a></strong></span> 
+is now connected to 
+      <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=28672174&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=28672174&authToken=G60f&authType=name&trk=kN-connte&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Paul Brodeur</a></strong></span>
+
+      
+          <span class="nus-timestamp">14 days ago</span>
+      
+    
+
+          </div>
+
+      
+    
+
+
+</li>
+          </ul>
+          <h4><span>Monday, Sep 7</span></h4>
+          <ul>
+            <li class="feedgroup">
+
+
+
+
+      
+
+          
+          
+          <div class="event-content">
+          
+      
+    
+    
+  <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=9962574&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=9962574&trk=NUS_CONN-conntr&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Adam Kahtava</a></strong></span> 
+is now connected to 
+      <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=1001500&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=1001500&authToken=OKIO&authType=name&trk=kN-connte&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" >Bruno Steppuhn</a></strong></span>
+
+      
+          <span class="nus-timestamp">14 days ago</span>
+      
+    
+
+          </div>
+
+      
+    
+
+
+</li>
+          </ul>
+        <p class="more"><a href="/profile?viewFeed=&key=9962574&goback=%2Ehom" >See more &raquo;</a></p>
+      </div>
+  </div>
+ 
+
+
+
+  <div id="linkpath" class="module connection-path">
+    <div class="header"><h3><strong>How you&#8217;re connected to Adam</strong></h3></div>
+
+      <div class="content">
+        <p><strong>You</strong></p>
+        <p><img src="http://static02.linkedin.com/img/icon/icon_arrow_green_down_15x18.gif" width="15" height="18" alt=""></p>
+          <p>
+            
+          <img src="http://static01.linkedin.com/img/icon/degree/icon_degree_1_24x24_v2.gif" width="24" height="24" alt="1st degree" class="vmid">
+    
+            <strong>Adam Kahtava</strong>  
+          </p>
+        
+    </div>
+
+  </div>
+  <script type="text/javascript">
+    showHide.init('linkpath');
+  </script>
+
+
+
+
+
+
+
+ 
+
+
+
+  <div class="module">
+    <div class="header">
+      <h3><strong>Adam Recommends (6)</strong></h3>
+
+    </div>
+    <div class="content">
+      <ul name="browseRecommendationList">
+        <li name="browseRecommendation">
+          <p><strong>
+            <a href="/profile?viewProfile=&key=29484188&authToken=VZbY&authType=name&goback=%2Ehom" title="View Joseph's profile" name="viewRecViewProfile">Joseph Ruedlinger</a></strong>,
+                <em class="headline">Principal Consultant, Microsoft</em>
+			</p>		  	 
+        <p class="quote"><a href="/profile?viewRecs=&key=9962574&goback=%2Ehom#rec7202541" title="View recommendation" name="viewRecViewRec">Joseph's ability to flow with the ebb of our...</a></p>
+
+				  	
+        </li>				
+        <li name="browseRecommendation">
+          <p><strong>
+            <a href="/profile?viewProfile=&key=16889550&authToken=Qt0q&authType=name&goback=%2Ehom" title="View Jacob J.'s profile" name="viewRecViewProfile">Jacob J. Sanford</a></strong>,
+                <em class="headline">Author, Wrox Press</em>
+			</p>		  	 
+        <p class="quote"><a href="/profile?viewRecs=&key=9962574&goback=%2Ehom#rec4204324" title="View recommendation" name="viewRecViewRec">While editing Jacob's book I was always impressed...</a></p>
+				  	
+        </li>				
+        <li name="browseRecommendation">
+
+          <p><strong>
+            <a href="/profile?viewProfile=&key=5033569&authToken=mv4i&authType=name&goback=%2Ehom" title="View Ed's profile" name="viewRecViewProfile">Ed Stemler</a></strong>,
+                <em class="headline">Quality Assurance Consultant, MTS Allstream</em>
+			</p>		  	 
+        <p class="quote"><a href="/profile?viewRecs=&key=9962574&goback=%2Ehom#rec3999141" title="View recommendation" name="viewRecViewRec">Ed embodies all the traits that make an...</a></p>
+				  	
+        </li>				
+      </ul>
+        <p class="more"><a href="/profile?viewRecs=&key=9962574&authToken=GqOy&authType=name&goback=%2Ehom%2Evpf_9962574_1_GqOy_name_*1_Adam_Kahtava" name="viewRecMorePeople">See all <strong>Recommendations</strong> &#187;</a></p>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ape-block" id="genericPageSlot35"></div><script type="text/javascript">
+      LI.getApeContent('http://www.linkedin.com/ape-delivery/items?p=6NJrBFElktngCp8hR0JdSFCrQFaj5x4cmNmuntzmmpjsnxamAhhe6ERgD17t7cRdlx1ollQkkZWkQNddCJct3hHqRkRk7dFqCt2omJBt6h9sSBKlkFhjRt2sjlRe7pNkANji317sQtpu59Gq6YO', 'genericPageSlot35');
+    </script>
+  
+
+
+
+
+
+          <div class="module-panel" id="panel-04"></div>
+
+        </div>
+      </div>
+
+    </div>
+
+</div>
+
+          </div>
+        </div>
+        <script type="text/javascript">Page.processQueue();LI.Controls.processQueue();</script>
+    
+
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+
+
+
+   
+    <div id="footer">
+      <div class="wrapper">
+      <ul id="nav-footer">
+        <li>Company <ul>
+
+            
+                <li class="first"><a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" target="_blank"><strong>Customer Service</strong></a></li>
+              
+            <li><a href="/redirect?url=http%3A%2F%2Fpress%2Elinkedin%2Ecom%2Fabout&amp;urlhash=ONnW" >About LinkedIn</a></li>
+            <li><a href="/redirect?url=http%3A%2F%2Flearn%2Elinkedin%2Ecom%2F&amp;urlhash=YK4z" >Learning Center</a></li>
+            <li><a href="/redirect?url=http%3A%2F%2Fblog%2Elinkedin%2Ecom%2F&amp;urlhash=ULil" >Blog</a></li>
+            <li><a href="/static?key=advertising_info&amp;goback=%2Ehom&amp;trk=hb_ft_ads" >Advertising</a></li>
+            <li><a href="/redirect?url=http%3A%2F%2Fpress%2Elinkedin%2Ecom%2F&amp;urlhash=UMoC" >Press</a></li>
+
+            <li><a href="/redirect?url=http%3A%2F%2Fpress%2Elinkedin%2Ecom%2Fpartners&amp;urlhash=BzmJ" >Partners</a></li>
+            
+              <li><a href="/static?key=jobs&amp;goback=%2Ehom&amp;trk=hb_ft_work" >Careers</a></li>
+            
+          </ul>
+        </li> 
+        <li>Tools <ul> 
+            <li class="first"><a href="/static?key=tools&amp;goback=%2Ehom&amp;trk=hb_ft_tools" >Overview</a></li>
+            <li><a href="/static?key=outlook_toolbar_download&amp;goback=%2Ehom&amp;trk=hb_ft_otool" >Outlook Toolbar</a></li>
+
+            <li><a href="/static?key=browser_toolbar_download&amp;goback=%2Ehom&amp;trk=hb_ft_btool" >Browser Toolbar</a></li>
+            <li><a href="/static?key=mobile&amp;goback=%2Ehom&amp;trk=hb_ft_mob" >Mobile</a></li>
+            <li><a href="/static?key=lotus&amp;goback=%2Ehom&amp;trk=hb_ft_lotus" >Lotus Notes</a></li>
+            <li><a href="/static?key=developers_widgets&amp;goback=%2Ehom&amp;trk=hb_ft_widgets" >Developers</a></li>
+            
+              <li><a href="/redirect?url=http%3A%2F%2Fpolls%2Elinkedin%2Ecom%2F&amp;urlhash=YcBE" >Polls</a></li>
+            
+          </ul>
+
+        </li>
+        
+          <li>Premium <ul>
+              <li class="first"><a href="/hiring?editAttributes=&amp;goback=%2Ehom&amp;trk=hb_ft_jbpst" >Post a Job</a></li>
+              <li><a href="/hiring?manageActives=&amp;goback=%2Ehom&amp;trk=hb_ft_jbmng" >Manage Jobs</a></li>
+              <li><a href="/redirect?url=http%3A%2F%2Ftalent%2Elinkedin%2Ecom%3Fpin%3Dtr02&amp;urlhash=jdWV" >Recruiting Solutions</a></li>
+              <li><a href="/static?key=research_landing&amp;goback=%2Ehom&amp;trk=hb_ft_resnet" >Research Surveys</a></li>
+
+              <li><a href="https://www.linkedin.com/secure/purchase?_pt=sub&amp;_ra=sub&amp;displayProducts=&amp;utm_campaign=Subs&amp;utm_medium=onsite&amp;utm_source=Footer&amp;goback=%2Ehom&amp;trk=hb_ft_upyracct" >Upgrade Your Account</a></li>
+            </ul>
+          </li>
+        
+        
+      </ul>
+      <p id="copyright">Copyright &copy; 2009 LinkedIn Corporation. All rights reserved. </p>
+      <ul id="nav-legal">
+        <li><a href="/static?key=user_agreement&amp;goback=%2Ehom&amp;trk=hb_ft_userag" >User Agreement</a></li>
+
+        <li><a href="/static?key=privacy_policy&amp;goback=%2Ehom&amp;trk=hb_ft_priv" >Privacy Policy</a></li>
+        <li><a href="/static?key=copyright_policy&amp;goback=%2Ehom&amp;trk=hb_ft_copy" >Copyright Policy</a></li>
+      </ul>
+      
+      <p id="terms-of-use">
+        Use of this site is subject to express <a href="/static?key=user_agreement&goback=%2Ehom&trk=ftr_useragre" rel="nofollow">terms of use</a>, which prohibit commercial use of this site. By continuing past this page, you agree to abide by these terms.
+      </p>
+      
+    
+      
+          <p id="feedback-request">
+
+            
+      
+      
+        
+            
+          
+      
+    
+              <a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" >Help improve LinkedIn.</a>
+            
+      
+      <script id="control-11">
+        
+            Page.queue.push( { 'control-11':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+              name:'feedback-dialog',
+              type:'task-modeless',
+              content:{
+                node:'feedback-form-panel',
+                title:'Send Feedback'
+              }
+          }
+             } } );
+          
+
+        
+        
+        
+      </script>
+    
+        Send us your feedback.</p>
+        
+    
+    </div>
+  </div>
+  
+<script type="text/javascript">Page.processQueue();LI.Controls.processQueue();</script>  
+
+
+
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+      
+      
+    
+  <div id="feedback-dialog">
+
+    <div id="feedback-form-panel">
+      
+          <p>Have an idea to improve LinkedIn? Please submit your suggestion below. If you have questions about using the site, please visit our <a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" >Customer Service Center</a>.</p>
+        
+      <ul>
+        <li>
+          <label for="feedback-subject">Subject:</label>
+          <span id="feedback-no-subject">Please enter a subject.</span>
+
+          <input type="text" id="feedback-subject">
+        </li>
+        <li>
+          <label for="feedback-content">Feedback:</label>
+          <span id="feedback-no-content">Please enter a message.</span>
+          <textarea id="feedback-content" cols="30" rows="10">Note: Comments submitted here will not result in a response. However, they will be reviewed and considered for future LinkedIn enhancements. If you require a response or additional action on behalf of LinkedIn, please visit the link above to our Customer Service Center.</textarea>
+          <input type="hidden" name="content-ghost" value="Note: Comments submitted here will not result in a response. However, they will be reviewed and considered for future LinkedIn enhancements. If you require a response or additional action on behalf of LinkedIn, please visit the link above to our Customer Service Center." id="content-ghost">
+
+        </li>
+        <li class="feedback-actions">
+          <input type="submit" name="submit" value="Send Your Feedback" id="feedback-submit" class="btn-primary">
+          or
+          <a href="#" class="dialog-close">Cancel</a>
+        </li>
+      </ul>
+    </div>
+  
+    <div id="feedback-confirmation-panel">
+
+      <div class="alert attention"><p><strong>Thank you for your feedback!</strong></p></div>
+      <p class="disclaimer">You will not receive a response to these comments. We do, however, appreciate your help in improving LinkedIn. If you require additional assistance, or are having technical issues, please visit our  
+        
+            <a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" ><strong>Customer Service Center</strong></a>.
+          
+      </p>
+    </div>
+  </div>
+
+      <script id="control-12" type="text/javascript">
+        
+          
+          
+          
+            
+
+
+          
+          
+          
+          
+        
+        LI.Controls.addControl('control-12', 'Feedback', {});
+      </script>
+      
+        
+      
+    
+
+        
+          
+          
+          
+          
+          
+        
+    
+        
+        <script type="text/javascript" src="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/js?f=js%2Fstatus&amp;f=js%2Futil%2FSaveUISetting&amp;f=js%2Futil%2FDialog&amp;f=js%2Fapps%2FFeedback&amp;f=static_dwr_js%2FFeedbackService"></script>
+
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+        
+    
+      
+        
+    
+      
+      
+  
+        <script type="text/javascript" src="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/js?f=lib%2Flui%2Flinkedin_json-min&amp;f=lib%2Flui%2Flinkedin_ui-min&amp;f=lib%2Flui%2Flinkedin_goback-min&amp;f=lib%2Fyui%2F2.7.0%2Fdragdrop%2Fdragdrop-min&amp;f=js%2Fapps%2FSendMessageDialog&amp;f=js%2Fapps%2FProfileRecommendDialog&amp;f=js%2Fminiprofile_popup&amp;f=js%2Futil%2FToggleClass&amp;f=js%2Fbookmark&amp;f=static_dwr_js%2FAbookOnProfileService&amp;f=static_dwr_js%2FABookTagService&amp;f=js%2Fprofile_abook&amp;f=js%2Fapps%2FAbookTaggingDialog"></script>
+    
+
+  <script type="text/javascript">
+      // abook notes widget
+      profileAbook.setProfileURL( 'http://www.linkedin.com/abookOnProfile?displayPrimaryContact=&contactMemberID=9962574' );
+      profileAbook.setMergeContactsURL( 'http://www.linkedin.com/abookOnProfile?displayMergedContact=&contactMemberID=9962574' );
+      i18n.abookDown = 'Your address book is currently unavailable. Please check again later.';
+      i18n.abookPleaseLogin = 'Please re-login before making changes to notes.';
+      i18n.abookNoSuchContact = 'The contact you are trying to edit, does not exist.';
+      i18n.abookSuccess = 'Your notes for the contact has been successfully saved.';
+    // Open social
+    ChameleonService.init();
+    // Chameleon
+            ChameleonService.loadInappGadget("gadget-panel-03-slot-20378390", "{&quot;title&quot;:&quot;WordPress&quot;,&quot;app&quot;:{&quot;gadgetCanvasWidth&quot;:&quot;100%&quot;,&quot;panelID&quot;:3,&quot;title&quot;:&quot;WordPress&quot;,&quot;isViewerTheOwner&quot;:false,&quot;ownerId&quot;:9962574,&quot;prefs&quot;:{},&quot;gadgetProfileHeight&quot;:&quot;250&quot;,&quot;viewerAccess&quot;:&quot;false&quot;,&quot;viewerId&quot;:54257286,&quot;gadgetHomeHeight&quot;:&quot;250&quot;,&quot;baseLeoNonSecureURL&quot;:&quot;http://www.linkedin.com/&quot;,&quot;urlToCanvasView&quot;:&quot;http://www.linkedin.com/osview/canvas?_ch_page_id=2&amp;_ch_panel_id=3&amp;_ch_app_id=20378390&amp;_applicationId=2200&quot;,&quot;signedUrlToCanvasView&quot;:&quot;http://www.linkedin.com/osview/canvas?_ch_page_id=2&amp;_ch_panel_id=3&amp;_ch_app_id=20378390&amp;_applicationId=2200&amp;_ownerId=9962574&amp;osUrlHash=wjuK&quot;,&quot;appID&quot;:20378390,&quot;gadgetChromeID&quot;:&quot;gadget-panel-03-slot-20378390&quot;,&quot;gadgetCanvasHeight&quot;:&quot;600&quot;,&quot;content&quot;:&quot;&quot;,&quot;specUrl&quot;:&quot;http://wordpress.com/gadgets/wp-os.xml&quot;,&quot;gadgetCanvasWithAdsWidth&quot;:&quot;100%&quot;,&quot;language&quot;:&quot;en&quot;,&quot;divID&quot;:&quot;panel-03-slot-20378390&quot;,&quot;secureToken&quot;:&quot;linkedin%3Ae79PSL3olXR9MHTzjNfxDFSzyrmRcy_6n97hBvK-zbfyXCi6maT4XJRWqywSh16Yb3c4hmQo_DcFqbmFIl6wrahJ2JuQ0bbALEos4epLnM8tMSGgYvDCtBFz69-MhC5wHV6_SEx77G2nFdGVpOEoErMMfVnU6sV0hYMgICbpNxEZCk-qifK5TAD8tNThOuCOFbACsGy38z15PAzCT3zqU_hZHjTACLdgxCdzA6EX5DmeCRP6&quot;,&quot;serverBase&quot;:&quot;http://www.lmodules.com/&quot;,&quot;ownerProfileUrl&quot;:&quot;http://www.linkedin.com/profile?viewProfile=&amp;key=9962574&quot;,&quot;country&quot;:&quot;US&quot;,&quot;doesAppSupportAds&quot;:&quot;false&quot;,&quot;applicationId&quot;:2200,&quot;gadgetProfileWidth&quot;:&quot;440&quot;,&quot;pageID&quot;:2,&quot;gadgetHomeWidth&quot;:&quot;290&quot;,&quot;appType&quot;:4,&quot;gadgetCanvasWithAdsHeight&quot;:&quot;600&quot;},&quot;panelDiv&quot;:&quot;panel-03&quot;}", true, 690944960, 3);
+          YDom.addClass( 'profile-applications', 'installed-apps');
+    setupModules.addOSHandler= function(panelID) {};
+    setupModules.init(3);
+   </script>
+
+          
+    
+          
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+<script type="text/javascript">
+  YEvent.on( window, 'load', function() {
+    _qoptions = { qacct:"p-b3sGjMtCFrexE" };
+    YAHOO.util.Get.script( 'http://edge.quantserve.com/quant.js' );
+  });
+</script>
+<noscript>
+  <a href="http://www.quantcast.com/p-b3sGjMtCFrexE" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-b3sGjMtCFrexE.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"></a>
+</noscript>
+
+
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+
+
+<script type="text/javascript">
+  YEvent.on( window, 'load', function() {
+    YAHOO.util.Get.script( 'http://b.scorecardresearch.com/beacon.js', {
+      onSuccess: function() {
+        COMSCORE.beacon({ c1:2, c2:6402952, c3:"", c4:"", c5:"", c6:"", c15:"" });
+      }
+    });
+  });
+</script>
+
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=6402952&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="">
+</noscript>
+
+        </body>
+      </html>
+    
+
