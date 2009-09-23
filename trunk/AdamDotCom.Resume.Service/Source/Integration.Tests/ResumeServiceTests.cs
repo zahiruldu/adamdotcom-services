@@ -1,4 +1,4 @@
-﻿using AdamDotCom.Resume.Service.Proxy;
+﻿using System;
 using NUnit.Framework;
 
 namespace AdamDotCom.Resume.Service.Integration.Tests
@@ -6,6 +6,22 @@ namespace AdamDotCom.Resume.Service.Integration.Tests
     [TestFixture]
     public class ResumeServiceTests
     {
+        [Test]
+        //ToDo: Start WebDev.WebServer.exe before the tests are run in TestSetup then delete this test
+        public void SanityTest()
+        {
+            var resumeService = new ResumeService();
+
+            try
+            {
+                resumeService.ResumeXml("Adam-Kahtava");
+            }
+            catch (Exception)
+            {
+                Assert.Fail("WebDev.WebServer.exe (cassini) probably isn't running, try starting up the ServiceHost project.");
+            }
+        }
+
         [Test]
         public void ShouldVerifyProxyAndReturnResume()
         {

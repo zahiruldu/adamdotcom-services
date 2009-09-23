@@ -6,13 +6,9 @@ namespace AdamDotCom.Resume.Service.Proxy
     [DataContract]
     public class Resume
     {
-//        [KnownType(typeof(Education))]
-//        [CollectionDataContract(Name = "Educations", ItemName = "Education")]
         [DataMember]
         public List<Education> Educations;
 
-//        [KnownType(typeof(Position))]
-//        [CollectionDataContract(Name = "Positions", ItemName = "Position")]
         [DataMember]
         public List<Position> Positions;
 

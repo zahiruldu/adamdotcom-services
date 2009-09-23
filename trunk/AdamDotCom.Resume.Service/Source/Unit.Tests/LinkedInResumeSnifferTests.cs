@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Configuration;
 using AdamDotCom.Resume.Service;
 using AdamDotCom.Resume.Service.Unit.Tests;
 using NUnit.Framework;
