@@ -1,12 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Runtime.Serialization;
-using System.ServiceModel;
+﻿using System.ServiceModel;
 using System.ServiceModel.Web;
 
-[assembly: ContractNamespace("http://adam.kahtava.com/services/resume", ClrNamespace = "AdamDotCom.Resume.Service")]
-namespace AdamDotCom.Resume.Service
+namespace AdamDotCom.Resume.Service.Proxy
 {
-    [ServiceContract(Namespace = "http://adam.kahtava.com/services/resume")]
+    [ServiceContract]
     public interface IResume
     {
         [OperationContract]

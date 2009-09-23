@@ -36,6 +36,7 @@
       <HintPath>..\..\Dependencies\nUnit\bin\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -52,7 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AmazonServiceTests.cs" />
+    <Compile Include="ResumeServiceTests.cs" />
     <Compile Include="LinkedInResumeSnifferTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -63,6 +64,10 @@
     <ProjectReference Include="..\ServiceProxy\ServiceProxy.csproj">
       <Project>{E4DF02D4-26EC-4B7B-AACF-4699AE838284}</Project>
       <Name>ServiceProxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Project>{E06D39A3-B851-45B0-869B-DB9574AF2001}</Project>
+      <Name>Service %28Service\Service%29</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
