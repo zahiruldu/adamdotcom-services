@@ -1,0 +1,2683 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+      <html lang="en"> 
+        <head> 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+    <title>Shane Courtrille | LinkedIn</title> 
+  
+ 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+ 
+<meta http-equiv="X-UA-Compatible" content="IE=7"> 
+ 
+ 
+ 
+<link rel="shortcut icon" type="image/ico" href="/favicon.ico"> 
+<link rel="apple-touch-icon-precomposed" href="/img/icon/apple-touch-icon.png"> 
+ 
+ 
+ 
+  
+    
+        
+      
+  
+  
+  
+      
+      
+    
+  
+  
+  
+ 
+      
+        <link rel="stylesheet" type="text/css" href="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/css?f=css%2Freset&amp;f=lib%2Fyui%2F2.7.0%2Fcontainer%2Fassets%2Fcontainer&amp;f=css%2Fdefault&amp;f=css%2Fchrome&amp;f=css%2Fnavigation&amp;f=css%2Fmodules&amp;f=css%2Fdialog&amp;f=css%2Fforms"> 
+      
+    
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+    
+  
+  
+  
+ 
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+        
+      
+    
+      
+    
+        
+      
+    
+      
+    
+        
+      
+    
+      
+    
+        
+      
+    
+      
+      
+      
+      
+      
+  
+  
+      
+        <script type="text/javascript" src="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/js?f=lib%2F_yaho&amp;f=lib%2F_data&amp;f=lib%2F_conn&amp;f=lib%2F_auto&amp;f=lib%2F_anim&amp;f=lib%2F_selc&amp;f=lib%2F_cont&amp;f=lib%2F_get&amp;f=js%2Fcore%2FDefine&amp;f=js%2Futil%2FHelps&amp;f=js%2Fcore%2FControls&amp;f=js%2Fcore%2FPage&amp;f=js%2Fcore%2Fi18n&amp;f=lib%2Flui%2Flinkedin_url-min&amp;f=js%2Fglobal_navigation&amp;f=js%2Fads&amp;f=js%2Futil%2FGhostLabel&amp;f=js%2Futil%2FFocusField&amp;f=js%2Fajax%2Fchameleon_service&amp;f=js%2Fopensocial%2Frpc&amp;f=js%2Fopensocial%2Futil&amp;f=js%2Fopensocial%2Fgadgets&amp;f=js%2Fopensocial%2Fgadget_container&amp;f=lib%2Fdwr%2F2.0%2Futil-min&amp;f=lib%2Fdwr%2F2.0%2Fengine-min&amp;f=lib%2Fdwr%2F2.0%2Fengine_fix-min&amp;f=js%2Fajax%2Fui_settings_service&amp;f=js%2Fajax%2Fwebtracking_service&amp;f=js%2Fajax%2Ftypeahead_service&amp;f=static_dwr_js%2FUISettingsService&amp;f=static_dwr_js%2FTypeAheadService&amp;f=static_dwr_js%2FWebTrackingService&amp;f=static_dwr_js%2FChameleonAjaxService&amp;f=js%2Futil%2FShowMore&amp;f=js%2Futil%2FCheckTextarea&amp;f=js%2Fapps%2FMboxArchiveOnHome&amp;f=js%2Fapps%2FPersonalNav&amp;f=js%2Futil%2FSelectMenu"></script> 
+      
+    
+ 
+ 
+ 
+ 
+ 
+ 
+          
+          
+      
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+        <script type="text/javascript" src="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/js?f=js%2Fprofile&amp;f=js%2Fshowhide"></script> 
+    
+  <script type="text/javascript"> 
+    gadgets.container = new gadgets.ChameleonContainer(1);
+    gadgets.container.setView('profile');
+  </script> 
+  <meta name="LinkedInBookmarkType" content="profile"><meta name="ShortTitle" content="Shane Courtrille"><meta name="Description" content="Shane Courtrille: Software Craftsman in the Computer Software industry (Calgary, Canada Area)"><meta name="UniqueID" content="17937148"><meta name="SaveURL" content="http://www.linkedin.com/profile?viewProfile=&amp;key=17937148&amp;authToken=ULBV&amp;authType=name"> 
+ 
+          
+         <link rel="stylesheet" type="text/css" href="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/css?f=css%2Fprofile&amp;f=css%2Fsend_message_modal&amp;f=css%2Fminiprofile&amp;f=css%2Fmfeed&amp;f=css%2Fabook_tagging_dialog&amp;f=css%2Fprofile_organizer_upsells"> 
+    
+        </head> 
+    
+ 
+      <body class="en member v2 legacy full-profile" id="pagekey-full_profile"> 
+        <script type="text/javascript">document.body.className += " js " /*@cc_on+'ie'+ScriptEngineMinorVersion()@*/;</script> 
+ 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+  
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+<div id="header" class="member"> 
+  <div class="wrapper"> 
+ 
+    <h1 id="logo"><a href="/home?trk=hb_logo" id="logo-href"><img src="http://static03.linkedin.com/img/pic/pic_logo_119x32.png" width="119" height="32" alt="LinkedIn" title="Home"></a></h1> 
+    <ul id="nav-utility"> 
+          <li class="jump-link"><a href="#main" >Skip to Content</a></li> 
+      <li class="jump-link"><a href="#global-search" >Search</a></li> 
+        <li id="nav-utility-acct"><a href="https://www.linkedin.com/secure/settings?trk=hb_acc" >Account &amp; Settings</a></li> 
+            <li id="nav-utility-help"><a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" target="_blank">Help</a></li> 
+        <li id="nav-utility-auth"><a href="https://www.linkedin.com/secure/login?session_full_logout=&amp;trk=hb_signout" >Sign Out</a></li> 
+      <li id="nav-utility-lang"><a href="https://www.linkedin.com/secure/settings" >Language</a> 
+        
+      <form action="/languageSelector" name="languageSelectorForm" method="POST" accept-charset="UTF-8"> <input type="hidden" name="csrfToken" value="ajax:-6948814607359749474"> 
+    
+          <ul id="lang-list"> 
+                  <li class="selected en"><a href="https://www.linkedin.com/secure/settings" lang="en"><strong>English</strong></a></li> 
+                  <li class="de"><a href="https://www.linkedin.com/secure/settings" lang="de"><span>Deutsch</span></a></li> 
+                  <li class="fr"><a href="https://www.linkedin.com/secure/settings" lang="fr"><span>Fran&ccedil;ais</span></a></li> 
+                  <li class="es"><a href="https://www.linkedin.com/secure/settings" lang="es"><span>Espa&ntilde;ol</span></a></li> 
+          </ul> 
+        
+      <input type="hidden" name="i18nLang" value=""> 
+      <input type="hidden" name="defaulturl" value="home"> 
+      <input type="hidden" name="currenturl" value="http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%3FviewProfile%3D%26key%3D17937148"></form> 
+    
+        <script type="text/javascript">langSwitch.init();</script> 
+      </li> 
+    </ul> 
+      <ul id="nav-primary"> 
+          <li id="nav-primary-people"><a href="/search?trk=hb_tab_ppl" ><span>People</span></a> 
+            <ul> 
+              <li><a href="/search?trk=hb_tab_advppl" >Advanced People Search</a></li> 
+              <li class="separator"><a href="/rs?trk=hb_tab_ref" >Reference Search</a></li> 
+            </ul> 
+          </li> 
+          <li id="nav-primary-jobs"><a href="/jobs?displayHome=&amp;trk=hb_tab_jobs" ><span>Jobs</span></a> 
+            <ul> 
+              <li><a href="/jobs?search=&amp;trk=hb_tab_advjob" >Advanced Job Search</a></li> 
+              <li class="separator"><a href="/hiring?trk=hb_tab_hire" ><span>Hiring Home</span></a></li> 
+              <li><a href="/hiring?editAttributes=&amp;trk=hb_tab_postjob" >Post a Job</a></li> 
+              <li><a href="/hiring?manageActives=&amp;trk=hb_tab_mngjob" >Manage Jobs</a></li> 
+              <li><a href="/hiring?creditSummary=&amp;trk=hb_tab_jobc" >Job Credits</a></li> 
+            </ul> 
+          </li> 
+          <li id="nav-primary-answers"><a href="/answers?trk=hb_tab_ayn" ><span>Answers</span></a> 
+            <ul> 
+              <li><a href="/searchAnswers?search=&amp;trk=hb_tab_advayn" >Advanced Answers Search</a></li> 
+              <li class="separator"><a href="/answers?myQuestions=&amp;trk=hb_tab_myqa" ><span>My <acronym title="Questions and Answers">Q&amp;A</acronym></span></a></li> 
+              <li><a href="/answers?createQuestion=&amp;trk=hb_tab_ask" >Ask a Question</a></li> 
+              <li><a href="/answers?browseQuestions=&amp;trk=hb_tab_answ" >Answer Questions</a></li> 
+            </ul> 
+          </li> 
+          <li id="nav-primary-companies"><a href="/companies?trk=hb_tab_compy" ><span>Companies</span></a> 
+            <ul> 
+              <li><a href="/companies?trk=hb_tab_compy" >Company Search</a></li> 
+              <li class="separator"><a href="/svpRecommendations?trk=hb_tab_svp" >Service Providers</a></li> 
+            </ul> 
+          </li> 
+      </ul> 
+ 
+      
+          <form action="/commonSearch" id="global-search" method="post" accept-charset="UTF-8" name="commonSearch"> 
+    
+ 
+        <p id="search-promo"> 
+ 
+          <strong>Explore People Search:</strong> 
+          <a href="/search?company=ibm&amp;currentCompany=co&amp;currentTitle=cp&amp;keepFacets=true&amp;newnessType=Y&amp;proposalType=Y&amp;search=&amp;searchLocationType=Y&amp;sortCriteria=Relevance&amp;title=engineer" >Engineer at IBM</a> -
+          <a href="/search?countryCode=us&amp;distance=50&amp;industry=6&amp;keepFacets=true&amp;postalCode=94043&amp;search=&amp;searchLocationType=I&amp;sortCriteria=Relevance" >Internet</a> -
+          <a href="/search?currentTitle=co&amp;keepFacets=true&amp;newnessType=Y&amp;search=&amp;searchLocationType=Y&amp;sortCriteria=Relevance&amp;title=Senior+Consultant" >Senior Consultant</a> 
+        </p> 
+ 
+        <fieldset> 
+          <legend>Find People, Jobs, Answers, and More</legend> 
+ 
+              <a href="/search?trk=advsrch" id="search-link">Advanced</a> 
+ 
+          <label>Search for:</label> 
+          <select name="type" id="main-search-category" class="search-category"> 
+            <option class="/search" title="Keyword, name, company or title" value="people">Search People </option> 
+                <option class="/jobs?search=" title="Keyword, company or job title" value="jobs">Search Jobs </option> 
+                <option title="Keyword" value="companies">Search Companies </option> 
+                <option class="/searchAnswers?search=" title="Keyword" value="answers">Search Answers </option> 
+                <option title="Keyword" value="inbox">Search Inbox </option> 
+                <option title="Keyword" value="groups">Search Groups </option> 
+          </select> 
+ 
+          <span id="autocomplete-container" title="Tip: You can also search by keyword, company, school..." class="/typeahead"> 
+            <input name="keywords" id="main-search-box" class="search-term" type="text" value="" autocomplete="off"> 
+            <span id="search-typeahead-container"></span> 
+            <input name="pplSearchOrigin" type="hidden" value="GLHD"> 
+            <input name="pageKey" type="hidden" value="full_profile"> 
+            <input name="search" value="Search" class="primary search-go" type="submit"> 
+          </span> 
+        </fieldset> 
+      </form> 
+ 
+    
+ 
+  </div> 
+</div> 
+<script type="text/javascript">Page.processQueue();LI.Controls.processQueue();</script> 
+ 
+        <hr> 
+        <div id="body"> 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+    
+  
+ 
+ 
+ 
+ 
+          
+            <div id="sidebar"> 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+  
+ 
+ 
+ 
+<div class="sticky-box" id="nav-personal"> 
+  
+      
+         
+      
+      
+        
+        
+      
+    
+    <div class="content"> 
+ 
+      <ul> 
+ 
+        
+        <li id="nav-personal-home"><a href="/home" > 
+          <span>Home</span></a> 
+        </li> 
+ 
+        
+        
+ 
+        
+        <li id="nav-personal-user-groups" class="open"> 
+          <a href="/home?myGroups=&amp;trk=hb_side_grps" > 
+            <span> 
+              Groups
+            </span> 
+          </a> 
+          <ul> 
+            
+                
+                  <li><a href="/groups?gid=40717&amp;trk=hb_side_g" >.NET People</a></li> 
+                
+                  <li><a href="/groups?gid=46954&amp;trk=hb_side_g" >.Net Professionals</a></li> 
+                
+                  <li><a href="/groups?gid=52512&amp;trk=hb_side_g" >ACM Members</a></li> 
+                
+                
+                  <li><a href="/home?myGroups=&amp;trk=hb_side_seegrps" >See all &#187;</a></li> 
+                
+              
+          </ul> 
+ 
+        </li> 
+ 
+        
+        <li id="nav-personal-profile" class="open"><a href="/myprofile?trk=hb_side_pro" ><span>Profile</span></a> 
+          <ul> 
+            <li><a href="/myprofile?trk=tab_pro" >Edit My Profile</a></li> 
+            <li><a href="/profile?viewProfile=&amp;key=9962574&amp;trk=tab_pro" >View My Profile</a></li> 
+            <li><a href="/references?mrs=" >Recommendations</a></li> 
+          </ul> 
+        </li> 
+ 
+        
+        <li id="nav-personal-contacts" class="open"><a href="/connections?trk=hb_side_cnts" ><span>Contacts</span></a> 
+          <ul> 
+            <li><a href="/connections?trk=hb_side_connections" >Connections</a></li> 
+            <li><a href="/otherContacts?showInvited=showInvited&amp;sortAction=lastname&amp;trk=hb_side_othcnts" >Imported Contacts</a></li> 
+            <li><a href="/network?trk=hb_side_net" >Network Statistics</a></li> 
+          </ul> 
+        </li> 
+ 
+        
+        <li id="nav-personal-inbox" class="open"><a href="/mbox?displayList=&amp;t=inbox&amp;trk=hb_side_inbox" ><span>Inbox</span></a> 
+          <ul> 
+            <li> 
+              <a href="/msgToConns?displayCreate=&amp;trk=hb_side_cmpmsg" >Compose Message</a> 
+            </li> 
+            <li> 
+              <a href="/mbox?displayList=&amp;t=inbox&amp;trk=hd_side_received" ><span id="inbox-received-unread-total" class="plain"> Received</span></a> 
+            </li> 
+            <li> 
+              <a href="/mbox?displayList=&amp;t=sent&amp;trk=hd_side_sent" >Sent</a> 
+            </li> 
+            <li> 
+              <a href="/mbox?displayList=&amp;t=archived&amp;trk=he_side_archived" >Archived</a> 
+            </li> 
+          </ul> 
+        </li> 
+ 
+        
+        
+            <li id="nav-personal-apps" class="open"> 
+              <a href="/static?key=application_directory&amp;trk=hb_side_apps" ><span>Applications</span></a> 
+              <ul> 
+                
+                  <li> 
+                    <a href="/osview/canvas?_applicationId=1700&amp;completeUrlHash=9oE2&amp;_ch_app_id=20&amp;_ownerId=9962574&amp;_ch_page_id=1&amp;_ch_panel_id=1&amp;trk=hb_side_apps" name="bar" title="title">Reading List by Amazon</a> 
+                  </li> 
+                
+                  <li> 
+                    <a href="/osview/canvas?_applicationId=2000&amp;completeUrlHash=Id_7&amp;_ch_app_id=30&amp;_ownerId=9962574&amp;_ch_page_id=1&amp;_ch_panel_id=1&amp;trk=hb_side_apps" name="bar" title="title">Events</a> 
+                  </li> 
+                
+                  <li> 
+                    <a href="/osview/canvas?_applicationId=1200&amp;completeUrlHash=BjcC&amp;_ch_app_id=10660170&amp;_ownerId=9962574&amp;_ch_page_id=1&amp;_ch_panel_id=1&amp;trk=hb_side_apps" name="bar" title="title">SlideShare Presentations</a> 
+                  </li> 
+                
+                  <li> 
+                    <a href="/osview/canvas?_applicationId=2200&amp;completeUrlHash=HqZG&amp;_ch_app_id=20378390&amp;_ownerId=9962574&amp;_ch_page_id=1&amp;_ch_panel_id=1&amp;trk=hb_side_apps" name="bar" title="title">WordPress</a> 
+                  </li> 
+                
+              </ul> 
+            </li> 
+          
+ 
+      </ul> 
+ 
+      
+      <p id="nav-personal-add"> 
+        <a href="https://www.linkedin.com/secure/importAndInvite?trk=hb_add_conn" name="expandyournetwork" title="Invite friends and colleagues">Add Connections</a> 
+      </p> 
+      
+    </div> 
+  
+      <script id="control-1" type="text/javascript"> 
+        
+          
+          
+          
+            
+ 
+ 
+          
+          
+          
+          
+        
+        LI.Controls.addControl('control-1', 'PersonalNav', {});
+      </script> 
+      
+        
+      
+    
+</div> 
+ 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+  
+ 
+ 
+ 
+<div class="sticky-box" id="profile-snapshot"> 
+  
+   <div class="content"> 
+     <div id="vcard"> 
+ 
+       
+       <h2> 
+         <a href="/myprofile" class="fn n"> 
+           <span class="given-name">Adam</span> 
+           <span class="family-name">Kahtava</span> 
+         </a> 
+       </h2> 
+ 
+       
+       
+           <a href="/myprofile?trk=hb_upphoto" goback="%2Ehom"> 
+             <img src="http://media.linkedin.com/mpr/mpr/shrink_40_40/p/1/000/02e/398/0836ec0.jpg" class="photo" alt="Adam Kahtava" width="40" height="40"> 
+           </a> 
+         
+ 
+       <h3 class="title">Software Developer</h3> 
+ 
+       
+       
+         <div class="sidebar-status"> 
+           <p> 
+             
+                 <a href="/myprofile" id="mini-status-msg">What are you working on?</a> 
+               
+           </p> 
+           
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+  
+ 
+ 
+ 
+<div id="mini-status-dialog" class="status-dialog"> 
+  <div class="status-head"> 
+    
+        
+        
+        
+      
+          <form action="/status" method="POST" accept-charset="UTF-8" name="myStatusForm" id="mini-status-form"> 
+        
+    
+          
+          <div class="status-wrapper"> 
+            <span class="status-close" id="mini-status-close">Close</span> 
+            <label for="statusText">Adam...</label> 
+            
+      
+      
+        
+            
+          
+      
+    
+              <textarea name="statusText" id="statusText-myStatusForm" autocomplete="off" class="status-input" maxlength="140"></textarea> 
+            
+      
+      <script id="control-2"> 
+        
+            Page.queue.push( { 'control-2':{ CheckTextarea:{
+            i18n: {
+              isError: 'You have exceeded the maximum length by <strong>{0}<\/strong> characters.',
+              isEmpty: 'You may add up to <strong>{0}<\/strong> characters.',
+              isCountDown: 'You may add up to <strong>{0}<\/strong> more characters.',
+              isFull: 'You may not add more characters.'
+            },
+            maxLength: 150
+          }
+         } } );
+          
+ 
+        
+        
+        
+      </script> 
+    
+    
+          </div> 
+          
+          <div class="status-buttons"> 
+            <input type="submit" name="save" value="Save" class="btn-primary" id="mini-status-submit"/> 
+            
+            <input type="submit" name="faker" id="mini-status-cancel" class="btn-secondary" value="Cancel"> 
+            
+              <input type="hidden" name="revisionParam" value="1"> 
+            
+          </div> 
+          <input type="hidden" name="goback" value=".vpf_17937148_1_ULBV_name_*1_Shane_Courtrille"> 
+        </form> 
+        
+        
+        <div class="status-settings"> 
+          Visible to: your connections only
+          <span class="edit-link">[&nbsp;<a href="/status?displaySettings=" >Edit</a>&nbsp;]</span> 
+        </div> 
+ 
+      
+    
+  </div> 
+  <div class="status-foot">&nbsp;</div> 
+</div> 
+ 
+<script type="text/javascript"> 
+  var miniStatusInput = YDom.get('statusText-myStatusForm');
+</script> 
+ 
+ 
+         </div> 
+       
+ 
+       
+       
+ 
+       
+       
+ 
+    </div> 
+  </div> 
+</div> 
+ 
+ 
+            </div> 
+            <script type="text/javascript">Page.processQueue();LI.Controls.processQueue();</script> 
+ 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+ 
+<div id="section-header" class="sub"> 
+  <h1> 
+    <strong><a href="/search?trk=tabs_people" >People</a></strong> 
+  </h1> 
+  <ul class="related-links"> 
+				  <li class="go-back"><strong>&laquo; <a href="/home" name="goBack">Go back to Home Page</a></strong></li> 
+	</ul> 
+</div> 
+ 
+ 
+ 
+ 
+ 
+          <div class="wrapper"> 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+<div id="global-error"> 
+ 
+ 
+ 
+  
+ 
+ 
+</div> 
+ 
+ 
+ 
+ 
+    
+ 
+ 
+<div style="display: none"> 
+<a href="/placeholder" id="aGoBackTemplateLink"></a> 
+<a href="https://www.linkedin.com/secure/placeholder" id="aGoBackTemplateLinkSecure"></a> 
+<a href="/placeholder" id="anogbGoBackTemplateLink"></a> 
+<a href="https://www.linkedin.com/secure/placeholder" id="anogbGoBackTemplateLinkSecure"></a> 
+<a href="/placeholder?goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" id="agbpushGoBackTemplateLink"></a> 
+<a href="https://www.linkedin.com/secure/placeholder?goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" id="agbpushGoBackTemplateLinkSecure"></a> 
+</div> 
+ 
+ 
+ 
+<div id="main" class="profile grid-a"> 
+  
+ 
+ 
+    <div id="content" class="resume"> 
+ 
+      <div class="profile-header"> 
+ 
+ 
+<div class="masthead vcard" id="member-17937148"> 
+      <h1 class="n fn"> 
+          <span class="given-name">Shane</span> 
+          <span class="family-name">Courtrille</span> 
+        
+          <img src="http://static01.linkedin.com/img/icon/degree/icon_degree_1_24x24_v2.gif" width="24" height="24" alt="Shane is your connection (1st degree)" title="Shane is your connection (1st degree)"> 
+    
+    
+      </h1> 
+    <p class="title"> 
+      Software Craftsman
+    </p> 
+  <dl class="demographic-info adr"> 
+    <dt>Location</dt> 
+    <dd class="locality"> 
+        <a href="/search?search=&sortCriteria=3&searchLocationType=R&region=ca_4882" name="location" title="Find users in this region">Calgary, Canada Area</a> 
+    </dd> 
+    <dt>Industry</dt> 
+    <dd class="industry">   
+        <a href="/search?search=&sortCriteria=3&industry=4" name="industry" title="Find users in this industry">Computer Software</a> 
+    </dd> 
+  </dl> 
+ 
+ 
+      <div class="profile-status"> 
+          <p><span class="status">Shane Courtrille <span class="text">is doing a presentation this Saturday at Edmonton Code Camp</span></span> <span class="timestamp">7 days ago</span> 
+          </p> 
+      </div> 
+</div> 
+ 
+ 
+ 
+    <dl id="overview"> 
+        <dt> 
+              <a href="#profile-experience" >Current</a> 
+        </dt> 
+        <dd> 
+          <ul class="current"> 
+                  <li> 
+ 
+ 
+ 
+ 
+ 
+ 
+  Senior Software Consultant <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/14047?miniprofile=" data-tracking="mcp_profile_sum"><strong> 
+	              <a href="/companies/14047/Husky+Energy?trk=pp_icon" class="company-profile"><span>Husky Energy</span></a> 
+          </strong></span> 
+ 
+                  </li> 
+          </ul> 
+          
+          
+        </dd> 
+      
+        <dt> 
+              <a href="#profile-experience" >Past</a> 
+        </dt> 
+        <dd> 
+          <ul class="past"> 
+                  <li> 
+ 
+ 
+ 
+ 
+ 
+ 
+  Software Developer <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/23801?miniprofile=" data-tracking="mcp_profile_sum"><strong> 
+	              <a href="/companies/23801/ATCO+I-Tek?trk=pp_icon" class="company-profile"><span>ATCO I-Tek</span></a> 
+          </strong></span> 
+ 
+                  </li> 
+                  <li> 
+ 
+ 
+ 
+ 
+ 
+ 
+  Software Contractor <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/17423?miniprofile=" data-tracking="mcp_profile_sum"><strong> 
+	              <a href="/companies/17423/ATCO+Itek?trk=pp_icon" class="company-profile"><span>ATCO Itek</span></a> 
+          </strong></span> 
+ 
+                  </li> 
+                  <li> 
+ 
+ 
+ 
+ 
+ 
+ 
+  Software Developer <span class="at">at</span> 
+          <span class="miniprofile-container http://www.linkedin.com/companies/142524?miniprofile=" data-tracking="mcp_profile_sum"><strong> 
+	              <a href="/companies/142524/DevStudios+International+Inc%2E?trk=pp_icon" class="company-profile"><span>DevStudios International Inc.</span></a> 
+          </strong></span> 
+ 
+                  </li> 
+          </ul> 
+          
+          <div class="showhide-block" id="morepast"> 
+          <ul class="past"> 
+                  <li> 
+ 
+ 
+ 
+ 
+ 
+ 
+  Software Developer <span class="at">at</span> 
+Omni Technology Solutions Inc.
+                  </li> 
+          </ul> 
+          <p class="seeall showhide-link"><a href="#" id="morepast-hide">see less...</a></p> 
+          </div> 
+          
+            <p class="seeall showhide-link"> 
+              <a href="#" id="morepast-show">see all...</a> 
+            </p> 
+        </dd> 
+      
+        <dt> 
+              <a href="#profile-education" >Education</a> 
+        </dt> 
+        <dd> 
+          <ul> 
+              <li> 
+                
+                  Network Learning Masters
+                
+              </li> 
+          </ul> 
+          
+          
+        </dd> 
+      
+        <dt> 
+              <a href="#recommendations" name="endorsedyou">Recommendations</a> 
+        </dt> 
+        <dd> 
+          <p> 
+                <strong>2</strong> people have recommended Shane
+          </p> 
+        </dd> 
+      
+        <dt> 
+              <a href="/profile?viewConns=&key=17937148&authToken=ULBV&authType=name&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="profsum">Connections</a> 
+        </dt> 
+        <dd class="overview-connections"> 
+          <p> 
+            <a href="/profile?viewConns=&key=17937148&authToken=ULBV&authType=name&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="profsum"><strong>41</strong> connections</a> 
+          </p> 
+        </dd> 
+        
+        <dt><a href="#websites" >Websites</a></dt> 
+        <dd> 
+          <ul> 
+              
+                <li> 
+                  
+                  <a href="http://www.linkedin.com/redirect?url=http%3A%2F%2Fshane%2Ejscconsulting%2Eca&amp;urlhash=AgWR" target="_blank" title="New window will open" name="overviewsite">My Blog</a> 
+                </li> 
+                             
+          </ul> 
+        </dd> 
+      
+        <dt><a href="http://www.linkedin.com/pub/shane-courtrille/6/10/364" title="View public profile">Public Profile</a></dt> 
+        <dd class="last"> 
+              <p><a href="http://www.linkedin.com/pub/shane-courtrille/6/10/364" title="View public profile" name="webProfileURL">http://www.linkedin.com/pub/shane-courtrille/6/10/364</a></p> 
+        </dd> 
+    </dl> 
+    <script type="text/javascript"> 
+      showHide.init('overview');
+    </script> 
+ 
+      </div> 
+ 
+ 
+ 
+ 
+ 
+<div id="profile-applications" class="section installed-apps"> 
+  <div class="content"> 
+        <div class="module-panel" id="panel-03"> 
+              <div id="panel-03-slot-20" class="slot" style="visibility: hidden; position: absolute; left: -12345px;"> 
+                  <div id="gadget-panel-03-slot-20" class="module gadget open"> 
+                    <div class="header" id="panel-03-slot-20-header"> 
+                      <h3> 
+                        <strong id="panel-03-slot-20-remote-title">Reading List by Amazon</strong> 
+                      </h3> 
+                    </div> 
+                    <div class="content"> 
+                      <iframe id="panel-03-slot-20-remote" class="gadgets-gadget" width="440" scrolling="no" height="250" frameborder="no" src="about:blank" name="panel-03-slot-20-remote" style="height: 250px;">Browser Not support iframe</iframe> 
+                    </div> 
+                  </div> 
+              </div> 
+            <script type="text/javascript"> 
+              YAHOO.util.Event.onDOMReady(function() {
+                  window.frames["panel-03-slot-20-remote"].location.replace("http://www.lmodules.com/opensocial/ifr?url=http%3A%2F%2Fpalmtree%2Eamazon%2Ecom%2Fgp%2Fpalmtree%2Fbooks%2Fs3%2Fpcomponents%2Exml&container=default&mid=20&nocache=0&country=US&lang=en&libs=dynamic-height:settitle:views:opensocial-0.9&view=profile&parent=http%3A%2F%2Fwww%2Elinkedin%2Ecom&st=linkedin%3A_uGyUqS7vQdl2agB4u8r65FSpmwYS00j3xYk1exNdZCZrrj03c_aOUctvUs_eMjQqxOeU4oGJQYeaOaB6wln5dp03hP7L5UU14Es_ESWFf9t6yBCrL5MqDiNNyiXHlOBkP9e85wQcJflZb5MzmvIg9UeEpMK6H3sQD6jsuNBwnDsRbOX8xduxFd2UWAR3u_jIA7B6h6nWXlQulWvjNo95apX6jsAu3sfXZ9ApH9Ee8YcLhxb#rpctoken=234851976&urlToCanvasView=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fosview%2Fcanvas%3F_ch_page_id%3D2%26_ch_panel_id%3D3%26_ch_app_id%3D20%26_applicationId%3D1700&signedUrlToCanvasView=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fosview%2Fcanvas%3F_ch_page_id%3D2%26_ch_panel_id%3D3%26_ch_app_id%3D20%26_applicationId%3D1700%26_ownerId%3D17937148%26osUrlHash%3DUhQj&baseLeoNonSecureURL=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&ownerProfileUrl=http%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fprofile%3FviewProfile%3D%26key%3D17937148&viewerAccess=true");
+              });
+            </script> 
+        </div> 
+  </div> 
+</div> 
+ 
+ 
+ 
+ 
+<div class="section" id="profile-experience"> 
+ 
+  <div class="header"> 
+    <h2>Experience</h2> 
+  </div> 
+  <div class="content"> 
+  
+      <div class="position  first"> 
+ 
+ 
+ 
+ 
+ 
+<div class="postitle"> 
+  
+            <h3 class="position-title anet"> 
+              
+                <strong> 
+                <a href="/search?search=&sortCriteria=3&title=%22Senior+Software+Consultant%22&currentTitle=currentTitle" name="title" title="Find users with this title">Senior Software Consultant</a></strong> 
+              
+            </h3> 
+              <h4><strong> 
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/14047?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/14047/Husky+Energy?trk=pro_other_cmpy" class="company-profile"><span>Husky Energy</span></a></strong></span>               
+              </strong></h4> 
+  
+</div> 
+        <p class="orgstats"> 
+          Public Company; 1001-5000 employees; HSE; Oil & Energy industry
+        </p> 
+        <p class="period"> 
+              August 2008
+                  
+                  &#8211; Present
+                  
+              (1 year  2 months)
+        </p> 
+ 
+          
+            
+          <p class=" desc"> 
+            
+            Developing custom in-house solutions to help Husky manage their business needs.
+          </p> 
+          
+ 
+  
+ 
+                <p class="desc reflink"> 
+                          
+            
+    
+                            <a href="/recommendations?prs=&fn=Shane&ln=Courtrille&email=shane%40jscconsulting%2Eca&profile=&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="endorse" id="dialogbox_show_47839375"> 
+                              <strong>Recommend</strong> 
+                              Shane&#8217;s work
+                                at Husky Energy
+                            </a> 
+                          
+      
+      <script id="control-3"> 
+            Page.queue.push( { 'control-3':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+                            name: 'recommendationDialog',
+                            type: 'task-modeless',
+                            content: { 
+                              node: 'recommendation-dialog', 
+                              title: 'Send a new recommendation' 
+                            }, 
+                            extra: {
+                              positionId: '47839375',
+                              showEducation: 'false'
+                            }
+                          
+          }
+             } } );
+ 
+        
+      </script> 
+    
+        
+                </p> 
+ 
+      </div> 
+  
+  
+      <div class="position  "> 
+ 
+ 
+ 
+ 
+ 
+<div class="postitle"> 
+  
+            <h3 class="position-title anet"> 
+              
+                <strong> 
+                <a href="/search?search=&sortCriteria=3&title=%22Software+Developer%22&currentTitle=currentTitle" name="title" title="Find users with this title">Software Developer</a></strong> 
+              
+            </h3> 
+              <h4><strong> 
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/23801?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/23801/ATCO+I-Tek?trk=pro_other_cmpy" class="company-profile"><span>ATCO I-Tek</span></a></strong></span>               
+              </strong></h4> 
+  
+</div> 
+        <p class="orgstats"> 
+          Public Company; 501-1000 employees; Information Technology and Services industry
+        </p> 
+        <p class="period"> 
+              2007
+ &#8211; August 2008              (1 year)
+        </p> 
+ 
+ 
+  
+              
+              <p class="recommendations"> <a href="#recommendations" ><span class="name">Shane has</span> 1 recommendation</a> 
+                  (1 co-worker)
+                  including:
+              </p> 
+              <ul class="reflist"> 
+                      <li class="deg_2"> 
+                        <a href="/profile?viewProfile=&key=3932792&authToken=mlfm&authType=name&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View Darryl's Profile">Darryl Staflund</a><em>, C# Developer, ATCO Itek</em><span name="_distanceToEndorser2"></span> 
+                      </li> 
+              </ul> 
+ 
+ 
+                <p class="desc reflink"> 
+                          
+            
+    
+                            <a href="/recommendations?prs=&fn=Shane&ln=Courtrille&email=shane%40jscconsulting%2Eca&profile=&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="endorse" id="dialogbox_show_32913142"> 
+                              <strong>Recommend</strong> 
+                              Shane&#8217;s work
+                                at ATCO I-Tek
+                            </a> 
+                          
+      
+      <script id="control-4"> 
+            Page.queue.push( { 'control-4':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+                            name: 'recommendationDialog',
+                            type: 'task-modeless',
+                            content: { 
+                              node: 'recommendation-dialog', 
+                              title: 'Send a new recommendation' 
+                            }, 
+                            extra: {
+                              positionId: '32913142',
+                              showEducation: 'false'
+                            }
+                          
+          }
+             } } );
+ 
+        
+      </script> 
+    
+        
+                </p> 
+ 
+      </div> 
+  
+  
+      <div class="position  "> 
+ 
+ 
+ 
+ 
+ 
+<div class="postitle"> 
+  
+            <h3 class="position-title anet"> 
+              
+                <strong> 
+                <a href="/search?search=&sortCriteria=3&title=%22Software+Contractor%22&currentTitle=currentTitle" name="title" title="Find users with this title">Software Contractor</a></strong> 
+              
+            </h3> 
+              <h4><strong> 
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/17423?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/17423/ATCO+Itek?trk=pro_other_cmpy" class="company-profile"><span>ATCO Itek</span></a></strong></span>               
+              </strong></h4> 
+  
+</div> 
+        <p class="orgstats"> 
+          Public Company; 11-50 employees; Oil & Energy industry
+        </p> 
+        <p class="period"> 
+              2007
+ &#8211; August 2008              (1 year)
+        </p> 
+ 
+ 
+  
+ 
+                <p class="desc reflink"> 
+                          
+            
+    
+                            <a href="/recommendations?prs=&fn=Shane&ln=Courtrille&email=shane%40jscconsulting%2Eca&profile=&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="endorse" id="dialogbox_show_26972979"> 
+                              <strong>Recommend</strong> 
+                              Shane&#8217;s work
+                                at ATCO Itek
+                            </a> 
+                          
+      
+      <script id="control-5"> 
+            Page.queue.push( { 'control-5':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+                            name: 'recommendationDialog',
+                            type: 'task-modeless',
+                            content: { 
+                              node: 'recommendation-dialog', 
+                              title: 'Send a new recommendation' 
+                            }, 
+                            extra: {
+                              positionId: '26972979',
+                              showEducation: 'false'
+                            }
+                          
+          }
+             } } );
+ 
+        
+      </script> 
+    
+        
+                </p> 
+ 
+      </div> 
+  
+  
+      <div class="position  "> 
+ 
+ 
+ 
+ 
+ 
+<div class="postitle"> 
+  
+            <h3 class="position-title anet"> 
+              
+                <strong> 
+                <a href="/search?search=&sortCriteria=3&title=%22Software+Developer%22&currentTitle=currentTitle" name="title" title="Find users with this title">Software Developer</a></strong> 
+              
+            </h3> 
+              <h4><strong> 
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/142524?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/142524/DevStudios+International+Inc%2E?trk=pro_other_cmpy" class="company-profile"><span>DevStudios International Inc.</span></a></strong></span>               
+              </strong></h4> 
+  
+</div> 
+        <p class="orgstats"> 
+          Public Company; 11-50 employees; Computer Software industry
+        </p> 
+        <p class="period"> 
+              2006
+ &#8211; 2007              (1 year)
+        </p> 
+ 
+ 
+  
+              
+              <p class="recommendations"> <a href="#recommendations" ><span class="name">Shane has</span> 1 recommendation</a> 
+                  (1 co-worker)
+                  including:
+              </p> 
+              <ul class="reflist"> 
+                      <li class="deg_2"> 
+                        <a href="/profile?viewProfile=&key=11105471&authToken=cZmC&authType=name&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View Steve's Profile">Steve Hayes-Richards</a><em>, Director of Software Development, DevStudios International Inc.</em><span name="_distanceToEndorser2"></span> 
+                      </li> 
+              </ul> 
+ 
+ 
+                <p class="desc reflink"> 
+                          
+            
+    
+                            <a href="/recommendations?prs=&fn=Shane&ln=Courtrille&email=shane%40jscconsulting%2Eca&profile=&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="endorse" id="dialogbox_show_26973024"> 
+                              <strong>Recommend</strong> 
+                              Shane&#8217;s work
+                                at DevStudios International Inc.
+                            </a> 
+                          
+      
+      <script id="control-6"> 
+            Page.queue.push( { 'control-6':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+                            name: 'recommendationDialog',
+                            type: 'task-modeless',
+                            content: { 
+                              node: 'recommendation-dialog', 
+                              title: 'Send a new recommendation' 
+                            }, 
+                            extra: {
+                              positionId: '26973024',
+                              showEducation: 'false'
+                            }
+                          
+          }
+             } } );
+ 
+        
+      </script> 
+    
+        
+                </p> 
+ 
+      </div> 
+  
+  
+      <div class="position  "> 
+ 
+ 
+ 
+ 
+ 
+<div class="postitle"> 
+  
+            <h3 class="position-title anet"> 
+              
+                <strong> 
+                <a href="/search?search=&sortCriteria=3&title=%22Software+Developer%22&currentTitle=currentTitle" name="title" title="Find users with this title">Software Developer</a></strong> 
+              
+            </h3> 
+              <h4><strong> 
+              
+<a href="/search?search=&sortCriteria=3&company=%22Omni+Technology+Solutions+Inc%2E%22&currentCompany=currentCompany" name="company" title="Find users who have worked at this company">Omni Technology Solutions Inc.</a>              
+              </strong></h4> 
+  
+</div> 
+        <p class="orgstats"> 
+          Privately Held; 1-10 employees; Computer Software industry
+        </p> 
+        <p class="period"> 
+              1999
+ &#8211; 2006              (7 years)
+        </p> 
+ 
+ 
+  
+ 
+                <p class="desc reflink"> 
+                          
+            
+    
+                            <a href="/recommendations?prs=&fn=Shane&ln=Courtrille&email=shane%40jscconsulting%2Eca&profile=&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="endorse" id="dialogbox_show_26973125"> 
+                              <strong>Recommend</strong> 
+                              Shane&#8217;s work
+                                at Omni Technology Solutions Inc.
+                            </a> 
+                          
+      
+      <script id="control-7"> 
+            Page.queue.push( { 'control-7':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+                            name: 'recommendationDialog',
+                            type: 'task-modeless',
+                            content: { 
+                              node: 'recommendation-dialog', 
+                              title: 'Send a new recommendation' 
+                            }, 
+                            extra: {
+                              positionId: '26973125',
+                              showEducation: 'false'
+                            }
+                          
+          }
+             } } );
+ 
+        
+      </script> 
+    
+        
+                </p> 
+ 
+      </div> 
+  
+  </div> 
+ 
+</div> 
+ 
+ 
+ 
+  <div class="section" id="profile-education"> 
+  <div class="header>"> 
+    <h2>Education</h2> 
+  </div> 
+  <div class="content"> 
+    <div name="education" id="edu-26270900"> 
+	<div class="position  first" name="eduEntry"> 	
+      <h3> 
+	      
+ 
+      
+    <a href="/search?search=&sortCriteria=3&keywords=%22Network+Learning+Masters%22" title="Find users with this keyword">Network Learning Masters</a>	  </h3> 
+	  <h4> 
+        Certified Novell Expert, 
+ 
+      
+    <a href="/search?search=&sortCriteria=3&keywords=%22Novell+Networks%22" title="Find users with this keyword">Novell Networks</a> 
+	  </h4>	
+		    <p class="period"><span name="startDate">1998</span> &#8211; <span name="endDate">1998</span> </p> 
+		
+  
+              
+ 
+ 
+                <p class="reflink"> 
+                          <a href="/recommendations?rep=&educationID=26270900&recommendeeID=17937148&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="endorse"><strong>Recommend</strong> Shane&#8217;s work at Network Learning Masters</a>		  	
+                </p> 
+ 
+		
+    	</div>	
+  	</div> 
+  </div> 
+</div> 
+ 
+ 
+ 
+ 
+<div class="section" id="profile-recommendations"> 
+  <div class="header"> 
+    <h2 id="recommendations">Recommendations For Shane</h2> 
+  </div> 
+  <div class="content"> 
+    <div class="reference-position"> 
+ 
+ 
+ 
+ 
+ 
+<div class="postitle"> 
+  
+            <h3 class="position-title anet"> 
+              
+                <strong> 
+                <a href="/search?search=&sortCriteria=3&title=%22Software+Developer%22&currentTitle=currentTitle" name="title" title="Find users with this title">Software Developer</a></strong> 
+              
+            </h3> 
+              <h4><strong> 
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/23801?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/23801/ATCO+I-Tek?trk=pro_other_cmpy" class="company-profile"><span>ATCO I-Tek</span></a></strong></span>               
+              </strong></h4> 
+  
+</div> 
+      
+ 
+            
+            <div class="reference"> 
+                <p>&#8220;Shane is a great guy to work with.  He has in-depth knowledge of C#, Agile, and TDD and brings to the team an excitement, openness, and professionalism that benefits everyone.  I highly recommend him.&#8221; <span class="date">June 3, 2008</span></p> 
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=3932792&authToken=mlfm&authType=name&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View Darryl's Profile">Darryl Staflund</a><em>, C# Developer, ATCO Itek</em><br>worked directly with Shane at ATCO I-Tek</p> 
+              
+              <span name="_distanceToEndorser2"></span> 
+            </div> 
+ 
+    </div> 
+    <div class="reference-position"> 
+ 
+ 
+ 
+ 
+ 
+<div class="postitle"> 
+  
+            <h3 class="position-title anet"> 
+              
+                <strong> 
+                <a href="/search?search=&sortCriteria=3&title=%22Software+Developer%22&currentTitle=currentTitle" name="title" title="Find users with this title">Software Developer</a></strong> 
+              
+            </h3> 
+              <h4><strong> 
+              
+ <span class="miniprofile-container http://www.linkedin.com/companies/142524?miniprofile=" data-tracking="mcp_profile_sum"><strong><a href="/companies/142524/DevStudios+International+Inc%2E?trk=pro_other_cmpy" class="company-profile"><span>DevStudios International Inc.</span></a></strong></span>               
+              </strong></h4> 
+  
+</div> 
+      
+ 
+            
+            <div class="reference"> 
+                <p>&#8220;Shane's in depth knowledge of C#, Agile, and TDD helped guide our company towards those goals and is a big part of where we are today.  He is very open and up front and is willing to listen to all options and I enjoyed working with him and would do so again.&#8221; <span class="date">October 22, 2008</span></p> 
+                  <p class="distance deg_2"><a href="/profile?viewProfile=&key=11105471&authToken=cZmC&authType=name&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View Steve's Profile">Steve Hayes-Richards</a><em>, Director of Software Development, DevStudios International Inc.</em><br>worked directly with Shane at DevStudios International Inc.</p> 
+              
+              <span name="_distanceToEndorser2"></span> 
+            </div> 
+ 
+    </div> 
+            
+ 
+ 
+    <p class="writerec"> 
+      
+            
+    
+        <a href="/recommendations?prs=&fn=Shane&ln=Courtrille&email=shane%40jscconsulting%2Eca&profile=" >Write a recommendation for Shane</a> 
+      
+      
+      <script id="control-8"> 
+            Page.queue.push( { 'control-8':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+        name: 'recommendationDialog',
+        type: 'task-modeless',
+        content: { 
+          node: 'recommendation-dialog', 
+          title: 'Write a recommendation for Shane' 
+        }
+      
+          }
+             } } );
+ 
+        
+      </script> 
+    
+        
+    </p> 
+  
+  </div> 
+</div> 
+ 
+ 
+ 
+  <div class="section" id="profile-additional"> 
+  <div class="header">  
+    <h2>Additional Information</h2> 
+  </div> 
+  <div class="content"> 
+  <dl> 
+      <dt>Websites</dt> 
+      <dd id="websites"> 
+      <ul> 
+      
+        <li class="website"> 
+          
+          <a href="http://www.linkedin.com/redirect?url=http%3A%2F%2Fshane%2Ejscconsulting%2Eca&amp;urlhash=AgWR" target="_blank" title="New window will open">My Blog</a> 
+        </li> 
+      
+      </ul> 
+    </dd> 
+ 
+ 
+      <dt>Groups and Associations</dt> 
+      <dd id="pubgroups"> 
+        <p class="null"> 
+          
+      
+    <a href="/search?search=&sortCriteria=3&keywords=%22Edmonton+%2ENet+User+Group%22" title="Find users with this keyword">Edmonton .Net User Group</a> 
+        </p> 
+      <ul class="groups"> 
+        <li> 
+              <a href="/groups?gid=860097&trk=fulpro_grplogo" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/2/000/02d/0b0/03c804a.png" width="60" height="30" alt=""> 
+      
+ <strong>Calgary Technology Network</strong></a> 
+        </li> 
+        <li> 
+              <a href="/groups?gid=145246&trk=fulpro_grplogo" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/2/000/00d/3e2/2c673f2.png" width="60" height="30" alt=""> 
+      
+ <strong>Software Design Patterns And Architecture</strong></a> 
+        </li> 
+        <li> 
+              <a href="/groups?gid=1827773&trk=fulpro_grplogo" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/3/000/01e/04a/26bfa3b.png" width="60" height="30" alt=""> 
+      
+ <strong>Calgary IT Professional Community Association</strong></a> 
+        </li> 
+        <li> 
+              <a href="/groups?gid=2000239&trk=fulpro_grplogo" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/2/000/026/3d1/14c9d4d.png" width="60" height="30" alt=""> 
+      
+ <strong>Calgary .Net User Group</strong></a> 
+        </li> 
+        <li> 
+              <a href="/groups?gid=1851594&trk=fulpro_grplogo" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/3/000/01f/27a/3c4bde4.png" width="60" height="30" alt=""> 
+      
+ <strong>NHibernate users</strong></a> 
+        </li> 
+        <li> 
+              <a href="/groups?gid=155678&trk=fulpro_grplogo" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/3/000/00e/1ec/3b4785e.png" width="60" height="30" alt=""> 
+      
+ <strong>Test Driven Development</strong></a> 
+        </li> 
+        <li> 
+              <a href="/groups?gid=667117&trk=fulpro_grplogo" >        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/3/000/00e/372/15e8bbb.png" width="60" height="30" alt=""> 
+      
+ <strong>Edmonton .NET User Group</strong></a> 
+        </li> 
+      </ul> 
+    </dd> 
+ 
+  </dl> 
+</div> 
+</div> 
+ 
+ 
+ 
+ 
+ 
+<div class="section" id="profile-contact"> 
+  <div class="header"> 
+    <h2>Contact Settings</h2> 
+  </div> 
+  <div class="content"> 
+ 
+      <h3>Interested In</h3> 
+      <div class="interested"> 
+        <ul> 
+            <li>career opportunities</li> 
+            <li>consulting offers</li> 
+            <li>new ventures</li> 
+            <li>expertise requests</li> 
+            <li>business deals</li> 
+            <li>reference requests</li> 
+            <li>getting back in touch</li> 
+        </ul> 
+      </div> 
+ 
+ 
+          <div class="message actions"> 
+                <h3>Contact Shane Courtrille</h3> 
+                <span name="RequestConnection"></span> 
+                <ul> 
+                  <li> 
+                    
+            
+    
+                      <a href="/msgToConns?displayCreate=&connId=17937148&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="_sendMessageLink" class="email"><strong>Send a message</strong></a> 
+                    
+      
+      <script id="control-9"> 
+            Page.queue.push( { 'control-9':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+                      name: 'sendMessageDialog',
+                      type: 'task-modeless',
+                      content: { 
+                        node: 'send-message-dialog', 
+                        title: 'Send a message' 
+                      },
+                      extra: {
+                        memberId: '17937148', 
+                        fullName: 'Shane Courtrille'
+                      }
+                    
+          }
+             } } );
+ 
+        
+      </script> 
+    
+        
+                  </li> 
+                  <li class="sndemail"><a href="mailto:shane@jscconsulting.ca" >shane@jscconsulting.ca</a></li> 
+                </ul> 
+          </div> 
+  </div> 
+</div> 
+ 
+ 
+ 
+      <ul class="related-links"> 
+        <li>&#171; <a href="/home" name="goBack">Go back to Home Page</a></li> 
+      </ul> 
+ 
+    </div> 
+ 
+    <div id="extra" class="infobar"> 
+ 
+  <div class="actions"> 
+    <ul> 
+          <li id="send-email"> 
+            
+            
+    
+              <a href="/msgToConns?displayCreate=&connId=17937148&trk=&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="_sendMessageLink" class="email"><strong>Send a message</strong></a> 
+            
+      
+      <script id="control-10"> 
+            Page.queue.push( { 'control-10':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+              name: 'sendMessageDialog',
+              type: 'task-modeless',
+              content: { 
+                node: 'send-message-dialog', 
+                title: 'Send a message' 
+              },
+              extra: {
+                memberId: '17937148', 
+                fullName: 'Shane Courtrille'
+              }
+            
+          }
+             } } );
+ 
+        
+      </script> 
+    
+        
+          </li> 
+              <li id="recommend-this-person"> 
+                    
+            
+    
+                      <a href="/recommendations?prs=&fn=Shane&ln=Courtrille&email=shane%40jscconsulting%2Eca&profile=" name="endorsethisperson"><strong>Recommend this person</strong></a> 
+                    
+      
+      <script id="control-11"> 
+            Page.queue.push( { 'control-11':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+                      name: 'recommendationDialog',
+                      type: 'task-modeless',
+                      content: { 
+                        node: 'recommendation-dialog', 
+                        title: 'Recommend this person' 
+                      }
+                    
+          }
+             } } );
+ 
+        
+      </script> 
+    
+        
+              </li> 
+        <li class="fwd"> 
+          <a href="/emailContacts?context=3&itemID=17937148&itemLinkName=Shane+Courtrille&authToken=ULBV&authType=name&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="_emailProfile">Forward this profile to a connection</a> 
+        </li> 
+ 
+    </ul> 
+  </div> 
+    <div class="profile-control"> 
+      <ul class="utilities"> 
+        <li class="permalink"><a href="http://www.linkedin.com/profile?viewProfile=&key=17937148&authToken=ULBV&authType=name" >Permalink</a></li> 
+        <li class="print"> 
+          <a href="javascript:window.print();" title="Print this profile">Print</a> 
+        </li> 
+            <li class="pdf"> 
+              <a href="/profile?viewProfilePDF=&key=17937148&authToken=ULBV&authType=name&trk=pdf_pro_full" title="Download as PDF">PDF</a> 
+            </li> 
+        <li class="download-vcard"><a href="/addressBookExport?exportMemberVCard=&memberID=17937148" title="Download vCard" name="_exportVCard">Download vCard</a></li> 
+ 
+<li class="bookmark" id="bookmark-insert" style="display: none;"><a href="/static?key=ie_toolbar_download_promo" id="bookmark-link" title="Bookmark using the IE Toolbar">Bookmark</a></li> 
+ 
+      </ul> 
+    </div> 
+      
+            
+    
+        <div id="recommendation-dialog" class="dialog-container recommend-dialog"> 
+          <h3>Recommend Shane as a:</h3> 
+          
+      <form action="/recommendations" method="POST" accept-charset="UTF-8"  name="recommendForm"> <input type="hidden" name="csrfToken" value="ajax:-6948814607359749474"> 
+      
+    
+            
+            <ul> 
+                <li><input type="radio" name="recType" value="COL" checked id="COL-recType-recommendForm" >&nbsp;<label for="COL-recType-recommendForm" ><strong>Colleague:</strong> You&#8217;ve worked with Shane at the same company</label></li> 
+                <li><input type="radio" name="recType" value="SPR" id="SPR-recType-recommendForm" >&nbsp;<label for="SPR-recType-recommendForm" ><strong>Service Provider:</strong> You&#8217;ve hired Shane to provide a service for you or your company</label></li> 
+                <li><input type="radio" name="recType" value="BSP" id="BSP-recType-recommendForm" >&nbsp;<label for="BSP-recType-recommendForm" ><strong>Business Partner:</strong> You&#8217;ve worked with Shane, but not as a client or colleague</label></li> 
+                <li id="recommend-education"><input type="radio" name="recType" value="EDU" id="EDU-recType-recommendForm" >&nbsp;<label for="EDU-recType-recommendForm" ><strong>Student:</strong> You were at school when Shane was there, as a fellow student or teacher.</label></li> 
+            </ul> 
+            <p class="actions"> 
+              <input type="submit" name="rfp" value="Go" class="btn-primary"> 
+              or 
+              <a href="#" class="dialog-close">Cancel</a> 
+            </p> 
+          
+      
+      <input type="hidden" name="recommendeeID" value="17937148" id="recommendeeID-recommendForm"><input type="hidden" name="positionID" value="0" id="positionID-recommendForm"></form> 
+    
+        </div> 
+      
+      <script id="control-12"> 
+            Page.queue.push( { 'control-12':{ ProfileRecommendDialog:{} } } );
+ 
+        
+      </script> 
+    
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+            
+    
+  <div id="send-message-dialog" class="dialog-container send-message-dialog"> 
+  
+      <p><a href="/msgToConns?displayCreate=&connId=17937148" id="include-others-link">Include others on this message</a></p> 
+    
+    
+      <form action="/msgToConns" method="POST" accept-charset="UTF-8"  name="msgForm" id="send-msg-form"> <input type="hidden" name="csrfToken" value="ajax:-6948814607359749474"> 
+      
+    
+      <ul> 
+        <li> 
+          <label>To:</label> 
+          <div class="elem" id="member-name">Shane</div> 
+        </li> 
+        <li class="subject"> 
+          <label for="msgForm" >Subject:</label> 
+          <div class="elem"> 
+              <input type="text" name="subject" value="" id="send-message-subject" maxlength="150" class="inpt"> 
+          </div> 
+        </li> 
+        <li> 
+            
+            
+      
+              <textarea  name="body" id="send-message-body" ></textarea> 
+            
+      
+      <script id="control-13"> 
+            Page.queue.push( { 'control-13':{ CheckTextarea:{
+            i18n: {
+              isError: 'You have exceeded the maximum length by <strong>{0}<\/strong> characters.',
+              isEmpty: 'You may add up to <strong>{0}<\/strong> characters.',
+              isCountDown: 'You may add up to <strong>{0}<\/strong> more characters.',
+              isFull: 'You may not add more characters.'
+            },
+            maxLength: 7000
+          }
+         } } );
+ 
+        
+      </script> 
+    
+    
+        </li> 
+        <li class="actions"> 
+          <input type="submit" name="submit" value="Send Message" id="send-message-submit" class="btn-primary">     
+          or
+          <a href="#" class="dialog-close">Cancel</a> 
+        </li> 
+      </ul> 
+    
+      
+      
+    
+      <script type="text/javascript"> 
+        var memberIdString   = 'connectionIds-msgForm';
+        var connectionNamesString   = 'connectionNames-msgForm';
+	          var mboxItemIDString = null;
+            var groupIdString = null;
+      </script> 
+    
+      
+      <input type="hidden" name="fromName" value="Adam Kahtava" id="fromName-msgForm"><input type="hidden" name="showRecipeints" value="showRecipeints" id="showRecipeints-msgForm"><input type="hidden" name="fromEmail" value="138436440" id="fromEmail-msgForm"><input type="hidden" name="connectionIds" value="17937148" id="connectionIds-msgForm"><input type="hidden" name="connectionNames" value="{&quot;_17937148&quot;:{&quot;memberId&quot;:17937148,&quot;firstName&quot;:&quot;Shane&quot;,&quot;lastName&quot;:&quot;Courtrille&quot;}}" id="connectionNames-msgForm"><input type="hidden" name="allowEditRcpts" value="true" id="allowEditRcpts-msgForm"><input type="hidden" name="addMoreRcpts" value="false" id="addMoreRcpts-msgForm"><input type="hidden" name="openSocialAppBodySuffix" value="" id="openSocialAppBodySuffix-msgForm"><input type="hidden" name="st" value="" id="st-msgForm"><input type="hidden" name="viewerDestinationUrl" value="" id="viewerDestinationUrl-msgForm"><input type="hidden" name="goback" value=".vpf_17937148_1_ULBV_name_*1_Shane_Courtrille"></form> 
+    
+  </div> 
+ 
+      <script id="control-14"> 
+            Page.queue.push( { 'control-14':{ SendMessageDialog:{} } } );
+ 
+        
+      </script> 
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      <div class="general-box ad-block"> 
+        <div class="title"><h6>Advertisement</h6></div> 
+        <div class="content"> 
+          
+      
+          
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  <script type="text/javascript"> 
+    
+      var google_keywords = 'Services%2C+the+Developer+CSS%2C+VB6%2C+JavaScript%2C+above%29.+head+about+ASP%2C+XSLT%2C+PHP%2C+your+ASP.NET%2C+XSL+XML%2C+WSDL%2C+Web+my+My+link+WCF%2C+C%23%2C+learning+in+then+more+If+Website+AJAX%2C+interests%2C+.NET+%28the+T3E7H4+to+Java%2C+over+interested+HTML%2C+%2F+Framework+Software+XHTML%2C+SOAP%2C',
+      google_ad_client = 'pub-2283433109277150',
+      google_language = 'en_US',
+      google_ad_width = 300,
+      google_ad_height = 250,
+      google_ad_format = '300x250_as';
+    
+    var dbl_src = "http://ad.doubleclick.net/adj/linkedin.dart/" + "full_profile;optout=false;lang=en;v=1;u=9962574;ue=qafepmrotktzpplqp5fk;title=ic;func=null;co_id=null;csize=null;zip=t3e7h4;gdr=m;cntry=ca;reg=4882;grp=21429;grp=23804;grp=36509;grp=36683;grp=37631;grp=40717;grp=46954;grp=52512;grp=60837;grp=71001;grp=91180;edu=19930-null;edu=10855-null;jobs=1;sub=0;con=j;seg=162;seg=122;tile=1;sz=300x250;" + encodeURIComponent('uprofile=17937148') + ";ord=813003771?";
+    document.write('<script src="' + dbl_src + '" type="text/javascript"><\/script>');
+ 
+  </script> 
+ 
+ 
+    
+    
+        </div> 
+      </div> 
+ 
+ 
+      <div class="general-box panel"> 
+        <div class="title"><h3>Network Information</h3></div> 
+        <div class="modules"> 
+ 
+ 
+ 
+ 
+<div class="module open" id="abook-module"> 
+  <div class="header"> 
+    
+            
+    
+      <h3><strong>Contact Information</strong></h3> 
+    
+      <script id="control-15"> 
+            Page.deferQueue.push( { 'control-15':{ ToggleModuleVisibility:{ parentID: 'abook-module', setting: 'collapseAbookOnProfile' } } } );
+ 
+        
+      </script> 
+    
+  </div> 
+  <div id="abook-widget" class="content"> 
+    <div class="abook-placeholder"> 
+        <noscript><a href="/editContact?editContact=&contactID=443268723&contactMemberID=17937148" >View/edit contact info</a></noscript> 
+    </div> 
+  </div> 
+</div> 
+<div id="merged-contact-modal"></div> 
+ 
+ 
+ 
+ 
+ 
+ 
+  <div class="module connections"> 
+    <div class="header"> 
+      <h3><strong>Shane&#8217;s Connections</strong> (41)</h3> 
+    </div> 
+    <div class="content"> 
+        <h4>Shared <span>(10)</span></h4> 
+        <ul> 
+          <li> 
+            <strong><a href="/profile?viewProfile=&key=20001624&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View Phu's Profile" name="browseConShared" rel="contact"><span name="firstName">Phu</span> <span name="lastName">Tran</span></a></strong><br> 
+            <span class="headline">President of Upstream IT</span> 
+          </li> 
+          <li> 
+            <strong><a href="/profile?viewProfile=&key=11002546&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View Justice's Profile" name="browseConShared" rel="contact"><span name="firstName">Justice</span> <span name="lastName">Gray</span></a></strong><br> 
+            <span class="headline">President at Codivation and Owner, Codivation</span> 
+          </li> 
+          <li> 
+            <strong><a href="/profile?viewProfile=&key=11056260&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View Mo's Profile" name="browseConShared" rel="contact"><span name="firstName">Mo</span> <span name="lastName">Khan</span></a></strong><br> 
+            <span class="headline">Software Developer at ARC Resources Ltd.</span> 
+          </li> 
+      </ul> 
+        <h4 style="margin-top: 15px;">Other <span>(31)</span></h4> 
+        <ul> 
+            <li> 
+            <strong><a href="/profile?viewProfile=&key=6246427&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View Trevor's Profile" name="browseConNonShared" rel="contact"><span name="firstName">Trevor</span> <span name="lastName">Poapst</span></a></strong><br> 
+            <span class="headline">Director of Global Marketing at Omni</span> 
+          </li> 
+            <li> 
+            <strong><a href="/profile?viewProfile=&key=18047341&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View Debra's Profile" name="browseConNonShared" rel="contact"><span name="firstName">Debra</span> <span name="lastName">Gulliford</span></a></strong><br> 
+            <span class="headline">Systems Analyst at ATCO I-Tek</span> 
+          </li> 
+            <li> 
+            <strong><a href="/profile?viewProfile=&key=8294336&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="View James's Profile" name="browseConNonShared" rel="contact"><span name="firstName">James</span> <span name="lastName">Keller</span></a></strong><br> 
+            <span class="headline">Experienced Senior Software Developer</span> 
+          </li> 
+        </ul> 
+      <p class="more"><a href="/profile?viewConns=&key=17937148&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="seeMoreConnections">See all <strong>Connections</strong> &raquo;</a></p> 
+ 
+    </div> 
+  </div> 
+ 
+ 
+ 
+ 
+      
+      
+      
+      
+      
+    
+  <div class="module"> 
+      <div class="header"> 
+        <h3><strong>Shane&#8217;s Activity</strong></h3> 
+      </div> 
+      <div class="content"> 
+          <h4><span>Tuesday</span></h4> 
+          <ul> 
+            <li class="feedgroup"> 
+ 
+ 
+ 
+ 
+ 
+      
+ 
+          
+          
+          <div class="event-content"> 
+          
+      
+    
+ 
+  
+    
+    <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=17937148&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=17937148&trk=NUS_STAT-updtr&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" >Shane Courtrille</a></strong></span> 
+    <span class="text">is doing a presentation this Saturday at Edmonton Code Camp</span> 
+  
+      
+          <span class="nus-timestamp">7 days ago</span> 
+      
+    
+    
+  
+            
+    
+    <a href="/replyToStatusMsg?displayCreate=&connId=17937148&versionID=1&txt=2UKby1KrThKrSRAhi1Qoi1VomhOtnhxkO1PqmxQ86VLqnhxt6VBsSlOs21x86tKqmZA87dF&updateDate=1253029673865&trk=NUS_STAT-reply_priv&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" class="send-message-link more">Reply privately</a> 
+  
+      
+      <script id="control-16"> 
+            Page.queue.push( { 'control-16':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+    name: 'sendMessageDialog',
+    type: 'task-modeless',
+    content: { 
+      node: 'send-message-dialog', 
+      title: 'Reply Privately' 
+    },
+    extra: {
+      memberId: '17937148', 
+      fullName: 'Shane Courtrille',
+      subject: 'RE: Shane is doing a presentation this Saturday...', 
+      body: '\n\n\n>> Regarding Shane Courtrille LinkedIn Status:: Shane is doing a presentation this Saturday at Edmonton Code Camp' 
+    }
+  
+          }
+             } } );
+ 
+        
+      </script> 
+    
+         - 
+      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <a href="/updates?discuss=&scope=17937148&stype=M&type=S&topic=1&a=yQm7&trk=NUS_STAT-num_comment&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" class="toggle-comment-form more" rel="discussion-S-1-M-17937148"> 
+Add comment  </a> 
+    
+  
+            
+    
+    <ul class="comments hide" id="discussion-S-1-M-17937148-form"> 
+ 
+            
+        <li class="form " id="form-S-1-M-17937148"> 
+          
+          
+          <form action="#" id="form-network-update-S-1-M-17937148"> <input type="hidden" name="csrfToken" value="ajax:-6948814607359749474"> 
+          
+    
+            <div> 
+              
+            
+    
+                <label for="comment-body-S-1-M-17937148" style="display:none" id="comment-body-S-1-M-17937148-label" class="ghost">Add a comment&#8230;</label> 
+              
+      <script id="control-17"> 
+            Page.queue.push( { 'control-17':{ GhostLabel:{} } } );
+ 
+        
+      </script> 
+    
+              
+            
+     
+                <textarea class="texta" id="comment-body-S-1-M-17937148"></textarea> 
+              
+      
+      <script id="control-18"> 
+            Page.queue.push( { 'control-18':{ CheckTextarea:{
+            i18n: {
+              isError: 'You have exceeded the maximum length by <strong>{0}<\/strong> characters.',
+              isEmpty: 'You may add up to <strong>{0}<\/strong> characters.',
+              isCountDown: 'You may add up to <strong>{0}<\/strong> more characters.',
+              isFull: 'You may not add more characters.'
+            },
+            maxLength: 140, showMsgOn: 'keypress', grow:{ onFocus: 60, auto: 'false' }, showOnFocus: 'btn-S-1-M-17937148'
+          }
+         } } );
+ 
+        
+      </script> 
+    
+    
+            </div> 
+            <div class="buttons" id="btn-S-1-M-17937148"> 
+              <input type="submit" class="post-comment btn-primary" value="Add comment"/> or <a href="?trk=NUS_STAT-cancel#" class="toggle-comment-form" rel="discussion-S-1-M-17937148">Cancel</a> 
+            </div> 
+          </form> 
+        </li> 
+      
+      </ul> 
+    
+      <script id="control-19"> 
+            Page.deferQueue.push( { 'control-19':{ NusDiscussion:{ 
+    topicType: 'S',
+    topicID: '1',
+    scopeType: 'M',
+    scopeID: '17937148',
+    profileLink: 'http://www.linkedin.com/profile?viewProfile=&amp;key=9962574',  
+    memberName: 'Adam Kahtava', 
+    timeMsg: 'Less than a minute ago',       
+    deleteMsg: 'This comment has been deleted.',
+    seeMoreLink: 'http://www.linkedin.com/updates?discuss=&scope=17937148&stype=M&type=S&topic=1&a=yQm7&frag=&u=0' 
+   } } } );
+ 
+        
+      </script> 
+    
+      
+    
+    
+ 
+    
+ 
+ 
+ 
+          </div> 
+ 
+      
+     
+  
+ 
+</li> 
+          </ul> 
+          <h4><span>Sunday, Sep 13</span></h4> 
+          <ul> 
+            <li class="feedgroup"> 
+ 
+ 
+ 
+ 
+      
+ 
+          
+          
+          <div class="event-content"> 
+          
+      
+    
+  
+    
+    <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=17937148&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=17937148&trk=NUS_JGRP-updtr&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" >Shane Courtrille</a></strong></span> 
+    joined the group <a href="/groups?gid=132426&trk=NUS_JGRP-grp_nm&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" title="Domain Driven Design">Domain Driven Design</a> 
+  
+      
+          <span class="nus-timestamp">9 days ago</span> 
+      
+    
+  <a href="/groupsDirectory?trk=NUS_JGRP-find&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" class="more">Find a group for you &raquo;</a> 
+ 
+ 
+          </div> 
+ 
+      
+    
+ 
+ 
+</li> 
+          </ul> 
+          <h4><span>Friday, Sep 11</span></h4> 
+          <ul> 
+            <li class="feedgroup"> 
+ 
+ 
+ 
+ 
+      
+ 
+          
+          
+          <div class="event-content"> 
+          
+      
+    
+    
+  <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=17937148&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=17937148&trk=NUS_CONN-conntr&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" >Shane Courtrille</a></strong></span> 
+is now connected to 
+      <span class="miniprofile-container http://www.linkedin.com/miniprofile?vieweeID=29797567&amp;context=nus&amp;view"><strong><a href="/profile?viewProfile=&key=29797567&authToken=Wgjb&authType=name&trk=kN-connte&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" >Zi Mee Dryer</a></strong></span> 
+ 
+      
+          <span class="nus-timestamp">11 days ago</span> 
+      
+    
+ 
+          </div> 
+ 
+      
+    
+ 
+ 
+</li> 
+          </ul> 
+        <p class="more"><a href="/profile?viewFeed=&key=17937148" >See more &raquo;</a></p> 
+      </div> 
+  </div> 
+ 
+ 
+ 
+ 
+  <div id="linkpath" class="module connection-path"> 
+    <div class="header"><h3><strong>How you&#8217;re connected to Shane</strong></h3></div> 
+      <div class="content"> 
+        <p><strong>You</strong></p> 
+        <p><img src="http://static02.linkedin.com/img/icon/icon_arrow_green_down_15x18.gif" width="15" height="18" alt=""></p> 
+          <p> 
+            
+          <img src="http://static01.linkedin.com/img/icon/degree/icon_degree_1_24x24_v2.gif" width="24" height="24" alt="1st degree" class="vmid"> 
+    
+            <strong>Shane Courtrille</strong>  
+          </p> 
+        
+    </div> 
+  </div> 
+  <script type="text/javascript"> 
+    showHide.init('linkpath');
+  </script> 
+ 
+ 
+<span name="RequestManySharedGroupNoDC"></span> 
+ 
+ 
+  <div class="module shared-groups"> 
+    <div class="header"> 
+      <h3><strong>Groups you share with Shane:</strong></h3> 
+    </div> 
+    <div class="content"> 
+      <ul> 
+      <li class="group"> 
+        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/1/000/000/217/3fdb9f4.png" width="60" height="30" alt="ALT.Net"> 
+      
+<a href="/groups?gid=36509" >ALT.Net</a> 
+      </li> 
+      <li class="group"> 
+        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/2/000/009/0b1/08caa40.jpg" width="60" height="30" alt="Linking Calgary"> 
+      
+<a href="/groups?gid=99786" >Linking Calgary</a> 
+      </li> 
+      <li class="group"> 
+        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/1/000/00c/08e/37ffdec.png" width="60" height="30" alt="Domain Driven Design"> 
+      
+<a href="/groups?gid=132426" >Domain Driven Design</a> 
+      </li> 
+      <li class="group"> 
+        <img src="http://media.linkedin.com/mpr/mpr/shrink_60_30/p/2/000/000/2df/13e5d3e.png" width="60" height="30" alt="Agile Alliance"> 
+      
+<a href="/groups?gid=37631" >Agile Alliance</a> 
+      </li> 
+      </ul> 
+  </div> 
+</div> 
+ 
+ 
+ 
+ 
+ 
+ 
+  <div class="module"> 
+    <div class="header"> 
+      <h3><strong>Shane Recommends (3)</strong></h3> 
+    </div> 
+    <div class="content"> 
+      <ul name="browseRecommendationList"> 
+        <li name="browseRecommendation"> 
+          <p><strong> 
+            <a href="/profile?viewProfile=&key=28157656&authToken=3lc9&authType=name" title="View Chris's profile" name="viewRecViewProfile">Chris Cavilla</a></strong>,
+                <em class="headline">Resource Manager, Agile Recruiting</em> 
+			</p>		  	 
+        <p class="quote"><a href="/profile?viewRecs=&key=17937148#rec12921735" title="View recommendation" name="viewRecViewRec">I can easily recommend Chris as an amazing...</a></p> 
+				  	
+        </li>				
+        <li name="browseRecommendation"> 
+          <p><strong> 
+            <a href="/profile?viewProfile=&key=11105471&authToken=cZmC&authType=name" title="View Steve's profile" name="viewRecViewProfile">Steve Hayes-Richards</a></strong>,
+                <em class="headline">Director of Software Development, DevStudios International Inc.</em> 
+			</p>		  	 
+        <p class="quote"><a href="/profile?viewRecs=&key=17937148#rec6895408" title="View recommendation" name="viewRecViewRec">I was very happy to have Steve  as a hybrid...</a></p> 
+				  	
+        </li>				
+        <li name="browseRecommendation"> 
+          <p><strong> 
+            <a href="/profile?viewProfile=&key=10518290&authToken=z_Zg&authType=name" title="View Brad's profile" name="viewRecViewProfile">Brad Daoust</a></strong>,
+                <em class="headline">Recruitment and Account Manager, Daoust Consulting Inc</em> 
+			</p>		  	 
+        <p class="quote"><a href="/profile?viewRecs=&key=17937148#rec6036438" title="View recommendation" name="viewRecViewRec">I was very luck to have Brad's assistance in...</a></p> 
+				  	
+        </li>				
+      </ul> 
+        <p class="more"><a href="/profile?viewRecs=&key=17937148&authToken=ULBV&authType=name&goback=%2Evpf_17937148_1_ULBV_name_*1_Shane_Courtrille" name="viewRecMorePeople">See all <strong>Recommendations</strong> &#187;</a></p> 
+    </div> 
+  </div> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    <div class="ape-block" id="genericPageSlot39"></div><script type="text/javascript"> 
+      LI.getApeContent('http://www.linkedin.com/ape-delivery/items?p=3timB1ojmRVpAtpuB9xmn9cij1gkQhKdQtdikhSgmNPj74ShP9FcQJHdSBWhCZ7hm9NikNamDBPe7BgcmNEu55Kk5dOcjBarTh3lBoQeldbtnFyj7hqunBCqP1nh6ENp6pmkChiemRNqRFic5d7', 'genericPageSlot39');
+    </script> 
+  
+ 
+ 
+ 
+ 
+ 
+          <div class="module-panel" id="panel-04"></div> 
+ 
+        </div> 
+      </div> 
+ 
+    </div> 
+ 
+</div> 
+ 
+          </div> 
+        </div> 
+        <script type="text/javascript">Page.processQueue();LI.Controls.processQueue();</script> 
+    
+ 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+ 
+ 
+ 
+   
+    <div id="footer"> 
+      <div class="wrapper"> 
+      <ul id="nav-footer"> 
+        <li>Company <ul> 
+            
+                <li class="first"><a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" target="_blank"><strong>Customer Service</strong></a></li> 
+              
+            <li><a href="/redirect?url=http%3A%2F%2Fpress%2Elinkedin%2Ecom%2Fabout&amp;urlhash=ONnW" >About LinkedIn</a></li> 
+            <li><a href="/redirect?url=http%3A%2F%2Flearn%2Elinkedin%2Ecom%2F&amp;urlhash=YK4z" >Learning Center</a></li> 
+            <li><a href="/redirect?url=http%3A%2F%2Fblog%2Elinkedin%2Ecom%2F&amp;urlhash=ULil" >Blog</a></li> 
+            <li><a href="/static?key=advertising_info&amp;trk=hb_ft_ads" >Advertising</a></li> 
+            <li><a href="/redirect?url=http%3A%2F%2Fpress%2Elinkedin%2Ecom%2F&amp;urlhash=UMoC" >Press</a></li> 
+            <li><a href="/redirect?url=http%3A%2F%2Fpress%2Elinkedin%2Ecom%2Fpartners&amp;urlhash=BzmJ" >Partners</a></li> 
+            
+              <li><a href="/static?key=jobs&amp;trk=hb_ft_work" >Careers</a></li> 
+            
+          </ul> 
+        </li> 
+        <li>Tools <ul> 
+            <li class="first"><a href="/static?key=tools&amp;trk=hb_ft_tools" >Overview</a></li> 
+            <li><a href="/static?key=outlook_toolbar_download&amp;trk=hb_ft_otool" >Outlook Toolbar</a></li> 
+            <li><a href="/static?key=browser_toolbar_download&amp;trk=hb_ft_btool" >Browser Toolbar</a></li> 
+            <li><a href="/static?key=mobile&amp;trk=hb_ft_mob" >Mobile</a></li> 
+            <li><a href="/static?key=lotus&amp;trk=hb_ft_lotus" >Lotus Notes</a></li> 
+            <li><a href="/static?key=developers_widgets&amp;trk=hb_ft_widgets" >Developers</a></li> 
+            
+              <li><a href="/redirect?url=http%3A%2F%2Fpolls%2Elinkedin%2Ecom%2F&amp;urlhash=YcBE" >Polls</a></li> 
+            
+          </ul> 
+        </li> 
+        
+          <li>Premium <ul> 
+              <li class="first"><a href="/hiring?editAttributes=&amp;trk=hb_ft_jbpst" >Post a Job</a></li> 
+              <li><a href="/hiring?manageActives=&amp;trk=hb_ft_jbmng" >Manage Jobs</a></li> 
+              <li><a href="/redirect?url=http%3A%2F%2Ftalent%2Elinkedin%2Ecom%3Fpin%3Dtr02&amp;urlhash=jdWV" >Recruiting Solutions</a></li> 
+              <li><a href="/static?key=research_landing&amp;trk=hb_ft_resnet" >Research Surveys</a></li> 
+              <li><a href="https://www.linkedin.com/secure/purchase?_pt=sub&amp;_ra=sub&amp;displayProducts=&amp;utm_campaign=Subs&amp;utm_medium=onsite&amp;utm_source=Footer&amp;trk=hb_ft_upyracct" >Upgrade Your Account</a></li> 
+            </ul> 
+          </li> 
+        
+        
+      </ul> 
+      <p id="copyright">Copyright &copy; 2009 LinkedIn Corporation. All rights reserved. </p> 
+      <ul id="nav-legal"> 
+        <li><a href="/static?key=user_agreement&amp;trk=hb_ft_userag" >User Agreement</a></li> 
+        <li><a href="/static?key=privacy_policy&amp;trk=hb_ft_priv" >Privacy Policy</a></li> 
+        <li><a href="/static?key=copyright_policy&amp;trk=hb_ft_copy" >Copyright Policy</a></li> 
+      </ul> 
+      
+      <p id="terms-of-use"> 
+        Use of this site is subject to express <a href="/static?key=user_agreement&trk=ftr_useragre" rel="nofollow">terms of use</a>, which prohibit commercial use of this site. By continuing past this page, you agree to abide by these terms.
+      </p> 
+      
+    
+      
+          <p id="feedback-request"> 
+            
+      
+      
+        
+            
+          
+      
+    
+              <a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" >Help improve LinkedIn.</a> 
+            
+      
+      <script id="control-20"> 
+        
+            Page.queue.push( { 'control-20':{ Dialog:{
+            i18n: {
+              closeThisWindow: 'Close this window',
+              cancel: 'Cancel',
+              or: 'or',
+              submit: 'Submit'
+            },
+            
+              name:'feedback-dialog',
+              type:'task-modeless',
+              content:{
+                node:'feedback-form-panel',
+                title:'Send Feedback'
+              }
+          }
+             } } );
+          
+ 
+        
+        
+        
+      </script> 
+    
+        Send us your feedback.</p> 
+        
+    
+    </div> 
+  </div> 
+  
+<script type="text/javascript">Page.processQueue();LI.Controls.processQueue();</script>  
+ 
+ 
+ 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+      
+      
+    
+  <div id="feedback-dialog"> 
+    <div id="feedback-form-panel"> 
+      
+          <p>Have an idea to improve LinkedIn? Please submit your suggestion below. If you have questions about using the site, please visit our <a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" >Customer Service Center</a>.</p> 
+        
+      <ul> 
+        <li> 
+          <label for="feedback-subject">Subject:</label> 
+          <span id="feedback-no-subject">Please enter a subject.</span> 
+          <input type="text" id="feedback-subject"> 
+        </li> 
+        <li> 
+          <label for="feedback-content">Feedback:</label> 
+          <span id="feedback-no-content">Please enter a message.</span> 
+          <textarea id="feedback-content" cols="30" rows="10">Note: Comments submitted here will not result in a response. However, they will be reviewed and considered for future LinkedIn enhancements. If you require a response or additional action on behalf of LinkedIn, please visit the link above to our Customer Service Center.</textarea> 
+          <input type="hidden" name="content-ghost" value="Note: Comments submitted here will not result in a response. However, they will be reviewed and considered for future LinkedIn enhancements. If you require a response or additional action on behalf of LinkedIn, please visit the link above to our Customer Service Center." id="content-ghost"> 
+        </li> 
+        <li class="feedback-actions"> 
+          <input type="submit" name="submit" value="Send Your Feedback" id="feedback-submit" class="btn-primary"> 
+          or
+          <a href="#" class="dialog-close">Cancel</a> 
+        </li> 
+      </ul> 
+    </div> 
+  
+    <div id="feedback-confirmation-panel"> 
+      <div class="alert attention"><p><strong>Thank you for your feedback!</strong></p></div> 
+      <p class="disclaimer">You will not receive a response to these comments. We do, however, appreciate your help in improving LinkedIn. If you require additional assistance, or are having technical issues, please visit our  
+        
+            <a href="/redirect?url=http%3A%2F%2Flinkedin%2Ecusthelp%2Ecom&amp;urlhash=M-b0" ><strong>Customer Service Center</strong></a>.
+          
+      </p> 
+    </div> 
+  </div> 
+ 
+      <script id="control-21" type="text/javascript"> 
+        
+          
+          
+          
+            
+ 
+ 
+          
+          
+          
+          
+        
+        LI.Controls.addControl('control-21', 'Feedback', {});
+      </script> 
+      
+        
+      
+    
+ 
+        
+          
+          
+          
+          
+          
+        
+    
+        
+        <script type="text/javascript" src="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/js?f=js%2Fstatus&amp;f=js%2Futil%2FSaveUISetting&amp;f=js%2Futil%2FDialog&amp;f=js%2Fapps%2FFeedback&amp;f=static_dwr_js%2FFeedbackService"></script> 
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+        
+    
+      
+        
+    
+      
+      
+  
+        <script type="text/javascript" src="http://static.linkedin.com/scds/concat/leo/build-498_10_2268-prod/js?f=lib%2Flui%2Flinkedin_json-min&amp;f=lib%2Flui%2Flinkedin_ui-min&amp;f=lib%2Flui%2Flinkedin_goback-min&amp;f=lib%2Fyui%2F2.7.0%2Fdragdrop%2Fdragdrop-min&amp;f=js%2Fapps%2FSendMessageDialog&amp;f=js%2Fapps%2FProfileRecommendDialog&amp;f=js%2Fminiprofile_popup&amp;f=js%2Futil%2FToggleClass&amp;f=js%2Fbookmark&amp;f=static_dwr_js%2FAbookOnProfileService&amp;f=static_dwr_js%2FABookTagService&amp;f=js%2Fprofile_abook&amp;f=js%2Fapps%2FAbookTaggingDialog"></script> 
+    
+ 
+  <script type="text/javascript"> 
+      // abook notes widget
+      profileAbook.setProfileURL( 'http://www.linkedin.com/abookOnProfile?displayPrimaryContact=&contactMemberID=17937148' );
+      profileAbook.setMergeContactsURL( 'http://www.linkedin.com/abookOnProfile?displayMergedContact=&contactMemberID=17937148' );
+      i18n.abookDown = 'Your address book is currently unavailable. Please check again later.';
+      i18n.abookPleaseLogin = 'Please re-login before making changes to notes.';
+      i18n.abookNoSuchContact = 'The contact you are trying to edit, does not exist.';
+      i18n.abookSuccess = 'Your notes for the contact has been successfully saved.';
+    // Open social
+    ChameleonService.init();
+    // Chameleon
+            ChameleonService.loadInappGadget("gadget-panel-03-slot-20", "{&quot;title&quot;:&quot;Reading List by Amazon&quot;,&quot;app&quot;:{&quot;gadgetCanvasWidth&quot;:&quot;100%&quot;,&quot;panelID&quot;:3,&quot;title&quot;:&quot;Reading List by Amazon&quot;,&quot;isViewerTheOwner&quot;:false,&quot;ownerId&quot;:17937148,&quot;prefs&quot;:{},&quot;gadgetProfileHeight&quot;:&quot;250&quot;,&quot;viewerAccess&quot;:&quot;true&quot;,&quot;viewerId&quot;:9962574,&quot;gadgetHomeHeight&quot;:&quot;250&quot;,&quot;baseLeoNonSecureURL&quot;:&quot;http://www.linkedin.com/&quot;,&quot;urlToCanvasView&quot;:&quot;http://www.linkedin.com/osview/canvas?_ch_page_id=2&amp;_ch_panel_id=3&amp;_ch_app_id=20&amp;_applicationId=1700&quot;,&quot;signedUrlToCanvasView&quot;:&quot;http://www.linkedin.com/osview/canvas?_ch_page_id=2&amp;_ch_panel_id=3&amp;_ch_app_id=20&amp;_applicationId=1700&amp;_ownerId=17937148&amp;osUrlHash=UhQj&quot;,&quot;appID&quot;:20,&quot;gadgetChromeID&quot;:&quot;gadget-panel-03-slot-20&quot;,&quot;gadgetCanvasHeight&quot;:&quot;600&quot;,&quot;content&quot;:&quot;&quot;,&quot;specUrl&quot;:&quot;http://palmtree.amazon.com/gp/palmtree/books/s3/pcomponents.xml&quot;,&quot;gadgetCanvasWithAdsWidth&quot;:&quot;100%&quot;,&quot;language&quot;:&quot;en&quot;,&quot;divID&quot;:&quot;panel-03-slot-20&quot;,&quot;secureToken&quot;:&quot;linkedin%3A_uGyUqS7vQdl2agB4u8r65FSpmwYS00j3xYk1exNdZCZrrj03c_aOUctvUs_eMjQqxOeU4oGJQYeaOaB6wln5dp03hP7L5UU14Es_ESWFf9t6yBCrL5MqDiNNyiXHlOBkP9e85wQcJflZb5MzmvIg9UeEpMK6H3sQD6jsuNBwnDsRbOX8xduxFd2UWAR3u_jIA7B6h6nWXlQulWvjNo95apX6jsAu3sfXZ9ApH9Ee8YcLhxb&quot;,&quot;serverBase&quot;:&quot;http://www.lmodules.com/&quot;,&quot;ownerProfileUrl&quot;:&quot;http://www.linkedin.com/profile?viewProfile=&amp;key=17937148&quot;,&quot;country&quot;:&quot;US&quot;,&quot;doesAppSupportAds&quot;:&quot;false&quot;,&quot;applicationId&quot;:1700,&quot;gadgetProfileWidth&quot;:&quot;440&quot;,&quot;pageID&quot;:2,&quot;gadgetHomeWidth&quot;:&quot;290&quot;,&quot;appType&quot;:4,&quot;gadgetCanvasWithAdsHeight&quot;:&quot;600&quot;},&quot;panelDiv&quot;:&quot;panel-03&quot;}", true, 234851976, 3);
+          YDom.addClass( 'profile-applications', 'installed-apps');
+    setupModules.addOSHandler= function(panelID) {};
+    setupModules.init(3);
+   </script> 
+ 
+          
+    
+          
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+<script type="text/javascript"> 
+  YEvent.on( window, 'load', function() {
+    _qoptions = { qacct:"p-b3sGjMtCFrexE" };
+    YAHOO.util.Get.script( 'http://edge.quantserve.com/quant.js' );
+  });
+</script> 
+<noscript> 
+  <a href="http://www.quantcast.com/p-b3sGjMtCFrexE" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-b3sGjMtCFrexE.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"></a> 
+</noscript> 
+ 
+ 
+      
+        
+        
+        
+        
+        
+        
+        
+      
+      
+      
+      
+    
+    
+ 
+ 
+<script type="text/javascript"> 
+  YEvent.on( window, 'load', function() {
+    YAHOO.util.Get.script( 'http://b.scorecardresearch.com/beacon.js', {
+      onSuccess: function() {
+        COMSCORE.beacon({ c1:2, c2:6402952, c3:"", c4:"", c5:"", c6:"", c15:"" });
+      }
+    });
+  });
+</script> 
+<noscript> 
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=6402952&c3=&c4=&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt=""> 
+</noscript> 
+ 
+        </body> 
+      </html> 
+    
+ 

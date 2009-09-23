@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Linq;
 using System.Net;
 using AdamDotCom.Resume.Service.Extensions;
 using AdamDotCom.Resume.Service.Utilities;
@@ -29,11 +31,22 @@ namespace AdamDotCom.Resume.Service
                 return (Resume)ServiceCache.GetFromCache(firstnameLastname);
             }
 
-            var resumeSniffer = new LinkedInResumeSniffer(firstnameLastname);
+            var linkedInEmailAddress = ConfigurationManager.AppSettings["LinkedInEmailAddress"];
+            var linkedInPassword = ConfigurationManager.AppSettings["LinkedInPassword"];
 
-            var resume = resumeSniffer.GetResume();
+            var resumeSniffer = new LinkedInResumeSniffer(linkedInEmailAddress, linkedInPassword, firstnameLastname);
 
-            HandleErrors(resumeSniffer.Errors);
+            Resume resume = null;
+            try
+            {
+                resume = resumeSniffer.GetResume();
+            }
+            catch (Exception ex)
+            {
+                HandleErrors(linkedInEmailAddress);
+            }
+
+            HandleErrors(resumeSniffer.Errors);           
 
             return resume.AddToCache(firstnameLastname);
         }
@@ -57,11 +70,27 @@ namespace AdamDotCom.Resume.Service
 
         private static void HandleErrors(List<KeyValuePair<string, string>> errors)
         {
-
+            
             if (errors != null && errors.Count != 0)
             {
-                throw new RestException(HttpStatusCode.BadRequest, errors, (int)ErrorCode.InternalError);
+                var criticalErrors = errors.Where(e => e.Key.Contains("Critical")).ToList();
+                if (criticalErrors.Count != 0)
+                {
+                    throw new RestException(HttpStatusCode.BadRequest, criticalErrors, (int)ErrorCode.InternalError);
+                }
             }
+        }
+
+        private static void HandleErrors(string linkedInEmailAddress)
+        {
+            throw new RestException(HttpStatusCode.BadRequest,
+                                    new List<KeyValuePair<string, string>>
+                                        {
+                                            new KeyValuePair<string, string>("LinkedInResumeSniffer",
+                                                                             string.Format(
+                                                                                 "The requested resume could not be retrieved. Ensure that you have added {0} as a LinkedIn contact, alternatively you can download the source code ({1}) and contribute a patch for your resume.",
+                                                                                 linkedInEmailAddress, "http://code.google.com/p/adamdotcom-services/source/checkout"))
+                                        }, (int)ErrorCode.InternalError);
         }
     }
 }

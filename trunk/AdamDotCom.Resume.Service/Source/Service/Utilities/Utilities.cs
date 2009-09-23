@@ -9,7 +9,7 @@ namespace AdamDotCom.Resume.Service.Utilities
         {
             if (!string.IsNullOrEmpty(dirtyString))
             {
-                return dirtyString.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\t", "").Replace("     ", "").Trim();
+                return dirtyString.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\t", "").Replace("     ", "").Replace(",,", ",").Trim();
             }
             return dirtyString;
         }
@@ -62,7 +62,12 @@ namespace AdamDotCom.Resume.Service.Utilities
             {
                 try
                 {
-                    return match.Groups[token].ToString();
+                    string returnValue = string.Empty;
+                    foreach(var item in match.Groups[token].Captures)
+                    {
+                        returnValue += item;
+                    }
+                    return returnValue;
                 }
                 catch
                 {
