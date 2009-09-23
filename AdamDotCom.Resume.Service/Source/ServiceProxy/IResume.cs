@@ -10,6 +10,7 @@ namespace AdamDotCom.Resume.Service.Proxy
         [WebGet(UriTemplate = "linkedIn/{firstnameLastname}/xml")]
         Resume ResumeXml(string firstnameLastname);
 
+        [OperationContract]
         [WebGet(UriTemplate = "linkedIn/{firstnameLastname}/json", ResponseFormat = WebMessageFormat.Json)]
         Resume ResumeJson(string firstnameLastname);
     }
