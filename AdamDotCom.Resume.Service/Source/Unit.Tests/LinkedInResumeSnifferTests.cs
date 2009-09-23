@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using AdamDotCom.Resume.Service;
 using AdamDotCom.Resume.Service.Unit.Tests;
 using NUnit.Framework;
@@ -13,29 +14,7 @@ namespace AdamDotCom.Resume.Service.Unit.Tests
         [TestFixtureSetUp]
         public void TestSetup()
         {
-            resumeSnifferWithStaticPageSource = new LinkedInResumeSniffer("Adam Kahtava", TestHelper.PageSource3);
-        }
-
-        [Test, Ignore]
-        public void ShouldVerifyCustomerIdCanBeFoundMultipleResults()
-        {
-            resumeSnifferWithStaticPageSource = new LinkedInResumeSniffer("Adam Kahtava");
-
-            foreach (var error in resumeSnifferWithStaticPageSource.Errors)
-            {
-                Console.WriteLine(error);
-            }
-
-            Assert.AreEqual(0, resumeSnifferWithStaticPageSource.Errors.Count);
-
-            var resume = resumeSnifferWithStaticPageSource.GetResume();
-
-            foreach (var error in resumeSnifferWithStaticPageSource.Errors)
-            {
-                Console.WriteLine(error);
-            }
-
-            Assert.AreEqual(0, resumeSnifferWithStaticPageSource.Errors.Count);
+            resumeSnifferWithStaticPageSource = new LinkedInResumeSniffer("Adam Kahtava", TestHelper.PageSource1);
         }
 
         [Test]
@@ -129,7 +108,7 @@ namespace AdamDotCom.Resume.Service.Unit.Tests
         [Test]
         public void ShouldGetResumeFromPageSource()
         {
-            var resumeSniffer = new LinkedInResumeSniffer("Adam Kahtava", TestHelper.PageSource);
+            var resumeSniffer = new LinkedInResumeSniffer("Adam Kahtava", TestHelper.PageSource1);
 
             var resume = resumeSniffer.GetResume();
 
@@ -205,7 +184,41 @@ namespace AdamDotCom.Resume.Service.Unit.Tests
 
             Assert.IsTrue(resume.Positions.Count == 2, resume.Positions.Count.ToString());
             Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[1].Company));
-            Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[1].Description));
+            Assert.IsTrue(string.IsNullOrEmpty(resume.Positions[1].Description));
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[1].Period));
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[1].Title));
+            foreach (var item in resume.Positions)
+            {
+                Console.WriteLine(item.Period + " " + item.Company + " " + item.Title + " " + item.Description);
+            }
+
+            Assert.IsTrue(resume.Educations.Count == 1, resume.Educations.Count.ToString());
+            Assert.IsTrue(string.IsNullOrEmpty(resume.Educations[0].Certificate));
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Educations[0].Institute));
+            foreach (var item in resume.Educations)
+            {
+                Console.WriteLine(item.Certificate + " " + item.Institute);
+            }
+
+            Assert.IsTrue(string.IsNullOrEmpty(resume.Specialties));
+            Console.WriteLine(resume.Specialties);
+
+            Assert.IsTrue(string.IsNullOrEmpty(resume.Summary));
+            Console.WriteLine(resume.Summary);
+        }
+
+        [Test]
+        public void ShouldGetResumeFromPageSource4()
+        {
+            var resumeSniffer = new LinkedInResumeSniffer("Adam Kahtava", TestHelper.PageSource4);
+
+            var resume = resumeSniffer.GetResume();
+
+            Assert.IsNotNull(resume);
+
+            Assert.IsTrue(resume.Positions.Count == 4, resume.Positions.Count.ToString());
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[1].Company));
+            Assert.IsTrue(string.IsNullOrEmpty(resume.Positions[1].Description));
             Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[1].Period));
             Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[1].Title));
             foreach (var item in resume.Positions)
@@ -224,7 +237,41 @@ namespace AdamDotCom.Resume.Service.Unit.Tests
             Assert.IsFalse(string.IsNullOrEmpty(resume.Specialties));
             Console.WriteLine(resume.Specialties);
 
-            Assert.IsFalse(string.IsNullOrEmpty(resume.Summary));
+            Assert.IsTrue(string.IsNullOrEmpty(resume.Summary));
+            Console.WriteLine(resume.Summary);
+        }
+
+        [Test]
+        public void ShouldGetResumeFromPageSource5()
+        {
+            var resumeSniffer = new LinkedInResumeSniffer("Adam Kahtava", TestHelper.PageSource5);
+
+            var resume = resumeSniffer.GetResume();
+
+            Assert.IsNotNull(resume);
+
+            Assert.IsTrue(resume.Positions.Count == 5, resume.Positions.Count.ToString());
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[0].Company));
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[0].Description));
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[0].Period));
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Positions[0].Title));
+            foreach (var item in resume.Positions)
+            {
+                Console.WriteLine(item.Period + " " + item.Company + " " + item.Title + " " + item.Description);
+            }
+
+            Assert.IsTrue(resume.Educations.Count == 1, resume.Educations.Count.ToString());
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Educations[0].Certificate));
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Educations[0].Institute));
+            foreach (var item in resume.Educations)
+            {
+                Console.WriteLine(item.Certificate + " " + item.Institute);
+            }
+
+            Assert.IsTrue(string.IsNullOrEmpty(resume.Specialties));
+            Console.WriteLine(resume.Specialties);
+
+            Assert.IsTrue(string.IsNullOrEmpty(resume.Summary));
             Console.WriteLine(resume.Summary);
         }
 

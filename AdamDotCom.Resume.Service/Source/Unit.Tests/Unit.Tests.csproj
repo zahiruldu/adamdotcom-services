@@ -36,6 +36,7 @@
       <HintPath>..\..\Dependencies\nUnit\bin\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -60,9 +61,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PageSource-Gluzman-Sept-22-2009.txt" />
-    <Content Include="PageSource-Kahtava-Sept-17-2009.txt" />
-    <Content Include="PageSource-Tulloch-Sept-22-2009.txt" />
+    <Content Include="PageSource2.txt" />
+    <Content Include="PageSource1.txt" />
+    <Content Include="PageSource3.txt" />
+    <Content Include="PageSource4.txt" />
+    <Content Include="PageSource5.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

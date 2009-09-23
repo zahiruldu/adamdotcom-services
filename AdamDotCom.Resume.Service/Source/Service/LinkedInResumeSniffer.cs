@@ -40,7 +40,7 @@ namespace AdamDotCom.Resume.Service
             isSignedIn = true;
         }
 
-        public LinkedInResumeSniffer(string firstnameLastname)
+        public LinkedInResumeSniffer(string linkedInEmailAddress, string linkedInPassword, string firstnameLastname)
         {
             Errors = new List<KeyValuePair<string, string>>();
 
@@ -50,7 +50,7 @@ namespace AdamDotCom.Resume.Service
             {
                 if (!isSignedIn)
                 {
-                    webClient = SignIn();
+                    webClient = SignIn(linkedInEmailAddress, linkedInPassword);
 
                     isSignedIn = true;
                 }
@@ -95,9 +95,9 @@ namespace AdamDotCom.Resume.Service
             var positions = positionPeriods.Select(p => new Position {Period = p}).ToList();
             for (int i = 0; i < positions.Count(); i++)
             {
-                positions[i].Title = positionTitles == null ? null: positionTitles[i];
-                positions[i].Company = positionCompanies == null ? null : positionCompanies[i];
-                positions[i].Description = positionDescriptions == null ? null : positionDescriptions[i];
+                positions[i].Title = positionTitles == null || positionTitles.Count <= i ? null : positionTitles[i];
+                positions[i].Company = positionCompanies == null || positionCompanies.Count <= i ? null : positionCompanies[i];
+                positions[i].Description = positionDescriptions == null || positionDescriptions.Count <= i ? null : positionDescriptions[i];
             }
 
             var educationInstitutes = StringUtilities.Scrub(GetEducationInstitutes());
@@ -106,7 +106,7 @@ namespace AdamDotCom.Resume.Service
             var educations = educationInstitutes.Select(i => new Education{Institute = i}).ToList();
             for(var i=0 ; i < educations.Count() ; i++)
             {
-                educations[i].Certificate = educationCertificates == null ? null : educationCertificates[i];
+                educations[i].Certificate = educationCertificates == null || educationCertificates.Count <= i ? null : educationCertificates[i];
             }
  
             return new Resume
@@ -142,7 +142,7 @@ namespace AdamDotCom.Resume.Service
 
         public List<string> GetPositionTitles()
         {
-            var positionTitlesRegex = new Regex(@"class=""position-title(?:[\s\w><=""/\-\?&%:+.#;()\[\]]+)name=""title""(?:[^>]+)>(?<PositionTitle>([^<]+))", RegexOptions.Multiline);
+            var positionTitlesRegex = new Regex(@"class=""position-title(?:[\s\w><=""/\?&%\+\-:\.]+)name=""title(?:[^>]+)>(?<PositionTitle>(([^<]|<[^/]|</[^a])*.{0,2}))</a", RegexOptions.Multiline);
             var positionTitles = RegexUtilities.GetTokenStringList(positionTitlesRegex.Match(pageSource), "PositionTitle");
             if (positionTitles == null || positionTitles.Count == 0)
             {
@@ -153,7 +153,7 @@ namespace AdamDotCom.Resume.Service
 
         public List<string> GetPositionCompanies()
         {
-            var positionCompaniesRegex = new Regex(@"class=""postitle(?:[\s\w><=""/\-\?&%:+.#;()\[\]]+)(class=""company-profile""><span>|name=""company""(?:[^>]+)>)(?<Company>([^<]+))", RegexOptions.Multiline);
+            var positionCompaniesRegex = new Regex(@"class=""postitle(?:[\s\w><=""/\?&%\+\-:\.]+)(class=""company-profile""><span>|name=""company""(?:[^>]+)>)(?<Company>([^<]+))", RegexOptions.Multiline);
             var positionCompanies = RegexUtilities.GetTokenStringList(positionCompaniesRegex.Match(pageSource), "Company");
             if (positionCompanies == null || positionCompanies.Count == 0)
             {
@@ -164,7 +164,7 @@ namespace AdamDotCom.Resume.Service
 
         public List<string> GetPositionPeriods()
         {
-            var positionPeriodsRegex = new Regex(@"class=""postitle(?:[\s\w><=""/\-\?&%:+.#;()\[\]]+)class=""period(?:[^>]+)>(?<Period>([^<]+))", RegexOptions.Multiline);
+            var positionPeriodsRegex = new Regex(@"class=""postitle(?:[\s\w><\=""'/\?&%\+\-:\.;\(\)]+)class=""period(?:[^>]+)>(?<Period>(([^<]|<[^/]|</[^p])*.{0,2}))</p", RegexOptions.Multiline);
             var positionPeriods = RegexUtilities.GetTokenStringList(positionPeriodsRegex.Match(pageSource), "Period");
             if (positionPeriods == null || positionPeriods.Count == 0)
             {
@@ -175,7 +175,7 @@ namespace AdamDotCom.Resume.Service
 
         public List<string> GetPositionDescriptions()
         {
-            var positionDescsRegex = new Regex(@"class=""postitle(?:[\s\w><=""/\-\?&%:+.#;()]+)desc(?:[^>]+)*>(?<Description>(([^<]|<[^/]|</[^p])*.{0,2}))</p", RegexOptions.Multiline);
+            var positionDescsRegex = new Regex(@"class=""postitle(?:[\s\w><=""/\-\?&%:\+\.;\(\)\#]+)desc""(?:[^>]+)*>(?<Description>(([^<]|<[^/]|</[^p])*.{0,2}))</p", RegexOptions.Multiline);
             var positionDescs = RegexUtilities.GetTokenStringList(positionDescsRegex.Match(pageSource), "Description");
             if (positionDescs == null || positionDescs.Count == 0)
             {
@@ -197,7 +197,7 @@ namespace AdamDotCom.Resume.Service
 
         public List<string> GetEducationCertificates()
         {
-            var educationCertificateRegex = new Regex(@"name=""eduEntry(?:[\s\w><=""/\-\?&%]+)href(?:[^>]+)>(?:[\s\w><=""/\-\?&%,]+)href(?:[^>]+)>(?<EducationCertificate>([^<]+))", RegexOptions.Multiline);
+            var educationCertificateRegex = new Regex(@"name=""eduEntry(?:[\s\w><=""/\-\?&%\+\*]+)h4>(?<EducationCertificate>([^<]+))<(?:[\s\w><=""/\-\?\+&%,]+)href(?:[^>]+)>(?<EducationCertificate>([^<]+))", RegexOptions.Multiline);
             var educationCertificates = RegexUtilities.GetTokenStringList(educationCertificateRegex.Match(pageSource), "EducationCertificate");
             if (educationCertificates == null || educationCertificates.Count == 0)
             {
@@ -209,13 +209,13 @@ namespace AdamDotCom.Resume.Service
 
         private void AddWarningError(string token)
         {
-            Errors.Add(new KeyValuePair<string, string>(string.Format("{0}:{1}:{2}", Errors.Count, GetType(), "Warning"),
+            Errors.Add(new KeyValuePair<string, string>(string.Format("{0}:{1}", "Warning", Errors.Count),
                                                         string.Format("{0} could not be found", token)));
         }
 
         private void AddCriticalError(string message)
         {
-            Errors.Add(new KeyValuePair<string, string>(string.Format("{0}:{1}:{2}", Errors.Count, GetType(), "Critical"), message));   
+            Errors.Add(new KeyValuePair<string, string>(string.Format("{0}:{1}", "Critical", Errors.Count), message));   
         }
 
         private void SetAndValidateNames(string firstnameLastname)
@@ -233,7 +233,7 @@ namespace AdamDotCom.Resume.Service
             }
         }
 
-        private WebClient SignIn()
+        private WebClient SignIn(string linkedInEmailAddress, string linkedInPassword)
         {
             webClient = new WebClientWithCookies();
 
@@ -255,10 +255,10 @@ namespace AdamDotCom.Resume.Service
                 byte[] response = webClient.UploadData(loginPageUri, "POST",
                                                        Encoding.UTF8.GetBytes(
                                                            "csrfToken=" + sessionId +
-                                                           "&session_key=" + HttpUtility.UrlEncode(ConfigurationManager.AppSettings["LinkedInEmailAddress"]) +
+                                                           "&session_key=" + HttpUtility.UrlEncode(linkedInEmailAddress) +
                                                            "&session_login=Sign In" +
                                                            "&session_login=" +
-                                                           "&session_password=" + HttpUtility.UrlEncode(ConfigurationManager.AppSettings["LinkedInPassword"]) +
+                                                           "&session_password=" + HttpUtility.UrlEncode(linkedInPassword) +
                                                            "&session_rikey="));
 
                 //Check that we have logged in
