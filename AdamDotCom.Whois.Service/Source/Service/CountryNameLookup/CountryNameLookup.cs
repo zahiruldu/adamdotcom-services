@@ -2,14 +2,14 @@
 using System.Reflection;
 using System.Xml;
 
-namespace AdamDotCom.Whois.Service
+namespace AdamDotCom.Whois.Service.CountryNameLookup
 {
-    public class CountryNameTranslator
+    public class CountryNameLookup
     {
         private static XmlDocument countries;
         private const string countriesFilename = "iso_3166-1_list_en.xml";
 
-        public CountryNameTranslator()
+        public CountryNameLookup()
         {
             countries = new XmlDocument();
 

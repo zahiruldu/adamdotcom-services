@@ -5,23 +5,23 @@ namespace AdamDotCom.Whois.Service.Extensions
 {
     public static class ResponseExtensions
     {
-        public static Response SetCountryName(this Response response)
+        public static WhoisEnhancedRecord SetCountryName(this WhoisEnhancedRecord whoisEnhancedRecord)
         {
-            var countryTranslator = new CountryNameTranslator();
-            response.Country = countryTranslator.GetCountryName(response.CountryCode2);
-            return response;
+            var countryTranslator = new CountryNameLookup.CountryNameLookup();
+            whoisEnhancedRecord.Country = countryTranslator.GetCountryName(whoisEnhancedRecord.CountryCode2);
+            return whoisEnhancedRecord;
         }
 
-        public static Response ProcessFriendly(this Response response, string referrer)
+        public static WhoisEnhancedRecord ProcessFriendly(this WhoisEnhancedRecord whoisEnhancedRecord, string referrer)
         {
-            response = IsFriendlyMatchInOrganization(response);
+            whoisEnhancedRecord = IsFriendlyMatchInOrganization(whoisEnhancedRecord);
 
-            response = IsFriendlyMatchInReferrer(response, referrer);
+            whoisEnhancedRecord = IsFriendlyMatchInReferrer(whoisEnhancedRecord, referrer);
 
-            return response;
+            return whoisEnhancedRecord;
         }
 
-        private static Response IsFriendlyMatchInReferrer(Response response, string referrer)
+        private static WhoisEnhancedRecord IsFriendlyMatchInReferrer(WhoisEnhancedRecord whoisEnhancedRecord, string referrer)
         {
             if (!string.IsNullOrEmpty(referrer))
             {
@@ -34,31 +34,31 @@ namespace AdamDotCom.Whois.Service.Extensions
                 {
                     if (referrer.ToLower().Contains(referrerName))
                     {
-                        if (response.FriendlyMatches == null)
+                        if (whoisEnhancedRecord.FriendlyMatches == null)
                         {
-                            response.FriendlyMatches = new List<string>();
+                            whoisEnhancedRecord.FriendlyMatches = new List<string>();
                         }
-                        response.FriendlyMatches.Add(referrerName);
-                        response.IsFriendly = true;
+                        whoisEnhancedRecord.FriendlyMatches.Add(referrerName);
+                        whoisEnhancedRecord.IsFriendly = true;
                     }
                 }
             }
-            return response;
+            return whoisEnhancedRecord;
         }
 
-        public static Response SetOrganizationFromSecondarySource(this Response response, string remoteAddress)
+        public static WhoisEnhancedRecord SetOrganizationFromSecondarySource(this WhoisEnhancedRecord whoisEnhancedRecord, string remoteAddress)
         {
-            if (string.IsNullOrEmpty(response.Organization))
+            if (string.IsNullOrEmpty(whoisEnhancedRecord.Organization))
             {
                 IPHostEntry hostInfo = Dns.GetHostEntry(remoteAddress);
-                response.Organization = hostInfo.HostName;
+                whoisEnhancedRecord.Organization = hostInfo.HostName;
             }
-            return response;
+            return whoisEnhancedRecord;
         }
 
-        private static Response IsFriendlyMatchInOrganization(Response response)
+        private static WhoisEnhancedRecord IsFriendlyMatchInOrganization(WhoisEnhancedRecord whoisEnhancedRecord)
         {
-            if (!string.IsNullOrEmpty(response.Organization))
+            if (!string.IsNullOrEmpty(whoisEnhancedRecord.Organization))
             {
                 string[] friendlyOrganizationFilters = {
                                                            "google", "yahoo", "amazon", "microsoft", "corbis", "q9",
@@ -68,47 +68,47 @@ namespace AdamDotCom.Whois.Service.Extensions
                                                        };
                 foreach (var organizationName in friendlyOrganizationFilters)
                 {
-                    if (response.Organization.ToLower().Contains(organizationName))
+                    if (whoisEnhancedRecord.Organization.ToLower().Contains(organizationName))
                     {
-                        if (response.FriendlyMatches == null)
+                        if (whoisEnhancedRecord.FriendlyMatches == null)
                         {
-                            response.FriendlyMatches = new List<string>();
+                            whoisEnhancedRecord.FriendlyMatches = new List<string>();
                         }
-                        response.FriendlyMatches.Add(organizationName);
-                        response.IsFriendly = true;
+                        whoisEnhancedRecord.FriendlyMatches.Add(organizationName);
+                        whoisEnhancedRecord.IsFriendly = true;
                     }
                 }
             }
-            return response;
+            return whoisEnhancedRecord;
         }
 
-        public static Response ProcessFilters(this Response response, string filters, string referrer)
+        public static WhoisEnhancedRecord ProcessFilters(this WhoisEnhancedRecord whoisEnhancedRecord, string filters, string referrer)
         {
             filters = filters.ToLower();
             referrer = referrer.ToLower();
             var splitFilters = filters.Split(',');
             foreach (var filter in splitFilters)
             {
-                if (!string.IsNullOrEmpty(IsFilterMatchInWhoisInfo(filter, response)))
+                if (!string.IsNullOrEmpty(IsFilterMatchInWhoisInfo(filter, whoisEnhancedRecord)))
                 {
-                    if(response.FilterMatches == null)
+                    if(whoisEnhancedRecord.FilterMatches == null)
                     {
-                        response.FilterMatches = new List<string>();
+                        whoisEnhancedRecord.FilterMatches = new List<string>();
                     }
-                    response.FilterMatches.Add(IsFilterMatchInWhoisInfo(filter, response));
-                    response.IsFilterMatch = true;
+                    whoisEnhancedRecord.FilterMatches.Add(IsFilterMatchInWhoisInfo(filter, whoisEnhancedRecord));
+                    whoisEnhancedRecord.IsFilterMatch = true;
                 }
                 if (!string.IsNullOrEmpty(IsFilterMatchInReferrer(filter, referrer)))
                 {
-                    if (response.FilterMatches == null)
+                    if (whoisEnhancedRecord.FilterMatches == null)
                     {
-                        response.FilterMatches = new List<string>();
+                        whoisEnhancedRecord.FilterMatches = new List<string>();
                     }
-                    response.FilterMatches.Add(IsFilterMatchInReferrer(filter, referrer));
-                    response.IsFilterMatch = true;
+                    whoisEnhancedRecord.FilterMatches.Add(IsFilterMatchInReferrer(filter, referrer));
+                    whoisEnhancedRecord.IsFilterMatch = true;
                 }
             }
-            return response;
+            return whoisEnhancedRecord;
         }
 
         private static string IsFilterMatchInReferrer(string filter, string referrer)
@@ -120,22 +120,22 @@ namespace AdamDotCom.Whois.Service.Extensions
             return null;
         }
 
-        private static string IsFilterMatchInWhoisInfo(string filter, Response response)
+        private static string IsFilterMatchInWhoisInfo(string filter, WhoisEnhancedRecord whoisEnhancedRecord)
         {
-            if ((!string.IsNullOrEmpty(response.Country) && response.Country.ToLower().Contains(filter)) ||
-                (!string.IsNullOrEmpty(response.CountryCode2) && response.CountryCode2.ToLower().Contains(filter)))
+            if ((!string.IsNullOrEmpty(whoisEnhancedRecord.Country) && whoisEnhancedRecord.Country.ToLower().Contains(filter)) ||
+                (!string.IsNullOrEmpty(whoisEnhancedRecord.CountryCode2) && whoisEnhancedRecord.CountryCode2.ToLower().Contains(filter)))
             {
                 return "Country";
             }
-            if (!string.IsNullOrEmpty(response.Region) && response.Region.ToLower().Contains(filter))
+            if (!string.IsNullOrEmpty(whoisEnhancedRecord.StateProvince) && whoisEnhancedRecord.StateProvince.ToLower().Contains(filter))
             {
-                return "Region";
+                return "StateProvince";
             }
-            if (!string.IsNullOrEmpty(response.City) && response.City.ToLower().Contains(filter))
+            if (!string.IsNullOrEmpty(whoisEnhancedRecord.City) && whoisEnhancedRecord.City.ToLower().Contains(filter))
             {
                 return "City";
             }
-            if (!string.IsNullOrEmpty(response.Organization) && response.Organization.ToLower().Contains(filter))
+            if (!string.IsNullOrEmpty(whoisEnhancedRecord.Organization) && whoisEnhancedRecord.Organization.ToLower().Contains(filter))
             {
                 return "Organization";
             }
