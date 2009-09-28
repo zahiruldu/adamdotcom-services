@@ -1,0 +1,36 @@
+﻿
+OrgName:    Shaw Communications Inc. 
+OrgID:      SHAWC
+Address:    Suite 800
+Address:    630 - 3rd Ave. SW
+City:       Calgary
+StateProv:  AB
+PostalCode: T2P-4L4
+Country:    CA
+
+ReferralServer: rwhois://rwhois.shawcable.net:4321/
+
+NetRange:   68.144.0.0 - 68.151.255.255 
+CIDR:       68.144.0.0/13 
+NetName:    SHAW-COMM
+NetHandle:  NET-68-144-0-0-1
+Parent:     NET-68-0-0-0-0
+NetType:    Direct Allocation
+NameServer: NS7.NO.CG.SHAWCABLE.NET
+NameServer: NS8.SO.CG.SHAWCABLE.NET
+Comment:    ADDRESSES WITHIN THIS BLOCK ARE NON-PORTABLE
+RegDate:    2002-06-03
+Updated:    2006-02-08
+
+OrgAbuseHandle: SHAWA-ARIN
+OrgAbuseName:   SHAW ABUSE 
+OrgAbusePhone:  +1-403-750-7420
+OrgAbuseEmail:  internet.abuse@sjrb.ca
+
+OrgTechHandle: ZS178-ARIN
+OrgTechName:   Shaw High-Speed Internet 
+OrgTechPhone:  +1-403-750-7428
+OrgTechEmail:  ipadmin@sjrb.ca
+
+# ARIN WHOIS database, last updated 2009-09-25 20:00
+# Enter ? for additional hints on searching ARIN's WHOIS database.

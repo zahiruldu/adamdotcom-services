@@ -2,7 +2,7 @@
 using AdamDotCom.Whois.Service.Extensions;
 using NUnit.Framework;
 
-namespace Unit.Tests
+namespace AdamDotCom.Whois.Service.Unit.Tests
 {
     [TestFixture]
     public class ResponseExtensionTests

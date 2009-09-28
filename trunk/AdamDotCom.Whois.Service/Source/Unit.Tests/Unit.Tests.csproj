@@ -8,8 +8,8 @@
     <ProjectGuid>{E4C98C86-0F2A-41CB-80E3-D6BA371974B5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unit.Tests</RootNamespace>
-    <AssemblyName>Unit.Tests</AssemblyName>
+    <RootNamespace>AdamDotCom.Whois.Service.Unit.Tests</RootNamespace>
+    <AssemblyName>AdamDotCom.Whois.Service.Unit.Tests</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -51,7 +51,8 @@
   <ItemGroup>
     <Compile Include="CountryTranslatorTests.cs" />
     <Compile Include="ResponseExtensionTests.cs" />
-    <Compile Include="WhoisServiceTranslatorTests.cs" />
+    <Compile Include="TestHelper.cs" />
+    <Compile Include="WhoisClientTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +60,14 @@
       <Project>{E06D39A3-B851-45B0-869B-DB9574AF2001}</Project>
       <Name>Service %28Service\Service%29</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WhoisRawResult1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WhoisRawResult2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
