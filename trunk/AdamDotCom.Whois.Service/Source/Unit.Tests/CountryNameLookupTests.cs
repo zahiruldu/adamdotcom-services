@@ -1,15 +1,14 @@
-﻿using AdamDotCom.Whois.Service;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace AdamDotCom.Whois.Service.Unit.Tests
 {
     [TestFixture]
-    public class CountryTranslatorTests
+    public class CountryNameLookupTests
     {
         [Test]
         public void ShouldVerifyTranslatorWorks()
         {
-            var countryTranslator = new CountryNameTranslator();
+            var countryTranslator = new CountryNameLookup.CountryNameLookup();
 
             Assert.IsNotNull(countryTranslator);
             Assert.AreEqual("CANADA", countryTranslator.GetCountryName("CA"));

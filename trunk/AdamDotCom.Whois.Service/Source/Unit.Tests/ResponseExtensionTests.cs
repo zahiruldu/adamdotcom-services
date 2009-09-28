@@ -10,7 +10,7 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
         [Test]
         public void ShouldVerifyFriendlyByOrganization()
         {
-            var response = new Response {Organization = "Google Inc."};
+            var response = new WhoisEnhancedRecord {Organization = "Google Inc."};
 
             response.ProcessFriendly(string.Empty);
             
@@ -21,7 +21,7 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
         [Test]
         public void ShouldVerifyFriendlyByReferrer()
         {
-            var response = new Response();
+            var response = new WhoisEnhancedRecord();
 
             response.ProcessFriendly("Twitter");
 
@@ -32,7 +32,7 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
         [Test]
         public void ShouldVerifyFiltersByCountryAndReferrer()
         {
-            var response = new Response {Country = "CANADA"};
+            var response = new WhoisEnhancedRecord {Country = "CANADA"};
 
             response.ProcessFilters("Canada,github", "github");
 

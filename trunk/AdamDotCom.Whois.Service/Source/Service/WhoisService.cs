@@ -1,65 +1,80 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
-using AdamDotCom.Whois.Service.Extensions;
 using AdamDotCom.Whois.Service.Utilities;
+using AdamDotCom.Whois.Service.WhoisClient;
 
 namespace AdamDotCom.Whois.Service
 {
     public class WhoisService : IWhois
     {
-        public Response WhoisXml(string filters)
+        public WhoisRecord WhoAmIXml()
         {
-            return Whois(filters, null);
+            return Whois(null);
         }
 
-        public Response WhoisJson(string filters)
+        public WhoisRecord WhoAmIJson()
         {
-            return Whois(filters, null);
+            return Whois(null);
         }
 
-        public Response WhoisWithReferrerXml(string filters, string referrer)
+        public WhoisRecord WhoisXml(string ipOrDomain)
         {
-            return Whois(filters, referrer);
+            return Whois(ipOrDomain);
         }
 
-        public Response WhoisWithReferrerJson(string filters, string referrer)
+        public WhoisRecord WhoisJson(string ipOrDomain)
         {
-            return Whois(filters, referrer);
+            return Whois(ipOrDomain);
         }
 
-        private Response Whois(string filters, string referrer)
+        public WhoisEnhancedRecord WhoisEnhancedXml(string filters)
+        {
+            return WhoisEnhanced(filters, null);
+        }
+
+        public WhoisEnhancedRecord WhoisEnhancedJson(string filters)
+        {
+            return WhoisEnhanced(filters, null);
+        }
+
+        public WhoisEnhancedRecord WhoisEnhancedWithReferrerXml(string filters, string referrer)
+        {
+            return WhoisEnhanced(filters, referrer);
+        }
+
+        public WhoisEnhancedRecord WhoisEnhancedWithReferrerJson(string filters, string referrer)
+        {
+            return WhoisEnhanced(filters, referrer);
+        } 
+        private WhoisRecord Whois(string ipOrDomain)
+        {
+            ipOrDomain = Scrub(ipOrDomain);
+            if(string.IsNullOrEmpty(ipOrDomain))
+            {
+                ipOrDomain = ((RemoteEndpointMessageProperty)OperationContext.Current.IncomingMessageProperties[RemoteEndpointMessageProperty.Name]).Address;
+            }
+            var whoisServiceTranslator = new WhoisClient.WhoisClient(ipOrDomain);
+
+            var record = whoisServiceTranslator.GetWhoisRecord();
+
+            if (record == null)
+            {
+                throw new RestException(string.Format("{0} could not be found", ipOrDomain));
+            }
+
+            return record;
+        }
+
+        private WhoisEnhancedRecord WhoisEnhanced(string filters, string referrer)
         {
             filters = Scrub(filters);
             referrer = Scrub(referrer);
 
-            Response response;
-            try
-            {
-                string remoteAddress = ((RemoteEndpointMessageProperty) OperationContext.Current.IncomingMessageProperties[RemoteEndpointMessageProperty.Name]).Address;
+            var whoisRecord = Whois(null);
 
-                if(remoteAddress == "127.0.0.1")
-                {
-                    remoteAddress = "68.146.10.123";
-                }
-
-                var whoisServiceTranslator = new WhoisClient(remoteAddress);
-
-                response = (Response) whoisServiceTranslator.GetWhoisRecord();
-
-                response.SetOrganizationFromSecondarySource(remoteAddress);
-                response.SetCountryName();
-                response.ProcessFilters(filters, referrer);
-                response.ProcessFriendly(referrer);
-            }
-            catch(Exception ex)
-            {
-                throw new RestException(ex.ToString());
-            }
-
-            return response;
+            return new WhoisEnhancedRecord(whoisRecord, filters, referrer);
         }
 
         private static string Scrub(string value)

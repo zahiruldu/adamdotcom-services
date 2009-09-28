@@ -4,16 +4,14 @@ using System.IO;
 using System.Net.Sockets;
 using System.Text;
 using System.Xml.Linq;
-using AdamDotCom.Whois.Service.Extensions;
 
-namespace AdamDotCom.Whois.Service
+namespace AdamDotCom.Whois.Service.WhoisClient
 {
     public class WhoisClient
     {
-
         private WhoisRecord whoisRecord;
         public List<KeyValuePair<string, string>> Errors { get; set; }
-        private const string whoisServersFilename = "WhoisServerList.xml";
+        private const string whoisServersFilename = @"Service\WhoisClient\WhoisServerList.xml";
         private static XElement whoisServers;
 
         public WhoisClient(string query)
