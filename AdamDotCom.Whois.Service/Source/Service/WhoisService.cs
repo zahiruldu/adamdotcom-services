@@ -45,9 +45,9 @@ namespace AdamDotCom.Whois.Service
                     remoteAddress = "68.146.10.123";
                 }
 
-                var whoisServiceTranslator = new WhoisServiceTranslator(remoteAddress);
+                var whoisServiceTranslator = new WhoisClient(remoteAddress);
 
-                response = (Response) whoisServiceTranslator.GetResponse();
+                response = (Response) whoisServiceTranslator.GetWhoisRecord();
 
                 response.SetOrganizationFromSecondarySource(remoteAddress);
                 response.SetCountryName();

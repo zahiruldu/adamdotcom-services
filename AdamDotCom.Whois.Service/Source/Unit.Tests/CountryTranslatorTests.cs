@@ -1,7 +1,7 @@
 ﻿using AdamDotCom.Whois.Service;
 using NUnit.Framework;
 
-namespace Unit.Tests
+namespace AdamDotCom.Whois.Service.Unit.Tests
 {
     [TestFixture]
     public class CountryTranslatorTests

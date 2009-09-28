@@ -4,8 +4,14 @@ using System.Runtime.Serialization;
 namespace AdamDotCom.Whois.Service
 {
     [DataContract]
-    public class Response: WhoisTranslatorResponse
+    public class Response : WhoisRecord
     {
+        public string City { get; set; }
+        public string Region { get; set; }
+        public string Organization { get; set; }
+
+        public string CountryCode2 { get; set; }
+
         [DataMember]
         public bool IsFriendly { get; set; }
 
@@ -17,5 +23,7 @@ namespace AdamDotCom.Whois.Service
 
         [DataMember]
         public List<string> FriendlyMatches { get; set; }
+
+        public string Country { get; set; }
     }
 }
