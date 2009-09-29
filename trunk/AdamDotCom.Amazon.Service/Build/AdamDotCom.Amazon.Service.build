@@ -17,6 +17,7 @@
     <csc target="library" output="..\Final-Assemblies\AdamDotCom.Amazon.Service.dll" debug="false" warninglevel="0" >
       <references>
         <include name="..\Dependencies\*.Amazon.dll" />
+        <include name="..\Dependencies\*.Common.Service.dll" />
         <include name="..\Final-Assemblies\*.dll" />
       </references>
       <sources>
