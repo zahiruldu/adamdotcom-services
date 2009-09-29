@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("AdamDotCom.Amazon.Service")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("MTS Allstream Inc.")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("AdamDotCom.Amazon.Service")]
-[assembly: AssemblyCopyright("Copyright © MTS Allstream Inc. 2009")]
+[assembly: AssemblyCopyright("Copyright © Adam Kahtava")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
