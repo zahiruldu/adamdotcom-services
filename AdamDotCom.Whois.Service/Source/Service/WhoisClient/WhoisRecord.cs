@@ -37,7 +37,7 @@ namespace AdamDotCom.Whois.Service.WhoisClient
         public Contact TechnicalContact { get; set; }
 
         [DataMember]
-        public Contact ZoneContat { get; set; }
+        public Contact ZoneContact { get; set; }
 
         [DataMember]
         public string RawText { get; set; }

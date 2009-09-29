@@ -9,70 +9,49 @@ namespace AdamDotCom.Whois.Service
 {
     public class WhoisService : IWhois
     {
-        public WhoisRecord WhoAmIXml()
+
+        public WhoisRecord WhoisXml(string ipAddress)
         {
-            return Whois(null);
+            return Whois(ipAddress);
         }
 
-        public WhoisRecord WhoAmIJson()
+        public WhoisRecord WhoisJson(string ipAddress)
         {
-            return Whois(null);
+            return Whois(ipAddress);
         }
 
-        public WhoisRecord WhoisXml(string ipOrDomain)
+        public WhoisEnhancedRecord WhoisEnhancedXml(string ipAddress, string filters, string referrer)
         {
-            return Whois(ipOrDomain);
+            return WhoisEnhanced(ipAddress, filters, referrer);
         }
 
-        public WhoisRecord WhoisJson(string ipOrDomain)
+        public WhoisEnhancedRecord WhoisEnhancedJson(string ipAddress, string filters, string referrer)
         {
-            return Whois(ipOrDomain);
+            return WhoisEnhanced(ipAddress, filters, referrer);
         }
 
-        public WhoisEnhancedRecord WhoisEnhancedXml(string filters)
+        private WhoisRecord Whois(string ipAddress)
         {
-            return WhoisEnhanced(filters, null);
-        }
-
-        public WhoisEnhancedRecord WhoisEnhancedJson(string filters)
-        {
-            return WhoisEnhanced(filters, null);
-        }
-
-        public WhoisEnhancedRecord WhoisEnhancedWithReferrerXml(string filters, string referrer)
-        {
-            return WhoisEnhanced(filters, referrer);
-        }
-
-        public WhoisEnhancedRecord WhoisEnhancedWithReferrerJson(string filters, string referrer)
-        {
-            return WhoisEnhanced(filters, referrer);
-        } 
-        private WhoisRecord Whois(string ipOrDomain)
-        {
-            ipOrDomain = Scrub(ipOrDomain);
-            if(string.IsNullOrEmpty(ipOrDomain))
+            ipAddress = Scrub(ipAddress);
+            if(string.IsNullOrEmpty(ipAddress))
             {
-                ipOrDomain = ((RemoteEndpointMessageProperty)OperationContext.Current.IncomingMessageProperties[RemoteEndpointMessageProperty.Name]).Address;
+                ipAddress = ((RemoteEndpointMessageProperty)OperationContext.Current.IncomingMessageProperties[RemoteEndpointMessageProperty.Name]).Address;
             }
-            var whoisServiceTranslator = new WhoisClient.WhoisClient(ipOrDomain);
+            var whoisClient = new WhoisClient.WhoisClient(ipAddress);
 
-            var record = whoisServiceTranslator.GetWhoisRecord();
+            var record = whoisClient.GetWhoisRecord();
 
-            if (record == null)
-            {
-                throw new RestException(string.Format("{0} could not be found", ipOrDomain));
-            }
+            HandleErrors(whoisClient.Errors);
 
             return record;
         }
 
-        private WhoisEnhancedRecord WhoisEnhanced(string filters, string referrer)
+        private WhoisEnhancedRecord WhoisEnhanced(string ipAddressOrDomainName, string filters, string referrer)
         {
             filters = Scrub(filters);
             referrer = Scrub(referrer);
 
-            var whoisRecord = Whois(null);
+            var whoisRecord = Whois(ipAddressOrDomainName);
 
             return new WhoisEnhancedRecord(whoisRecord, filters, referrer);
         }

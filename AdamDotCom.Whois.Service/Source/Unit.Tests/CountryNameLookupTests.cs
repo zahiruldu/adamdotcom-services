@@ -11,7 +11,7 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
             var countryTranslator = new CountryNameLookup.CountryNameLookup();
 
             Assert.IsNotNull(countryTranslator);
-            Assert.AreEqual("CANADA", countryTranslator.GetCountryName("CA"));
+            Assert.AreEqual("Canada", countryTranslator.GetCountryName("CA"));
         }
     }
 }

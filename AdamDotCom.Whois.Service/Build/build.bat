@@ -1,4 +1,4 @@
 @echo off
 cls
-..\Dependencies\nant\bin\NAnt.exe -buildfile:AdamDotCom.Amazon.Service.build %*
+..\Dependencies\nant\bin\NAnt.exe -buildfile:AdamDotCom.Whois.Service.build %*
 pause

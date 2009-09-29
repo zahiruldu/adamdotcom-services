@@ -79,8 +79,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CountryNameLookup\iso_3166-1_list_en.xml" />
-    <Content Include="WhoisClient\WhoisServerList.xml" />
+    <EmbeddedResource Include="CountryNameLookup\iso_3166-1_list_en.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

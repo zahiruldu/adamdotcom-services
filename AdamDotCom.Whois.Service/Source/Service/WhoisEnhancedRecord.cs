@@ -17,7 +17,14 @@ namespace AdamDotCom.Whois.Service
             StateProvince = registrant.StateProv;
             Organization = registrant.Name;
             CountryCode2 = registrant.Country;
-            Country = new CountryNameLookup.CountryNameLookup().GetCountryName(CountryCode2);
+            try
+            {
+                Country = new CountryNameLookup.CountryNameLookup().GetCountryName(CountryCode2);
+            }
+            catch
+            {
+                Country = CountryCode2;
+            }
             this.ProcessFilters(filters, referrer);
             this.ProcessFriendly(referrer);
         }

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="AdamDotCom.Amazon.Services" default="all">
+<project name="AdamDotCom.Whois.Services" default="all">
 
   <property name="nant.settings.currentframework" value="net-3.5" />	
   
@@ -14,16 +14,18 @@
   </target>
 
   <target name="compile" description="compiles the library DLLs used by the application" depends="clean">
-    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Amazon.Service.dll" debug="false" warninglevel="0" >
+    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Whois.Service.dll" debug="false" warninglevel="0" >
       <references>
-        <include name="..\Dependencies\*.Amazon.dll" />
         <include name="..\Final-Assemblies\*.dll" />
       </references>
       <sources>
         <include name="..\Source\Service\**\*.cs"/>
       </sources>
+      <resources failonempty="true" prefix="AdamDotCom.Whois.Service.CountryNameLookup">
+        <include name="..\Source\Service\**\iso_3166-1_list_en.xml"/>
+      </resources>
     </csc>
-    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Amazon.Service.Host.dll" debug="false" warninglevel="0" >
+    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Whois.Service.Host.dll" debug="false" warninglevel="0" >
       <references>
         <include name="..\Final-Assemblies\*.dll" />
       </references>
@@ -31,9 +33,8 @@
         <include name="..\Source\ServiceHost\**\*.cs"/>
       </sources>
     </csc>
-    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Amazon.Service.Proxy.dll" debug="false" warninglevel="0" >
+    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Whois.Service.Proxy.dll" debug="false" warninglevel="0" >
       <references>
-        <include name="..\Dependencies\*.Amazon.dll" />
         <include name="..\Final-Assemblies\*.dll" />
       </references>
       <sources>
@@ -58,13 +59,17 @@
         <include name="*.dll" />
       </fileset>
     </copy>
+    <copy todir="bin" flatten="true">
+			<fileset basedir="..\Source\Unit.Tests">
+				<include name="*.txt" />
+			</fileset>
+		</copy>
   </target>
   
   <target name="test.compile" description="compiles the unit tests" depends="compile test.prepare">
     <csc target="library" output="bin\${project::get-name()}.Integration.Tests.dll" debug="false">
       <references>
         <include name="..\Final-Assemblies\*.Proxy.dll" />
-        <include name="..\Dependencies\*.Amazon.dll" />
         <include name="..\Dependencies\nunit\bin\*.dll" />
       </references>
       <sources>
