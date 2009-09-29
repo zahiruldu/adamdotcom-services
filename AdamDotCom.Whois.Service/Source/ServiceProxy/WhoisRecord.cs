@@ -1,8 +1,8 @@
 ﻿using System.Runtime.Serialization;
 
-namespace AdamDotCom.Whois.Service.WhoisClient
+namespace AdamDotCom.Whois.Service.Proxy
 {
-    [DataContract(Namespace = "http://adam.kahtava.com/services/whois")]
+    [DataContract]
     public class WhoisRecord
     {
         [DataMember]

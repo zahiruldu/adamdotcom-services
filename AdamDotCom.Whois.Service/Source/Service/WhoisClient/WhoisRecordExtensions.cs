@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using AdamDotCom.Whois.Service.Utilities;
+using AdamDotCom.Common.Service.Utilities;
 using AdamDotCom.Whois.Service.WhoisClient;
 
 namespace AdamDotCom.Whois.Service.WhoisClient
