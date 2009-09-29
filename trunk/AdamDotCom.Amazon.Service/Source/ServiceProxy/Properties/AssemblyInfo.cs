@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ServiceProxy")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("MTS Allstream Inc.")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ServiceProxy")]
-[assembly: AssemblyCopyright("Copyright © MTS Allstream Inc. 2009")]
+[assembly: AssemblyCopyright("Copyright © Adam Kahtava")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

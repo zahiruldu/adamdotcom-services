@@ -5,7 +5,8 @@ using System.Linq;
 using System.Net;
 using AdamDotCom.Amazon.Domain;
 using AdamDotCom.Amazon.Service.Extensions;
-using AdamDotCom.Amazon.Service.Utilities;
+using AdamDotCom.Common.Service.Infrastructure;
+using ServiceCache=AdamDotCom.Common.Service.ServiceCache;
 
 namespace AdamDotCom.Amazon.Service
 {
@@ -99,7 +100,7 @@ namespace AdamDotCom.Amazon.Service
 
             username = Scrub(username);
 
-            if (ServiceCache.IsInCache(username))
+            if (ServiceCache.IsInCache(MakeUnique(username)))
             {
                 return (Profile) ServiceCache.GetFromCache(username);
             }
@@ -110,7 +111,7 @@ namespace AdamDotCom.Amazon.Service
             
             HandleErrors(sniffer.Errors);
 
-            return profile.AddToCache(username);
+            return profile.AddToCache(MakeUnique(username));
         }
 
         private static string Scrub(string username)
@@ -122,11 +123,11 @@ namespace AdamDotCom.Amazon.Service
         {
             return new AmazonRequest
             {
-                AssociateTag = ConfigurationManager.AppSettings["AssociateTag"],
-                AccessKeyId = ConfigurationManager.AppSettings["AwsAccessKey"],
+                AssociateTag = ConfigurationManager.AppSettings["AmazonAssociateTag"],
+                AccessKeyId = ConfigurationManager.AppSettings["AmazonAccessKey"],
                 CustomerId = customerId,
                 ListId = listId,
-                SecretAccessKey = ConfigurationManager.AppSettings["SecretAccessKey"]
+                SecretAccessKey = ConfigurationManager.AppSettings["AmazonSecretAccessKey"]
             };
         }
 
@@ -136,9 +137,7 @@ namespace AdamDotCom.Amazon.Service
 
             if (string.IsNullOrEmpty(inputValue) || inputValue.Equals("null", StringComparison.CurrentCultureIgnoreCase))
             {
-                throw new RestException(HttpStatusCode.BadRequest,
-                                        new List<KeyValuePair<string, string>> { new KeyValuePair<string, string>(inputName, string.Format("{0} is not a valid value.", inputValue)) },
-                                        (int)ErrorCode.InternalError);
+                throw new RestException(new KeyValuePair<string, string>(inputName, string.Format("{0} is not a valid value.", inputValue)));
             }
         }
 
@@ -148,6 +147,11 @@ namespace AdamDotCom.Amazon.Service
             {
                 throw new RestException(HttpStatusCode.BadRequest, errors, (int)ErrorCode.InternalError);
             }
+        }
+
+        private static string MakeUnique(string key)
+        {
+            return string.Format("{0}-{1}", "Amazon", key.Replace(" ", "-"));
         }
     }
 }
