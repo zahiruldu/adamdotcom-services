@@ -1,0 +1,20 @@
+#  Managed Fusion Url Rewriter
+#  http://managedfusion.com/products/url-rewriter/
+#
+#  Developed by: Nick Berardi
+#       Support: support@managedfusion.com
+#
+RewriteEngine on
+
+#
+# Place Rules Below
+#
+
+RewriteBase /services/
+
+# misc WordPress rewrites
+RewriteRule ^/whois/(.*)$ /whois.svc/$1
+RewriteRule ^/amazon/(.*)$ /amazon.svc/$1
+RewriteRule ^/resume/(.*)$ /resume.svc/$1
+RewriteRule ^(.*)\.xml(.*)$ $1/xml$2
+RewriteRule ^(.*)\.json(.*)$ $1/json$2
