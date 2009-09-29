@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
-using AdamDotCom.Resume.Service.Utilities;
+using AdamDotCom.Common.Service.Utilities;
 
 namespace AdamDotCom.Resume.Service
 {
