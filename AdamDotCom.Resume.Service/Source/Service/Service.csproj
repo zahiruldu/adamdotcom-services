@@ -31,9 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AdamDotCom.Amazon, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="AdamDotCom.Common.Service, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Dependencies\AdamDotCom.Amazon.dll</HintPath>
+      <HintPath>..\..\Dependencies\AdamDotCom.Common.Service.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ServiceModel.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -64,16 +64,7 @@
     <Compile Include="Extensions\ServiceCache.cs" />
     <Compile Include="LinkedInResumeSniffer.cs" />
     <Compile Include="ResumeService.cs" />
-    <Compile Include="ErrorCode.cs" />
-    <Compile Include="RestErrorMessage.cs" />
-    <Compile Include="Utilities\Utilities.cs" />
-    <Compile Include="Utilities\WebClientWithCookies.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Utilities\RestException.cs" />
     <Compile Include="Resume.cs" />
-    <Compile Include="Utilities\WebHttpWithExceptions.cs" />
-    <Compile Include="Utilities\WebHttpWithExceptionsElement.cs" />
     <Compile Include="IResume.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
