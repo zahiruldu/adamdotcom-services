@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using AdamDotCom.Common.Service.Infrastructure;
 using AdamDotCom.Resume.Service.Extensions;
+using ServiceCache=AdamDotCom.Common.Service.ServiceCache;
 
 namespace AdamDotCom.Resume.Service
 {
@@ -26,7 +27,7 @@ namespace AdamDotCom.Resume.Service
 
             firstnameLastname = Scrub(firstnameLastname);
 
-            if (ServiceCache.IsInCache(firstnameLastname))
+            if (ServiceCache.IsInCache(MakeUnique(firstnameLastname)))
             {
                 return (Resume)ServiceCache.GetFromCache(firstnameLastname);
             }
@@ -46,9 +47,9 @@ namespace AdamDotCom.Resume.Service
                 HandleErrors(linkedInEmailAddress);
             }
 
-            HandleErrors(resumeSniffer.Errors);           
+            HandleErrors(resumeSniffer.Errors);
 
-            return resume.AddToCache(firstnameLastname);
+            return resume.AddToCache(MakeUnique(firstnameLastname));
         }
 
         private static string Scrub(string username)
@@ -87,5 +88,11 @@ namespace AdamDotCom.Resume.Service
                                                                          linkedInEmailAddress, "http://code.google.com/p/adamdotcom-services/source/checkout"))
                 );
         }
+
+        private static string MakeUnique(string key)
+        {
+            return string.Format("{0}-{1}", "Resume", key.Replace(" ", "-"));
+        }
+
     }
 }
