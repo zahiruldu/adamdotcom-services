@@ -10,35 +10,19 @@ namespace AdamDotCom.Whois.Service
     public interface IWhois
     {
         [OperationContract]
-        [WebGet(UriTemplate = "/xml")]
-        WhoisRecord WhoAmIXml();
+        [WebGet(UriTemplate = "/xml?query={ipAddress}")]
+        WhoisRecord WhoisXml(string ipAddress);
 
         [OperationContract]
-        [WebGet(UriTemplate = "/json", ResponseFormat = WebMessageFormat.Json)]
-        WhoisRecord WhoAmIJson();
+        [WebGet(UriTemplate = "/json?query={ipAddress}", ResponseFormat = WebMessageFormat.Json)]
+        WhoisRecord WhoisJson(string ipAddress);
+        
+        [OperationContract]
+        [WebGet(UriTemplate = "enhanced/xml?query={ipAddress}&filters={filters}&referrer={referrer}")]
+        WhoisEnhancedRecord WhoisEnhancedXml(string ipAddress, string filters, string referrer);
 
         [OperationContract]
-        [WebGet(UriTemplate = "{ipOrDomain}/xml")]
-        WhoisRecord WhoisXml(string ipOrDomain);
-
-        [OperationContract]
-        [WebGet(UriTemplate = "{ipOrDomain}/json", ResponseFormat = WebMessageFormat.Json)]
-        WhoisRecord WhoisJson(string ipOrDomain);
-
-        [OperationContract]
-        [WebGet(UriTemplate = "enhanced/filters/{filters}/xml")]
-        WhoisEnhancedRecord WhoisEnhancedXml(string filters);
-
-        [OperationContract]
-        [WebGet(UriTemplate = "enhanced/filters/{filters}/json", ResponseFormat = WebMessageFormat.Json)]
-        WhoisEnhancedRecord WhoisEnhancedJson(string filters);
-
-        [OperationContract]
-        [WebGet(UriTemplate = "enhanced/filters/{filters}/referrer/{referrer}/xml")]
-        WhoisEnhancedRecord WhoisEnhancedWithReferrerXml(string filters, string referrer);
-
-        [OperationContract]
-        [WebGet(UriTemplate = "enhanced/filters/{filters}/referrer/{referrer}/json", ResponseFormat = WebMessageFormat.Json)]
-        WhoisEnhancedRecord WhoisEnhancedWithReferrerJson(string filters, string referrer);
+        [WebGet(UriTemplate = "enhanced/json?query={ipAddress}&filters={filters}&referrer={referrer}", ResponseFormat = WebMessageFormat.Json)]
+        WhoisEnhancedRecord WhoisEnhancedJson(string ipAddress, string filters, string referrer);
    }
 }

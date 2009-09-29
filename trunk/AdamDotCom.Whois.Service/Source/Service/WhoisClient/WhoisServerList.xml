@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<WhoisServers>
-  <Server priority="0">whois.arin.net</Server>
-  <Server priority="0">whois.crsnic.net</Server>
-  <Server priority="0">whois.cira.ca</Server>
-</WhoisServers>

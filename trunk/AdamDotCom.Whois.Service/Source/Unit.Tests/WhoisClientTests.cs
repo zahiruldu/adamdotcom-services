@@ -23,7 +23,7 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
             Assert.IsNotNull(response.RegistryData.RawText);
         }
 
-        [Test]
+        [Test, Ignore("Removed DNS resolution capabilities")]
         public void ShouldVerifyRawWhoisResultDomainNameRecordIsParsed()
         {
             var response = WhoisRecordExtensions.Translate("adamdotcom.com", TestHelper.WhoisRawResult2);
@@ -80,10 +80,10 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
             Assert.IsTrue(response.RegistryData.Registrant.Name.ToLower().Contains("google"));
         }
 
-        [Test]
+        [Test, Ignore("Removed DNS resolution capabilities")]
         public void ShouldVerifyWhoisClientWorksOnAdamDotCom()
         {
-            var whoisClient = new WhoisClient.WhoisClient("adamdotcom.com");
+            var whoisClient = new WhoisClient.WhoisClient("kahtava.com");
 
             Assert.IsNotNull(whoisClient);
             foreach (var item in whoisClient.Errors)
@@ -94,11 +94,11 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
 
             var response = whoisClient.GetWhoisRecord();
 
+            Assert.IsNotNull(response);
             Assert.AreEqual("CA", response.RegistryData.Registrant.Country);
             Assert.AreEqual("ON", response.RegistryData.Registrant.StateProv);
             Assert.AreEqual("Ottawa", response.RegistryData.Registrant.City);
-            Assert.IsTrue(response.DomainName.ToLower().Contains("adamdotcom"));
+            Assert.IsTrue(response.DomainName.ToLower().Contains("kahtava"));
         }
-
     }
 }   

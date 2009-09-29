@@ -84,28 +84,30 @@ namespace AdamDotCom.Whois.Service.Extensions
 
         public static WhoisEnhancedRecord ProcessFilters(this WhoisEnhancedRecord whoisEnhancedRecord, string filters, string referrer)
         {
-            filters = filters.ToLower();
-            referrer = referrer.ToLower();
-            var splitFilters = filters.Split(',');
-            foreach (var filter in splitFilters)
+            referrer = referrer == null ? null : referrer.ToLower();
+            if (filters != null)
             {
-                if (!string.IsNullOrEmpty(IsFilterMatchInWhoisInfo(filter, whoisEnhancedRecord)))
+                var splitFilters = filters.ToLower().Split(',');
+                foreach (var filter in splitFilters)
                 {
-                    if(whoisEnhancedRecord.FilterMatches == null)
+                    if (!string.IsNullOrEmpty(IsFilterMatchInWhoisInfo(filter, whoisEnhancedRecord)))
                     {
-                        whoisEnhancedRecord.FilterMatches = new List<string>();
+                        if(whoisEnhancedRecord.FilterMatches == null)
+                        {
+                            whoisEnhancedRecord.FilterMatches = new List<string>();
+                        }
+                        whoisEnhancedRecord.FilterMatches.Add(IsFilterMatchInWhoisInfo(filter, whoisEnhancedRecord));
+                        whoisEnhancedRecord.IsFilterMatch = true;
                     }
-                    whoisEnhancedRecord.FilterMatches.Add(IsFilterMatchInWhoisInfo(filter, whoisEnhancedRecord));
-                    whoisEnhancedRecord.IsFilterMatch = true;
-                }
-                if (!string.IsNullOrEmpty(IsFilterMatchInReferrer(filter, referrer)))
-                {
-                    if (whoisEnhancedRecord.FilterMatches == null)
+                    if (!string.IsNullOrEmpty(IsFilterMatchInReferrer(filter, referrer)))
                     {
-                        whoisEnhancedRecord.FilterMatches = new List<string>();
+                        if (whoisEnhancedRecord.FilterMatches == null)
+                        {
+                            whoisEnhancedRecord.FilterMatches = new List<string>();
+                        }
+                        whoisEnhancedRecord.FilterMatches.Add(IsFilterMatchInReferrer(filter, referrer));
+                        whoisEnhancedRecord.IsFilterMatch = true;
                     }
-                    whoisEnhancedRecord.FilterMatches.Add(IsFilterMatchInReferrer(filter, referrer));
-                    whoisEnhancedRecord.IsFilterMatch = true;
                 }
             }
             return whoisEnhancedRecord;
