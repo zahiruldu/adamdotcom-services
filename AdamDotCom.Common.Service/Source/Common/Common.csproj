@@ -68,6 +68,9 @@
     <Compile Include="Infrastructure\WebHttpWithExceptionsElement.cs" />
     <Compile Include="Infrastructure\ErrorCode.cs" />
     <Compile Include="Infrastructure\RestErrorMessage.cs" />
+    <Compile Include="Utilities\WebClientWithCookies.cs">
+      <SubType>Component</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
