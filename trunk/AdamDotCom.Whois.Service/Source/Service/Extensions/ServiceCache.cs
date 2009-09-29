@@ -18,5 +18,15 @@ namespace AdamDotCom.Whois.Service.Extensions
 
             return whoisEnhancedRecord;
         }
+
+        public static bool IsInCache(string key)
+        {
+            return Common.Service.ServiceCache.IsInCache(key);
+        }
+
+        public static object GetFromCache(string key)
+        {
+            return Common.Service.ServiceCache.GetFromCache(key);
+        }
     }
 }

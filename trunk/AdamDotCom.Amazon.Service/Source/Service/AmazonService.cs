@@ -6,7 +6,6 @@ using System.Net;
 using AdamDotCom.Amazon.Domain;
 using AdamDotCom.Amazon.Service.Extensions;
 using AdamDotCom.Common.Service.Infrastructure;
-using ServiceCache=AdamDotCom.Common.Service.ServiceCache;
 
 namespace AdamDotCom.Amazon.Service
 {
@@ -68,7 +67,11 @@ namespace AdamDotCom.Amazon.Service
 
             if(ServiceCache.IsInCache(customerId))
             {
-                return (Reviews) ServiceCache.GetFromCache(customerId);
+                var cachedReviews = (Reviews) ServiceCache.GetFromCache(customerId);
+                if (cachedReviews != null)
+                {
+                    return cachedReviews;
+                }
             }
             
             var amazonResponse = new AmazonFactory(BuildRequest(customerId, null)).GetResponse();
@@ -84,7 +87,11 @@ namespace AdamDotCom.Amazon.Service
 
             if(ServiceCache.IsInCache(listId))
             {
-                return (Wishlist) ServiceCache.GetFromCache(listId);
+                var cachedWishlist = (Wishlist) ServiceCache.GetFromCache(listId);
+                if (cachedWishlist != null)
+                {
+                    return cachedWishlist;
+                }
             }
 
             var amazonResponse = new AmazonFactory(BuildRequest(null, listId)).GetResponse();
@@ -102,7 +109,11 @@ namespace AdamDotCom.Amazon.Service
 
             if (ServiceCache.IsInCache(MakeUnique(username)))
             {
-                return (Profile) ServiceCache.GetFromCache(username);
+                var cachedProfile = (Profile) ServiceCache.GetFromCache(MakeUnique(username));
+                if (cachedProfile != null)
+                {
+                    return cachedProfile;
+                }
             }
 
             var sniffer = new ProfileSniffer(username);
@@ -151,7 +162,7 @@ namespace AdamDotCom.Amazon.Service
 
         private static string MakeUnique(string key)
         {
-            return string.Format("{0}-{1}", "Amazon", key.Replace(" ", "-"));
+            return string.Format("{0}-{1}", "amazon", key).ToLower().Replace(" ", "-");
         }
     }
 }
