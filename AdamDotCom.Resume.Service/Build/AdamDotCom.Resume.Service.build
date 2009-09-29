@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="AdamDotCom.Amazon.Services" default="all">
+<project name="AdamDotCom.Resume.Services" default="all">
 
 	<property name="nant.settings.currentframework" value="net-3.5" />	
 	
@@ -13,18 +13,11 @@
 	  </delete>
 	</target>
 	
-	<target name="copy-dependencies">
-	  <copy todir="..\Final-Assemblies">
-      <fileset basedir="..\Dependencies">
-        <include name="AdamDotCom.Amazon.dll" />
-      </fileset>
-    </copy>
-  </target>
-
-	<target name="compile" description="compiles the library DLLs used by the application" depends="clean copy-dependencies">
+	<target name="compile" description="compiles the library DLLs used by the application" depends="clean">
 		<csc target="library" output="..\Final-Assemblies\AdamDotCom.Resume.Service.dll" debug="false" warninglevel="0" >
 			<references>
 				<include name="..\Final-Assemblies\*.dll" />
+				<include name="..\Dependencies\**Common.Service.dll" />
 			</references>
 			<sources>
 				<include name="..\Source\Service\**\*.cs"/>
@@ -90,6 +83,11 @@
 		<copy todir="bin" flatten="true">
 			<fileset basedir="..\Source\Unit.Tests">
 				<include name="*.txt" />
+			</fileset>
+		</copy>
+		<copy todir="bin" flatten="true">
+			<fileset basedir="..\Dependencies">
+				<include name="*.dll" />
 			</fileset>
 		</copy>
 	</target>
