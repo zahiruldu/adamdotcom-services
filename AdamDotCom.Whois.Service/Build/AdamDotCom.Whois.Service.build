@@ -17,6 +17,7 @@
     <csc target="library" output="..\Final-Assemblies\AdamDotCom.Whois.Service.dll" debug="false" warninglevel="0" >
       <references>
         <include name="..\Final-Assemblies\*.dll" />
+        <include name="..\Dependencies\**Common.Service.dll" />
       </references>
       <sources>
         <include name="..\Source\Service\**\*.cs"/>
