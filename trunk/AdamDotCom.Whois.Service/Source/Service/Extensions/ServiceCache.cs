@@ -1,50 +1,22 @@
-﻿using System;
-using System.Configuration;
-using System.Web;
-using System.Web.Caching;
+﻿using AdamDotCom.Whois.Service.WhoisClient;
+using AdamDotCom.Whois.Service;
 
 namespace AdamDotCom.Whois.Service.Extensions
 {
     public static class ServiceCache
     {
-        private static Cache cache = HttpRuntime.Cache;
-        private static readonly bool enableCache = Convert.ToBoolean(ConfigurationManager.AppSettings["EnableCaching"]);
-
-        public static bool IsInCache(string key)
+        public static WhoisRecord AddToCache(this WhoisRecord whoisRecord, string ipAddress)
         {
-            return GetFromCache(key) != null;
+            Common.Service.ServiceCache.AddToCache(ipAddress, whoisRecord);
+
+            return whoisRecord;
         }
 
-        public static object GetFromCache(string key)
+        public static WhoisEnhancedRecord AddToCache(this WhoisEnhancedRecord whoisEnhancedRecord, string ipAddress)
         {
-            if (cache[key] != null)
-            {
-                return cache[key];
-            }
-            return null;
-        }
+            Common.Service.ServiceCache.AddToCache(ipAddress, whoisEnhancedRecord);
 
-//        public static Wishlist AddToCache(this Wishlist wishlist, string listId)
-//        {
-//            AddToCache(listId, wishlist);
-//            
-//            return wishlist;
-//        }
-
-
-//        public static Profile AddToCache(this Profile profile, string username)
-//        {
-//            AddToCache(username, profile);
-//
-//            return profile;
-//        }
-
-        private static void AddToCache(string key, object cacheObject)
-        {
-            if (enableCache)
-            {
-                cache.Insert(key, cacheObject, null, DateTime.Now.AddDays(1d), Cache.NoSlidingExpiration);
-            }
+            return whoisEnhancedRecord;
         }
     }
 }

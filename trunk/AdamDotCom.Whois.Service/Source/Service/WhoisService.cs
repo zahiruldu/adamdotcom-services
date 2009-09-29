@@ -1,15 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
-using AdamDotCom.Whois.Service.Utilities;
+using AdamDotCom.Common.Service.Infrastructure;
+using AdamDotCom.Whois.Service.Extensions;
 using AdamDotCom.Whois.Service.WhoisClient;
 
 namespace AdamDotCom.Whois.Service
 {
     public class WhoisService : IWhois
     {
-
         public WhoisRecord WhoisXml(string ipAddress)
         {
             return Whois(ipAddress);
@@ -37,28 +38,44 @@ namespace AdamDotCom.Whois.Service
             {
                 ipAddress = ((RemoteEndpointMessageProperty)OperationContext.Current.IncomingMessageProperties[RemoteEndpointMessageProperty.Name]).Address;
             }
+            AssertValidInput(ipAddress, "ipAddress");
+
             var whoisClient = new WhoisClient.WhoisClient(ipAddress);
 
             var record = whoisClient.GetWhoisRecord();
 
             HandleErrors(whoisClient.Errors);
 
-            return record;
+            return record.AddToCache(ipAddress);
         }
 
-        private WhoisEnhancedRecord WhoisEnhanced(string ipAddressOrDomainName, string filters, string referrer)
+        private WhoisEnhancedRecord WhoisEnhanced(string ipAddress, string filters, string referrer)
         {
             filters = Scrub(filters);
             referrer = Scrub(referrer);
+            AssertValidInput(filters, "filters");
+            AssertValidInput(referrer, "referrer");
 
-            var whoisRecord = Whois(ipAddressOrDomainName);
+            var whoisRecord = Whois(ipAddress);
 
-            return new WhoisEnhancedRecord(whoisRecord, filters, referrer);
+            var whoisEnhancedRecord = new WhoisEnhancedRecord(whoisRecord, filters, referrer);
+
+            return whoisEnhancedRecord.AddToCache(ipAddress);
         }
 
         private static string Scrub(string value)
         {
-            return string.IsNullOrEmpty(value) ? null : value.Replace(" ", "%20").Replace("-", " ");
+            return string.IsNullOrEmpty(value) ? null : value.Replace("%20", " ").Replace("-", " ");
+        }
+
+        private static void AssertValidInput(string inputValue, string inputName)
+        {
+            inputName = (string.IsNullOrEmpty(inputName) ? "Unknown" : inputName);
+
+            if (!string.IsNullOrEmpty(inputValue) && (inputValue.Equals("null", StringComparison.CurrentCultureIgnoreCase) || inputValue.Equals("string.empty", StringComparison.CurrentCultureIgnoreCase)))
+            {
+                throw new RestException(new KeyValuePair<string, string>(inputName, string.Format("{0} is not a valid parameter value.", inputValue)));
+            }
         }
 
         private static void HandleErrors(List<KeyValuePair<string, string>> errors)

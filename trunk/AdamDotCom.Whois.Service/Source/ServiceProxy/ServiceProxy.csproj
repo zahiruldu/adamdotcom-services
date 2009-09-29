@@ -54,9 +54,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WhoisEnhancedRecord.cs" />
+    <Compile Include="WhoisRecord.cs" />
     <Compile Include="WhoisService.cs" />
     <Compile Include="IWhois.cs" />
-    <Compile Include="Profile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

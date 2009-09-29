@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdamDotCom.Common.Service, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Dependencies\AdamDotCom.Common.Service.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ServiceModel.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files\Microsoft WCF REST\WCF REST Starter Kit Preview 2\Assemblies\Microsoft.ServiceModel.Web.dll</HintPath>
@@ -63,18 +67,11 @@
     <Compile Include="CountryNameLookup\CountryNameLookup.cs" />
     <Compile Include="Extensions\ResponseExtensions.cs" />
     <Compile Include="Extensions\ServiceCache.cs" />
-    <Compile Include="LocationService.cs" />
-    <Compile Include="Utilities\Utilities.cs" />
     <Compile Include="WhoisClient\WhoisClient.cs" />
     <Compile Include="WhoisClient\WhoisRecord.cs" />
     <Compile Include="WhoisClient\WhoisRecordExtensions.cs" />
     <Compile Include="WhoisService.cs" />
-    <Compile Include="ErrorCode.cs" />
     <Compile Include="WhoisEnhancedRecord.cs" />
-    <Compile Include="RestErrorMessage.cs" />
-    <Compile Include="Utilities\RestException.cs" />
-    <Compile Include="Utilities\WebHttpWithExceptions.cs" />
-    <Compile Include="Utilities\WebHttpWithExceptionsElement.cs" />
     <Compile Include="IWhois.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
