@@ -58,11 +58,6 @@ namespace AdamDotCom.Whois.Service
             return record.AddToCache(ipAddress);
         }
 
-        private static string MakeUniqueHash(string ipAddress)
-        {
-            return string.Format("{0}-(1)", "enhanced", ipAddress).ToLower().Replace(" ", "-");
-        }
-
         private WhoisEnhancedRecord WhoisEnhanced(string ipAddress, string filters, string referrer)
         {
             filters = Scrub(filters);
@@ -70,9 +65,10 @@ namespace AdamDotCom.Whois.Service
             AssertValidInput(filters, "filters");
             AssertValidInput(referrer, "referrer");
 
-            if (ServiceCache.IsInCache(MakeUniqueHash(ipAddress)))
+            var hash = string.Format("{0}-{1}", ipAddress, filters).ToLower().Replace(",", "-").Replace(" ", "-");
+            if (ServiceCache.IsInCache(hash))
             {
-                var cachedRecord = (WhoisEnhancedRecord) ServiceCache.GetFromCache(MakeUniqueHash(ipAddress));
+                var cachedRecord = (WhoisEnhancedRecord) ServiceCache.GetFromCache(hash);
                 if (cachedRecord != null)
                 {
                     return cachedRecord;
@@ -83,7 +79,7 @@ namespace AdamDotCom.Whois.Service
 
             var whoisEnhancedRecord = new WhoisEnhancedRecord(whoisRecord, filters, referrer);
 
-            return whoisEnhancedRecord.AddToCache(MakeUniqueHash(ipAddress));
+            return whoisEnhancedRecord.AddToCache(hash);
         }
 
         private static string Scrub(string value)
