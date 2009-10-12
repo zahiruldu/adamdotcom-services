@@ -16,7 +16,7 @@ namespace AdamDotCom.Whois.Service.WhoisClient
                                                          {
                                                              CreatedDate = GetToken(rawWhoisResult, "RegDate"),
                                                              UpdatedDate = GetToken(rawWhoisResult, "Updated"),
-                                                             RawText = rawWhoisResult,
+                                                             RawText = FilterRawHtml(rawWhoisResult),
                                                              Registrant = new Registrant
                                                                               {
                                                                                   City = GetToken(rawWhoisResult, "City"),
@@ -74,6 +74,15 @@ namespace AdamDotCom.Whois.Service.WhoisClient
             var token1 = token.Replace(" ", "");
             var regex = new Regex(string.Format(@"{0}:(?<{1}>(([^\n]|[^\r\n])*))", token, token1), RegexOptions.Multiline);
             return RegexUtilities.GetTokenStringList(regex.Match(rawResult), token1);
+        }
+
+        public static string FilterRawHtml(string rawResult)
+        {
+            if (rawResult.ToLower().Contains(@"<div id=""content")){
+                var regex = new Regex(@"<div id=""content(?:[\s\w><=""/]+)pre>(?<Result>(([^<]|<[^/]|</[^p]|</p[^r]|</pr[^e])*.{0,4}))</pre", RegexOptions.Multiline);
+                return RegexUtilities.GetTokenString(regex.Match(rawResult), "Result");
+            }
+            return rawResult;
         }
     }
 }
