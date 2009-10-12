@@ -4,7 +4,7 @@ using System.Configuration;
 using System.Linq;
 using System.Net;
 using AdamDotCom.Amazon.Domain;
-using AdamDotCom.Amazon.Service.Extensions;
+using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
 
 namespace AdamDotCom.Amazon.Service
@@ -65,9 +65,9 @@ namespace AdamDotCom.Amazon.Service
         {
             AssertValidInput(customerId, "customerId");
 
-            if(ServiceCache.IsInCache(customerId))
+            if(ServiceCache.IsInCache<Reviews>(customerId))
             {
-                var cachedReviews = (Reviews) ServiceCache.GetFromCache(customerId);
+                var cachedReviews = (Reviews) ServiceCache.GetFromCache<Reviews>(customerId);
                 if (cachedReviews != null)
                 {
                     return cachedReviews;
@@ -85,9 +85,9 @@ namespace AdamDotCom.Amazon.Service
         {
             AssertValidInput(listId, "listId");
 
-            if(ServiceCache.IsInCache(listId))
+            if(ServiceCache.IsInCache<Wishlist>(listId))
             {
-                var cachedWishlist = (Wishlist) ServiceCache.GetFromCache(listId);
+                var cachedWishlist = (Wishlist) ServiceCache.GetFromCache<Wishlist>(listId);
                 if (cachedWishlist != null)
                 {
                     return cachedWishlist;
@@ -107,9 +107,9 @@ namespace AdamDotCom.Amazon.Service
 
             username = Scrub(username);
 
-            if (ServiceCache.IsInCache(MakeUnique(username)))
+            if (ServiceCache.IsInCache<Profile>(username))
             {
-                var cachedProfile = (Profile) ServiceCache.GetFromCache(MakeUnique(username));
+                var cachedProfile = (Profile) ServiceCache.GetFromCache<Profile>(username);
                 if (cachedProfile != null)
                 {
                     return cachedProfile;
@@ -122,7 +122,7 @@ namespace AdamDotCom.Amazon.Service
             
             HandleErrors(sniffer.Errors);
 
-            return profile.AddToCache(MakeUnique(username));
+            return profile.AddToCache(username);
         }
 
         private static string Scrub(string username)
@@ -158,11 +158,6 @@ namespace AdamDotCom.Amazon.Service
             {
                 throw new RestException(HttpStatusCode.BadRequest, errors, (int)ErrorCode.InternalError);
             }
-        }
-
-        private static string MakeUnique(string key)
-        {
-            return string.Format("{0}-{1}", "amazon", key).ToLower().Replace(" ", "-");
         }
     }
 }

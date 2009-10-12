@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
+using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
 using AdamDotCom.Whois.Service.Extensions;
 using AdamDotCom.Whois.Service.WhoisClient;
@@ -40,9 +41,9 @@ namespace AdamDotCom.Whois.Service
             }
             AssertValidInput(ipAddress, "ipAddress");
 
-            if (ServiceCache.IsInCache(ipAddress))
+            if (ServiceCache.IsInCache<WhoisRecord>(ipAddress))
             {
-                var cachedRecord = (WhoisRecord) ServiceCache.GetFromCache(ipAddress);
+                var cachedRecord = (WhoisRecord) ServiceCache.GetFromCache<WhoisRecord>(ipAddress);
                 if (cachedRecord != null)
                 {
                     return cachedRecord;
@@ -66,9 +67,9 @@ namespace AdamDotCom.Whois.Service
             AssertValidInput(referrer, "referrer");
 
             var hash = string.Format("{0}-{1}", ipAddress, filters).ToLower().Replace(",", "-").Replace(" ", "-");
-            if (ServiceCache.IsInCache(hash))
+            if (ServiceCache.IsInCache<WhoisEnhancedRecord>(hash))
             {
-                var cachedRecord = (WhoisEnhancedRecord) ServiceCache.GetFromCache(hash);
+                var cachedRecord = (WhoisEnhancedRecord)ServiceCache.GetFromCache<WhoisEnhancedRecord>(hash);
                 if (cachedRecord != null)
                 {
                     return cachedRecord;

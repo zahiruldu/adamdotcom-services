@@ -61,7 +61,6 @@
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Extensions\ServiceCache.cs" />
     <Compile Include="LinkedInResumeSniffer.cs" />
     <Compile Include="ResumeService.cs" />
     <Compile Include="Resume.cs" />
