@@ -12,7 +12,7 @@ namespace AdamDotCom.Whois.Service.WhoisClient
         public RegistryData RegistryData { get; set; }
     }
 
-    [DataContract]
+    [DataContract(Namespace = "http://adam.kahtava.com/services/whois")]
     public class RegistryData
     {
         [DataMember]
@@ -43,7 +43,7 @@ namespace AdamDotCom.Whois.Service.WhoisClient
         public string RawText { get; set; }
     }
 
-    [DataContract]
+    [DataContract(Namespace = "http://adam.kahtava.com/services/whois")]
     public class Registrant
     {
         [DataMember]
@@ -65,7 +65,7 @@ namespace AdamDotCom.Whois.Service.WhoisClient
         public string Country { get; set; }
     }
 
-    [DataContract]
+    [DataContract(Namespace = "http://adam.kahtava.com/services/whois")]
     public class Contact
     {
         [DataMember]
