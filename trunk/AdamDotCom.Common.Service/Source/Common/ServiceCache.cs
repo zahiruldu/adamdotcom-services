@@ -7,15 +7,21 @@ namespace AdamDotCom.Common.Service
 {
     public static class ServiceCache
     {
-        private static Cache cache = HttpRuntime.Cache;
-        private static readonly bool enableCache = Convert.ToBoolean(ConfigurationManager.AppSettings["EnableCaching"]);
+        private static Cache cache;
+        private static readonly bool enableCache;
 
-        public static bool IsInCache(string key)
+        static ServiceCache()
+        {   
+            cache = HttpRuntime.Cache;
+            enableCache = Convert.ToBoolean(ConfigurationManager.AppSettings["EnableCaching"]);
+        }
+
+        private static bool IsInCache(string key)
         {
             return GetFromCache(key) != null;
         }
 
-        public static object GetFromCache(string key)
+        private static object GetFromCache(string key)
         {
             if (cache[key] != null)
             {
@@ -24,12 +30,33 @@ namespace AdamDotCom.Common.Service
             return null;
         }
 
-        public static void AddToCache(string key, object cacheObject)
+        private static void AddToCache(string key, object cacheObject)
         {
             if (enableCache)
             {
                 cache.Insert(key, cacheObject, null, DateTime.Now.AddDays(1d), Cache.NoSlidingExpiration);
             }
+        }
+
+        public static T AddToCache<T>(this T value, string key)
+        {
+            AddToCache(Hash<T>(key), value);
+            return value;
+        }
+
+        public static bool IsInCache<T>(string key)
+        {
+            return IsInCache(Hash<T>(key));
+        }
+
+        public static object GetFromCache<T>(string key)
+        {
+            return GetFromCache(Hash<T>(key));
+        }
+
+        private static string Hash<T>(string key)
+        {
+            return string.Format("{0}-{1}", typeof(T).GetType().FullName, key.ToLower());
         }
     }
 }

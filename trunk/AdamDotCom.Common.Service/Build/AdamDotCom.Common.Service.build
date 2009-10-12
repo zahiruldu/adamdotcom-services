@@ -3,7 +3,7 @@
 
   <property name="nant.settings.currentframework" value="net-3.5" />	
   
-  <target name="all" depends="compile test"/>
+  <target name="all" depends="compile"/>
 
   <target name="clean" description="removes all generated build products">
     <delete>

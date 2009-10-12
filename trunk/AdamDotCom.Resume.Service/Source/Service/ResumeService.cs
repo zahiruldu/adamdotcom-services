@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Net;
+using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
-using AdamDotCom.Resume.Service.Extensions;
 
 namespace AdamDotCom.Resume.Service
 {
@@ -26,9 +26,9 @@ namespace AdamDotCom.Resume.Service
 
             firstnameLastname = Scrub(firstnameLastname);
 
-            if (ServiceCache.IsInCache(firstnameLastname))
+            if (ServiceCache.IsInCache<Resume>(firstnameLastname))
             {
-                var cachedResume = ServiceCache.GetFromCache(firstnameLastname);
+                var cachedResume = (Resume) ServiceCache.GetFromCache<Resume>(firstnameLastname);
                 if (cachedResume != null)
                 {
                     return cachedResume;
@@ -88,7 +88,8 @@ namespace AdamDotCom.Resume.Service
             throw new RestException(new KeyValuePair<string, string>("LinkedInResumeSniffer",
                                                                      string.Format(
                                                                          "The requested resume could not be retrieved. Ensure that you have added {0} as a LinkedIn contact, alternatively you can download the source code ({1}) and contribute a patch for your resume.",
-                                                                         linkedInEmailAddress, "http://code.google.com/p/adamdotcom-services/source/checkout"))
+                                                                         linkedInEmailAddress,
+                                                                         "http://code.google.com/p/adamdotcom-services/source/checkout"))
                 );
         }
     }

@@ -66,7 +66,6 @@
   <ItemGroup>
     <Compile Include="CountryNameLookup\CountryNameLookup.cs" />
     <Compile Include="Extensions\ResponseExtensions.cs" />
-    <Compile Include="Extensions\ServiceCache.cs" />
     <Compile Include="WhoisClient\WhoisClient.cs" />
     <Compile Include="WhoisClient\WhoisRecord.cs" />
     <Compile Include="WhoisClient\WhoisRecordExtensions.cs" />
