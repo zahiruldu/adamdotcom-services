@@ -44,12 +44,12 @@ namespace AdamDotCom.Amazon.Service.Integration.Tests
         {
             var amazonService = new AmazonService();
 
-            var wishlistFromXmlRequest = amazonService.WishlistByListIdXml("3JU6ASKNUS7B8");
+            var wishlistFromXmlRequest = amazonService.WishlistByListIdXml("1XZDXVXHE3946");
 
             Assert.IsNotNull(wishlistFromXmlRequest);
             Assert.Greater(wishlistFromXmlRequest.Count, 1);
 
-            var wishlistFromJsonRequest = amazonService.WishlistByListIdXml("3JU6ASKNUS7B8");
+            var wishlistFromJsonRequest = amazonService.WishlistByListIdXml("1XZDXVXHE3946");
 
             Assert.IsNotNull(wishlistFromJsonRequest);
             Assert.AreEqual(wishlistFromXmlRequest.Count, wishlistFromJsonRequest.Count);

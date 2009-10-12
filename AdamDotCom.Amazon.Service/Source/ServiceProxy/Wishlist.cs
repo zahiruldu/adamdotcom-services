@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using AdamDotCom.Amazon.Domain;
 
 namespace AdamDotCom.Amazon.Service.Proxy
 {
