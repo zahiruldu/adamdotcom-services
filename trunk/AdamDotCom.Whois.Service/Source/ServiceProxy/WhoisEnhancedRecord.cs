@@ -22,10 +22,16 @@ namespace AdamDotCom.Whois.Service.Proxy
         public bool IsFilterMatch { get; set; }
 
         [DataMember]
+        public bool IsReferrerMatch { get; set; }
+
+        [DataMember]
         public List<string> FilterMatches { get; set; }
 
         [DataMember]
         public List<string> FriendlyMatches { get; set; }
+
+        [DataMember]
+        public List<string> ReferrerMatches { get; set; }
 
         [DataMember]
         public string Country { get; set; }
