@@ -50,10 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CountryNameLookupTests.cs" />
-    <Compile Include="ResponseExtensionTests.cs" />
     <Compile Include="TestHelper.cs" />
     <Compile Include="WhoisClientTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WhoisEnhancedRecordExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Service\Service.csproj">
