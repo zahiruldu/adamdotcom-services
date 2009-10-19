@@ -26,7 +26,8 @@ namespace AdamDotCom.Whois.Service
                 Country = CountryCode2;
             }
             this.ProcessFilters(filters, referrer);
-            this.ProcessFriendly(referrer);
+            this.ProcessFriendly();
+            this.ProcessReferrer(referrer);
         }
 
         [DataMember]
@@ -47,10 +48,16 @@ namespace AdamDotCom.Whois.Service
         public bool IsFilterMatch { get; set; }
 
         [DataMember]
+        public bool IsReferrerMatch { get; set; }
+
+        [DataMember]
         public List<string> FilterMatches { get; set; }
 
         [DataMember]
         public List<string> FriendlyMatches { get; set; }
+
+        [DataMember]
+        public List<string> ReferrerMatches { get; set; }
 
         [DataMember]
         public string Country { get; set; }
