@@ -12,21 +12,21 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
         {
             var response = new WhoisEnhancedRecord {Organization = "Google Inc."};
 
-            response.ProcessFriendly(string.Empty);
+            response.ProcessFriendly();
             
             Assert.IsTrue(response.IsFriendly);
             Assert.Contains("google",response.FriendlyMatches);
         }
 
         [Test]
-        public void ShouldVerifyFriendlyByReferrer()
+        public void ShouldVerifyReferrerByReferrer()
         {
             var response = new WhoisEnhancedRecord();
 
-            response.ProcessFriendly("Twitter");
+            response.ProcessReferrer("Twitter");
 
-            Assert.IsTrue(response.IsFriendly);
-            Assert.Contains("twitter", response.FriendlyMatches);
+            Assert.IsTrue(response.IsReferrerMatch);
+            Assert.Contains("twitter", response.ReferrerMatches);
         }
 
         [Test]

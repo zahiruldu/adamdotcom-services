@@ -12,37 +12,10 @@ namespace AdamDotCom.Whois.Service.Extensions
             return whoisEnhancedRecord;
         }
 
-        public static WhoisEnhancedRecord ProcessFriendly(this WhoisEnhancedRecord whoisEnhancedRecord, string referrer)
+        public static WhoisEnhancedRecord ProcessFriendly(this WhoisEnhancedRecord whoisEnhancedRecord)
         {
             whoisEnhancedRecord = IsFriendlyMatchInOrganization(whoisEnhancedRecord);
 
-            whoisEnhancedRecord = IsFriendlyMatchInReferrer(whoisEnhancedRecord, referrer);
-
-            return whoisEnhancedRecord;
-        }
-
-        private static WhoisEnhancedRecord IsFriendlyMatchInReferrer(WhoisEnhancedRecord whoisEnhancedRecord, string referrer)
-        {
-            if (!string.IsNullOrEmpty(referrer))
-            {
-                string[] friendlyReferrerFilters = {
-                                                       "twitter", "github", "friendfeed", "asp.net", "facebook",
-                                                       "linkedin",
-                                                       "code.google", "flickr", "delicious"
-                                                   };
-                foreach (var referrerName in friendlyReferrerFilters)
-                {
-                    if (referrer.ToLower().Contains(referrerName))
-                    {
-                        if (whoisEnhancedRecord.FriendlyMatches == null)
-                        {
-                            whoisEnhancedRecord.FriendlyMatches = new List<string>();
-                        }
-                        whoisEnhancedRecord.FriendlyMatches.Add(referrerName);
-                        whoisEnhancedRecord.IsFriendly = true;
-                    }
-                }
-            }
             return whoisEnhancedRecord;
         }
 
@@ -62,9 +35,8 @@ namespace AdamDotCom.Whois.Service.Extensions
             {
                 string[] friendlyOrganizationFilters = {
                                                            "google", "yahoo", "amazon", "microsoft", "corbis", "q9",
-                                                           "agilent", "critical mass", "cactus", "accenture",
-                                                           "componet art",
-                                                           "ibm", "intel", "telerik", "ebay", "momentous"
+                                                           "agilent", "critical mass", "cactus", "accenture", "momentous",
+                                                           "componet art", "ibm", "intel", "telerik", "ebay"
                                                        };
                 foreach (var organizationName in friendlyOrganizationFilters)
                 {
@@ -142,6 +114,38 @@ namespace AdamDotCom.Whois.Service.Extensions
                 return "Organization";
             }
             return null;
+        }
+
+        public static WhoisEnhancedRecord ProcessReferrer(this WhoisEnhancedRecord whoisEnhancedRecord, string referrer)
+        {
+            whoisEnhancedRecord = IsReferrerMatchInReferrer(whoisEnhancedRecord, referrer);
+
+            return whoisEnhancedRecord;           
+        }
+
+        private static WhoisEnhancedRecord IsReferrerMatchInReferrer(WhoisEnhancedRecord whoisEnhancedRecord, string referrer)
+        {
+            if (!string.IsNullOrEmpty(referrer))
+            {
+                string[] referrerFilters = {
+                                               "twitter", "github", "friendfeed", "asp.net", "facebook",
+                                               "linkedin", "code.google", "flickr", "delicious",
+                                               "stackoverflow", "mail.google", "odetocode"
+                                           };
+                foreach (var referrerName in referrerFilters)
+                {
+                    if (referrer.ToLower().Contains(referrerName))
+                    {
+                        if (whoisEnhancedRecord.ReferrerMatches == null)
+                        {
+                            whoisEnhancedRecord.ReferrerMatches = new List<string>();
+                        }
+                        whoisEnhancedRecord.ReferrerMatches.Add(referrerName);
+                        whoisEnhancedRecord.IsReferrerMatch = true;
+                    }
+                }
+            }
+            return whoisEnhancedRecord;
         }
     }
 }
