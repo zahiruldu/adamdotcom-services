@@ -14,6 +14,14 @@
   </target>
 
   <target name="compile" description="compiles the library DLLs used by the application" depends="clean">
+    <csc target="library" output="..\Final-Assemblies\AdamDotCom.WebClientWithCookies.dll" debug="false" warninglevel="0" >
+      <references>
+        <include name="..\Final-Assemblies\*.dll" />
+      </references>
+      <sources>
+        <include name="..\Source\Common\**\WebClientWithCookies.cs"/>
+      </sources>
+    </csc>
     <csc target="library" output="..\Final-Assemblies\AdamDotCom.Common.Service.dll" debug="false" warninglevel="0" >
       <references>
         <include name="..\Final-Assemblies\*.dll" />
