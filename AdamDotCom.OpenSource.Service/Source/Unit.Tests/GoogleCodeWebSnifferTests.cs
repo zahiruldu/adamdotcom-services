@@ -22,7 +22,7 @@ namespace Unit.Tests
         }
 
         [Test]
-        public void ShouldVerify_FixNames()
+        public void ShouldVerify_Clean()
         {
             var projectSniffer = new GoogleCodeWebSniffer();
 
@@ -44,6 +44,7 @@ namespace Unit.Tests
             Assert.AreEqual("The site source in use on Adam.Kahtava.com / AdamDotCom.com (http://adam.kahtava.com/)", result.Description);
         }
 
+        //Note: this is really an integration test
         [Test]
         public void ShouldVerify_GetProjectDetails()
         {

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ServiceModel;
 using AdamDotCom.OpenSource.Service.Proxy;
 using NUnit.Framework;
 
@@ -24,7 +25,7 @@ namespace Integration.Tests
         }
 
         [Test]
-        public void ShouldVerifyProxyAndReturnReviews()
+        public void ShouldVerifyProxyAndGetProjectsByUsername()
         {
             var service = new OpenSourceService();
 
@@ -37,6 +38,14 @@ namespace Integration.Tests
 
             Assert.IsNotNull(resultsJson);
             Assert.Greater(resultsXml.Count, 1);
+        }
+
+        [Test, ExpectedException(typeof(ProtocolException))]
+        public void ShouldVerifyProxyAndThrowException()
+        {
+            var service = new OpenSourceService();
+
+            service.GetProjectsByUsernameXml(ProjectHost.Unknown.ToString(), "AdamDotCom");
         }
     }
 }
