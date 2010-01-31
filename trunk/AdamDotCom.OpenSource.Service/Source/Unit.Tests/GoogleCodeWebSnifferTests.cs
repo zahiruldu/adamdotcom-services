@@ -13,7 +13,7 @@ namespace Unit.Tests
         {
             var projectSniffer = new GoogleCodeWebSniffer();
             
-            List<Project> projects = projectSniffer.GetProjects(TestHelper.PageSourceAdamKahtavaCom);
+            List<Project> projects = projectSniffer.GetProjects(TestHelper.PageSourceGoogleCodeAdamKahtavaCom_ProfileWebsite);
 
             Assert.IsNotNull(projects);
             
@@ -38,7 +38,7 @@ namespace Unit.Tests
         {
             var profileSniffer = new GoogleCodeWebSniffer();
 
-            var result = profileSniffer.GetProjectDetail(new Project(), TestHelper.PageSourceGoogleCodeAdamDotCom_Website);
+            var result = profileSniffer.GetProjectDetail(new Project(), TestHelper.PageSourceGoogleCodeAdamKahtavaCom_ProjectWebsite);
 
             Console.WriteLine(result.Description);
             Assert.AreEqual("The site source in use on Adam.Kahtava.com / AdamDotCom.com (http://adam.kahtava.com/)", result.Description);

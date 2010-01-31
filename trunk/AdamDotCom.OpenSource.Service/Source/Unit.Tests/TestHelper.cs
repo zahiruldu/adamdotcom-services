@@ -8,25 +8,25 @@ namespace Unit.Tests
         {
             get
             {
-                TextReader textReader = File.OpenText("PageSource-AdamDotCom-GitHub-Xml.txt");
+                TextReader textReader = File.OpenText("PageSource-GitHub-AdamDotCom-Xml.txt");
                 return textReader.ReadToEnd();
             }
         }
 
-        public static string PageSourceGoogleCodeAdamDotCom_Website
+        public static string PageSourceGoogleCodeAdamKahtavaCom_ProjectWebsite
         {
             get
             {
-                TextReader textReader = File.OpenText("PageSource-AdamDotCom-Website.txt");
+                TextReader textReader = File.OpenText("PageSource-GoogleCode-Adam.Kahtava.com-ProjectWebsite.txt");
                 return textReader.ReadToEnd();
             }
         }
 
-        public static string PageSourceAdamKahtavaCom
+        public static string PageSourceGoogleCodeAdamKahtavaCom_ProfileWebsite
         {
             get
             {
-                TextReader textReader = File.OpenText("PageSource-Adam.Kahtava.com.txt");
+                TextReader textReader = File.OpenText("PageSource-GoogleCode-Adam.Kahtava.com.txt");
                 return textReader.ReadToEnd();
             }
         }
