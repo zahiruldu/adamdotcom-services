@@ -12,11 +12,11 @@ RewriteEngine on
 
 RewriteBase /services/
 
-# misc WordPress rewrites
 RewriteRule ^/whois/(.*)$ /whois.svc/$1
 RewriteRule ^/whois.xml(.*)$ /whois.svc/xml$1
 RewriteRule ^/whois.json(.*)$ /whois.svc/json$1
 RewriteRule ^/amazon/(.*)$ /amazon.svc/$1
 RewriteRule ^/resume/(.*)$ /resume.svc/$1
+RewriteRule ^/opensource/(.*)$ /opensource.svc/$1
 RewriteRule ^(.*)\.xml(.*)$ $1/xml$2
 RewriteRule ^(.*)\.json(.*)$ $1/json$2
