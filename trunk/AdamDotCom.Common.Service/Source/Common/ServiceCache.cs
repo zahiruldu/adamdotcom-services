@@ -34,7 +34,7 @@ namespace AdamDotCom.Common.Service
         {
             if (enableCache)
             {
-                cache.Insert(key, cacheObject, null, DateTime.Now.AddDays(1d), Cache.NoSlidingExpiration);
+                cache.Insert(key, cacheObject, null, Cache.NoAbsoluteExpiration, TimeSpan.FromMinutes(30));
             }
         }
 
