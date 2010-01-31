@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<user>
+  <name>Adam Kahtava</name>
+  <location>Calgary, Alberta, Canada</location>
+  <repositories type="array">
+    <repository>
+      <description>A collection of my etcetera, so forth, and so on. Contains a PowerShell script for Twitter, a programming exercise in Ruby, a programming exercise for Google done in JavaScript.</description>
+      <url>http://github.com/AdamDotCom/scripts</url>
+
+      <homepage></homepage>
+      <fork type="boolean">false</fork>
+      <forks type="integer">0</forks>
+      <open-issues type="integer">0</open-issues>
+      <private type="boolean">false</private>
+      <name>scripts</name>
+
+      <watchers type="integer">1</watchers>
+      <owner>AdamDotCom</owner>
+    </repository>
+    <repository>
+      <description>An Amazon Review and Wish List Consumer for .NET. Get your Reviews and Wish List from Amazon then store it locally in XML format.</description>
+      <url>http://github.com/AdamDotCom/amazon</url>
+      <homepage>http://adam.kahtava.com/journal/2008/10/06/HowToDisplayYourAmazonReviewsAndWishListOnYourSiteUsingAmazonsWebServices.aspx</homepage>
+
+      <fork type="boolean">false</fork>
+      <forks type="integer">0</forks>
+      <open-issues type="integer">0</open-issues>
+      <private type="boolean">false</private>
+      <name>amazon</name>
+      <watchers type="integer">1</watchers>
+
+      <owner>AdamDotCom</owner>
+    </repository>
+    <repository>
+      <description>Coffee and Code Website</description>
+      <url>http://github.com/AdamDotCom/website</url>
+      <homepage></homepage>
+      <fork type="boolean">true</fork>
+
+      <forks type="integer">1</forks>
+      <open-issues type="integer">0</open-issues>
+      <private type="boolean">false</private>
+      <name>website</name>
+      <watchers type="integer">2</watchers>
+      <owner>AdamDotCom</owner>
+
+    </repository>
+    <repository>
+      <description>Microsoft's Ruby language compiler that is built on top of the Dynamic Language Runtime.   </description>
+      <url>http://github.com/AdamDotCom/ironruby</url>
+      <homepage>http://ironruby.net</homepage>
+      <fork type="boolean">true</fork>
+      <forks type="integer">0</forks>
+
+      <open-issues type="integer">0</open-issues>
+      <private type="boolean">false</private>
+      <name>ironruby</name>
+      <watchers type="integer">1</watchers>
+      <owner>AdamDotCom</owner>
+    </repository>
+
+    <repository>
+      <description>Powershell Rake / Make, ripped off from James Kovaks and friends over at: http://code.google.com/p/psake/</description>
+      <url>http://github.com/AdamDotCom/psake</url>
+      <homepage>http://code.google.com/p/psake/</homepage>
+      <fork type="boolean">false</fork>
+      <forks type="integer">0</forks>
+
+      <open-issues type="integer">0</open-issues>
+      <private type="boolean">false</private>
+      <name>psake</name>
+      <watchers type="integer">1</watchers>
+      <owner>AdamDotCom</owner>
+    </repository>
+
+  </repositories>
+  <blog>http://AdamDotCom.com</blog>
+  <login>AdamDotCom</login>
+  <email>adam@kahtava.com</email>
+</user>
