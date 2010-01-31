@@ -5,9 +5,9 @@ namespace AdamDotCom.OpenSource.Service
 {
     public static class CacheExtensions
     {
-        public static List<Project> GetFromCache(this List<Project> projects, string host, string username)
+        public static List<Project> GetFromCache(this List<Project> projects, ProjectHost projectHost, string username)
         {
-            var key = GetKey(host, username);
+            var key = GetKey(projectHost, username);
             if (GetFromCache<List<Project>>(key) != default(List<Project>))
             {
                 return GetFromCache<List<Project>>(key);
@@ -15,9 +15,9 @@ namespace AdamDotCom.OpenSource.Service
             return null;
         }
 
-        public static List<Project> AddToCache(this List<Project> projects, string host, string username)
+        public static List<Project> AddToCache(this List<Project> projects, ProjectHost projectHost, string username)
         {
-            return projects.AddToCache(GetKey(host, username));
+            return projects.AddToCache(GetKey(projectHost, username));
         }
 
         private static T GetFromCache<T>(string key)
@@ -29,9 +29,9 @@ namespace AdamDotCom.OpenSource.Service
             return default(T);
         }
 
-        private static string GetKey(string host, string username)
+        private static string GetKey(ProjectHost projectHost, string username)
         {
-            return string.Format("{0}-{1}", host, username);
+            return string.Format("{0}-{1}", projectHost, username);
         }
 
     }

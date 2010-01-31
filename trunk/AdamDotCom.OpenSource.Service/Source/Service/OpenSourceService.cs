@@ -25,7 +25,7 @@ namespace AdamDotCom.OpenSource.Service
             var projectHost = GetProjectHost(host);
             AssertValidInput(projectHost.ToString(), "host");
 
-            var projects = new List<Project>().GetFromCache(host, username);
+            var projects = new List<Project>().GetFromCache(projectHost, username);
             if (projects != null)
             {
                 return projects;
@@ -41,21 +41,7 @@ namespace AdamDotCom.OpenSource.Service
                     break;
             }
 
-            return projects.AddToCache(host, username);
-        }
-
-        private static ProjectHost GetProjectHost(string host)
-        {
-            ProjectHost projectHost;
-            try
-            {
-                projectHost = (ProjectHost) Enum.Parse(typeof (ProjectHost), host, true);
-            }
-            catch
-            {
-                projectHost = ProjectHost.Unknown;
-            }
-            return projectHost;
+            return projects.AddToCache(projectHost, username);
         }
 
         private static List<Project> GitHubProjectsByUsername(string username)
@@ -71,7 +57,21 @@ namespace AdamDotCom.OpenSource.Service
             HandleErrors(sniffer.Errors);
             return sniffer.Projects;
         }
-        
+
+        private static ProjectHost GetProjectHost(string host)
+        {
+            ProjectHost projectHost;
+            try
+            {
+                projectHost = (ProjectHost)Enum.Parse(typeof(ProjectHost), host, true);
+            }
+            catch
+            {
+                projectHost = ProjectHost.Unknown;
+            }
+            return projectHost;
+        }
+
         private static void AssertValidInput(string inputValue, string inputName)
         {
             inputName = (string.IsNullOrEmpty(inputName) ? "Unknown" : inputName);
