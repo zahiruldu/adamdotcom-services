@@ -32,7 +32,7 @@ namespace AdamDotCom.OpenSource.Service
             }
             catch (Exception ex)
             {
-                Errors.Add(new KeyValuePair<string, string>("GitHubServiceTranslator", ex.Message));
+                Errors.Add(new KeyValuePair<string, string>("GitHubServiceTranslator", string.Format("Username {0} not found. Error: {1}", username, ex.Message)));
             }
         }
 

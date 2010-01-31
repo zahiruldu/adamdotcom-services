@@ -36,7 +36,7 @@ namespace AdamDotCom.OpenSource.Service
             }
             catch (Exception ex)
             {
-                Errors.Add(new KeyValuePair<string, string>("GoogleCodeWebSniffer", string.Format("Username {0} not found", username)));
+                Errors.Add(new KeyValuePair<string, string>("GoogleCodeWebSniffer", string.Format("Username {0} not found. Error: {1}", username, ex.Message)));
             }
         }
 

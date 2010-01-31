@@ -22,7 +22,7 @@ namespace AdamDotCom.OpenSource.Service
         {
             AssertValidInput(username, "username");          
             AssertValidInput(host, "host");
-            var projectHost = (ProjectHost) Enum.Parse(typeof (ProjectHost), host, true);
+            var projectHost = GetProjectHost(host);
             AssertValidInput(projectHost.ToString(), "host");
 
             var projects = new List<Project>().GetFromCache(host, username);
@@ -42,6 +42,20 @@ namespace AdamDotCom.OpenSource.Service
             }
 
             return projects.AddToCache(host, username);
+        }
+
+        private static ProjectHost GetProjectHost(string host)
+        {
+            ProjectHost projectHost;
+            try
+            {
+                projectHost = (ProjectHost) Enum.Parse(typeof (ProjectHost), host, true);
+            }
+            catch
+            {
+                projectHost = ProjectHost.Unknown;
+            }
+            return projectHost;
         }
 
         private static List<Project> GitHubProjectsByUsername(string username)
@@ -64,7 +78,7 @@ namespace AdamDotCom.OpenSource.Service
 
             if (string.IsNullOrEmpty(inputValue) || inputValue.Equals("null", StringComparison.CurrentCultureIgnoreCase) || inputValue.Equals(ProjectHost.Unknown.ToString(), StringComparison.CurrentCultureIgnoreCase))
             {
-                throw new RestException(new KeyValuePair<string, string>(inputName, string.Format("{0} is not a valid value.", inputValue)));
+                throw new RestException(new KeyValuePair<string, string>(inputName, string.Format("{0} is not a valid value for input {1}.", inputValue, inputName)));
             }
         }
 
