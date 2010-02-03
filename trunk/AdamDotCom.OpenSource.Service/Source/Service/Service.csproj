@@ -67,6 +67,7 @@
     <Compile Include="OpenSourceService.cs" />
     <Compile Include="Project.cs" />
     <Compile Include="IOpenSource.cs" />
+    <Compile Include="Projects.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -8,17 +8,17 @@ namespace AdamDotCom.OpenSource.Service
     public class OpenSourceService : IOpenSource
     {
 
-        public List<Project> GetProjectsByUsernameXml(string projectHost, string username)
+        public Projects GetProjectsByUsernameXml(string projectHost, string username)
         {
             return GetProjectsByUsername(projectHost, username);
         }
 
-        public List<Project> GetProjectsByUsernameJson(string projectHost, string username)
+        public Projects GetProjectsByUsernameJson(string projectHost, string username)
         {
             return GetProjectsByUsername(projectHost, username);
         }
 
-        private static List<Project> GetProjectsByUsername(string host, string username)
+        private static Projects GetProjectsByUsername(string host, string username)
         {
             AssertValidInput(username, "username");          
             AssertValidInput(host, "host");
@@ -28,7 +28,7 @@ namespace AdamDotCom.OpenSource.Service
             var projects = new List<Project>().GetFromCache(projectHost, username);
             if (projects != null)
             {
-                return projects;
+                return new Projects(projects);
             }
 
             switch (projectHost)
@@ -41,7 +41,7 @@ namespace AdamDotCom.OpenSource.Service
                     break;
             }
 
-            return projects.AddToCache(projectHost, username);
+            return new Projects(projects.AddToCache(projectHost, username));
         }
 
         private static List<Project> GitHubProjectsByUsername(string username)

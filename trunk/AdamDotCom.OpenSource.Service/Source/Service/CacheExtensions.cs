@@ -33,6 +33,5 @@ namespace AdamDotCom.OpenSource.Service
         {
             return string.Format("{0}-{1}", projectHost, username);
         }
-
     }
 }

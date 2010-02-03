@@ -44,7 +44,7 @@ namespace Unit.Tests
             Assert.AreEqual("The site source in use on Adam.Kahtava.com / AdamDotCom.com (http://adam.kahtava.com/)", result.Description);
         }
 
-        //Note: this is really an integration test
+        //Note: this is really an integration test, GetProjectDetails is calling out to the wild web
         [Test]
         public void ShouldVerify_GetProjectDetails()
         {
