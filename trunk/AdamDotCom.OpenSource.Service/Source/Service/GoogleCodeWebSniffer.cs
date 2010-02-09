@@ -85,7 +85,7 @@ namespace AdamDotCom.OpenSource.Service
                     var pageSource = webClient.DownloadString(project.Url);
                     GetProjectDetail(project, pageSource);
 
-                    pageSource = webClient.DownloadString(string.Format(commitsLookupUri, project.Name));
+                    pageSource = webClient.DownloadString(string.Format(commitsLookupUri, CleanName(project.Name)));
                     GetProjectLastModifedDate(project, pageSource);
                 }
                 // I don't care about errors
@@ -141,8 +141,10 @@ namespace AdamDotCom.OpenSource.Service
             {
                 return null;
             }
-            var cleanCommitMessage = new Regex(@"&gt;(?<LastCommit>(([^&]|<[^l]|</[^t])*.{0,2}))&lt");
-            return RegexUtilities.GetTokenString(cleanCommitMessage.Match(lastMessage),"LastCommit");
+            var cleanCommitMessage = new Regex(@""">(?<LastCommit>(([^<])*.{0,1}))<");
+            var result = RegexUtilities.GetTokenString(cleanCommitMessage.Match(lastMessage),"LastCommit");
+
+            return result;
         }
 
         public string CleanUrl(string url)

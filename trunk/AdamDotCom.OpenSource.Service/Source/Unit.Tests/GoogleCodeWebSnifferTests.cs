@@ -82,11 +82,11 @@ namespace Unit.Tests
         [Test]
         public void ShouldVerify_CleanCommitMessage()
         {
-            var result = new GoogleCodeWebSniffer().CleanCommitMessage("&lt;span class=&quot;ot-logmessage&quot;&gt;Removed unreferenced CSS file.&lt;/span&gt;");
+            var result = new GoogleCodeWebSniffer().CleanCommitMessage(@"<span class=""ot-logmessage"">Deleted and moved Amazon.Service to http://code.google.com/p/adamdotcom-services/<br></span>");
 
             Console.WriteLine(result); 
             
-            Assert.IsFalse(result.Contains("&lt;"));
+            Assert.IsFalse(result.Contains(">"));
         }
     }
 }
