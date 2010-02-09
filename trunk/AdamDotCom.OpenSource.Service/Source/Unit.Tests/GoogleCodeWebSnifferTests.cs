@@ -26,11 +26,14 @@ namespace Unit.Tests
         {
             var projectSniffer = new GoogleCodeWebSniffer();
 
-            var projects = new List<Project> {new Project {Name = "/p/adamdotcom-website/"}};
+            var projects = new List<Project> { new Project { Name = "/p/adamdotcom-website/", Url = "http://code.google.com/feeds/p/adamdotcom-website/" } };
             projectSniffer.Clean(projects);
 
             Console.WriteLine(projects[0].Name);
+            Console.WriteLine(projects[0].Url);
+
             Assert.IsTrue(projects[0].Name == "adamdotcom-website");
+            Assert.IsTrue(projects[0].Url == "http://code.google.com/feeds/p/adamdotcom-website");
         }
 
         [Test]
@@ -68,7 +71,22 @@ namespace Unit.Tests
             Assert.IsNotNull(results);
             Assert.IsTrue(results.Count != 0);
             Assert.AreEqual("The site source in use on Adam.Kahtava.com / AdamDotCom.com (http://adam.kahtava.com/)", results[0].Description);
-            Assert.AreEqual("The services in use on Adam.Kahtava.com / AdamDotCom.com (http://adam.kahtava.com/services/)", results[1].Description);
+
+            Console.WriteLine(results[0].LastModified);
+            Console.WriteLine(results[0].LastMessage);
+
+            Assert.IsFalse(string.IsNullOrEmpty(results[0].LastModified));
+            Assert.IsFalse(string.IsNullOrEmpty(results[0].LastMessage));
+        }
+
+        [Test]
+        public void ShouldVerify_CleanCommitMessage()
+        {
+            var result = new GoogleCodeWebSniffer().CleanCommitMessage("&lt;span class=&quot;ot-logmessage&quot;&gt;Removed unreferenced CSS file.&lt;/span&gt;");
+
+            Console.WriteLine(result); 
+            
+            Assert.IsFalse(result.Contains("&lt;"));
         }
     }
 }

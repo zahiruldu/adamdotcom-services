@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Text.RegularExpressions;
+using System.Xml;
 using AdamDotCom.Common.Service.Utilities;
 
 namespace AdamDotCom.OpenSource.Service
 {
     public class GoogleCodeWebSniffer
     {
-        private const string profileUri = "http://code.google.com/u/{0}/";
+        private const string profileLookupUri = "http://code.google.com/u/{0}/";
+        private const string commitsLookupUri = "http://code.google.com/feeds/p/{0}/updates/basic";
 
         public List<KeyValuePair<string, string>> Errors { get; set; }
         public List<Project> Projects { get; set; }
@@ -29,7 +31,7 @@ namespace AdamDotCom.OpenSource.Service
 
             try
             {
-                var pageSource = webClient.DownloadString(string.Format(profileUri, username));
+                var pageSource = webClient.DownloadString(string.Format(profileLookupUri, username));
                 Projects = GetProjects(pageSource);
                 Projects = GetProjectDetails(Projects);
                 Projects = Clean(Projects);
@@ -82,6 +84,9 @@ namespace AdamDotCom.OpenSource.Service
                 {
                     var pageSource = webClient.DownloadString(project.Url);
                     GetProjectDetail(project, pageSource);
+
+                    pageSource = webClient.DownloadString(string.Format(commitsLookupUri, project.Name));
+                    GetProjectLastModifedDate(project, pageSource);
                 }
                 // I don't care about errors
                 catch 
@@ -105,14 +110,57 @@ namespace AdamDotCom.OpenSource.Service
             return project;
         }
 
+        public Project GetProjectLastModifedDate(Project project, string xmlSource)
+        {
+            var document = new XmlDocument();
+            document.LoadXml(xmlSource);
+
+            var feed = document["feed"];
+
+            project.LastModified = feed["updated"].InnerText;
+            project.LastMessage = feed["entry"]["content"].InnerText;
+
+            return project;
+        }
+
         public List<Project> Clean(List<Project> projects)
         {
             foreach (var project in projects)
             {
-                project.Name = project.Name.Replace("/p/", "").Replace("/", "");
+                project.Name = CleanName(project.Name);
+                project.Url = CleanUrl(project.Url);
+                project.LastMessage = CleanCommitMessage(project.LastMessage);
             }
 
             return projects;
+        }
+
+        public string CleanCommitMessage(string lastMessage)
+        {
+            if( string.IsNullOrEmpty(lastMessage))
+            {
+                return null;
+            }
+            var cleanCommitMessage = new Regex(@"&gt;(?<LastCommit>(([^&]|<[^l]|</[^t])*.{0,2}))&lt");
+            return RegexUtilities.GetTokenString(cleanCommitMessage.Match(lastMessage),"LastCommit");
+        }
+
+        public string CleanUrl(string url)
+        {
+            if (string.IsNullOrEmpty(url))
+            {
+                return null;
+            }
+            return url.Remove(url.LastIndexOf("/"), 1);
+        }
+
+        public string CleanName(string name)
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                return null;
+            }
+            return name.Replace("/p/", "").Replace("/", "");           
         }
     }
 }
