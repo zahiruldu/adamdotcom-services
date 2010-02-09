@@ -8,6 +8,7 @@ namespace AdamDotCom.OpenSource.Service
     public class GitHubServiceTranslator
     {
         private string userLookupUri = "http://github.com/api/v1/xml/{0}";
+        private string commitsLookupUri = "http://github.com/api/v1/xml/{0}/{1}/commits/master";
 
         public List<KeyValuePair<string, string>> Errors { get; set; }
         public List<Project> Projects { get; set; }
@@ -29,6 +30,7 @@ namespace AdamDotCom.OpenSource.Service
             {
                 var xmlSource = webClient.DownloadString(string.Format(userLookupUri, username));
                 Projects = GetProjects(xmlSource);
+                Projects = GetProjectDetails(Projects, username);
             }
             catch (Exception ex)
             {
@@ -53,6 +55,39 @@ namespace AdamDotCom.OpenSource.Service
             }
 
             return projects;
+        }
+
+        public List<Project> GetProjectDetails(List<Project> projects, string username)
+        {
+            var webClient = new WebClient();
+
+            foreach (var project in projects)
+            {
+                try
+                {
+                    var pageSource = webClient.DownloadString(string.Format(commitsLookupUri, username, project.Name));
+                    GetProjectDetail(project, pageSource);
+                }
+                // I don't care about errors
+                catch
+                {
+                }
+            }
+
+            return projects;
+        }
+
+        public Project GetProjectDetail(Project project, string xmlSource)
+        {
+            var document = new XmlDocument();
+            document.LoadXml(xmlSource);
+
+            var commit = document["commits"]["commit"];
+
+            project.LastModified = commit.SelectNodes("committed-date")[0].InnerText;
+            project.LastMessage = commit.SelectNodes("message")[0].InnerText;
+
+            return project;
         }
     }
 }

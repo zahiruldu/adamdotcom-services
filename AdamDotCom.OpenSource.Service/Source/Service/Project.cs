@@ -13,5 +13,11 @@ namespace AdamDotCom.OpenSource.Service
         
         [DataMember]
         public string Name { get; set; }
+
+        [DataMember]
+        public string LastModified { get; set; }
+
+        [DataMember]
+        public string LastMessage { get; set; }
     }
 }
