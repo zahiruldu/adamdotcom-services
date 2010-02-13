@@ -12,12 +12,12 @@ RewriteEngine on
 
 RewriteBase /services/
 
-RewriteRule ^/whois/(.*)$ /whois.svc/$1
-RewriteRule ^/whois.xml(.*)$ /whois.svc/xml$1
-RewriteRule ^/whois.json(.*)$ /whois.svc/json$1
-RewriteRule ^/amazon/(.*)$ /amazon.svc/$1
-RewriteRule ^/resume/(.*)$ /resume.svc/$1
-RewriteRule ^/opensource/(.*)$ /open-source.svc/$1
-RewriteRule ^/open-source/(.*)$ /open-source.svc/$1
-RewriteRule ^(.*)\.xml(.*)$ $1/xml$2
-RewriteRule ^(.*)\.json(.*)$ $1/json$2
+RewriteRule ^/whois/(.*)$ /whois.svc/$1 [NC]
+RewriteRule ^/whois.xml(.*)$ /whois.svc/xml$1 [NC]
+RewriteRule ^/whois.json(.*)$ /whois.svc/json$1 [NC]
+RewriteRule ^/amazon/(.*)$ /amazon.svc/$1 [NC]
+RewriteRule ^/resume/(.*)$ /resume.svc/$1 [NC]
+RewriteRule ^/opensource.svc/(.*)$ /open-source.svc/$1 [NC]
+RewriteRule ^/open-source/(.*)$ /open-source.svc/$1 [NC]
+RewriteRule ^(.*)\.xml(.*)$ $1/xml$2 [NC]
+RewriteRule ^(.*)\.json(.*)$ $1/json$2 [NC]
