@@ -1,8 +1,7 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 using System.ServiceModel;
 
-[assembly: ContractNamespace("http://adam.kahtava.com/services/opensource", ClrNamespace = "AdamDotCom.OpenSource.Service.Proxy")]
+[assembly: ContractNamespace("http://adam.kahtava.com/services/open-source", ClrNamespace = "AdamDotCom.OpenSource.Service.Proxy")]
 
 namespace AdamDotCom.OpenSource.Service.Proxy
 {
