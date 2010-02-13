@@ -2,11 +2,11 @@
 using System.ServiceModel;
 using System.ServiceModel.Web;
 
-[assembly: ContractNamespace("http://adam.kahtava.com/services/opensource", ClrNamespace = "AdamDotCom.OpenSource.Service")]
+[assembly: ContractNamespace("http://adam.kahtava.com/services/open-source", ClrNamespace = "AdamDotCom.OpenSource.Service")]
 
 namespace AdamDotCom.OpenSource.Service
 {
-    [ServiceContract(Namespace = "http://adam.kahtava.com/services/opensource")]
+    [ServiceContract(Namespace = "http://adam.kahtava.com/services/open-source")]
     public interface IOpenSource
     {
         [OperationContract]
