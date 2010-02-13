@@ -47,5 +47,20 @@ namespace Integration.Tests
 
             service.GetProjectsByUsernameXml(ProjectHost.Unknown.ToString(), "AdamDotCom");
         }
+
+        public void ShouldVerifyProxyAndGetGetProjectsByProjectHostAndUsernameXml()
+        {
+            var service = new OpenSourceService();
+
+            var resultsXml = service.GetProjectsByProjectHostAndUsernameXml("github:adamdotcom,googlecode:adam.kahtava.com");
+
+            Assert.IsNotNull(resultsXml);
+            Assert.Greater(resultsXml.Count, 1);
+
+            var resultsJson = service.GetProjectsByProjectHostAndUsernameJson("github:adamdotcom,googlecode:adam.kahtava.com");
+
+            Assert.IsNotNull(resultsJson);
+            Assert.Greater(resultsJson.Count, 1);
+        }
     }
 }

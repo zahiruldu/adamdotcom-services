@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System;
+using System.Runtime.Serialization;
 using System.ServiceModel;
 
 [assembly: ContractNamespace("http://adam.kahtava.com/services/opensource", ClrNamespace = "AdamDotCom.OpenSource.Service.Proxy")]
@@ -15,6 +16,16 @@ namespace AdamDotCom.OpenSource.Service.Proxy
         public Projects GetProjectsByUsernameJson(string projectHost, string username)
         {
             return base.Channel.GetProjectsByUsernameJson(projectHost, username);
+        }
+
+        public Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair)
+        {
+            return base.Channel.GetProjectsByProjectHostAndUsernameXml(projectHostUsernamePair);
+        }
+
+        public Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair)
+        {
+            return base.Channel.GetProjectsByProjectHostAndUsernameJson(projectHostUsernamePair);
         }
     }
 }

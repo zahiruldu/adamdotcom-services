@@ -13,5 +13,13 @@ namespace AdamDotCom.OpenSource.Service.Proxy
         [OperationContract]
         [WebGet(UriTemplate = "projects/{projectHost}/json?user={username}", ResponseFormat = WebMessageFormat.Json)]
         Projects GetProjectsByUsernameJson(string projectHost, string username);
+
+        [OperationContract]
+        [WebGet(UriTemplate = "projects/xml?project-host:username={projectHostUsernamePair}")]
+        Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair);
+
+        [OperationContract]
+        [WebGet(UriTemplate = "projects/json?project-host:username={projectHostUsernamePair}", ResponseFormat = WebMessageFormat.Json)]
+        Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair);
     }
 }

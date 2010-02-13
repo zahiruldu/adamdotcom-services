@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net;
+using System.Text.RegularExpressions;
 using AdamDotCom.Common.Service.Infrastructure;
+using AdamDotCom.Common.Service.Utilities;
 
 namespace AdamDotCom.OpenSource.Service
 {
@@ -18,11 +21,21 @@ namespace AdamDotCom.OpenSource.Service
             return GetProjectsByUsername(projectHost, username);
         }
 
+        public Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair)
+        {
+            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair);
+        }
+
+        public Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair)
+        {
+            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair);
+        }
+
         private static Projects GetProjectsByUsername(string host, string username)
         {
             AssertValidInput(username, "username");          
             AssertValidInput(host, "host");
-            var projectHost = GetProjectHost(host);
+            ProjectHost projectHost = GetProjectHost(host);
             AssertValidInput(projectHost.ToString(), "host");
 
             var projects = new List<Project>().GetFromCache(projectHost, username);
@@ -56,6 +69,44 @@ namespace AdamDotCom.OpenSource.Service
             var sniffer = new GoogleCodeWebSniffer(username);
             HandleErrors(sniffer.Errors);
             return sniffer.Projects;
+        }
+
+        public Projects GetProjectsByProjectHostAndUsername(string projectHostUsernamePair)
+        {
+            var hostAndUsername = ParseProjectHostAndUsername(projectHostUsernamePair);
+
+            var projects = new List<Project>();
+            foreach (var hostUsername in hostAndUsername)
+            {
+                projects.AddRange(GetProjectsByUsername(hostUsername.Key, hostUsername.Value));
+            }
+
+            return new Projects(projects.OrderBy(p => p.Name).ThenByDescending(p => p.LastModified));
+        }
+
+        public List<KeyValuePair<string, string>> ParseProjectHostAndUsername(string projectHostUsernamePair)
+        {
+            var projectHostsRegex = new Regex(@"(^|,)(?<ProjectHost>(([^:])*.{0,1})):");
+            var projects = RegexUtilities.GetTokenStringList(projectHostsRegex.Match(projectHostUsernamePair), "ProjectHost");
+
+            var usernameRegex = new Regex(@":(?<UserName>(([^$|^,])*))");
+            var usernames = RegexUtilities.GetTokenStringList(usernameRegex.Match(projectHostUsernamePair), "UserName");
+
+            if (projects == null || usernames == null || projects.Count != usernames.Count)
+            {
+                throw new RestException(new KeyValuePair<string, string>("project-host:username", string.Format("project-host:username pairs could not be resolved.")));
+            }
+
+            var hostAndUsername = new List<KeyValuePair<string, string>>();
+            for (int i = 0; i < projects.Count; i++)
+            {
+                if (projects[i] != null && usernames[i] != null)
+                {
+                    hostAndUsername.Add(new KeyValuePair<string, string>(projects[i], usernames[i]));
+                }
+            }
+
+            return hostAndUsername;
         }
 
         private static ProjectHost GetProjectHost(string host)
