@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Net;
+using System.ServiceModel;
 using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
 
 namespace AdamDotCom.Resume.Service
 {
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single, ConcurrencyMode = ConcurrencyMode.Multiple)]
     public class ResumeService : IResume
     {
         public Resume ResumeXml(string firstnameLastname)
