@@ -130,14 +130,24 @@ namespace AdamDotCom.OpenSource.Service
                 project.Name = CleanName(project.Name);
                 project.Url = CleanUrl(project.Url);
                 project.LastMessage = CleanCommitMessage(project.LastMessage);
+                project.LastModified = CleanLastModified(project.LastModified);
             }
 
             return projects;
         }
 
+        private string CleanLastModified(string lastModified)
+        {
+            if (string.IsNullOrEmpty(lastModified))
+            {
+                return null;
+            }
+            return lastModified.Split('T')[0];
+        }
+
         public string CleanCommitMessage(string lastMessage)
         {
-            if( string.IsNullOrEmpty(lastMessage))
+            if (string.IsNullOrEmpty(lastMessage))
             {
                 return null;
             }

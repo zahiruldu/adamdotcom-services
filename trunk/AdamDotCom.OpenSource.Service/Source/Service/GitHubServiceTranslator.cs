@@ -31,12 +31,32 @@ namespace AdamDotCom.OpenSource.Service
                 var xmlSource = webClient.DownloadString(string.Format(userLookupUri, username));
                 Projects = GetProjects(xmlSource);
                 Projects = GetProjectDetails(Projects, username);
+                Projects = Clean(Projects);
             }
             catch (Exception ex)
             {
                 Errors.Add(new KeyValuePair<string, string>("GitHubServiceTranslator", string.Format("Username {0} not found. Error: {1}", username, ex.Message)));
             }
         }
+
+        private List<Project> Clean(List<Project> projects)
+        {
+            foreach (var project in projects)
+            {
+                project.LastModified = CleanLastModified(project.LastModified);
+            }
+            return projects;
+        }
+
+        private string CleanLastModified(string lastModified)
+        {
+            if (string.IsNullOrEmpty(lastModified))
+            {
+                return null;
+            }
+            return lastModified.Split('T')[0];
+        }
+
 
         public List<Project> GetProjects(string xmlSource)
         {
