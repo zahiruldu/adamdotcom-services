@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Net;
+using System.ServiceModel;
 using AdamDotCom.Amazon.Domain;
 using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
 
 namespace AdamDotCom.Amazon.Service
 {
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single, ConcurrencyMode = ConcurrencyMode.Multiple)]
     public class AmazonService : IAmazon
     {
         public Reviews ReviewsByCustomerIdXml(string customerId)

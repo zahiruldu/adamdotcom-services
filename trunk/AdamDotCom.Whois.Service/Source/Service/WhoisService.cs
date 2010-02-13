@@ -5,11 +5,11 @@ using System.ServiceModel;
 using System.ServiceModel.Channels;
 using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
-using AdamDotCom.Whois.Service.Extensions;
 using AdamDotCom.Whois.Service.WhoisClient;
 
 namespace AdamDotCom.Whois.Service
 {
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single, ConcurrencyMode = ConcurrencyMode.Multiple)]
     public class WhoisService : IWhois
     {
         public WhoisRecord WhoisXml(string ipAddress)
