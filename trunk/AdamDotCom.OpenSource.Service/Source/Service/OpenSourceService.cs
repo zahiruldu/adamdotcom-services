@@ -1,9 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.ServiceModel;
+using System.ServiceModel.Channels;
+using System.ServiceModel.Web;
+using System.Text;
 using System.Text.RegularExpressions;
+using System.Xml;
 using AdamDotCom.Common.Service.Infrastructure;
 using AdamDotCom.Common.Service.Utilities;
 
@@ -31,6 +36,15 @@ namespace AdamDotCom.OpenSource.Service
         public Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair)
         {
             return GetProjectsByProjectHostAndUsername(projectHostUsernamePair);
+        }
+
+        public Stream GetProjectsByProjectHostAndUsernameHtml(string projectHostUsernamePair)
+        {
+            //ToDo: Push this into my common infrastructure project
+            //Note: Approach taken from: http://blogs.msdn.com/carlosfigueira/archive/2008/04/17/wcf-raw-programming-model-receiving-arbitrary-data.aspx
+            byte[] resultBytes = Encoding.UTF8.GetBytes(BuildHtml(GetProjectsByProjectHostAndUsername(projectHostUsernamePair)));
+            WebOperationContext.Current.OutgoingResponse.ContentType = "text/html";
+            return new MemoryStream(resultBytes);
         }
 
         private static Projects GetProjectsByUsername(string host, string username)
@@ -109,6 +123,26 @@ namespace AdamDotCom.OpenSource.Service
             }
 
             return hostAndUsername;
+        }
+
+        public string BuildHtml(Projects projects)
+        {
+            var builder = new StringBuilder();
+            var projectCount = 1;
+
+            builder.Append(@"<ul class=""adc-projects-widget"">");
+            foreach (var project in projects)
+            {
+                builder.Append(string.Format(@"<li class=""{0} {1}"">", project.Url.Contains("github") ? "github" : "google-code", projectCount % 2 == 0 ? "even" : ""));
+                builder.Append(string.Format(@"<a href=""{0}"">{1}</a>", project.Url, project.Name));
+                builder.Append(string.Format(@" <span class=""description"">{0}</span>", project.Description));
+                builder.Append(string.Format(@" <span class=""last-commit"">{0} <em>{1}</em></span>", project.LastMessage, project.LastModified));
+                builder.Append(string.Format(@"</li>"));
+                projectCount++;
+            }
+            builder.Append("</ul>");
+
+            return builder.ToString();
         }
 
         private static ProjectHost GetProjectHost(string host)

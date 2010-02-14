@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+﻿using System.IO;
+using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 
@@ -24,5 +25,9 @@ namespace AdamDotCom.OpenSource.Service
         [OperationContract]
         [WebGet(UriTemplate = "projects/json?project-host:username={projectHostUsernamePair}", ResponseFormat = WebMessageFormat.Json)]
         Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair);
+
+        [OperationContract]
+        [WebGet(UriTemplate = "projects/html?project-host:username={projectHostUsernamePair}")]
+        Stream GetProjectsByProjectHostAndUsernameHtml(string projectHostUsernamePair);
     }
 }
