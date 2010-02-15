@@ -54,9 +54,9 @@ namespace AdamDotCom.Common.Service
             return GetFromCache(Hash<T>(key));
         }
 
-        private static string Hash<T>(string key)
+        public static string Hash<T>(string key)
         {
-            return string.Format("{0}-{1}", typeof(T).GetType().FullName, key.ToLower());
+            return string.Format("{0}-{1}", typeof(T).Name, key.ToLower());
         }
     }
 }
