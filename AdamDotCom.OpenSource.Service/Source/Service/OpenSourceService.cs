@@ -30,19 +30,23 @@ namespace AdamDotCom.OpenSource.Service
 
         public Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair)
         {
-            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair);
+            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair, null);
         }
 
         public Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair)
         {
-            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair);
+            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair, null);
         }
 
-        public Stream GetProjectsByProjectHostAndUsernameHtml(string projectHostUsernamePair)
+        public Stream GetProjectsByProjectHostAndUsernameHtml(string projectHostUsernamePair, string filters)
         {
+            // In my case I have my Google Code projects prefixed with AdamDotCom
+            //  I don't want this in my final results so I'm filtering it out...
+            var projects = new Projects(GetProjectsByProjectHostAndUsername(projectHostUsernamePair, filters));
+
             //ToDo: Push this into my common infrastructure project
             //Note: Approach taken from: http://blogs.msdn.com/carlosfigueira/archive/2008/04/17/wcf-raw-programming-model-receiving-arbitrary-data.aspx
-            byte[] resultBytes = Encoding.UTF8.GetBytes(BuildHtml(GetProjectsByProjectHostAndUsername(projectHostUsernamePair)));
+            byte[] resultBytes = Encoding.UTF8.GetBytes(BuildHtml(projects));
             WebOperationContext.Current.OutgoingResponse.ContentType = "text/html";
             return new MemoryStream(resultBytes);
         }
@@ -87,7 +91,7 @@ namespace AdamDotCom.OpenSource.Service
             return sniffer.Projects;
         }
 
-        public Projects GetProjectsByProjectHostAndUsername(string projectHostUsernamePair)
+        public Projects GetProjectsByProjectHostAndUsername(string projectHostUsernamePair, string filters)
         {
             var hostAndUsername = ParseProjectHostAndUsername(projectHostUsernamePair);
 
@@ -97,7 +101,7 @@ namespace AdamDotCom.OpenSource.Service
                 projects.AddRange(GetProjectsByUsername(hostUsername.Key, hostUsername.Value));
             }
 
-            return new Projects(projects.OrderBy(p => p.Name).ThenByDescending(p => p.LastModified));
+            return new Projects(projects.Filter(filters).OrderBy(p => p.Name).ThenByDescending(p => p.LastModified));
         }
 
         public List<KeyValuePair<string, string>> ParseProjectHostAndUsername(string projectHostUsernamePair)
@@ -130,13 +134,15 @@ namespace AdamDotCom.OpenSource.Service
             var builder = new StringBuilder();
             var projectCount = 1;
 
-            builder.Append(@"<ul class=""adc-projects-widget"">");
+            builder.Append(@"<ul id=""projects"">");
             foreach (var project in projects)
             {
                 builder.Append(string.Format(@"<li class=""{0} {1}"">", project.Url.Contains("github") ? "github" : "google-code", projectCount % 2 == 0 ? "even" : ""));
                 builder.Append(string.Format(@"<a href=""{0}"">{1}</a>", project.Url, project.Name));
-                builder.Append(string.Format(@" <span class=""description"">{0}</span>", project.Description));
-                builder.Append(string.Format(@" <span class=""last-commit"">{0} <em>{1}</em></span>", project.LastMessage, project.LastModified));
+                builder.Append(string.Format(@" <div class=""extended"">"));
+                builder.Append(string.Format(@"  <span class=""description"">{0}</span>", project.Description));
+                builder.Append(string.Format(@"  <span class=""last-commit"">Last commit: {0} <em>- {1}</em></span>", project.LastMessage, project.LastModified));
+                builder.Append(string.Format(@" </div>"));
                 builder.Append(string.Format(@"</li>"));
                 projectCount++;
             }
