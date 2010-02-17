@@ -27,7 +27,7 @@ namespace AdamDotCom.OpenSource.Service
         Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair);
 
         [OperationContract]
-        [WebGet(UriTemplate = "projects/html?project-host:username={projectHostUsernamePair}")]
-        Stream GetProjectsByProjectHostAndUsernameHtml(string projectHostUsernamePair);
+        [WebGet(UriTemplate = "projects/html?project-host:username={projectHostUsernamePair}&filters={filters}")]
+        Stream GetProjectsByProjectHostAndUsernameHtml(string projectHostUsernamePair, string filters);
     }
 }
