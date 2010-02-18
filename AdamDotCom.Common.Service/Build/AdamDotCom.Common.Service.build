@@ -20,6 +20,7 @@
       </references>
       <sources>
         <include name="..\Source\Common\**\WebClientWithCookies.cs"/>
+        <include name="..\Source\Common\**\Utilities.cs"/>
       </sources>
     </csc>
     <csc target="library" output="..\Final-Assemblies\AdamDotCom.Common.Service.dll" debug="false" warninglevel="0" >
