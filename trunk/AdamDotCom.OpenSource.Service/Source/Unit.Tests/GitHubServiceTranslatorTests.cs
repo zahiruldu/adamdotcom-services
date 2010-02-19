@@ -29,7 +29,7 @@ namespace Unit.Tests
         {
             var gitHubServiceTranslator = new GitHubServiceTranslator();
 
-            var projects = new List<Project> {new Project {Name = "scripts"}};
+            var projects = new List<Project> { new Project { Name = "project-badge" } };
             var result = gitHubServiceTranslator.GetProjectDetails(projects, "adamdotcom");
 
             Assert.IsNotNull(result);

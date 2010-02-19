@@ -89,7 +89,7 @@ namespace AdamDotCom.Common.Service.Infrastructure.JSONP
                 return encoder.ReadMessage(buffer, bufferManager, contentType);
             }
 
-            public override Message ReadMessage(System.IO.Stream stream, int maxSizeOfHeaders, string contentType)
+            public override Message ReadMessage(Stream stream, int maxSizeOfHeaders, string contentType)
             {
 
                 return encoder.ReadMessage(stream, maxSizeOfHeaders, contentType);
@@ -97,18 +97,26 @@ namespace AdamDotCom.Common.Service.Infrastructure.JSONP
 
             public override ArraySegment<byte> WriteMessage(Message message, int maxMessageSize, BufferManager bufferManager, int messageOffset)
             {
+                if (!message.Properties.ContainsKey(JSONPMessageProperty.Name))
+                {
+                    return encoder.WriteMessage(message, maxMessageSize, bufferManager, messageOffset);
+                }
+
+                //Otherwise carry on
                 MemoryStream stream = new MemoryStream();
                 StreamWriter sw = new StreamWriter(stream);
 
                 string methodName = null;
                 if (message.Properties.ContainsKey(JSONPMessageProperty.Name))
-                    methodName = ((JSONPMessageProperty)(message.Properties[JSONPMessageProperty.Name])).MethodName;
+                    methodName = ((JSONPMessageProperty) (message.Properties[JSONPMessageProperty.Name])).MethodName;
+
 
                 if (methodName != null)
                 {
                     sw.Write(methodName + "( ");
                     sw.Flush();
                 }
+
                 XmlWriter writer = JsonReaderWriterFactory.CreateJsonWriter(stream);
                 message.WriteMessage(writer);
                 writer.Flush();
@@ -119,13 +127,14 @@ namespace AdamDotCom.Common.Service.Infrastructure.JSONP
                 }
 
                 byte[] messageBytes = stream.GetBuffer();
-                int messageLength = (int)stream.Position;
+                int messageLength = (int) stream.Position;
                 int totalLength = messageLength + messageOffset;
                 byte[] totalBytes = bufferManager.TakeBuffer(totalLength);
                 Array.Copy(messageBytes, 0, totalBytes, messageOffset, messageLength);
 
                 ArraySegment<byte> byteArray = new ArraySegment<byte>(totalBytes, messageOffset, messageLength);
                 writer.Close();
+
                 return byteArray;
             }
 

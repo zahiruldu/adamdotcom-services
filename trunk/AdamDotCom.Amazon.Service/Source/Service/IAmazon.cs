@@ -1,6 +1,7 @@
 ﻿using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
+using AdamDotCom.Common.Service.Infrastructure.JSONP;
 
 [assembly: ContractNamespace("http://adam.kahtava.com/services/amazon", ClrNamespace = "AdamDotCom.Amazon.Service")]
 namespace AdamDotCom.Amazon.Service
@@ -13,6 +14,7 @@ namespace AdamDotCom.Amazon.Service
         Reviews ReviewsByCustomerIdXml(string customerId);
 
         [OperationContract]
+        [JSONPBehavior(callback = "jsonp")]
         [WebGet(UriTemplate = "reviews/id/{customerId}/json", ResponseFormat = WebMessageFormat.Json)]
         Reviews ReviewsByCustomerIdJson(string customerId);
 
@@ -21,6 +23,7 @@ namespace AdamDotCom.Amazon.Service
         Reviews ReviewsByUsernameXml(string username);
 
         [OperationContract]
+        [JSONPBehavior(callback = "jsonp")]
         [WebGet(UriTemplate = "reviews/user/{username}/json", ResponseFormat = WebMessageFormat.Json)]
         Reviews ReviewsByUsernameJson(string username);
 
@@ -29,6 +32,7 @@ namespace AdamDotCom.Amazon.Service
         Wishlist WishlistByListIdXml(string listId);
 
         [OperationContract]
+        [JSONPBehavior(callback = "jsonp")]
         [WebGet(UriTemplate = "wishlist/id/{listId}/json", ResponseFormat = WebMessageFormat.Json)]
         Wishlist WishlistByListIdJson(string listId);
 
@@ -37,6 +41,7 @@ namespace AdamDotCom.Amazon.Service
         Wishlist WishlistByUsernameXml(string username);
 
         [OperationContract]
+        [JSONPBehavior(callback = "jsonp")]
         [WebGet(UriTemplate = "wishlist/user/{username}/json", ResponseFormat = WebMessageFormat.Json)]
         Wishlist WishlistByUsernameJson(string username);
 
@@ -45,6 +50,7 @@ namespace AdamDotCom.Amazon.Service
         Profile DiscoverUsernameXml(string username);
 
         [OperationContract]
+        [JSONPBehavior(callback = "jsonp")]
         [WebGet(UriTemplate = "discover/user/{username}/json", ResponseFormat = WebMessageFormat.Json)]
         Profile DiscoverUsernameJson(string username);
     }
