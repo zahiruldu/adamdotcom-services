@@ -35,7 +35,7 @@ namespace AdamDotCom.OpenSource.Service
                 var lastProjectName = string.Empty;
                 for (var i = 0; i < orderedProjects.Count; i++)
                 {
-                    var thisProjectName = orderedProjects[i].Name.RemoveTrailingCharacter("s");
+                    var thisProjectName = orderedProjects[i].Name;
 
                     if (lastProjectName != thisProjectName)
                     {
@@ -49,15 +49,6 @@ namespace AdamDotCom.OpenSource.Service
             }
 
             return projects;
-        }
-
-        public static string RemoveTrailingCharacter(this string value, string character)
-        {
-            if (value.LastIndexOf(character) == value.Length - 1)
-            {
-                return value.Remove(value.Length - 1);
-            }
-            return value;
         }
     }
 }
