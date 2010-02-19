@@ -1,6 +1,7 @@
 ﻿using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
+using AdamDotCom.Common.Service.Infrastructure.JSONP;
 
 [assembly: ContractNamespace("http://adam.kahtava.com/services/resume", ClrNamespace = "AdamDotCom.Resume.Service")]
 namespace AdamDotCom.Resume.Service
@@ -13,6 +14,7 @@ namespace AdamDotCom.Resume.Service
         Resume ResumeXml(string firstnameLastname);
 
         [OperationContract]
+        [JSONPBehavior(callback = "jsonp")]
         [WebGet(UriTemplate = "linkedIn/{firstnameLastname}/json", ResponseFormat = WebMessageFormat.Json)]
         Resume ResumeJson(string firstnameLastname);
     }
