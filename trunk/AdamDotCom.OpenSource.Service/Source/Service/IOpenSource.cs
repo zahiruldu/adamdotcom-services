@@ -27,9 +27,5 @@ namespace AdamDotCom.OpenSource.Service
         [JSONPBehavior(callback = "jsonp")]
         [WebGet(UriTemplate = "projects/json?project-host:username={projectHostUsernamePair}", ResponseFormat = WebMessageFormat.Json)]
         Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair);
-
-        [OperationContract]
-        [WebGet(UriTemplate = "projects/html?project-host:username={projectHostUsernamePair}&filters={filters}")]
-        Stream GetProjectsByProjectHostAndUsernameHtml(string projectHostUsernamePair, string filters);
     }
 }

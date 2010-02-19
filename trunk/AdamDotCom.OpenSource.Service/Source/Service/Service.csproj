@@ -67,6 +67,7 @@
     <Compile Include="OpenSourceService.cs" />
     <Compile Include="Project.cs" />
     <Compile Include="IOpenSource.cs" />
+    <Compile Include="ProjectHostExtensions.cs" />
     <Compile Include="Projects.cs" />
     <Compile Include="ProjectsExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
