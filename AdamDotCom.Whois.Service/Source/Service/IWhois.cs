@@ -15,7 +15,7 @@ namespace AdamDotCom.Whois.Service
         WhoisRecord WhoisXml(string ipAddress);
 
         [OperationContract]
-        [JSONPBehavior(callback = "jsonp")]
+        [JSONPBehavior(callback = "callback")]
         [WebGet(UriTemplate = "/json?query={ipAddress}", ResponseFormat = WebMessageFormat.Json)]
         WhoisRecord WhoisJson(string ipAddress);
         
@@ -24,7 +24,7 @@ namespace AdamDotCom.Whois.Service
         WhoisEnhancedRecord WhoisEnhancedXml(string ipAddress, string filters, string referrer);
 
         [OperationContract]
-        [JSONPBehavior(callback = "jsonp")]
+        [JSONPBehavior(callback = "callback")]
         [WebGet(UriTemplate = "enhanced/json?query={ipAddress}&filters={filters}&referrer={referrer}", ResponseFormat = WebMessageFormat.Json)]
         WhoisEnhancedRecord WhoisEnhancedJson(string ipAddress, string filters, string referrer);
    }
