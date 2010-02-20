@@ -15,7 +15,7 @@ namespace AdamDotCom.OpenSource.Service
         Projects GetProjectsByUsernameXml(string projectHost, string username);
 
         [OperationContract]
-        [JSONPBehavior(callback = "jsonp")]
+        [JSONPBehavior(callback = "callback")]
         [WebGet(UriTemplate = "projects/{projectHost}/json?user={username}", ResponseFormat = WebMessageFormat.Json)]
         Projects GetProjectsByUsernameJson(string projectHost, string username);
 
@@ -24,7 +24,7 @@ namespace AdamDotCom.OpenSource.Service
         Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair);
 
         [OperationContract]
-        [JSONPBehavior(callback = "jsonp")]
+        [JSONPBehavior(callback = "callback")]
         [WebGet(UriTemplate = "projects/json?project-host:username={projectHostUsernamePair}", ResponseFormat = WebMessageFormat.Json)]
         Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair);
     }

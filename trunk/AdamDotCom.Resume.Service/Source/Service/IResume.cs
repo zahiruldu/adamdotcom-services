@@ -14,7 +14,7 @@ namespace AdamDotCom.Resume.Service
         Resume ResumeXml(string firstnameLastname);
 
         [OperationContract]
-        [JSONPBehavior(callback = "jsonp")]
+        [JSONPBehavior(callback = "callback")]
         [WebGet(UriTemplate = "linkedIn/{firstnameLastname}/json", ResponseFormat = WebMessageFormat.Json)]
         Resume ResumeJson(string firstnameLastname);
     }
