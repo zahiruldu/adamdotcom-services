@@ -20,12 +20,12 @@ namespace AdamDotCom.OpenSource.Service
         Projects GetProjectsByUsernameJson(string projectHost, string username);
 
         [OperationContract]
-        [WebGet(UriTemplate = "projects/xml?project-host:username={projectHostUsernamePair}")]
-        Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair);
+        [WebGet(UriTemplate = "projects/xml?project-host:username={projectHostUsernamePair}&filters={filters}")]
+        Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair, string filters);
 
         [OperationContract]
         [JSONPBehavior(callback = "callback")]
-        [WebGet(UriTemplate = "projects/json?project-host:username={projectHostUsernamePair}", ResponseFormat = WebMessageFormat.Json)]
-        Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair);
+        [WebGet(UriTemplate = "projects/json?project-host:username={projectHostUsernamePair}&filters={filters}", ResponseFormat = WebMessageFormat.Json)]
+        Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair, string filters);
     }
 }

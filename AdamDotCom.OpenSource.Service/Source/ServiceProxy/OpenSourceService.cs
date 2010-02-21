@@ -17,14 +17,14 @@ namespace AdamDotCom.OpenSource.Service.Proxy
             return base.Channel.GetProjectsByUsernameJson(projectHost, username);
         }
 
-        public Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair)
+        public Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair, string filters)
         {
-            return base.Channel.GetProjectsByProjectHostAndUsernameXml(projectHostUsernamePair);
+            return base.Channel.GetProjectsByProjectHostAndUsernameXml(projectHostUsernamePair, filters);
         }
 
-        public Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair)
+        public Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair, string filters)
         {
-            return base.Channel.GetProjectsByProjectHostAndUsernameJson(projectHostUsernamePair);
+            return base.Channel.GetProjectsByProjectHostAndUsernameJson(projectHostUsernamePair, filters);
         }
     }
 }

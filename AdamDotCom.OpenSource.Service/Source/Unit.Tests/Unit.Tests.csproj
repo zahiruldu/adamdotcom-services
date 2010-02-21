@@ -57,6 +57,7 @@
     <Compile Include="OpenSourceServiceTests.cs" />
     <Compile Include="GitHubServiceTranslatorTests.cs" />
     <Compile Include="GoogleCodeWebSnifferTests.cs" />
+    <Compile Include="ProjectsExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestHelper.cs" />
   </ItemGroup>

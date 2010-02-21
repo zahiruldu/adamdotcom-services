@@ -6,6 +6,11 @@ namespace AdamDotCom.OpenSource.Service
 {
     public static class ProjectsExtensions
     {
+        public static bool Has(this string value, string testValue)
+        {
+            return value.IndexOf(testValue, StringComparison.InvariantCultureIgnoreCase) != -1;
+        }
+
         public static List<Project> Filter(this List<Project> projects, string filters)
         {
             if(string.IsNullOrEmpty(filters))
@@ -13,39 +18,54 @@ namespace AdamDotCom.OpenSource.Service
                 return projects;
             }
 
-            var filterSplit = filters.Split(',');
-            foreach (var filterToken in filterSplit)
+            try
             {
-                if (filterToken.IndexOf("remove-old-duplicates", StringComparison.InvariantCultureIgnoreCase) != -1)
-                    continue;
-                foreach (var project in projects)
+                var isRemovingDuplicateItems = false;
+                if (filters.Has("remove:duplicate-items"))
                 {
-                    if (project.Name.IndexOf(filterToken, StringComparison.InvariantCultureIgnoreCase) != -1)
+                    isRemovingDuplicateItems = true;
+                    filters.Replace("remove:duplicate-items", "remove:-");
+                }
+
+                var filterSplit = filters.Split(',');
+                foreach (var filterToken in filterSplit)
+                {
+                    if (filterToken.Has("remove:"))
                     {
-                        project.Name = project.Name.Replace(filterToken, "");
+                        var stringToRemove = filterToken.Replace("remove:", "");
+                        foreach (var project in projects)
+                        {
+                            if (project.Name.Has(stringToRemove))
+                            {
+                                project.Name = project.Name.Replace(stringToRemove, " ").Trim();
+                            }
+                        }
                     }
-                    project.Name = project.Name.Replace("-", " ").Trim();
+                }
+
+                if (isRemovingDuplicateItems)
+                {
+                    var orderedProjects = projects.OrderBy(p => p.Name).ThenByDescending(p => p.LastModified).ToList();
+                    var projectsToReturn = new List<Project>();
+                    var lastProjectName = string.Empty;
+                    for (var i = 0; i < orderedProjects.Count; i++)
+                    {
+                        var thisProjectName = orderedProjects[i].Name;
+
+                        if (lastProjectName != thisProjectName)
+                        {
+                            projectsToReturn.Add(orderedProjects[i]);
+                        }
+
+                        lastProjectName = thisProjectName;
+                    }
+
+                    projects = projectsToReturn;
                 }
             }
-
-            if (filters.IndexOf("remove-old-duplicates", StringComparison.InvariantCultureIgnoreCase) != -1)
+            catch
             {
-                var orderedProjects = projects.OrderBy(p => p.Name).ThenByDescending(p => p.LastModified).ToList();
-                var projectsToReturn = new List<Project>();
-                var lastProjectName = string.Empty;
-                for (var i = 0; i < orderedProjects.Count; i++)
-                {
-                    var thisProjectName = orderedProjects[i].Name;
-
-                    if (lastProjectName != thisProjectName)
-                    {
-                        projectsToReturn.Add(orderedProjects[i]);
-                    }
-
-                    lastProjectName = thisProjectName;
-                }
-
-                projects = projectsToReturn;
+                return projects;
             }
 
             return projects;
