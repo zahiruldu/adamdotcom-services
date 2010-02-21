@@ -52,12 +52,12 @@ namespace Integration.Tests
         {
             var service = new OpenSourceService();
 
-            var resultsXml = service.GetProjectsByProjectHostAndUsernameXml("github:adamdotcom,googlecode:adam.kahtava.com");
+            var resultsXml = service.GetProjectsByProjectHostAndUsernameXml("github:adamdotcom,googlecode:adam.kahtava.com", null);
 
             Assert.IsNotNull(resultsXml);
             Assert.Greater(resultsXml.Count, 1);
 
-            var resultsJson = service.GetProjectsByProjectHostAndUsernameJson("github:adamdotcom,googlecode:adam.kahtava.com");
+            var resultsJson = service.GetProjectsByProjectHostAndUsernameJson("github:adamdotcom,googlecode:adam.kahtava.com", null);
 
             Assert.IsNotNull(resultsJson);
             Assert.Greater(resultsJson.Count, 1);

@@ -21,14 +21,14 @@ namespace AdamDotCom.OpenSource.Service
             return GetProjectsByUsername(projectHost, username);
         }
 
-        public Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair)
+        public Projects GetProjectsByProjectHostAndUsernameXml(string projectHostUsernamePair, string filters)
         {
-            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair, null);
+            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair, filters);
         }
 
-        public Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair)
+        public Projects GetProjectsByProjectHostAndUsernameJson(string projectHostUsernamePair, string filters)
         {
-            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair, null);
+            return GetProjectsByProjectHostAndUsername(projectHostUsernamePair, filters);
         }
 
         private static Projects GetProjectsByUsername(string host, string username)

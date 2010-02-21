@@ -40,7 +40,7 @@ namespace Unit.Tests
         [Test, ExpectedException(typeof(HttpException))]
         public void ShouldVerify_ThrowException2()
         {
-            new OpenSourceService().GetProjectsByProjectHostAndUsernameXml("github:adamdotcom,googlecode:");
+            new OpenSourceService().GetProjectsByProjectHostAndUsernameXml("github:adamdotcom,googlecode:", null);
         }
     }
 }
