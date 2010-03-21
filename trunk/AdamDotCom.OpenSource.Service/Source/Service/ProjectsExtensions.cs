@@ -18,49 +18,30 @@ namespace AdamDotCom.OpenSource.Service
                 return projects;
             }
 
+            if (!filters.Has("remove:"))
+            {
+                return projects;
+            }
+
             try
             {
-                var isRemovingDuplicateItems = false;
-                if (filters.Has("remove:duplicate-items"))
+                if (filters.Has("empty-items"))
                 {
-                    isRemovingDuplicateItems = true;
-                    filters.Replace("remove:duplicate-items", "remove:-");
+                    projects = projects.FilterEmptyRepositories();
                 }
 
-                var filterSplit = filters.Split(',');
-                foreach (var filterToken in filterSplit)
+                var shouldRemoveDuplicateRepositories = false;
+                if (filters.Has("duplicate-items"))
                 {
-                    if (filterToken.Has("remove:"))
-                    {
-                        var stringToRemove = filterToken.Replace("remove:", "");
-                        foreach (var project in projects)
-                        {
-                            if (project.Name.Has(stringToRemove))
-                            {
-                                project.Name = project.Name.Replace(stringToRemove, " ").Trim();
-                            }
-                        }
-                    }
+                    shouldRemoveDuplicateRepositories = true;
+                    filters.Replace("duplicate-items", "-");
                 }
 
-                if (isRemovingDuplicateItems)
+                projects = projects.FilterProjectNamesByUserDefinedFilters(filters);
+
+                if (shouldRemoveDuplicateRepositories)
                 {
-                    var orderedProjects = projects.OrderBy(p => p.Name).ThenByDescending(p => p.LastModified).ToList();
-                    var projectsToReturn = new List<Project>();
-                    var lastProjectName = string.Empty;
-                    for (var i = 0; i < orderedProjects.Count; i++)
-                    {
-                        var thisProjectName = orderedProjects[i].Name;
-
-                        if (lastProjectName != thisProjectName)
-                        {
-                            projectsToReturn.Add(orderedProjects[i]);
-                        }
-
-                        lastProjectName = thisProjectName;
-                    }
-
-                    projects = projectsToReturn;
+                    projects = projects.FilterDuplicateProjectsByLastModified();
                 }
             }
             catch
@@ -69,6 +50,57 @@ namespace AdamDotCom.OpenSource.Service
             }
 
             return projects;
+        }
+
+        private static List<Project> FilterProjectNamesByUserDefinedFilters(this List<Project> projects, string filters)
+        {
+            var filterSplit = filters.Split(',');
+            foreach (var filterToken in filterSplit)
+            {
+                var stringToRemove = filterToken.Replace("remove:", "");
+                foreach (var project in projects)
+                {
+                    if (project.Name.Has(stringToRemove))
+                    {
+                        project.Name = project.Name.Replace(stringToRemove, " ").Trim();
+                    }
+                }
+            }
+
+            return projects;
+        }
+
+        public static List<Project> FilterDuplicateProjectsByLastModified(this List<Project> projects)
+        {
+            var orderedProjects = projects.OrderBy(p => p.Name).ThenByDescending(p => p.LastModified).ToList();
+            var projectsToReturn = new List<Project>();
+            var lastProjectName = string.Empty;
+            for (var i = 0; i < orderedProjects.Count; i++)
+            {
+                var thisProjectName = orderedProjects[i].Name;
+
+                if (lastProjectName != thisProjectName)
+                {
+                    projectsToReturn.Add(orderedProjects[i]);
+                }
+
+                lastProjectName = thisProjectName;
+            }
+
+            return projectsToReturn;
+        }
+
+        public static List<Project> FilterEmptyRepositories(this List<Project> projects)
+        {
+            var projectsToReturn = new List<Project>();
+            foreach (var project in projects)
+            {
+                if (!string.IsNullOrEmpty(project.LastMessage) && !string.IsNullOrEmpty(project.LastModified))
+                {
+                    projectsToReturn.Add(project); 
+                }
+            }
+            return projectsToReturn;
         }
     }
 }
