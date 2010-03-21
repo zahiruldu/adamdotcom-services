@@ -20,7 +20,14 @@
       </references>
       <sources>
         <include name="..\Source\Common\**\WebClientWithCookies.cs"/>
-        <include name="..\Source\Common\**\Utilities.cs"/>
+      </sources>
+    </csc>
+    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Service.Infrastructure.JSONP.dll" debug="false" warninglevel="0" >
+      <references>
+        <include name="..\Final-Assemblies\*.dll" />
+      </references>
+      <sources>
+        <include name="..\Source\Common\Infrastructure\JSONP\**\*.cs"/>
       </sources>
     </csc>
     <csc target="library" output="..\Final-Assemblies\AdamDotCom.Common.Service.dll" debug="false" warninglevel="0" >
@@ -29,8 +36,10 @@
       </references>
       <sources>
         <include name="..\Source\Common\**\*.cs"/>
+        <exclude name="..\Source\Common\Infrastructure\JSONP\**\*.cs"/>
+        <exclude name="..\Source\Common\**\WebClientWithCookies.cs"/>
       </sources>
-    </csc>
+    </csc>    
   </target>
 
   <target name="test.prepare" description="prepares the test folder to execute tests - this is shared by the test and test.ncover targets" >
