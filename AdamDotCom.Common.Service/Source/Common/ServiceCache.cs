@@ -2,6 +2,7 @@
 using System.Configuration;
 using System.Web;
 using System.Web.Caching;
+using AdamDotCom.Common.Service.Utilities;
 
 namespace AdamDotCom.Common.Service
 {
@@ -34,7 +35,15 @@ namespace AdamDotCom.Common.Service
         {
             if (enableCache)
             {
-                cache.Insert(key, cacheObject, null, Cache.NoAbsoluteExpiration, TimeSpan.FromMinutes(5));
+                //Special case for my stuff
+                if (key.Has("kahtava") || key.Has("adamdotcom"))
+                {
+                    cache.Insert(key, cacheObject, null, Cache.NoAbsoluteExpiration, TimeSpan.FromMinutes(720));
+                }
+                else
+                {
+                    cache.Insert(key, cacheObject, null, Cache.NoAbsoluteExpiration, TimeSpan.FromMinutes(5));
+                }
             }
         }
 
