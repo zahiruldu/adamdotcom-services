@@ -22,7 +22,7 @@
         <include name="..\Source\Common\**\WebClientWithCookies.cs"/>
       </sources>
     </csc>
-    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Service.Infrastructure.JSONP.dll" debug="false" warninglevel="0" >
+    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Common.Service.Infrastructure.JSONP.dll" debug="false" warninglevel="0" >
       <references>
         <include name="..\Final-Assemblies\*.dll" />
       </references>
