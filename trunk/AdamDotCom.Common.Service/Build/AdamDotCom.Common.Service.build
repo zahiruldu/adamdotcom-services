@@ -36,8 +36,6 @@
       </references>
       <sources>
         <include name="..\Source\Common\**\*.cs"/>
-        <exclude name="..\Source\Common\Infrastructure\JSONP\**\*.cs"/>
-        <exclude name="..\Source\Common\**\WebClientWithCookies.cs"/>
       </sources>
     </csc>    
   </target>
