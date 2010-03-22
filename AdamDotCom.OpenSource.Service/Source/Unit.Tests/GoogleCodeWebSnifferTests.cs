@@ -88,5 +88,28 @@ namespace Unit.Tests
             
             Assert.IsFalse(result.Contains(">"));
         }
+
+        [Test]
+        public void ShouldVerify_CleanCommitMessage2()
+        {
+            var result = new GoogleCodeWebSniffer().CleanCommitMessage(@"<div class=""ot-issue-fields""><div class=""ot-issue-field-wrapper""><span class=""ot-issue-field-name"">Status: </span><span class=""ot-issue-field-value"">Fixed</span></div></div>");
+
+            Console.WriteLine(result); 
+            
+            Assert.IsFalse(result.Contains(">"));
+            Assert.IsTrue(string.IsNullOrEmpty(result));
+        }       
+
+        [Test]
+        public void ShouldVerify_GetProjectLastModifed()
+        {
+            var result = new GoogleCodeWebSniffer().GetProjectLastModifedDate(new Project(), TestHelper.PageSourceGoogleCodeAdamKahtavaCom_ServicesXML);
+
+            Assert.IsNotNull(result);
+            Assert.AreNotEqual(null, result.LastMessage);
+            Console.WriteLine(result.LastMessage);
+            Assert.AreNotEqual(null, result.LastModified);
+            Console.WriteLine(result.LastModified);
+        }
     }
 }

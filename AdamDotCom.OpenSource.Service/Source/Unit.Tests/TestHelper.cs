@@ -30,5 +30,14 @@ namespace Unit.Tests
                 return textReader.ReadToEnd();
             }
         }
+
+        public static string PageSourceGoogleCodeAdamKahtavaCom_ServicesXML
+        {
+            get
+            {
+                TextReader textReader = File.OpenText("PageSource-GoogleCode-AdamDotCom-Services.txt");
+                return textReader.ReadToEnd();
+            }
+        }
     }
 }

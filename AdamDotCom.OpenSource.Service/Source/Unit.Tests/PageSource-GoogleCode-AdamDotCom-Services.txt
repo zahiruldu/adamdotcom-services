@@ -1,0 +1,376 @@
+﻿<?xml version="1.0"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <updated>2010-03-21T21:44:03Z</updated>
+  <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic</id>
+
+  <title>adamdotcom-services project updates - Google Code</title>
+
+  <link rel="self" type="application/atom+xml;type=feed" href="http://code.google.com/feeds/p/adamdotcom-services/updates/basic"/>
+  <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/updates/list"/>
+
+  <entry>
+    <updated>2010-03-21T21:44:03Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/9472867014131103997</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/issues/detail?id=1#c2" />
+    <title type="html">
+      &lt;a class=&quot;ot-issue-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/issues/detail?id=1#c2&quot;&gt;issue 1&lt;/a&gt;
+      (Open Source Service: Do not return empty repositories) Status changed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectIssueUpdate" scheme="http://code.google.com/updates/type"/>
+    <content type="html">
+      &lt;div class=&quot;ot-issue-fields&quot;&gt;
+
+
+      &lt;div class=&quot;ot-issue-field-wrapper&quot;&gt;
+      &lt;span class=&quot;ot-issue-field-name&quot;&gt;Status: &lt;/span&gt;
+      &lt;span class=&quot;ot-issue-field-value&quot;&gt;Fixed&lt;/span&gt;
+      &lt;/div&gt;
+
+
+
+
+      &lt;/div&gt;
+    </content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-03-21T21:31:54Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/1724803719257169417</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=73" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=73&quot;&gt;r73&lt;/a&gt;
+      (Updating serviced with new Common assembly, updating Live-Ho...) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Updating serviced with new Common assembly, updating Live-Host with new Open Source service&lt;br&gt;assemblies&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-03-21T21:27:15Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/8945053840474018694</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=72" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=72&quot;&gt;r72&lt;/a&gt;
+      (Changed Open Source filtering grammer &amp;#39;remove:cmd1,remove:cm...) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Changed Open Source filtering grammer &#39;remove:cmd1,remove:cmd2&#39; can now be written as&lt;br&gt;&#39;remove:cmd1,cmd2&#39;, also added a new filter to remove empty repositories&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-03-21T17:32:57Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/9349764686007839176</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=71" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=71&quot;&gt;r71&lt;/a&gt;
+      (Sticking with a single common assembly for sanity sake, othe...) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Sticking with a single common assembly for sanity sake, other assemblies can be used in satellite&lt;br&gt;projects&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-03-21T16:08:53Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/8046811372369761998</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=70" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=70&quot;&gt;r70&lt;/a&gt;
+      (Renamed JSONP assembly) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Renamed JSONP assembly&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-03-21T16:01:02Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/15901415633055237025</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=69" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=69&quot;&gt;r69&lt;/a&gt;
+      (Added conditional caching for my objects, broke JSONP stuff ...) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Added conditional caching for my objects, broke JSONP stuff into a seperate assembly&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-03-20T14:39:54Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/9777137238977222576</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/issues/detail?id=2#c1" />
+    <title type="html">
+      &lt;a class=&quot;ot-issue-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/issues/detail?id=2#c1&quot;&gt;issue 2&lt;/a&gt;
+      (Open Source Service: Provide the option to display only your...) commented on by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectIssueUpdate" scheme="http://code.google.com/updates/type"/>
+    <content type="html">
+      &lt;span class=&quot;ot-issue-comment&quot;&gt;Steps to repro:
+      &lt;br&gt;Go to GitHub
+      &lt;br&gt;Fork someones project
+      &lt;br&gt;Note that the project is displayed in your project badge&lt;/span&gt;
+    </content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-03-20T14:37:48Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/4825678875027956752</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/issues/detail?id=1#c1" />
+    <title type="html">
+      &lt;a class=&quot;ot-issue-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/issues/detail?id=1#c1&quot;&gt;issue 1&lt;/a&gt;
+      (Open Source Service: Do not return empty repositories) Labels changed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectIssueUpdate" scheme="http://code.google.com/updates/type"/>
+    <content type="html">
+      &lt;div class=&quot;ot-issue-fields&quot;&gt;
+
+
+
+
+
+      &lt;div class=&quot;ot-issue-field-wrapper&quot;&gt;
+      &lt;span class=&quot;ot-issue-field-name&quot;&gt;Labels: &lt;/span&gt;
+      &lt;span class=&quot;ot-issue-field-value&quot;&gt;
+      &lt;span class=&quot;ot-field-label&quot;&gt;Type-Enhancement&lt;/span&gt;
+      &lt;span class=&quot;ot-minus-sign&quot;&gt;&amp;#x2212;&lt;/span&gt;&lt;span class=&quot;ot-field-label&quot;&gt;Type-Defect&lt;/span&gt;
+      &lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;/div&gt;
+    </content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-03-20T14:37:06Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/10829657533802102567</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/issues/detail?id=2#c0" />
+    <title type="html">
+      &lt;a class=&quot;ot-issue-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/issues/detail?id=2#c0&quot;&gt;issue 2&lt;/a&gt;
+      (Open Source Service: Provide the option to display only your...) reported by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectIssueUpdate" scheme="http://code.google.com/updates/type"/>
+    <content type="html">
+      &lt;span class=&quot;ot-issue-comment&quot;&gt;Projects retrieved from GitHub include your projects and forked projects (not
+      &lt;br&gt;necessarily your projects)&lt;/span&gt;
+    </content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-03-06T18:59:32Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/14023225313042589060</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/issues/detail?id=1#c0" />
+    <title type="html">
+      &lt;a class=&quot;ot-issue-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/issues/detail?id=1#c0&quot;&gt;issue 1&lt;/a&gt;
+      (Open Source Service: Do not return empty repositories) reported by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectIssueUpdate" scheme="http://code.google.com/updates/type"/>
+    <content type="html">
+      &lt;span class=&quot;ot-issue-comment&quot;&gt;What steps will reproduce the problem?
+      &lt;br&gt;1. Create a new empty repo on GitHub
+      &lt;br&gt;2. Get your open source project results
+      &lt;br&gt;
+      &lt;br&gt;Note that the empty repo is listed, expected that empty repos are not
+      &lt;br&gt;returned.&lt;/span&gt;
+    </content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-21T23:35:42Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/95434861143230022</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=68" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=68&quot;&gt;r68&lt;/a&gt;
+      (Added filtering to project results) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Added filtering to project results&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-20T03:40:02Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/8114343875791950527</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=67" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=67&quot;&gt;r67&lt;/a&gt;
+      (renamed jsonp prefix to callback: forgot resume service) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;renamed jsonp prefix to callback: forgot resume service&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-20T03:37:16Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/17963345979320281723</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=66" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=66&quot;&gt;r66&lt;/a&gt;
+      (renamed jsonp prefix to callback) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;renamed jsonp prefix to callback&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-19T14:01:35Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/8746996807516859700</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=65" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=65&quot;&gt;r65&lt;/a&gt;
+      (Removed HTML service method, the same origin policy prevents...) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Removed HTML service method, the same origin policy prevents others from consuming it so... KISS it&lt;br&gt;goodbye!&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-19T04:56:15Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/9609238361914556557</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=64" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=64&quot;&gt;r64&lt;/a&gt;
+      (Updated assemblies and configs for JSONP. W00T!!) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Updated assemblies and configs for JSONP. W00T!!&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-19T04:47:39Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/17666015776660939225</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=63" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=63&quot;&gt;r63&lt;/a&gt;
+      (Added JSONP to services) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Added JSONP to services&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-18T18:53:23Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/2476525293710440237</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=62" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=62&quot;&gt;r62&lt;/a&gt;
+      (Added JSONP support for WCF. (Yanked it from: http://msdn.mi...) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Added JSONP support for WCF. (Yanked it from: http://msdn.microsoft.com/en-us/library/cc716898.aspx)&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-17T03:45:03Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/16138598804788333412</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=61" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=61&quot;&gt;r61&lt;/a&gt;
+      (Tweaks to the rendered HTML for the Projects Badge) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Tweaks to the rendered HTML for the Projects Badge&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-15T20:47:01Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/6114513249461067176</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=60" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=60&quot;&gt;r60&lt;/a&gt;
+      (Forgot to check in updates to the Unit Test project. So... h...) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Forgot to check in updates to the Unit Test project. So... here it goes!&lt;/span&gt;</content>
+  </entry>
+
+
+  <entry>
+    <updated>2010-02-15T17:00:06Z</updated>
+    <id>http://code.google.com/feeds/p/adamdotcom-services/updates/basic/5109858691564680760</id>
+    <link rel="alternate" type="text/html" href="http://code.google.com/p/adamdotcom-services/source/detail?r=59" />
+    <title type="html">
+      &lt;a class=&quot;ot-revision-link&quot; href=&quot;http://code.google.com/p/adamdotcom-services/source/detail?r=59&quot;&gt;r59&lt;/a&gt;
+      (Moved service table of contents into my website: http://adam...) committed by &lt;a class=&quot;ot-profile-link-2&quot; href=&quot;http://code.google.com/u/adam.kahtava.com/&quot;&gt;adam.kahtava.com&lt;/a&gt;
+    </title>
+    <author>
+      <name>adam.kahtava.com</name>
+    </author>
+    <category term="ProjectCodeCommit" scheme="http://code.google.com/updates/type"/>
+    <content type="html">&lt;span class=&quot;ot-logmessage&quot;&gt;Moved service table of contents into my website: http://adam.kahtava.com/publicly-available-web-&lt;br&gt;services/&lt;/span&gt;</content>
+  </entry>
+
+
+</feed>

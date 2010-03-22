@@ -95,7 +95,7 @@ namespace AdamDotCom.OpenSource.Service
             var projectsToReturn = new List<Project>();
             foreach (var project in projects)
             {
-                if (!string.IsNullOrEmpty(project.LastMessage) && !string.IsNullOrEmpty(project.LastModified))
+                if (!string.IsNullOrEmpty(project.LastMessage) || !string.IsNullOrEmpty(project.LastModified))
                 {
                     projectsToReturn.Add(project); 
                 }
