@@ -101,11 +101,13 @@ namespace AdamDotCom.Resume.Service
 
             var educationInstitutes = StringUtilities.Scrub(GetEducationInstitutes());
             var educationCertificates = StringUtilities.Scrub(GetEducationCertificates());
+            var educatioinPeriods = StringUtilities.Scrub(GetEducationPeriods());
 
             var educations = educationInstitutes.Select(i => new Education{Institute = i}).ToList();
             for(var i=0 ; i < educations.Count() ; i++)
             {
                 educations[i].Certificate = educationCertificates == null || educationCertificates.Count <= i ? null : educationCertificates[i];
+                educations[i].Period = educatioinPeriods == null || educatioinPeriods.Count <= i ? null : educatioinPeriods[i];
             }
  
             return new Resume
@@ -205,6 +207,20 @@ namespace AdamDotCom.Resume.Service
             return educationCertificates;
         }
 
+        public List<string> GetEducationPeriods()
+        {
+            var educationPeriodRegex = new Regex(@"name=""eduEntry(?:[\s\w><\=""'/\?&%\+\-:\.;\(\)]+)class=""period(?:[^>]+)>(?<Period>(([^<]|<[^/]|</[^p])*.{0,2}))</p", RegexOptions.Multiline);
+            var educationPeriods = RegexUtilities.GetTokenStringList(educationPeriodRegex.Match(pageSource), "Period");
+            if (educationPeriods != null)
+            {
+                educationPeriods = educationPeriods.ConvertAll(p => (p == null) ? null : Regex.Replace(p, @"<.*?>", string.Empty));
+            }
+            if (educationPeriods == null || educationPeriods.Count == 0)
+            {
+                AddWarningError("Education.Period");
+            }
+            return educationPeriods;
+        }
 
         private void AddWarningError(string token)
         {

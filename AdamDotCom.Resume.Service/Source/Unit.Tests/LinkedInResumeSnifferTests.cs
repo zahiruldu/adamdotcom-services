@@ -105,6 +105,19 @@ namespace AdamDotCom.Resume.Service.Unit.Tests
         }
 
         [Test]
+        public void ShouldGetEducationPeriods()
+        {
+            var resumeSniffer = new LinkedInResumeSniffer("Adam Kahtava", TestHelper.PageSource6);
+            var periods = resumeSniffer.GetEducationPeriods();
+            Assert.IsFalse(periods == null);
+            Assert.IsFalse(periods.Count < 0);
+            foreach (var item in periods)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        [Test]
         public void ShouldGetResumeFromPageSource()
         {
             var resumeSniffer = new LinkedInResumeSniffer("Adam Kahtava", TestHelper.PageSource1);
@@ -274,5 +287,23 @@ namespace AdamDotCom.Resume.Service.Unit.Tests
             Console.WriteLine(resume.Summary);
         }
 
+        [Test]
+        public void ShouldGetResumeFromPageSource6()
+        {
+            var resumeSniffer = new LinkedInResumeSniffer("Adam Kahtava", TestHelper.PageSource6);
+
+            var resume = resumeSniffer.GetResume();
+
+            Assert.IsNotNull(resume);
+
+            Assert.IsTrue(resume.Educations.Count == 2, resume.Educations.Count.ToString());
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Educations[0].Certificate));
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Educations[0].Institute));
+            Assert.IsFalse(string.IsNullOrEmpty(resume.Educations[0].Period));
+            foreach (var item in resume.Educations)
+            {
+                Console.WriteLine(item.Certificate + " " + item.Institute + " " + item.Period);
+            }
+        }
     }
 }

@@ -61,11 +61,24 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PageSource2.txt" />
-    <Content Include="PageSource1.txt" />
-    <Content Include="PageSource3.txt" />
-    <Content Include="PageSource4.txt" />
-    <Content Include="PageSource5.txt" />
+    <Content Include="PageSource2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PageSource1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PageSource3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PageSource4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PageSource5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PageSource6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
