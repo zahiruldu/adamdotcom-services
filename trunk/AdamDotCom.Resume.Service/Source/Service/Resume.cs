@@ -22,5 +22,6 @@ namespace AdamDotCom.Resume.Service
     {
         public string Institute { get; set; }
         public string Certificate { get; set; }
+        public string Period { get; set; }
     }
 }

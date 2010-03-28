@@ -43,5 +43,8 @@ namespace AdamDotCom.Resume.Service.Proxy
 
         [DataMember]
         public string Certificate { get; set; }
+
+        [DataMember]
+        public string Period { get; set; }
     }
 }

@@ -44,6 +44,13 @@ namespace AdamDotCom.Resume.Service.Unit.Tests
                 return textReader.ReadToEnd();
             }
         }
-
+        public static string PageSource6
+        {
+            get
+            {
+                TextReader textReader = File.OpenText("PageSource6.txt");
+                return textReader.ReadToEnd();
+            }
+        }
     }
 }
