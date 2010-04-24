@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using AdamDotCom.Common.Service.Utilities;
-using AdamDotCom.Whois.Service.WhoisClient;
 
-namespace AdamDotCom.Whois.Service.WhoisClient
+namespace AdamDotCom.Whois.Service.Extensions
 {
     public static class WhoisRecordExtensions
     {

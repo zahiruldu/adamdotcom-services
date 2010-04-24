@@ -5,7 +5,6 @@ using System.ServiceModel;
 using System.ServiceModel.Channels;
 using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
-using AdamDotCom.Whois.Service.WhoisClient;
 
 namespace AdamDotCom.Whois.Service
 {
@@ -50,7 +49,7 @@ namespace AdamDotCom.Whois.Service
                 }
             }
 
-            var whoisClient = new WhoisClient.WhoisClient(ipAddress);
+            var whoisClient = new WhoisClient(ipAddress);
 
             var record = whoisClient.GetWhoisRecord();
 

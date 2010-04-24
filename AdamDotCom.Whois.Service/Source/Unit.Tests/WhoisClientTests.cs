@@ -1,5 +1,5 @@
 ﻿using System;
-using AdamDotCom.Whois.Service.WhoisClient;
+using AdamDotCom.Whois.Service.Extensions;
 using NUnit.Framework;
 
 namespace AdamDotCom.Whois.Service.Unit.Tests
@@ -42,7 +42,7 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
         [Test]
         public void ShouldVerifyWhoisClientWorksOnShaw()
         {
-            var whoisClient = new WhoisClient.WhoisClient("68.146.10.100");
+            var whoisClient = new WhoisClient("68.146.10.100");
 
             Assert.IsNotNull(whoisClient);
             foreach (var item in whoisClient.Errors)
@@ -63,7 +63,7 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
         public void ShouldVerifyWhoisClientWorksOnGoogle()
         {
             WhoisRecord response;
-            var whoisClient = new WhoisClient.WhoisClient("74.125.127.99");
+            var whoisClient = new WhoisClient("74.125.127.99");
 
             Assert.IsNotNull(whoisClient);
             foreach (var item in whoisClient.Errors)
@@ -83,7 +83,7 @@ namespace AdamDotCom.Whois.Service.Unit.Tests
         [Test, Ignore("Removed DNS resolution capabilities")]
         public void ShouldVerifyWhoisClientWorksOnAdamDotCom()
         {
-            var whoisClient = new WhoisClient.WhoisClient("kahtava.com");
+            var whoisClient = new WhoisClient("kahtava.com");
 
             Assert.IsNotNull(whoisClient);
             foreach (var item in whoisClient.Errors)
