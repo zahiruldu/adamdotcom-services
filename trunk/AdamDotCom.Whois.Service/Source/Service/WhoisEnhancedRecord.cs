@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
 using AdamDotCom.Whois.Service.Extensions;
-using AdamDotCom.Whois.Service.WhoisClient;
 
 namespace AdamDotCom.Whois.Service
 {

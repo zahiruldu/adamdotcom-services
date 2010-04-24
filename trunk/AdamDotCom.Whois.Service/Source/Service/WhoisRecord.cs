@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace AdamDotCom.Whois.Service.WhoisClient
+namespace AdamDotCom.Whois.Service
 {
     [DataContract(Namespace = "http://adam.kahtava.com/services/whois")]
     public class WhoisRecord

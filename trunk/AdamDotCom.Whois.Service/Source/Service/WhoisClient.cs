@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Net;
+using AdamDotCom.Whois.Service.Extensions;
 
-namespace AdamDotCom.Whois.Service.WhoisClient
+namespace AdamDotCom.Whois.Service
 {
     public class WhoisClient
     {

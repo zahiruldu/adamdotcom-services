@@ -2,7 +2,6 @@
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using AdamDotCom.Common.Service.Infrastructure.JSONP;
-using AdamDotCom.Whois.Service.WhoisClient;
 
 [assembly: ContractNamespace("http://adam.kahtava.com/services/whois", ClrNamespace = "AdamDotCom.Whois.Service")]
 namespace AdamDotCom.Whois.Service
