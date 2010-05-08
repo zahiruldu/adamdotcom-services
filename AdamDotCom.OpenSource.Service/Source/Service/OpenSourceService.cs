@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.ServiceModel;
@@ -33,10 +32,10 @@ namespace AdamDotCom.OpenSource.Service
 
         private static Projects GetProjectsByUsername(string host, string username)
         {
-            AssertValidInput(username, "username");          
-            AssertValidInput(host, "host");
+            Assert.ValidInput(username, "username");          
+            Assert.ValidInput(host, "host");
             ProjectHost projectHost = ProjectHostExtensions.GetProjectHost(host);
-            AssertValidInput(projectHost.ToString(), "host");
+            Assert.ValidInput(projectHost.ToString(), "host");
 
             var projects = new List<Project>().GetFromCache(projectHost, username);
             if (projects != null)
@@ -82,16 +81,6 @@ namespace AdamDotCom.OpenSource.Service
             }
 
             return new Projects(projects.Filter(filters).OrderBy(p => p.Name).ThenByDescending(p => p.LastModified));
-        }
-
-        private static void AssertValidInput(string inputValue, string inputName)
-        {
-            inputName = (string.IsNullOrEmpty(inputName) ? "Unknown" : inputName);
-
-            if (string.IsNullOrEmpty(inputValue) || inputValue.Equals("null", StringComparison.CurrentCultureIgnoreCase) || inputValue.Equals(ProjectHost.Unknown.ToString(), StringComparison.CurrentCultureIgnoreCase))
-            {
-                throw new RestException(new KeyValuePair<string, string>(inputName, string.Format("{0} is not a valid value for input {1}.", inputValue, inputName)));
-            }
         }
 
         private static void HandleErrors(List<KeyValuePair<string, string>> errors)
