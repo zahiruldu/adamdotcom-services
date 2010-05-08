@@ -5,13 +5,13 @@ namespace AdamDotCom.Common.Service.Utilities
 {
     public static class StringUtilities
     {
-        public static string Scrub(string dirtyString)
+        public static string Scrub(this string value)
         {
-            if (!string.IsNullOrEmpty(dirtyString))
+            if (!string.IsNullOrEmpty(value))
             {
-                return dirtyString.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\t", "").Replace("     ", "").Replace(",,", ",").Trim();
+                return value.Replace("\r\n", "").Replace("\n", "").Replace("\r", "").Replace("\t", "").Replace("     ", "").Replace(",,", ",").Replace("%20", " ").Replace("-", " ");    
             }
-            return dirtyString;
+            return value;
         }
 
         public static List<string> Scrub(List<string> list)
