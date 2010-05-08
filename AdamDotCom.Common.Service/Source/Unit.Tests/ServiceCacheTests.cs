@@ -7,12 +7,10 @@ namespace Unit.Tests
     [TestFixture]
     public class ServiceCacheTests
     {
-        public class MyTestObject
-        {
-        }
+        public class MyTestObject{}
 
         [Test]
-        public void Test()
+        public void ShouldTestThatKeyUsesObjectName()
         {
             var hash = ServiceCache.Hash<MyTestObject>("dude");
 
