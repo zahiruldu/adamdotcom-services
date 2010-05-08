@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Net;
@@ -7,6 +6,7 @@ using System.ServiceModel;
 using AdamDotCom.Amazon.Domain;
 using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
+using AdamDotCom.Common.Service.Utilities;
 
 namespace AdamDotCom.Amazon.Service
 {
@@ -65,7 +65,7 @@ namespace AdamDotCom.Amazon.Service
 
         private static Reviews Reviews(string customerId)
         {
-            AssertValidInput(customerId, "customerId");
+            Assert.ValidInput(customerId, "customerId");
 
             if(ServiceCache.IsInCache<Reviews>(customerId))
             {
@@ -85,7 +85,7 @@ namespace AdamDotCom.Amazon.Service
 
         private static Wishlist Wishlist(string listId)
         {
-            AssertValidInput(listId, "listId");
+            Assert.ValidInput(listId, "listId");
 
             if(ServiceCache.IsInCache<Wishlist>(listId))
             {
@@ -105,9 +105,8 @@ namespace AdamDotCom.Amazon.Service
 
         private static Profile DiscoverUser(string username)
         {
-            AssertValidInput(username, "username");
-
-            username = Scrub(username);
+            username = username.Scrub();
+            Assert.ValidInput(username, "username");           
 
             if (ServiceCache.IsInCache<Profile>(username))
             {
@@ -127,11 +126,6 @@ namespace AdamDotCom.Amazon.Service
             return profile.AddToCache(username);
         }
 
-        private static string Scrub(string username)
-        {
-            return username.Replace(" ", "%20").Replace("-", " ");
-        }
-
         private static AmazonRequest BuildRequest(string customerId, string listId)
         {
             return new AmazonRequest
@@ -142,16 +136,6 @@ namespace AdamDotCom.Amazon.Service
                 ListId = listId,
                 SecretAccessKey = ConfigurationManager.AppSettings["AmazonSecretAccessKey"]
             };
-        }
-
-        private static void AssertValidInput(string inputValue, string inputName)
-        {
-            inputName = (string.IsNullOrEmpty(inputName) ? "Unknown" : inputName);
-
-            if (string.IsNullOrEmpty(inputValue) || inputValue.Equals("null", StringComparison.CurrentCultureIgnoreCase))
-            {
-                throw new RestException(new KeyValuePair<string, string>(inputName, string.Format("{0} is not a valid value.", inputValue)));
-            }
         }
 
         private static void HandleErrors(List<KeyValuePair<string, string>> errors)

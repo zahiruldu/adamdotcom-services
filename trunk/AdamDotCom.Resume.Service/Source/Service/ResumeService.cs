@@ -6,6 +6,7 @@ using System.Net;
 using System.ServiceModel;
 using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
+using AdamDotCom.Common.Service.Utilities;
 
 namespace AdamDotCom.Resume.Service
 {
@@ -24,9 +25,9 @@ namespace AdamDotCom.Resume.Service
 
         private static Resume Resume(string firstnameLastname)
         {
-            AssertValidInput(firstnameLastname, "firstname-lastname");
+            Assert.ValidInput(firstnameLastname, "firstname-lastname");
 
-            firstnameLastname = Scrub(firstnameLastname);
+            firstnameLastname = firstnameLastname.Scrub();
 
             if (ServiceCache.IsInCache<Resume>(firstnameLastname))
             {
@@ -47,7 +48,7 @@ namespace AdamDotCom.Resume.Service
             {
                 resume = resumeSniffer.GetResume();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 HandleErrors(linkedInEmailAddress);
             }
@@ -55,21 +56,6 @@ namespace AdamDotCom.Resume.Service
             HandleErrors(resumeSniffer.Errors);
 
             return resume.AddToCache(firstnameLastname);
-        }
-
-        private static string Scrub(string username)
-        {
-            return username.Replace("%20", " ").Replace("-", " ");
-        }
-
-        private static void AssertValidInput(string inputValue, string inputName)
-        {
-            inputName = (string.IsNullOrEmpty(inputName) ? "Unknown" : inputName);
-
-            if (string.IsNullOrEmpty(inputValue) || inputValue.Equals("null", StringComparison.CurrentCultureIgnoreCase))
-            {
-                throw new RestException(new KeyValuePair<string, string>(inputName, string.Format("{0} is not a valid value.", inputValue)));
-            }
         }
 
         private static void HandleErrors(List<KeyValuePair<string, string>> errors)
@@ -85,12 +71,12 @@ namespace AdamDotCom.Resume.Service
             }
         }
 
-        private static void HandleErrors(string linkedInEmailAddress)
+        private static void HandleErrors(string emailAddress)
         {
             throw new RestException(new KeyValuePair<string, string>("LinkedInResumeSniffer",
                                                                      string.Format(
                                                                          "The requested resume could not be retrieved. Ensure that you have added {0} as a LinkedIn contact, alternatively you can download the source code ({1}) and contribute a patch for your resume.",
-                                                                         linkedInEmailAddress,
+                                                                         emailAddress,
                                                                          "http://code.google.com/p/adamdotcom-services/source/checkout"))
                 );
         }

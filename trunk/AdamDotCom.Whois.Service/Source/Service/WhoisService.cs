@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 using AdamDotCom.Common.Service;
 using AdamDotCom.Common.Service.Infrastructure;
+using AdamDotCom.Common.Service.Utilities;
 
 namespace AdamDotCom.Whois.Service
 {
@@ -33,12 +33,9 @@ namespace AdamDotCom.Whois.Service
 
         private WhoisRecord Whois(string ipAddress)
         {
-            ipAddress = Scrub(ipAddress);
-            if(string.IsNullOrEmpty(ipAddress))
-            {
-                ipAddress = ((RemoteEndpointMessageProperty)OperationContext.Current.IncomingMessageProperties[RemoteEndpointMessageProperty.Name]).Address;
-            }
-            AssertValidInput(ipAddress, "ipAddress");
+            ipAddress = ipAddress.Scrub();
+            ipAddress = GetIpAddress(ipAddress);
+            Assert.ValidInput(ipAddress, "ipAddress");
 
             if (ServiceCache.IsInCache<WhoisRecord>(ipAddress))
             {
@@ -50,7 +47,6 @@ namespace AdamDotCom.Whois.Service
             }
 
             var whoisClient = new WhoisClient(ipAddress);
-
             var record = whoisClient.GetWhoisRecord();
 
             HandleErrors(whoisClient.Errors);
@@ -60,12 +56,19 @@ namespace AdamDotCom.Whois.Service
 
         private WhoisEnhancedRecord WhoisEnhanced(string ipAddress, string filters, string referrer)
         {
-            filters = Scrub(filters);
-            referrer = Scrub(referrer);
-            AssertValidInput(filters, "filters");
-            AssertValidInput(referrer, "referrer");
+            if (filters != null)
+            {
+                filters = filters.Scrub();
+                Assert.ValidInput(filters, "filters");
+            }
+            if (referrer != null)
+            {
+                referrer = referrer.Scrub();
+                Assert.ValidInput(referrer, "referrer");
+            }
 
-            var hash = string.Format("{0}-{1}", ipAddress, filters).ToLower().Replace(",", "-").Replace(" ", "-");
+            var hash = BuildHash(ipAddress, filters);
+
             if (ServiceCache.IsInCache<WhoisEnhancedRecord>(hash))
             {
                 var cachedRecord = (WhoisEnhancedRecord)ServiceCache.GetFromCache<WhoisEnhancedRecord>(hash);
@@ -75,26 +78,18 @@ namespace AdamDotCom.Whois.Service
                 }
             }
 
-            var whoisRecord = Whois(ipAddress);
-
-            var whoisEnhancedRecord = new WhoisEnhancedRecord(whoisRecord, filters, referrer);
+            var whoisEnhancedRecord = new WhoisEnhancedRecord(Whois(ipAddress), filters, referrer);
 
             return whoisEnhancedRecord.AddToCache(hash);
         }
 
-        private static string Scrub(string value)
+        private static string GetIpAddress(string ipAddress)
         {
-            return string.IsNullOrEmpty(value) ? null : value.Replace("%20", " ").Replace("-", " ");
-        }
-
-        private static void AssertValidInput(string inputValue, string inputName)
-        {
-            inputName = (string.IsNullOrEmpty(inputName) ? "Unknown" : inputName);
-
-            if (!string.IsNullOrEmpty(inputValue) && (inputValue.Equals("null", StringComparison.CurrentCultureIgnoreCase) || inputValue.Equals("string.empty", StringComparison.CurrentCultureIgnoreCase)))
+            if (string.IsNullOrEmpty(ipAddress))
             {
-                throw new RestException(new KeyValuePair<string, string>(inputName, string.Format("{0} is not a valid parameter value.", inputValue)));
+                ipAddress = ((RemoteEndpointMessageProperty)OperationContext.Current.IncomingMessageProperties[RemoteEndpointMessageProperty.Name]).Address;
             }
+            return ipAddress;
         }
 
         private static void HandleErrors(List<KeyValuePair<string, string>> errors)
@@ -103,6 +98,11 @@ namespace AdamDotCom.Whois.Service
             {
                 throw new RestException(HttpStatusCode.BadRequest, errors, (int)ErrorCode.InternalError);
             }
+        }
+
+        private static string BuildHash(string ipAddress, string filters)
+        {
+            return string.Format("{0}-{1}", ipAddress, filters).ToLower().Replace(",", "-").Replace(" ", "-");           
         }
     }
 }
