@@ -16,7 +16,6 @@ namespace AdamDotCom.Common.Service.Infrastructure.CSV
 
         public StreamWriter Translate(XmlReader contents, StreamWriter writer)
         {
-            LoadXslt();
             var transform = new XslCompiledTransform();
             transform.Load(xslt);
 

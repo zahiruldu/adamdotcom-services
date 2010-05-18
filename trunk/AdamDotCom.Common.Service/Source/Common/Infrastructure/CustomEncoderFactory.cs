@@ -32,6 +32,32 @@ namespace AdamDotCom.Common.Service.Infrastructure
         {
             private MessageEncoder encoder;
 
+            private JSONPEncoder _jsonpEncoder;
+            private JSONPEncoder JsonpEncoder
+            {
+                get
+                {
+                    if (_jsonpEncoder == null)
+                    {
+                        _jsonpEncoder = new JSONPEncoder();
+                    }
+                    return _jsonpEncoder;
+                }
+            }
+
+            private CSVEncoder _csvEncoder;
+            private CSVEncoder CsvEncoder
+            {
+                get
+                {
+                    if (_csvEncoder == null)
+                    {
+                        _csvEncoder = new CSVEncoder();
+                    }
+                    return _csvEncoder;
+                }
+            }
+
             public CustomEncoder()
             {
                 WebMessageEncodingBindingElement element = new WebMessageEncodingBindingElement();
@@ -82,11 +108,11 @@ namespace AdamDotCom.Common.Service.Infrastructure
             {
                 if (message.IsJSONPBehavior())
                 {
-                    return new JSONPEncoder().WriteMessage(encoder, message, maxMessageSize, bufferManager, messageOffset);
+                    return JsonpEncoder.WriteMessage(encoder, message, maxMessageSize, bufferManager, messageOffset);
                 }
                 if (message.IsCSVBehavior())
                 {
-                    return new CSVEncoder().WriteMessage(encoder, message, maxMessageSize, bufferManager, messageOffset);
+                    return CsvEncoder.WriteMessage(encoder, message, maxMessageSize, bufferManager, messageOffset);
                 }
                 
                 return encoder.WriteMessage(message, maxMessageSize, bufferManager, messageOffset);

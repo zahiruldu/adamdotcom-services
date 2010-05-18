@@ -4,7 +4,5 @@
     <xsl:apply-templates select="//text()"/>
   </xsl:template>
 
-  <xsl:template match="text()">
-    "<xsl:copy-of select="normalize-space(.)"/>"<xsl:if test="not(position()=last())">,</xsl:if>
-  </xsl:template>
+  <xsl:template match="text()">"<xsl:copy-of select="normalize-space(.)"/>"<xsl:if test="not(position()=last())">,</xsl:if></xsl:template>
 </xsl:stylesheet>

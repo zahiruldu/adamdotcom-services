@@ -26,6 +26,9 @@
       <references>
         <include name="..\Final-Assemblies\*.dll" />
       </references>
+      <resources dynamicprefix="true" prefix="AdamDotCom.Common.Service.Infrastructure.CSV">
+        <include name="..\Source\Common\**\XmlToCsv.xslt"/>
+      </resources>
       <sources>
         <include name="..\Source\Common\**\*.cs"/>
       </sources>
@@ -49,10 +52,10 @@
       </fileset>
     </copy>
     <copy todir="bin" flatten="true">
-			<fileset basedir="..\Source\Unit.Tests">
-				<include name="*.txt" />
-			</fileset>
-		</copy>
+      <fileset basedir="..\Source\Unit.Tests">
+        <include name="*.txt" />
+      </fileset>
+    </copy>
   </target>
   
   <target name="test.compile" description="compiles the unit tests" depends="compile test.prepare">
