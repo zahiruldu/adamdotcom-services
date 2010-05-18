@@ -60,14 +60,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructure\JSONP\JSONPBehavior.cs" />
-    <Compile Include="Infrastructure\JSONP\JSONPBindingElement.cs" />
-    <Compile Include="Infrastructure\JSONP\JSONPBindingExtension.cs" />
-    <Compile Include="Infrastructure\JSONP\JSONPEncoderFactory.cs" />
+    <Compile Include="Infrastructure\CSV\CSVBehavior.cs" />
+    <Compile Include="Infrastructure\CSV\CSVEncoder.cs" />
+    <Compile Include="Infrastructure\CSV\XmlToCvsTranslator.cs" />
+    <Compile Include="Infrastructure\CustomEncoderFactory.cs" />
+    <Compile Include="Infrastructure\CustomBindingExtension.cs" />
+    <Compile Include="Infrastructure\CustomBindingElement.cs" />
+    <Compile Include="Infrastructure\JSONP\JSONPBehaviour.cs" />
+    <Compile Include="Infrastructure\JSONP\JSONPEncoder.cs" />
+    <Compile Include="Infrastructure\JSONP\JSONPMessageProperty.cs" />
     <Compile Include="Infrastructure\RestException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceCache.cs" />
     <Compile Include="Infrastructure\Assert.cs" />
+    <Compile Include="Utilities\AsynchronousBroker.cs" />
     <Compile Include="Utilities\RegexUtilities.cs" />
     <Compile Include="Utilities\StringUtilities.cs" />
     <Compile Include="Infrastructure\WebHttpWithExceptions.cs" />
@@ -77,6 +83,9 @@
     <Compile Include="Utilities\WebClientWithCookies.cs">
       <SubType>Component</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Infrastructure\CSV\XmlToCsv.xslt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
