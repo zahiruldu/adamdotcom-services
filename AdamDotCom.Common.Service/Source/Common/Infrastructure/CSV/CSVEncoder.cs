@@ -6,13 +6,19 @@ namespace AdamDotCom.Common.Service.Infrastructure.CSV
 {
     public class CSVEncoder
     {
+        private XmlToCvsTranslator xmlToCvsTranslator;
+
+        public CSVEncoder()
+        {
+            xmlToCvsTranslator = new XmlToCvsTranslator();
+        }
+
         public ArraySegment<byte> WriteMessage(MessageEncoder encoder, Message message, int maxMessageSize, BufferManager bufferManager, int messageOffset)
         {
             MemoryStream stream = new MemoryStream();
             var writer = new StreamWriter(stream);
 
-            var contents = message.GetReaderAtBodyContents();
-            writer = new XmlToCvsTranslator().Translate(contents, writer);
+            writer = xmlToCvsTranslator.Translate(message.GetReaderAtBodyContents(), writer);
             writer.Flush();
 
             byte[] messageBytes = stream.GetBuffer();
