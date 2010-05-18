@@ -16,6 +16,11 @@ namespace AdamDotCom.Whois.Service.Proxy
             return base.Channel.WhoisJson(ipAddress);
         }
 
+        public WhoisRecord WhoisCsv(string ipAddress)
+        {
+            return base.Channel.WhoisCsv(ipAddress);
+        }
+
         public WhoisEnhancedRecord WhoisEnhancedXml(string ipAddress, string filters, string referrer)
         {
             return base.Channel.WhoisEnhancedXml(ipAddress, filters, referrer);
@@ -24,6 +29,11 @@ namespace AdamDotCom.Whois.Service.Proxy
         public WhoisEnhancedRecord WhoisEnhancedJson(string ipAddress, string filters, string referrer)
         {
             return base.Channel.WhoisEnhancedJson(ipAddress, filters, referrer);
+        }
+
+        public WhoisEnhancedRecord WhoisEnhancedCsv(string ipAddress, string filters, string referrer)
+        {
+            return base.Channel.WhoisEnhancedCsv(ipAddress, filters, referrer);
         }
     }
 }

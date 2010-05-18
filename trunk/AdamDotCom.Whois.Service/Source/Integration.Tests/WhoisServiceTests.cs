@@ -44,12 +44,12 @@ namespace AdamDotCom.Whois.Service.Integration.Tests
         {
             var WhoisService = new WhoisService();
 
-            var responseXml = WhoisService.WhoisEnhancedXml("68.146.10.100",null, null);
+            var responseXml = WhoisService.WhoisEnhancedXml("68.146.10.100", "alberta", "google");
 
             Assert.IsNotNull(responseXml);
             Assert.AreEqual("Canada", responseXml.Country);
 
-            var responseJson = WhoisService.WhoisEnhancedJson("68.146.10.100", null, null);
+            var responseJson = WhoisService.WhoisEnhancedJson("68.146.10.100", "CA", "twitter");
 
             Assert.IsNotNull(responseJson);
             Assert.AreEqual("Canada", responseJson.Country);

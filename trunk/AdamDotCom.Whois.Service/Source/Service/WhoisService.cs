@@ -21,6 +21,11 @@ namespace AdamDotCom.Whois.Service
             return Whois(ipAddress);
         }
 
+        public WhoisRecord WhoisCsv(string ipAddress)
+        {
+            return Whois(ipAddress);
+        }
+
         public WhoisEnhancedRecord WhoisEnhancedXml(string ipAddress, string filters, string referrer)
         {
             return WhoisEnhanced(ipAddress, filters, referrer);
@@ -31,10 +36,18 @@ namespace AdamDotCom.Whois.Service
             return WhoisEnhanced(ipAddress, filters, referrer);
         }
 
-        private WhoisRecord Whois(string ipAddress)
+        public WhoisEnhancedRecord WhoisEnhancedCsv(string ipAddress, string filters, string referrer)
+        {
+            return WhoisEnhanced(ipAddress, filters, referrer);
+        }
+
+        private static WhoisRecord Whois(string ipAddress)
         {
             ipAddress = ipAddress.Scrub();
-            ipAddress = GetIpAddress(ipAddress);
+            if (string.IsNullOrEmpty(ipAddress))
+            {
+                ipAddress = GetIpAddressFromRequest(ipAddress);
+            }
             Assert.ValidInput(ipAddress, "ipAddress");
 
             if (ServiceCache.IsInCache<WhoisRecord>(ipAddress))
@@ -54,7 +67,7 @@ namespace AdamDotCom.Whois.Service
             return record.AddToCache(ipAddress);
         }
 
-        private WhoisEnhancedRecord WhoisEnhanced(string ipAddress, string filters, string referrer)
+        private static WhoisEnhancedRecord WhoisEnhanced(string ipAddress, string filters, string referrer)
         {
             if (filters != null)
             {
@@ -67,7 +80,7 @@ namespace AdamDotCom.Whois.Service
                 Assert.ValidInput(referrer, "referrer");
             }
 
-            var hash = BuildHash(ipAddress, filters);
+            var hash = BuildHashKey(ipAddress, filters);
 
             if (ServiceCache.IsInCache<WhoisEnhancedRecord>(hash))
             {
@@ -83,12 +96,9 @@ namespace AdamDotCom.Whois.Service
             return whoisEnhancedRecord.AddToCache(hash);
         }
 
-        private static string GetIpAddress(string ipAddress)
+        private static string GetIpAddressFromRequest(string ipAddress)
         {
-            if (string.IsNullOrEmpty(ipAddress))
-            {
-                ipAddress = ((RemoteEndpointMessageProperty)OperationContext.Current.IncomingMessageProperties[RemoteEndpointMessageProperty.Name]).Address;
-            }
+            ipAddress = ((RemoteEndpointMessageProperty)OperationContext.Current.IncomingMessageProperties[RemoteEndpointMessageProperty.Name]).Address;
             return ipAddress;
         }
 
@@ -100,7 +110,7 @@ namespace AdamDotCom.Whois.Service
             }
         }
 
-        private static string BuildHash(string ipAddress, string filters)
+        private static string BuildHashKey(string ipAddress, string filters)
         {
             return string.Format("{0}-{1}", ipAddress, filters).ToLower().Replace(",", "-").Replace(" ", "-");           
         }
