@@ -61,12 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infrastructure\CSV\CSVBehavior.cs" />
+    <Compile Include="Infrastructure\CSV\CSVBehaviorExtensions.cs" />
     <Compile Include="Infrastructure\CSV\CSVEncoder.cs" />
     <Compile Include="Infrastructure\CSV\XmlToCvsTranslator.cs" />
     <Compile Include="Infrastructure\CustomEncoderFactory.cs" />
     <Compile Include="Infrastructure\CustomBindingExtension.cs" />
     <Compile Include="Infrastructure\CustomBindingElement.cs" />
-    <Compile Include="Infrastructure\JSONP\JSONPBehaviour.cs" />
+    <Compile Include="Infrastructure\JSONP\JSONPBehavior.cs" />
+    <Compile Include="Infrastructure\JSONP\JSONPBehaviorExtensions.cs" />
     <Compile Include="Infrastructure\JSONP\JSONPEncoder.cs" />
     <Compile Include="Infrastructure\JSONP\JSONPMessageProperty.cs" />
     <Compile Include="Infrastructure\RestException.cs" />

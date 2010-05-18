@@ -22,14 +22,6 @@
         <include name="..\Source\Common\**\WebClientWithCookies.cs"/>
       </sources>
     </csc>
-    <csc target="library" output="..\Final-Assemblies\AdamDotCom.Common.Service.Infrastructure.JSONP.dll" debug="false" warninglevel="0" >
-      <references>
-        <include name="..\Final-Assemblies\*.dll" />
-      </references>
-      <sources>
-        <include name="..\Source\Common\Infrastructure\JSONP\**\*.cs"/>
-      </sources>
-    </csc>
     <csc target="library" output="..\Final-Assemblies\AdamDotCom.Common.Service.dll" debug="false" warninglevel="0" >
       <references>
         <include name="..\Final-Assemblies\*.dll" />
