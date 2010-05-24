@@ -42,14 +42,17 @@ namespace AdamDotCom.Common.Service.Infrastructure.JSONP
 
             public object BeforeCall(string operationName, object[] inputs)
             {
-                string methodName = WebOperationContext.Current.IncomingRequest.UriTemplateMatch.QueryParameters[callback];
-                if (methodName != null)
+                if (WebOperationContext.Current != null)
                 {
-                    JSONPMessageProperty property = new JSONPMessageProperty
+                    string methodName = WebOperationContext.Current.IncomingRequest.UriTemplateMatch.QueryParameters[callback];
+                    if (methodName != null)
                     {
-                        MethodName = methodName
-                    };
-                    OperationContext.Current.OutgoingMessageProperties.Add(Name, property);
+                        var property = new JSONPMessageProperty
+                                           {
+                                               MethodName = methodName
+                                           };
+                        OperationContext.Current.OutgoingMessageProperties.Add(Name, property);
+                    }
                 }
                 return null;
             }

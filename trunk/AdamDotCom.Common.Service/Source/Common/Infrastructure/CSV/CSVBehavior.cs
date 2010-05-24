@@ -35,8 +35,12 @@ namespace AdamDotCom.Common.Service.Infrastructure.CSV
 
             public object BeforeCall(string operationName, object[] inputs)
             {
-                OperationContext.Current.OutgoingMessageProperties.Add(Name, new object());
-                WebOperationContext.Current.OutgoingResponse.ContentType = "application/csv; charset=utf-8";
+                if (WebOperationContext.Current != null)
+                {
+
+                    OperationContext.Current.OutgoingMessageProperties.Add(Name, new object());
+                    WebOperationContext.Current.OutgoingResponse.ContentType = "application/csv; charset=utf-8";
+                }
                 return null;
             }
         }
