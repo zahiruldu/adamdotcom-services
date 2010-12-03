@@ -1,24 +1,33 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
+using System.Xml;
 
 namespace AdamDotCom.Whois.Service.Unit.Tests
 {
     public static class TestHelper
     {
-        public static string WhoisRawResult1
+        public static XmlDocument SearchResult { get { return LoadXml("68.146.10.100.xml"); } }
+
+        public static XmlDocument ShawcResult { get { return LoadXml("SHAWC.xml"); } }
+
+        public static XmlDocument PocsResult { get { return LoadXml("POCS.xml"); } }
+
+        public static XmlDocument AbuseResult { get { return LoadXml("ABUSE.xml"); } }
+
+        public static XmlDocument AdminResult { get { return LoadXml("ADMIN.xml"); } }
+
+        public static XmlDocument TechResult { get { return LoadXml("TECH.xml"); } }
+
+        private static XmlDocument LoadXml(string filename)
         {
-            get
-            {
-                TextReader textReader = File.OpenText("WhoisRawResult1.txt");
-                return textReader.ReadToEnd();
-            }
+            var document = new XmlDocument();
+            document.Load(string.Format(@"Data\{0}", filename));
+            return document;
         }
-        public static string WhoisRawResult2
+
+        public static List<XmlDocument> Pocs
         {
-            get
-            {
-                TextReader textReader = File.OpenText("WhoisRawResult2.txt");
-                return textReader.ReadToEnd();
-            }
+            get { return  new List<XmlDocument> {AbuseResult,AdminResult,TechResult};}
         }
     }
 }

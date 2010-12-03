@@ -61,9 +61,9 @@
         <include name="*.dll" />
       </fileset>
     </copy>
-    <copy todir="bin" flatten="true">
+    <copy todir="bin" flatten="false">
 			<fileset basedir="..\Source\Unit.Tests">
-				<include name="*.txt" />
+				<include name="Data\*.xml" />
 			</fileset>
 		</copy>
   </target>
@@ -95,11 +95,12 @@
     <exec basedir="..\Dependencies\nunit\bin"
       workingdir="bin"
       program="nunit-console.exe"
-      commandline="${project::get-name()}.Integration.Tests.dll /xml=${project::get-name()}.Integration.Tests.Results.xml" />	
+      commandline="${project::get-name()}.Unit.Tests.dll /xml=${project::get-name()}.Unit.Tests.Results.xml" />	
+    <echo message="Executing integration tests..."/>      
     <exec basedir="..\Dependencies\nunit\bin"
       workingdir="bin"
       program="nunit-console.exe"
-      commandline="${project::get-name()}.Unit.Tests.dll /xml=${project::get-name()}.Unit.Tests.Results.xml" />	
+      commandline="${project::get-name()}.Integration.Tests.dll /xml=${project::get-name()}.Integration.Tests.Results.xml" />	
   </target>
 
 </project>

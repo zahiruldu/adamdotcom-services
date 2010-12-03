@@ -1,87 +1,112 @@
 ﻿using System.Collections.Generic;
-using System.Text.RegularExpressions;
-using AdamDotCom.Common.Service.Utilities;
+using System.Linq;
+using System.Xml;
 
 namespace AdamDotCom.Whois.Service.Extensions
 {
     public static class WhoisRecordExtensions
     {
-        public static WhoisRecord Translate(string query, string rawWhoisResult)
+        public static WhoisRecord Translate(this WhoisRecord whoisRecord, string query, XmlDocument searchResult, XmlDocument orgResult, XmlDocument pocsSearchResult, List<XmlDocument> pocResults)
         {
-            var whoisRecord = new WhoisRecord
-                                  {
-                                      DomainName = query,
-                                      RegistryData = new RegistryData
-                                                         {
-                                                             CreatedDate = GetToken(rawWhoisResult, "RegDate"),
-                                                             UpdatedDate = GetToken(rawWhoisResult, "Updated"),
-                                                             RawText = FilterRawHtml(rawWhoisResult),
-                                                             Registrant = new Registrant
-                                                                              {
-                                                                                  City = GetToken(rawWhoisResult, "City"),
-                                                                                  StateProv = GetToken(rawWhoisResult, "StateProv"),
-                                                                                  PostalCode = GetToken(rawWhoisResult, "PostalCode"),
-                                                                                  Country = GetToken(rawWhoisResult, "Country"),
-                                                                                  Name = GetToken(rawWhoisResult, "OrgName")
-                                                                              }
-                                                         },
-                                  };
+            XmlElement netRef = searchResult["net"];
+            XmlElement orgRef = orgResult["org"];
 
-            var hasAddress = !string.IsNullOrEmpty(GetToken(rawWhoisResult, "Address"));
-            if (hasAddress)
-            {
-                foreach (string address in GetTokenList(rawWhoisResult, "Address"))
-                {
-                    whoisRecord.RegistryData.Registrant.Address += address;
-                }
-            }
+            whoisRecord = new WhoisRecord
+                              {
+                                  DomainName = query,
+                                  RegistryData = new RegistryData
+                                                     {
+                                                         CreatedDate = netRef.InnerText("registrationDate"),
+                                                         UpdatedDate = netRef.InnerText("updateDate"),
+                                                         RawText = null,
+                                                         Registrant = new Registrant
+                                                                          {
+                                                                              City = orgRef.InnerText("city"),
+                                                                              StateProv = orgRef.InnerText("iso3166-2"),
+                                                                              PostalCode =
+                                                                                  orgRef.InnerText("postalCode"),
+                                                                              Country =
+                                                                                  orgRef["iso3166-1"].InnerText("code2"),
+                                                                              Name = orgRef.InnerText("name"),
+                                                                              Address =
+                                                                                  orgRef.InnerText("streetAddress")
+                                                                          }
+                                                     },
+                              };
 
-            var hasAbuseInfo = !string.IsNullOrEmpty(GetToken(rawWhoisResult, "OrgAbuseName"));
-            if (hasAbuseInfo)
-            {
-                whoisRecord.RegistryData.AbuseContact = new Contact
-                                                            {
-                                                                Name = GetToken(rawWhoisResult, "OrgAbuseName"),
-                                                                Email = GetToken(rawWhoisResult, "OrgAbuseEmail"),
-                                                                Phone = GetToken(rawWhoisResult, "OrgAbusePhone")
-                                                            };
-            }
-
-            var hasTechnicalInfo = !string.IsNullOrEmpty(GetToken(rawWhoisResult, "OrgTechName"));
-            if (hasTechnicalInfo)
-            {
-                whoisRecord.RegistryData.TechnicalContact = new Contact
-                                                                {
-                                                                    Name = GetToken(rawWhoisResult, "OrgTechName"),
-                                                                    Email = GetToken(rawWhoisResult, "OrgTechEmail"),
-                                                                    Phone = GetToken(rawWhoisResult, "OrgTechPhone")
-                                                                };
-            }
+            whoisRecord.TranslateContacts(pocsSearchResult, pocResults);
 
             return whoisRecord;
         }
 
-        public static string GetToken(string rawResult, string token)
+        private static void TranslateContacts(this WhoisRecord whoisRecord, XmlDocument pocsSearchResult, List<XmlDocument> pocResults)
         {
-            var token1 = token.Replace(" ", "");
-            var regex = new Regex(string.Format(@"{0}:(?<{1}>(([^\n]|[^\r\n])*))", token, token1), RegexOptions.Multiline);
-            return RegexUtilities.GetTokenString(regex.Match(rawResult), token1);
-        }
+            XmlElement pocsRef = pocsSearchResult["pocs"];
 
-        public static List<string> GetTokenList(string rawResult, string token)
-        {
-            var token1 = token.Replace(" ", "");
-            var regex = new Regex(string.Format(@"{0}:(?<{1}>(([^\n]|[^\r\n])*))", token, token1), RegexOptions.Multiline);
-            return RegexUtilities.GetTokenStringList(regex.Match(rawResult), token1);
-        }
-
-        public static string FilterRawHtml(string rawResult)
-        {
-            if (rawResult.ToLower().Contains(@"<div id=""content")){
-                var regex = new Regex(@"<div id=""content(?:[\s\w><=""/]+)pre>(?<Result>(([^<]|<[^/]|</[^p]|</p[^r]|</pr[^e])*.{0,4}))</pre", RegexOptions.Multiline);
-                return RegexUtilities.GetTokenString(regex.Match(rawResult), "Result");
+            var contactTable = new List<KeyValuePair<string, string>>();
+            foreach (XmlElement child in pocsRef.ChildNodes)
+            {
+                contactTable.Add(new KeyValuePair<string, string>(child.Attributes["description"].Value,
+                                                                  child.Attributes["handle"].Value));
             }
-            return rawResult;
+
+            foreach (XmlDocument document in pocResults)
+            {
+                XmlElement pocRef = document["poc"];
+                KeyValuePair<string, string> contactType =
+                    contactTable.Where(c => c.Value == pocRef.InnerText("handle")).FirstOrDefault();
+                Contact contact = new Contact().Translate(pocRef);
+
+                switch (contactType.Key)
+                {
+                    case "Abuse":
+                        whoisRecord.RegistryData.AbuseContact = contact;
+                        break;
+                    case "Admin":
+                        whoisRecord.RegistryData.AdministrativeContact = contact;
+                        break;
+                    case "Billing":
+                        whoisRecord.RegistryData.BillingContact = contact;
+                        break;
+                    case "Tech":
+                        whoisRecord.RegistryData.TechnicalContact = contact;
+                        break;
+                    case "Zone":
+                        whoisRecord.RegistryData.ZoneContact = contact;
+                        break;
+                }
+
+                contactTable.Remove(contactType);
+            }
+        }
+
+        public static Contact Translate(this Contact contact, XmlElement element)
+        {
+            return new Contact
+                       {
+                           Email = element["emails"].InnerText("email"),
+                           Name = element.InnerText("lastName"),
+                           Phone = element["phones"]["phone"].InnerText("number")
+                       };
+        }
+
+        private static string InnerText(this XmlElement element, string key)
+        {
+            if (element != null && element[key] != null)
+            {
+                if (element[key].ChildNodes.Count > 1)
+                {
+                    string returnValue = string.Empty;
+                    string delimiter = ", ";
+                    foreach (XmlElement child in element[key].ChildNodes)
+                    {
+                        returnValue += child.InnerText + delimiter;
+                    }
+                    return returnValue.Remove(returnValue.Length - delimiter.Length, delimiter.Length);
+                }
+                return element[key].InnerText;
+            }
+            return string.Empty;
         }
     }
 }

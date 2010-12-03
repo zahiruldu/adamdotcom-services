@@ -65,8 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CountryNameLookup\CountryNameLookup.cs" />
+    <Compile Include="Extensions\ErrorExtensions.cs" />
+    <Compile Include="Extensions\WebClientExtensions.cs" />
     <Compile Include="Extensions\WhoisEnhancedRecordExtensions.cs" />
     <Compile Include="Extensions\WhoisRecordExtensions.cs" />
+    <Compile Include="Extensions\XmlDocumentExtensions.cs" />
     <Compile Include="WhoisClient.cs" />
     <Compile Include="WhoisRecord.cs" />
     <Compile Include="WhoisService.cs" />
