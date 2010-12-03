@@ -54,6 +54,8 @@
     <Compile Include="WhoisClientTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WhoisEnhancedRecordExtensionsTests.cs" />
+    <Compile Include="WhoisRecordExtensionsTests.cs" />
+    <Compile Include="XmlDocumentExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Service\Service.csproj">
@@ -62,10 +64,22 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="WhoisRawResult1.txt">
+    <Content Include="Data\68.146.10.100.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="WhoisRawResult2.txt">
+    <Content Include="Data\ABUSE.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\ADMIN.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\POCS.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\SHAWC.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\TECH.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
