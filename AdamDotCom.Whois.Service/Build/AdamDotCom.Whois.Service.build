@@ -62,10 +62,10 @@
       </fileset>
     </copy>
     <copy todir="bin" flatten="false">
-			<fileset basedir="..\Source\Unit.Tests">
-				<include name="Data\*.xml" />
-			</fileset>
-		</copy>
+      <fileset basedir="..\Source\Unit.Tests">
+          <include name="Data\*.xml" />
+      </fileset>
+    </copy>
   </target>
   
   <target name="test.compile" description="compiles the unit tests" depends="compile test.prepare">
