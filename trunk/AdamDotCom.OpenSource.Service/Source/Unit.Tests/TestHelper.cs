@@ -4,40 +4,22 @@ namespace Unit.Tests
 {
     public static class TestHelper
     {
-        public static string PageSourceGitHubAdamDotCom_Xml
-        {
-            get
-            {
-                TextReader textReader = File.OpenText("PageSource-GitHub-AdamDotCom-Xml.txt");
-                return textReader.ReadToEnd();
-            }
-        }
+        public static string PageSourceGitHubAdamDotCom_Xml { get { return LoadFile("GitHub-AdamDotCom-Xml.txt"); }}
+        
+        public static string PageSourceGitHubAdamDotComProjectBadge_Xml { get { return LoadFile("GitHub-AdamDotCom-Project-Badge-Xml.txt"); }}
 
-        public static string PageSourceGoogleCodeAdamKahtavaCom_ProjectWebsite
-        {
-            get
-            {
-                TextReader textReader = File.OpenText("PageSource-GoogleCode-Adam.Kahtava.com-ProjectWebsite.txt");
-                return textReader.ReadToEnd();
-            }
-        }
+        public static string PageSourceGoogleCodeAdamKahtavaCom_ProjectWebsite { get { return LoadFile("GoogleCode-Adam.Kahtava.com-ProjectWebsite.txt"); }}
 
-        public static string PageSourceGoogleCodeAdamKahtavaCom_ProfileWebsite
-        {
-            get
-            {
-                TextReader textReader = File.OpenText("PageSource-GoogleCode-Adam.Kahtava.com.txt");
-                return textReader.ReadToEnd();
-            }
-        }
+        public static string PageSourceGoogleCodeAdamKahtavaCom_ProfileWebsite { get { return LoadFile("GoogleCode-Adam.Kahtava.com.txt"); }}
 
-        public static string PageSourceGoogleCodeAdamKahtavaCom_ServicesXML
+        public static string PageSourceGoogleCodeAdamKahtavaCom_ServicesXML { get { return LoadFile("GoogleCode-AdamDotCom-Services.txt"); }}
+        
+        public static string PageSourceGoogleCodeAdamKahtavaCom_AdamDotComServicesWebsite { get { return LoadFile("GoogleCode-Adam.Kahtava.com-AdamDotCom-Services.txt"); }}
+        
+        public static string LoadFile(string filename)
         {
-            get
-            {
-                TextReader textReader = File.OpenText("PageSource-GoogleCode-AdamDotCom-Services.txt");
-                return textReader.ReadToEnd();
-            }
+            TextReader textReader = File.OpenText(string.Format(@"Data\{0}", filename));
+            return textReader.ReadToEnd();            
         }
     }
 }

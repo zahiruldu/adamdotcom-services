@@ -1,0 +1,418 @@
+﻿ 
+ 
+ 
+ <!DOCTYPE html> 
+<html> 
+<head> 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico"> 
+ 
+ 
+ <link rel="me" href="http://adam.kahtava.com/" /> 
+ 
+ 
+ <script type="text/javascript"> 
+ 
+ 
+ 
+ var codesite_token = "707a25243cf5b86bbfcc9271ee923941";
+ 
+ 
+ var logged_in_user_email = "adam.kahtava.com@gmail.com";
+ 
+ 
+ var relative_base_url = "";
+ 
+ </script> 
+ 
+ 
+ <title> 
+ adam.kahtava.com -
+ Project Hosting on Google Code</title> 
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" > 
+ 
+ <meta name="ROBOTS" content="NOARCHIVE"> 
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/6191598954148986782/css/ph_core.css"> 
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/6191598954148986782/css/ph_list.css" > 
+ 
+ 
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/6191598954148986782/css/d_ie.css" >
+<![endif]--> 
+ <style type="text/css"> 
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ </style> 
+</head> 
+<body class=""> 
+ <script type="text/javascript"> 
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ </script> 
+<div class="headbg"> 
+ <div id="gaia"> 
+ 
+ <span> 
+ 
+ 
+ <b>adam@kahtava.com</b> 
+ 
+ 
+ | <a href="/u/adam.kahtava.com/" id="projects-dropdown" onclick="return false;"
+ ><u>My favorites</u> <small>&#9660;</small></a> 
+ | <a href="/u/adam.kahtava.com/" onclick="_CS_click('/gb/ph/profile');" 
+ title="Profile, Updates, and Settings"
+ ><u>Profile</u></a> 
+ | <a href="https://www.google.com/accounts/Logout?continue=http%3A%2F%2Fcode.google.com%2Fu%2Fadam.kahtava.com%2F" 
+ onclick="_CS_click('/gb/ph/signout');"
+ ><u>Sign out</u></a> 
+ 
+ </span> 
+ 
+ </div> 
+ <div class="gbh" style="left: 0pt;"></div> 
+ <div class="gbh" style="right: 0pt;"></div> 
+ 
+ 
+ <div style="height: 1px"></div> 
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]--> 
+ 
+ 
+ 
+ 
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"> 
+ <tr style="height: 58px;"> 
+ 
+ <td style="padding-left: 0.5em"> 
+ 
+ <div id="pname"> 
+ <a href="/u/adam.kahtava.com/" style="text-decoration:none;">adam.kahtava.com</a> 
+ </div> 
+ 
+ </td> 
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;"> 
+ 
+ <form action="/hosting/search"> 
+ <input size="30" name="q" value="" type="text"> 
+ <input type="submit" name="projectsearch" value="Search projects" > 
+ </form> 
+ 
+ </tr> 
+ </table> 
+ 
+</div> 
+ 
+ 
+ 
+ 
+ 
+<div class="t1"> 
+<div class=gtb> 
+ <a href="/u/adam.kahtava.com/" class="tab active"> 
+ My&nbsp;Profile
+ </a> 
+ 
+ 
+ 
+ <a href="/u/adam.kahtava.com/updates/projects"
+ class="tab "> 
+ Updates
+ </a> 
+ 
+ 
+ 
+ 
+ <a href="/hosting/settings" class="tab ">Settings</a> 
+ 
+ <div class=gtbc></div> 
+</div> 
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st"> 
+ <tr> 
+ 
+ </tr> 
+</table> 
+</div> 
+ 
+ 
+<div id="maincol"
+ 
+> 
+ 
+ 
+<!-- IE --> 
+ 
+ 
+ 
+ 
+ 
+ 
+<script type="text/javascript"> 
+function _showBelow(){}
+function _toggleStar(){}
+function _rowRolloverOn(){}
+function _rowRolloverOff(){}
+function _goIssue(){}
+function _goFile(){}
+</script> 
+ 
+<script type="text/javascript"> 
+ var cancelBubble = false;
+</script> 
+<div id="colcontrol"> 
+<br/> 
+<div><b>Username: </b> 
+ <span> 
+ adam.kahtava.com
+ 
+ 
+ 
+ 
+ 
+ </span> 
+</div> 
+ 
+ 
+ 
+ 
+<div> 
+ <b>Homepage:</b> 
+ <a href="http://www.google.com/url?q=http%3A//adam.kahtava.com/&amp;usg=AFQjCNFhiDqUOJJI9Rr1uh1JDzi3xoxzdA">http://adam.kahtava.com/</a> 
+</div> 
+ 
+ 
+<div> 
+<b>Starred&nbsp;developers:</b> 
+ 
+ 
+ <a style="white-space: nowrap" href="/u/shanecourtrille/">shanecourtrille</a>, 
+ 
+ <a style="white-space: nowrap" href="/u/@UxlRQF1TAhRBWQh1/">mo.k...@gmail.com</a> 
+ 
+ 
+</div> 
+ 
+<br/> 
+<div class="list"> 
+ <table style="width: 100%;" cellspacing="0" cellpadding="0"> 
+ <tbody><tr> 
+ <th style="text-align: left;">Projects
+ </th> 
+ </tr></tbody> 
+ </table> 
+</div> 
+<table cellspacing="0" cellpadding="2" border="0" class="results" id="projecttable" width="100%"> 
+ <tbody> 
+ <tr id="headingrow"> 
+ <th style="white-space:nowrap; width:15%;">Role</th> 
+ <th style="white-space:nowrap; width:25%;">Project</th> 
+ <th style="white-space:nowrap; width:60%;">Summary</th> 
+ </tr> 
+ 
+ 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/adamdotcom-amazon')"> 
+ <td>Owner</td> 
+ <td class="id" name="owner"> 
+ <a href="/p/adamdotcom-amazon/">adamdotcom-amazon</a> 
+ 
+ </td> 
+ <td>An Amazon Review and Wish List Consumer for .NET and ASP.NET</td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/adamdotcom-script')"> 
+ <td>Owner</td> 
+ <td class="id" name="owner"> 
+ <a href="/p/adamdotcom-script/">adamdotcom-script</a> 
+ 
+ </td> 
+ <td>A collection of scripts I use (Adam.Kahtava.com / AdamDotCom.com)</td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/adamdotcom-services')"> 
+ <td>Owner</td> 
+ <td class="id" name="owner"> 
+ <a href="/p/adamdotcom-services/">adamdotcom-services</a> 
+ 
+ </td> 
+ <td>The services in use on Adam.Kahtava.com / AdamDotCom.com (http://adam.kahtava.com/services/)</td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/adamdotcom-website')"> 
+ <td>Owner</td> 
+ <td class="id" name="owner"> 
+ <a href="/p/adamdotcom-website/">adamdotcom-website</a> 
+ 
+ </td> 
+ <td>The site source in use on Adam.Kahtava.com / AdamDotCom.com (http://adam.kahtava.com/)</td> 
+ </tr> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </tbody> 
+</table> 
+ 
+<br/> 
+<div class="list"> 
+ <table style="width: 100%;" cellspacing="0" cellpadding="0"> 
+ <tbody><tr> 
+ <th style="text-align: left;">Starred
+ </th> 
+ </tr></tbody> 
+ </table> 
+</div> 
+<table cellspacing="0" cellpadding="2" border="0" class="results" id="resultstable" width="100%"> 
+ <tbody> 
+ <tr id="headingrow"> 
+ <th style="white-space:nowrap; width:15%;">Type</th> 
+ <th style="white-space:nowrap; width:25%;">Name</th> 
+ <th style="white-space:nowrap; width:60%;">Summary</th> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/adamdotcom-amazon')"> 
+ <td>Project</td> 
+ <td class="id" name="starred_project"><a href="/p/adamdotcom-amazon/">adamdotcom-amazon</a> 
+ </td> 
+ <td> 
+ An Amazon Review and Wish List Consumer for .NET and ASP.NET
+ </td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/adamdotcom-script')"> 
+ <td>Project</td> 
+ <td class="id" name="starred_project"><a href="/p/adamdotcom-script/">adamdotcom-script</a> 
+ </td> 
+ <td> 
+ A collection of scripts I use (Adam.Kahtava.com / AdamDotCom.com)
+ </td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/adamdotcom-services')"> 
+ <td>Project</td> 
+ <td class="id" name="starred_project"><a href="/p/adamdotcom-services/">adamdotcom-services</a> 
+ </td> 
+ <td> 
+ The services in use on Adam.Kahtava.com / AdamDotCom.com (http://adam.kahtava.com/services/)
+ </td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/adamdotcom-website')"> 
+ <td>Project</td> 
+ <td class="id" name="starred_project"><a href="/p/adamdotcom-website/">adamdotcom-website</a> 
+ </td> 
+ <td> 
+ The site source in use on Adam.Kahtava.com / AdamDotCom.com (http://adam.kahtava.com/)
+ </td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/memcached')"> 
+ <td>Project</td> 
+ <td class="id" name="starred_project"><a href="/p/memcached/">memcached</a> 
+ </td> 
+ <td> 
+ Memcached
+ </td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/mvccontrib')"> 
+ <td>Project</td> 
+ <td class="id" name="starred_project"><a href="/p/mvccontrib/">mvccontrib</a> 
+ </td> 
+ <td> 
+ Extra stuff for Microsoft&#39;s ASP.NET MVC Framework
+ </td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/oauth-dot-net')"> 
+ <td>Project</td> 
+ <td class="id" name="starred_project"><a href="/p/oauth-dot-net/">oauth-dot-net</a> 
+ </td> 
+ <td> 
+ An OAuth library for .NET consumers and service providers
+ </td> 
+ </tr> 
+ 
+ <tr onmouseover="_rowRolloverOn(this)" onmouseout="_rowRolloverOff(this); cancelBubble=false" 
+ onclick="if (!cancelBubble) _go('/p/skipfish')"> 
+ <td>Project</td> 
+ <td class="id" name="starred_project"><a href="/p/skipfish/">skipfish</a> 
+ </td> 
+ <td> 
+ web application security scanner
+ </td> 
+ </tr> 
+ 
+ 
+</table> 
+ 
+ 
+</div> 
+</div> 
+ 
+<script type="text/javascript" src="http://www.gstatic.com/codesite/ph/6191598954148986782/js/dit_scripts.js"></script> 
+ 
+ 
+ 
+ <script type="text/javascript" src="http://www.gstatic.com/codesite/ph/6191598954148986782/js/core_scripts_20081103.js"></script> 
+ <script type="text/javascript" src="/js/codesite_product_dictionary_ph.pack.04102009.js"></script> 
+ </div> 
+<div id="footer" dir="ltr"> 
+ 
+ <div class="text"> 
+ 
+ &copy;2010 Google -
+ <a href="/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="/p/support/">Project Hosting Help</a> 
+ 
+ </div> 
+</div> 
+ 
+ <div class="hostedBy" style="margin-top: -20px;"> 
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span> 
+ </div> 
+ 
+ 
+ 
+ 
+ 
+ </body> 
+</html> 
+ 

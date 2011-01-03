@@ -8,7 +8,7 @@ namespace Unit.Tests
     public class ProjectsExtensionsTests
     {
         [Test]
-        public void ShouldFilterEmptyRepositories()
+        public void VerifyFilterEmptyRepositories()
         {
             var projects = new Projects
                                {
@@ -23,12 +23,12 @@ namespace Unit.Tests
         }
 
         [Test]
-        public void ShouldFilterDuplicateProjectsByLastModified()
+        public void VerifyFilterDuplicateProjectsByLastModified()
         {
             var projects = new Projects
                                {
                                    new Project { Name = "Project1", LastModified = DateTime.Now.ToString(), Url = "project1-url" },
-                                   new Project { Name = "Project1", LastModified = DateTime.Now.AddDays(-2).ToString(), Url = "project2" }
+                                   new Project { Name = "Project1", LastModified = DateTime.Now.AddHours(-2).ToString(), Url = "project2" }
                                };
 
             var results = projects.FilterDuplicateProjectsByLastModified();
@@ -37,13 +37,13 @@ namespace Unit.Tests
         }
 
         [Test]
-        public void ShouldVerifyFilters()
+        public void VerifyFilters()
         {
             var projects = new Projects
                                {
-                                   new Project { Name = "adamdotcom-services", LastModified = DateTime.Now.AddDays(-1).ToString(), Url = "project1" },
+                                   new Project { Name = "adamdotcom-services", LastModified = DateTime.Now.AddHours(-1).ToString(), Url = "project1" },
                                    new Project { Name = "services", LastModified = DateTime.Now.ToString(), LastMessage = "commit", Url = "project2" },
-                                   new Project { Name = "-services-", LastModified = DateTime.Now.AddDays(-2).ToString(), Url = "project3" },
+                                   new Project { Name = "-services-", LastModified = DateTime.Now.AddHours(-2).ToString(), Url = "project3" },
                                    new Project { Name = "Empty-Repository", LastModified = null, LastMessage = null, Url = "project4" }
                                };
 
@@ -60,6 +60,13 @@ namespace Unit.Tests
             }
 
             var result = projects.Filter("remove:duplicate-items");
+            
+            Console.WriteLine("");
+            foreach (var item in result)
+            {
+                Console.WriteLine(item.Name + " " + item.LastModified);
+            }
+            
             Assert.AreEqual(2, result.Count);
             Assert.AreEqual(result[1].LastModified, projects[1].LastModified);
             Assert.AreEqual(result[1].Url, projects[1].Url);
@@ -71,14 +78,14 @@ namespace Unit.Tests
         }
 
         [Test]
-        public void ShouldVerifyNewFilterGrammar()
+        public void VerifyNewFilterGrammar()
         {
             var projects = new Projects
                                {
-                                   new Project { Name = "adamdotcom-services", LastModified = DateTime.Now.AddDays(-1).ToString(), Url = "project1" },
+                                   new Project { Name = "adamdotcom-services", LastModified = DateTime.Now.AddHours(-1).ToString(), Url = "project1" },
                                    new Project { Name = "services", LastModified = DateTime.Now.ToString(), LastMessage = "commit", Url = "project2" },
-                                   new Project { Name = "-services-", LastModified = DateTime.Now.AddDays(-2).ToString(), Url = "project3" },
-                                   new Project { Name = "WebSite", LastModified = DateTime.Now.AddDays(-10).ToString(), LastMessage = "Updated fizzle my jizzle", Url = "project4" },
+                                   new Project { Name = "-services-", LastModified = DateTime.Now.AddHours(-2).ToString(), Url = "project3" },
+                                   new Project { Name = "WebSite", LastModified = DateTime.Now.AddHours(-10).ToString(), LastMessage = "Updated fizzle my jizzle", Url = "project4" },
                                    new Project { Name = "new repo", LastModified = null, LastMessage = null, Url = "project5" }
                                };
             var result = projects.Filter("remove:adamdotcom,remove:-,remove:duplicate-items,remove:empty-items");
@@ -90,7 +97,6 @@ namespace Unit.Tests
             Assert.AreEqual(2, result.Count);
             Assert.IsTrue(result[0].Url == "project2");
             Assert.IsTrue(result[1].Url == "project4");
-
         }
     }
 }

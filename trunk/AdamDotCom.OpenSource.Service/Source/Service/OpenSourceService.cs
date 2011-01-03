@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.ServiceModel;
@@ -80,7 +81,7 @@ namespace AdamDotCom.OpenSource.Service
                 projects.AddRange(GetProjectsByUsername(hostUsername.Key, hostUsername.Value));
             }
 
-            return new Projects(projects.Filter(filters).OrderBy(p => p.Name).ThenByDescending(p => p.LastModified));
+            return new Projects(projects.Filter(filters).OrderBy(p => p.Name).ThenByDescending(p => string.IsNullOrEmpty(p.LastModified) ? DateTime.Now : DateTime.Parse(p.LastModified)));
         }
 
         private static void HandleErrors(List<KeyValuePair<string, string>> errors)
