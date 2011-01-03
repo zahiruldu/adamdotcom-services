@@ -29,85 +29,21 @@ namespace AdamDotCom.OpenSource.Service
             try
             {
                 var xmlSource = webClient.DownloadString(string.Format(userLookupUri, username));
-                Projects = GetProjects(xmlSource);
-                Projects = GetProjectDetails(Projects, username);
-                Projects = Clean(Projects);
+                Projects = Projects.GetProjects(xmlSource);
+                
+                for (var i = 0 ; i < Projects.Count ; i++)
+                {
+                    var project = Projects[i];
+                    var pageSource = webClient.DownloadString(string.Format(commitsLookupUri, username, project.Name));
+                    project = project.GetDetails(pageSource);
+                }
+
+                Projects = Projects.Clean();
             }
             catch (Exception ex)
             {
                 Errors.Add(new KeyValuePair<string, string>("GitHubServiceTranslator", string.Format("Username {0} not found. Error: {1}", username, ex.Message)));
             }
-        }
-
-        private List<Project> Clean(List<Project> projects)
-        {
-            foreach (var project in projects)
-            {
-                project.LastModified = CleanLastModified(project.LastModified);
-            }
-            return projects;
-        }
-
-        private string CleanLastModified(string lastModified)
-        {
-            if (string.IsNullOrEmpty(lastModified))
-            {
-                return null;
-            }
-            return lastModified.Split('T')[0];
-        }
-
-
-        public List<Project> GetProjects(string xmlSource)
-        {
-            var projects = new List<Project>();
-            var document = new XmlDocument();
-
-            document.LoadXml(xmlSource);
-            foreach (XmlElement repository in document["user"]["repositories"])
-            {   
-                projects.Add(new Project
-                                 {
-                                     Name = repository["name"].InnerText,
-                                     Url = repository["url"].InnerText,
-                                     Description = repository["description"].InnerText
-                                 });
-            }
-
-            return projects;
-        }
-
-        public List<Project> GetProjectDetails(List<Project> projects, string username)
-        {
-            var webClient = new WebClient();
-
-            foreach (var project in projects)
-            {
-                try
-                {
-                    var pageSource = webClient.DownloadString(string.Format(commitsLookupUri, username, project.Name));
-                    GetProjectDetail(project, pageSource);
-                }
-                // I don't care about errors
-                catch
-                {
-                }
-            }
-
-            return projects;
-        }
-
-        public Project GetProjectDetail(Project project, string xmlSource)
-        {
-            var document = new XmlDocument();
-            document.LoadXml(xmlSource);
-
-            var commit = document["commits"]["commit"];
-
-            project.LastModified = commit.SelectNodes("committed-date")[0].InnerText;
-            project.LastMessage = commit.SelectNodes("message")[0].InnerText;
-
-            return project;
         }
     }
 }

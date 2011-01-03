@@ -72,13 +72,14 @@ namespace AdamDotCom.OpenSource.Service
 
         public static List<Project> FilterDuplicateProjectsByLastModified(this List<Project> projects)
         {
-            var orderedProjects = projects.OrderBy(p => p.Name).ThenByDescending(p => p.LastModified).ToList();
+            var orderedProjects = projects.OrderBy(p => p.Name).ThenByDescending(p => string.IsNullOrEmpty(p.LastModified) ? DateTime.Now : DateTime.Parse(p.LastModified)).ToList();            
             var projectsToReturn = new List<Project>();
             var lastProjectName = string.Empty;
+            
             for (var i = 0; i < orderedProjects.Count; i++)
             {
                 var thisProjectName = orderedProjects[i].Name;
-
+                
                 if (lastProjectName != thisProjectName)
                 {
                     projectsToReturn.Add(orderedProjects[i]);

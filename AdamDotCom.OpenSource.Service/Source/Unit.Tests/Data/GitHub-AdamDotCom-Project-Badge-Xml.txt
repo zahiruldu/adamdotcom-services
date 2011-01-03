@@ -1,0 +1,389 @@
+<commits type="array"> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>ed845bc9435a82f0ee10fc0e5bbed3083f7c7a98</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>AdamDotCom</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/6a29fb21de18e6c95942a939e2932490c8aec37f</url> 
+    <id>6a29fb21de18e6c95942a939e2932490c8aec37f</id> 
+    <committed-date>2010-03-24T12:01:16-07:00</committed-date> 
+    <authored-date>2010-03-24T12:01:16-07:00</authored-date> 
+    <message>Dropped Analytics code</message> 
+    <tree>ba08ac47225e8edd168bc171605938d9432a1f26</tree> 
+    <committer> 
+      <name>AdamDotCom</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>b876c43b23c027b5f5963fe4cc5bab71f4fcd836</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/ed845bc9435a82f0ee10fc0e5bbed3083f7c7a98</url> 
+    <id>ed845bc9435a82f0ee10fc0e5bbed3083f7c7a98</id> 
+    <committed-date>2010-03-21T14:42:38-07:00</committed-date> 
+    <authored-date>2010-03-21T14:42:38-07:00</authored-date> 
+    <message>Modified filters to filter out empty repos</message> 
+    <tree>e0609ac28d2be5a14f341aea1a371cf3c29370a2</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>340a8b769c845e1937eef7b09fece51eba135478</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/b876c43b23c027b5f5963fe4cc5bab71f4fcd836</url> 
+    <id>b876c43b23c027b5f5963fe4cc5bab71f4fcd836</id> 
+    <committed-date>2010-03-14T16:36:54-07:00</committed-date> 
+    <authored-date>2010-03-14T16:36:54-07:00</authored-date> 
+    <message>Changed blog URL to tiny URL so it's not mangled</message> 
+    <tree>04cd6a8d761eea22b9d11f0f77d07c745876678e</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>20e34da04c51167797ad31515f74f05cb53c3011</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/340a8b769c845e1937eef7b09fece51eba135478</url> 
+    <id>340a8b769c845e1937eef7b09fece51eba135478</id> 
+    <committed-date>2010-03-14T16:35:10-07:00</committed-date> 
+    <authored-date>2010-03-14T16:35:10-07:00</authored-date> 
+    <message>Added link to my blog post</message> 
+    <tree>d92400ecd661bb51569ed8f26431b3799effac18</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>52ab324544035cec73f88cb07109eaab98d2cb33</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/20e34da04c51167797ad31515f74f05cb53c3011</url> 
+    <id>20e34da04c51167797ad31515f74f05cb53c3011</id> 
+    <committed-date>2010-02-23T19:02:35-08:00</committed-date> 
+    <authored-date>2010-02-23T19:02:35-08:00</authored-date> 
+    <message>Added http://code.google.com/p/adamdotcom-services/ link</message> 
+    <tree>8888d304504bf189ce82ca9491f6149e04c5a8f6</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>bcd7de6f3f0574881fe625bb7bf493b399ddcd7d</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>AdamDotCom</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/52ab324544035cec73f88cb07109eaab98d2cb33</url> 
+    <id>52ab324544035cec73f88cb07109eaab98d2cb33</id> 
+    <committed-date>2010-02-23T10:12:56-08:00</committed-date> 
+    <authored-date>2010-02-23T10:12:56-08:00</authored-date> 
+    <message>Additional logic to Display Google Code / GitHub links based on accounts passed in</message> 
+    <tree>1858529ea8ae8de69785be1a6cdf5c1bb6f7edee</tree> 
+    <committer> 
+      <name>AdamDotCom</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>becc1a0ee891218cd9b1f0fadeae03fa93e8ccb3</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/bcd7de6f3f0574881fe625bb7bf493b399ddcd7d</url> 
+    <id>bcd7de6f3f0574881fe625bb7bf493b399ddcd7d</id> 
+    <committed-date>2010-02-22T19:31:20-08:00</committed-date> 
+    <authored-date>2010-02-22T19:31:20-08:00</authored-date> 
+    <message>Tabs to spaces</message> 
+    <tree>926763b0a238f9d4196b76a45fa31c2dab4c58cd</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>e5088170c892298f72d51c5eaac2fde0b63ec5de</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/becc1a0ee891218cd9b1f0fadeae03fa93e8ccb3</url> 
+    <id>becc1a0ee891218cd9b1f0fadeae03fa93e8ccb3</id> 
+    <committed-date>2010-02-22T19:24:21-08:00</committed-date> 
+    <authored-date>2010-02-22T19:24:21-08:00</authored-date> 
+    <message>Formatting mods</message> 
+    <tree>2354d1da54e3e9656f510b89c624b1fec914e9bd</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>91d9e06c3b8d2e0f8d3b73bbaa4e399dcf230972</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/e5088170c892298f72d51c5eaac2fde0b63ec5de</url> 
+    <id>e5088170c892298f72d51c5eaac2fde0b63ec5de</id> 
+    <committed-date>2010-02-22T18:24:41-08:00</committed-date> 
+    <authored-date>2010-02-22T18:24:41-08:00</authored-date> 
+    <message>Updated readme, minor mods before my blog post</message> 
+    <tree>0707f424f3c07603cc4c87f42f00e393794deeba</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>3d8934f96e0fe3bc84f9be748d390d3ada5f715a</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>AdamDotCom</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/91d9e06c3b8d2e0f8d3b73bbaa4e399dcf230972</url> 
+    <id>91d9e06c3b8d2e0f8d3b73bbaa4e399dcf230972</id> 
+    <committed-date>2010-02-22T14:31:49-08:00</committed-date> 
+    <authored-date>2010-02-22T14:31:49-08:00</authored-date> 
+    <message>Added first cut of the Project Badge and related assets</message> 
+    <tree>0552cf375bc643c4cc6715a6fd443abc5db88a71</tree> 
+    <committer> 
+      <name>AdamDotCom</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>ee925d6b9ad8399a62443b69e89fb5cb89a44d42</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/3d8934f96e0fe3bc84f9be748d390d3ada5f715a</url> 
+    <id>3d8934f96e0fe3bc84f9be748d390d3ada5f715a</id> 
+    <committed-date>2010-02-15T17:26:48-08:00</committed-date> 
+    <authored-date>2010-02-15T17:26:48-08:00</authored-date> 
+    <message>can html be loaded from GitHub?</message> 
+    <tree>a48deceaf0c329059a457d8c0f2976f6c8d57035</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>4f36d3000d3ebdbfe9d39de159196d43d2011fe1</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/ee925d6b9ad8399a62443b69e89fb5cb89a44d42</url> 
+    <id>ee925d6b9ad8399a62443b69e89fb5cb89a44d42</id> 
+    <committed-date>2010-02-15T17:24:39-08:00</committed-date> 
+    <authored-date>2010-02-15T17:24:39-08:00</authored-date> 
+    <message>fooling around</message> 
+    <tree>179af7c171d11e0faf23934e836df86a203953c2</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>5c214076475694f11a3262fdb110b1ab2a7f373f</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/4f36d3000d3ebdbfe9d39de159196d43d2011fe1</url> 
+    <id>4f36d3000d3ebdbfe9d39de159196d43d2011fe1</id> 
+    <committed-date>2010-02-15T17:23:56-08:00</committed-date> 
+    <authored-date>2010-02-15T17:23:56-08:00</authored-date> 
+    <message>committing JS</message> 
+    <tree>b42e71cd4b7902dbce58f0ad66d32420d4a38204</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>e41ccf9246f432f7c152b5380f007d8cec2c1a5b</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/5c214076475694f11a3262fdb110b1ab2a7f373f</url> 
+    <id>5c214076475694f11a3262fdb110b1ab2a7f373f</id> 
+    <committed-date>2010-02-15T16:35:39-08:00</committed-date> 
+    <authored-date>2010-02-15T16:35:39-08:00</authored-date> 
+    <message>Testing config settings</message> 
+    <tree>a729def860fffa500b999142dd6121c21043edf9</tree> 
+    <committer> 
+      <name>Adam Kahtava</name> 
+      <login>AdamDotCom</login> 
+      <email>adam@kahtava.com</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>b3fd2f3d4a6f2d84e63a7dbd14e938430ec53e4b</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>unknown</name> 
+      <login>invalid-email-address</login> 
+      <email>Administrator@.(none)</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/e41ccf9246f432f7c152b5380f007d8cec2c1a5b</url> 
+    <id>e41ccf9246f432f7c152b5380f007d8cec2c1a5b</id> 
+    <committed-date>2010-02-15T16:28:26-08:00</committed-date> 
+    <authored-date>2010-02-15T16:28:26-08:00</authored-date> 
+    <message>testing</message> 
+    <tree>5e751d140ea4d71c2afe46358d478e6a66be7b8e</tree> 
+    <committer> 
+      <name>unknown</name> 
+      <login>invalid-email-address</login> 
+      <email>Administrator@.(none)</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"> 
+      <parent> 
+        <id>f05fd9af5b046b98acf77384e21b025298dc1705</id> 
+      </parent> 
+    </parents> 
+    <author> 
+      <name>unknown</name> 
+      <login>invalid-email-address</login> 
+      <email>Administrator@.(none)</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/b3fd2f3d4a6f2d84e63a7dbd14e938430ec53e4b</url> 
+    <id>b3fd2f3d4a6f2d84e63a7dbd14e938430ec53e4b</id> 
+    <committed-date>2010-02-15T16:03:50-08:00</committed-date> 
+    <authored-date>2010-02-15T16:03:50-08:00</authored-date> 
+    <message>updates</message> 
+    <tree>ff8a2f6b24f54b17fb70f74280b5e22eae92a524</tree> 
+    <committer> 
+      <name>unknown</name> 
+      <login>invalid-email-address</login> 
+      <email>Administrator@.(none)</email> 
+    </committer> 
+  </commit> 
+  <commit> 
+    <parents type="array"/> 
+    <author> 
+      <name>unknown</name> 
+      <login>invalid-email-address</login> 
+      <email>Administrator@.(none)</email> 
+    </author> 
+    <url>/AdamDotCom/project-badge/commit/f05fd9af5b046b98acf77384e21b025298dc1705</url> 
+    <id>f05fd9af5b046b98acf77384e21b025298dc1705</id> 
+    <committed-date>2010-02-15T12:52:12-08:00</committed-date> 
+    <authored-date>2010-02-15T12:52:12-08:00</authored-date> 
+    <message>first commit</message> 
+    <tree>0d140c30db3259e63b9ce809332ae04d1d48067e</tree> 
+    <committer> 
+      <name>unknown</name> 
+      <login>invalid-email-address</login> 
+      <email>Administrator@.(none)</email> 
+    </committer> 
+  </commit> 
+</commits> 

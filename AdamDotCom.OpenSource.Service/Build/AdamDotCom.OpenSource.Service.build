@@ -39,6 +39,14 @@
         <include name="..\Source\ServiceProxy\**\*.cs"/>
       </sources>
     </csc>
+    <copy todir="..\Source\ServiceHost\bin" flatten="true">
+      <fileset>
+        <include name="..\Final-Assemblies\AdamDotCom.OpenSource.Service.dll" />
+        <include name="..\Final-Assemblies\AdamDotCom.OpenSource.Service.Host.dll" />
+        <include name="..\Dependencies\AdamDotCom.Common.Service.dll" />
+        <include name="..\Dependencies\System.ServiceModel.dll" />
+      </fileset>
+    </copy>        
   </target>
 
   <target name="test.prepare" description="prepares the test folder to execute tests - this is shared by the test and test.ncover targets" >
@@ -70,9 +78,9 @@
       </sources>
     </csc>
     <copy file="..\Source\Integration.Tests\App.config" tofile="bin\${project::get-name()}.Integration.Tests.dll.config" />
-    <copy todir="bin">
+    <copy todir="bin" flatten="false">
       <fileset basedir="..\Source\Unit.Tests">
-        <include name="*.txt" />
+        <include name="Data\*.txt" />
       </fileset>
     </copy>
     <csc target="library" output="bin\${project::get-name()}.Unit.Tests.dll" debug="false">
@@ -91,11 +99,12 @@
     <exec basedir="..\Dependencies\nunit\bin"
       workingdir="bin"
       program="nunit-console.exe"
-      commandline="${project::get-name()}.Integration.Tests.dll /xml=${project::get-name()}.Integration.Tests.Results.xml" />	
+      commandline="${project::get-name()}.Unit.Tests.dll /xml=${project::get-name()}.Unit.Tests.Results.xml" />	
+    <echo message="Executing integration tests..."/>
     <exec basedir="..\Dependencies\nunit\bin"
       workingdir="bin"
       program="nunit-console.exe"
-      commandline="${project::get-name()}.Unit.Tests.dll /xml=${project::get-name()}.Unit.Tests.Results.xml" />	
+      commandline="${project::get-name()}.Integration.Tests.dll /xml=${project::get-name()}.Integration.Tests.Results.xml" />
   </target>
 
 </project>
