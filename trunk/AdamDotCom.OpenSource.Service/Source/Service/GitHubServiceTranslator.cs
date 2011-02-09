@@ -38,7 +38,7 @@ namespace AdamDotCom.OpenSource.Service
                     project = project.GetDetails(pageSource);
                 }
 
-                Projects = Projects.Clean();
+                Projects = GitHubServiceTranslatorExtensions.Clean(Projects);
             }
             catch (Exception ex)
             {

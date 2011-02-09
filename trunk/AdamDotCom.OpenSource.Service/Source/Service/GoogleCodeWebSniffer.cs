@@ -43,7 +43,7 @@ namespace AdamDotCom.OpenSource.Service
                     project = project.ParseLastModifiedDate(pageSource);
                 }
 
-                Projects = Projects.Clean();
+                Projects = GoogleCodeWebSnifferExtensions.Clean(Projects);
             }
             catch (Exception ex)
             {
