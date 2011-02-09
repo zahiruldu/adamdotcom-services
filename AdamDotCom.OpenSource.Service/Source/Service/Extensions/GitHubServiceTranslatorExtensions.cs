@@ -7,7 +7,7 @@ namespace AdamDotCom.OpenSource.Service
 {
     public static class GitHubServiceTranslatorExtensions
     {
-        private static List<Project> Clean(this List<Project> projects)
+        public static List<Project> Clean(this List<Project> projects)
         {
             foreach (var project in projects)
             {
